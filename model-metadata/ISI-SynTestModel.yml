@@ -9,4 +9,4 @@ model_contributors:
 team_model_designation: primary
 methods: A test only model for testing submission process
 license: CC-BY-4.0
-input_data: ECDC ERVISS
+data_inputs: ECDC ERVISS
