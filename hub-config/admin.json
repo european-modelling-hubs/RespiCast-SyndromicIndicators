@@ -6,7 +6,9 @@
         "name": "Paolo Milano",
         "email": "paolo.milano@isi.it"
     },
-    "repository_url": "https://github.com/european-modelling-hubs/syndromicDiseaseForecastHub",
+    "repository": {
+        "name": "https://github.com/european-modelling-hubs/syndromicDiseaseForecastHub"
+    },
     "file_format": ["csv"],
     "timezone": "Europe/Stockholm"
 }
