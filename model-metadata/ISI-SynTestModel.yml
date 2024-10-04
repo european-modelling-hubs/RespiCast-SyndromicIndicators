@@ -1,7 +1,7 @@
 team_name: ISI Foundation
 model_name: Syndromic Test Model
 team_abbr: ISI
-model_abbr: SyndromicTestModel
+model_abbr: SynTestModel
 model_contributors:
   - name: Paolo Milano
     affiliation: ISI Foundation
