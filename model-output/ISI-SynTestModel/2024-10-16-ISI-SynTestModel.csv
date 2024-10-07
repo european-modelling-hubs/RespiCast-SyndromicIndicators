@@ -8,7 +8,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-16,ILI incidence,2024-10-27,3,BE,quantile,0.025,41.49697414773127
 2024-10-16,ILI incidence,2024-11-03,4,BE,quantile,0.025,33.53108844114333
 2024-10-16,ILI incidence,2024-10-13,1,BE,quantile,0.05,55.54601443743815
-2024-10-16,ILI incidence,2024-10-20,2,BE,quantile,0.05,55.54601443843815
+2024-10-16,ILI incidence,2024-10-20,2,BE,quantile,0.05,53.54601443843815
 2024-10-16,ILI incidence,2024-10-27,3,BE,quantile,0.05,44.36219240365766
 2024-10-16,ILI incidence,2024-11-03,4,BE,quantile,0.05,36.77897653594855
 2024-10-16,ILI incidence,2024-10-13,1,BE,quantile,0.1,75.02199705967567
