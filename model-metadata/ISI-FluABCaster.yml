@@ -8,4 +8,5 @@ model_contributors:
     email: nicolo.gozzi@isi.it
 team_model_designation: primary
 methods: A stochastic, age structured compartmental model calibrated via Approximate Bayesian Computation techniques.
+data_inputs: ECDC ERVISS, FluID WHO, UN World Population Prospects, contact matrices from Mistry et al. (2021), Prem et al (2017)
 license: CC-BY-4.0
