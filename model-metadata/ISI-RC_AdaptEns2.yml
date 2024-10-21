@@ -1,0 +1,15 @@
+team_name: ISI Foundation
+model_name: RespiCompass Adaptive Ensemble2
+team_abbr: ISI
+model_abbr: RC_AdaptEns2
+model_contributors:
+  - name: Stefania Fiandrino
+    affiliation: ISI Foundation
+    email: stefania.fiandrino@isi.it
+  - name: Nicolò Gozzi
+    affiliation: ISI Foundation
+    email: nicolo.gozzi@isi.it
+team_model_designation: secondary
+methods: An adaptive ensemble of multiple models contributing to RespiCompass scenario projections for ILI.
+data_inputs: ECDC ERVISS and RespiCompass projections for ILI
+license: CC-BY-4.0
