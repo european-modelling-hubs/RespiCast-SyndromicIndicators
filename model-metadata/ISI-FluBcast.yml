@@ -1,0 +1,12 @@
+team_name: ISI Foundation
+model_name: FluBcast
+team_abbr: ISI
+model_abbr: FluBcast
+model_contributors:
+  - name: Stefania Fiandrino
+    affiliation: ISI Foundation
+    email: stefania.fiandrino@isi.it
+team_model_designation: secondary
+methods: A stochastic, age-structured compartmental model that explicitly integrates behavioral changes through a new compartment of susceptible individuals who are risk averse.
+data_inputs: ECDC ERVISS, FluID WHO, UN World Population, contact matrices from Mistry et al. (2021), Prem et al (2017)
+license: CC-BY-4.0
