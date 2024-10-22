@@ -1,10 +1,13 @@
 {
     "changes": [
         "model-metadata/ISI-FluABCaster.yml",
-        "model-metadata/RIVM-KFdlm.yml",
         "model-metadata/QMUL-ARIMA.yml",
+        "model-metadata/RIVM-KFdlm.yml",
+        "model-metadata/ECDC-SARIMA.yml",
+        "model-metadata/fjordhest-ensemble.yml",
         "model-metadata/ISI-SynTestModel.yml",
         "model-metadata/ISI-RC_AdaptEns2.yml",
-        "model-metadata/fjordhest-ensemble.yml"
+        "model-metadata/ISI-FluBcast.yml",
+        "model-metadata/ECDC-soca_simplex.yml"
     ]
 }

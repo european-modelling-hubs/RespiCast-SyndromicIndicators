@@ -17,6 +17,12 @@
             "changes": [
                 "model-output/ISI-RC_AdaptEns2/2024-10-23-ISI-RC_AdaptEns2.csv"
             ]
+        },
+        {
+            "model": "FluBcast",
+            "changes": [
+                "model-output/ISI-FluBcast/2024-10-23-ISI-FluBcast.csv"
+            ]
         }
     ],
     "fjordhest": [
@@ -40,6 +46,20 @@
             "model": "KFdlm",
             "changes": [
                 "model-output/RIVM-KFdlm/2024-10-23-RIVM-KFdlm.csv"
+            ]
+        }
+    ],
+    "ECDC": [
+        {
+            "model": "SARIMA",
+            "changes": [
+                "model-output/ECDC-SARIMA/2024-10-23-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2024-10-23-ECDC-soca_simplex.csv"
             ]
         }
     ]
