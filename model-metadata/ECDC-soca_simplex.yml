@@ -1,4 +1,5 @@
 team_name: European Centre for Disease Prevention and Control
+team_abbr: ECDC
 model_name: Historical simplex pattern
 model_abbr: soca_simplex
 model_contributors:
