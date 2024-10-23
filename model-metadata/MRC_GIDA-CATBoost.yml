@@ -19,4 +19,5 @@ model_contributors:
   affiliation: Imperial College London
   email: neil.ferguson@imperial.ac.uk
 team_model_designation: secondary
+data_inputs: ECDC ERVISS
 methods: Categorical Boosting model
