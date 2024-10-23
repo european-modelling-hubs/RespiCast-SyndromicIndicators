@@ -1,4 +1,5 @@
 origin_date,target,target_end_date,horizon,location,output_type,output_type_id,value
+2024-10-23,ARI incidence,2024-10-27,-1,BE,median,,1503.4
 2024-10-23,ARI incidence,2024-10-27,-1,BE,quantile,0.01,585.7720811
 2024-10-23,ARI incidence,2024-10-27,-1,BE,quantile,0.025,730.2922063
 2024-10-23,ARI incidence,2024-10-27,-1,BE,quantile,0.05,854.5874868
@@ -10,7 +11,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,BE,quantile,0.35,1351.410342
 2024-10-23,ARI incidence,2024-10-27,-1,BE,quantile,0.4,1403.467235
 2024-10-23,ARI incidence,2024-10-27,-1,BE,quantile,0.45,1453.832882
-2024-10-23,ARI incidence,2024-10-27,-1,BE,median,,1503.4
+2024-10-23,ARI incidence,2024-10-27,-1,BE,quantile,0.5,1503.4
 2024-10-23,ARI incidence,2024-10-27,-1,BE,quantile,0.55,1552.967118
 2024-10-23,ARI incidence,2024-10-27,-1,BE,quantile,0.6,1603.332765
 2024-10-23,ARI incidence,2024-10-27,-1,BE,quantile,0.65,1655.389658
@@ -22,6 +23,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,BE,quantile,0.95,2152.212513
 2024-10-23,ARI incidence,2024-10-27,-1,BE,quantile,0.975,2276.507794
 2024-10-23,ARI incidence,2024-10-27,-1,BE,quantile,0.99,2421.027919
+2024-10-23,ARI incidence,2024-10-27,0,BE,median,,1627.371429
 2024-10-23,ARI incidence,2024-10-27,0,BE,quantile,0.01,485.0183055
 2024-10-23,ARI incidence,2024-10-27,0,BE,quantile,0.025,664.9311144
 2024-10-23,ARI incidence,2024-10-27,0,BE,quantile,0.05,819.6660555
@@ -33,7 +35,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,BE,quantile,0.35,1438.159814
 2024-10-23,ARI incidence,2024-10-27,0,BE,quantile,0.4,1502.965334
 2024-10-23,ARI incidence,2024-10-27,0,BE,quantile,0.45,1565.665425
-2024-10-23,ARI incidence,2024-10-27,0,BE,median,,1627.371429
+2024-10-23,ARI incidence,2024-10-27,0,BE,quantile,0.5,1627.371429
 2024-10-23,ARI incidence,2024-10-27,0,BE,quantile,0.55,1689.077433
 2024-10-23,ARI incidence,2024-10-27,0,BE,quantile,0.6,1751.777524
 2024-10-23,ARI incidence,2024-10-27,0,BE,quantile,0.65,1816.583044
@@ -45,6 +47,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,BE,quantile,0.95,2435.076803
 2024-10-23,ARI incidence,2024-10-27,0,BE,quantile,0.975,2589.811744
 2024-10-23,ARI incidence,2024-10-27,0,BE,quantile,0.99,2769.724553
+2024-10-23,ARI incidence,2024-10-27,1,BE,median,,1751.342857
 2024-10-23,ARI incidence,2024-10-27,1,BE,quantile,0.01,328.0832277
 2024-10-23,ARI incidence,2024-10-27,1,BE,quantile,0.025,552.2368913
 2024-10-23,ARI incidence,2024-10-27,1,BE,quantile,0.05,745.021408
@@ -56,7 +59,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,BE,quantile,0.35,1515.603796
 2024-10-23,ARI incidence,2024-10-27,1,BE,quantile,0.4,1596.345099
 2024-10-23,ARI incidence,2024-10-27,1,BE,quantile,0.45,1674.463245
-2024-10-23,ARI incidence,2024-10-27,1,BE,median,,1751.342857
+2024-10-23,ARI incidence,2024-10-27,1,BE,quantile,0.5,1751.342857
 2024-10-23,ARI incidence,2024-10-27,1,BE,quantile,0.55,1828.222469
 2024-10-23,ARI incidence,2024-10-27,1,BE,quantile,0.6,1906.340615
 2024-10-23,ARI incidence,2024-10-27,1,BE,quantile,0.65,1987.081918
@@ -68,6 +71,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,BE,quantile,0.95,2757.664306
 2024-10-23,ARI incidence,2024-10-27,1,BE,quantile,0.975,2950.448823
 2024-10-23,ARI incidence,2024-10-27,1,BE,quantile,0.99,3174.6024860000002
+2024-10-23,ARI incidence,2024-10-27,2,BE,median,,1875.314286
 2024-10-23,ARI incidence,2024-10-27,2,BE,quantile,0.01,114.9668497
 2024-10-23,ARI incidence,2024-10-27,2,BE,quantile,0.025,392.2095389
 2024-10-23,ARI incidence,2024-10-27,2,BE,quantile,0.05,630.6535465
@@ -79,7 +83,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,BE,quantile,0.35,1583.742289
 2024-10-23,ARI incidence,2024-10-27,2,BE,quantile,0.4,1683.606533
 2024-10-23,ARI incidence,2024-10-27,2,BE,quantile,0.45,1780.226345
-2024-10-23,ARI incidence,2024-10-27,2,BE,median,,1875.314286
+2024-10-23,ARI incidence,2024-10-27,2,BE,quantile,0.5,1875.314286
 2024-10-23,ARI incidence,2024-10-27,2,BE,quantile,0.55,1970.402227
 2024-10-23,ARI incidence,2024-10-27,2,BE,quantile,0.6,2067.022039
 2024-10-23,ARI incidence,2024-10-27,2,BE,quantile,0.65,2166.886283
@@ -91,6 +95,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,BE,quantile,0.95,3119.975026
 2024-10-23,ARI incidence,2024-10-27,2,BE,quantile,0.975,3358.419033
 2024-10-23,ARI incidence,2024-10-27,2,BE,quantile,0.99,3635.661722
+2024-10-23,ARI incidence,2024-10-27,3,BE,median,,1999.285714
 2024-10-23,ARI incidence,2024-10-27,3,BE,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,3,BE,quantile,0.025,184.7510571
 2024-10-23,ARI incidence,2024-10-27,3,BE,quantile,0.05,476.4802262
@@ -102,7 +107,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,BE,quantile,0.35,1642.556026
 2024-10-23,ARI incidence,2024-10-27,3,BE,quantile,0.4,1764.736966
 2024-10-23,ARI incidence,2024-10-27,3,BE,quantile,0.45,1882.948439
-2024-10-23,ARI incidence,2024-10-27,3,BE,median,,1999.285714
+2024-10-23,ARI incidence,2024-10-27,3,BE,quantile,0.5,1999.285714
 2024-10-23,ARI incidence,2024-10-27,3,BE,quantile,0.55,2115.622989
 2024-10-23,ARI incidence,2024-10-27,3,BE,quantile,0.6,2233.834462
 2024-10-23,ARI incidence,2024-10-27,3,BE,quantile,0.65,2356.015402
@@ -114,6 +119,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,BE,quantile,0.95,3522.091202
 2024-10-23,ARI incidence,2024-10-27,3,BE,quantile,0.975,3813.820371
 2024-10-23,ARI incidence,2024-10-27,3,BE,quantile,0.99,4153.018576
+2024-10-23,ARI incidence,2024-10-27,4,BE,median,,2123.257143
 2024-10-23,ARI incidence,2024-10-27,4,BE,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,4,BE,quantile,0.025,0
 2024-10-23,ARI incidence,2024-10-27,4,BE,quantile,0.05,282.6659344
@@ -125,7 +131,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,BE,quantile,0.35,1692.083541
 2024-10-23,ARI incidence,2024-10-27,4,BE,quantile,0.4,1839.761735
 2024-10-23,ARI incidence,2024-10-27,4,BE,quantile,0.45,1982.642096
-2024-10-23,ARI incidence,2024-10-27,4,BE,median,,2123.257143
+2024-10-23,ARI incidence,2024-10-27,4,BE,quantile,0.5,2123.257143
 2024-10-23,ARI incidence,2024-10-27,4,BE,quantile,0.55,2263.87219
 2024-10-23,ARI incidence,2024-10-27,4,BE,quantile,0.6,2406.752551
 2024-10-23,ARI incidence,2024-10-27,4,BE,quantile,0.65,2554.430745
@@ -137,6 +143,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,BE,quantile,0.95,3963.848352
 2024-10-23,ARI incidence,2024-10-27,4,BE,quantile,0.975,4316.456842
 2024-10-23,ARI incidence,2024-10-27,4,BE,quantile,0.99,4726.440414
+2024-10-23,ARI incidence,2024-10-27,-1,BG,median,,751.2666667
 2024-10-23,ARI incidence,2024-10-27,-1,BG,quantile,0.01,608.5452246
 2024-10-23,ARI incidence,2024-10-27,-1,BG,quantile,0.025,631.0228762
 2024-10-23,ARI incidence,2024-10-27,-1,BG,quantile,0.05,650.3548967
@@ -148,7 +155,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,BG,quantile,0.35,727.6272561
 2024-10-23,ARI incidence,2024-10-27,-1,BG,quantile,0.4,735.7238219
 2024-10-23,ARI incidence,2024-10-27,-1,BG,quantile,0.45,743.5573431
-2024-10-23,ARI incidence,2024-10-27,-1,BG,median,,751.2666667
+2024-10-23,ARI incidence,2024-10-27,-1,BG,quantile,0.5,751.2666667
 2024-10-23,ARI incidence,2024-10-27,-1,BG,quantile,0.55,758.9759903
 2024-10-23,ARI incidence,2024-10-27,-1,BG,quantile,0.6,766.8095115
 2024-10-23,ARI incidence,2024-10-27,-1,BG,quantile,0.65,774.9060773
@@ -160,6 +167,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,BG,quantile,0.95,852.1784367
 2024-10-23,ARI incidence,2024-10-27,-1,BG,quantile,0.975,871.5104572
 2024-10-23,ARI incidence,2024-10-27,-1,BG,quantile,0.99,893.9881088
+2024-10-23,ARI incidence,2024-10-27,0,BG,median,,824.7238095
 2024-10-23,ARI incidence,2024-10-27,0,BG,quantile,0.01,646.9908319
 2024-10-23,ARI incidence,2024-10-27,0,BG,quantile,0.025,674.9825611
 2024-10-23,ARI incidence,2024-10-27,0,BG,quantile,0.05,699.0569924
@@ -171,7 +179,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,BG,quantile,0.35,795.2853259
 2024-10-23,ARI incidence,2024-10-27,0,BG,quantile,0.4,805.3680908
 2024-10-23,ARI incidence,2024-10-27,0,BG,quantile,0.45,815.1232826
-2024-10-23,ARI incidence,2024-10-27,0,BG,median,,824.7238095
+2024-10-23,ARI incidence,2024-10-27,0,BG,quantile,0.5,824.7238095
 2024-10-23,ARI incidence,2024-10-27,0,BG,quantile,0.55,834.3243364
 2024-10-23,ARI incidence,2024-10-27,0,BG,quantile,0.6,844.0795282
 2024-10-23,ARI incidence,2024-10-27,0,BG,quantile,0.65,854.1622931
@@ -183,6 +191,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,BG,quantile,0.95,950.3906266
 2024-10-23,ARI incidence,2024-10-27,0,BG,quantile,0.975,974.4650579
 2024-10-23,ARI incidence,2024-10-27,0,BG,quantile,0.99,1002.456787
+2024-10-23,ARI incidence,2024-10-27,1,BG,median,,898.1809524
 2024-10-23,ARI incidence,2024-10-27,1,BG,quantile,0.01,676.8289522
 2024-10-23,ARI incidence,2024-10-27,1,BG,quantile,0.025,711.6903793
 2024-10-23,ARI incidence,2024-10-27,1,BG,quantile,0.05,741.6731298
@@ -194,7 +203,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,BG,quantile,0.35,861.51771
 2024-10-23,ARI incidence,2024-10-27,1,BG,quantile,0.4,874.0749755
 2024-10-23,ARI incidence,2024-10-27,1,BG,quantile,0.45,886.2242752
-2024-10-23,ARI incidence,2024-10-27,1,BG,median,,898.1809524
+2024-10-23,ARI incidence,2024-10-27,1,BG,quantile,0.5,898.1809524
 2024-10-23,ARI incidence,2024-10-27,1,BG,quantile,0.55,910.1376296
 2024-10-23,ARI incidence,2024-10-27,1,BG,quantile,0.6,922.2869293
 2024-10-23,ARI incidence,2024-10-27,1,BG,quantile,0.65,934.8441948
@@ -206,6 +215,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,BG,quantile,0.95,1054.688775
 2024-10-23,ARI incidence,2024-10-27,1,BG,quantile,0.975,1084.671526
 2024-10-23,ARI incidence,2024-10-27,1,BG,quantile,0.99,1119.532953
+2024-10-23,ARI incidence,2024-10-27,2,BG,median,,971.6380952
 2024-10-23,ARI incidence,2024-10-27,2,BG,quantile,0.01,697.8269504
 2024-10-23,ARI incidence,2024-10-27,2,BG,quantile,0.025,740.9503342
 2024-10-23,ARI incidence,2024-10-27,2,BG,quantile,0.05,778.0388233
@@ -217,7 +227,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,BG,quantile,0.35,926.2858763
 2024-10-23,ARI incidence,2024-10-27,2,BG,quantile,0.4,941.8191412
 2024-10-23,ARI incidence,2024-10-27,2,BG,quantile,0.45,956.8477547
-2024-10-23,ARI incidence,2024-10-27,2,BG,median,,971.6380952
+2024-10-23,ARI incidence,2024-10-27,2,BG,quantile,0.5,971.6380952
 2024-10-23,ARI incidence,2024-10-27,2,BG,quantile,0.55,986.4284357
 2024-10-23,ARI incidence,2024-10-27,2,BG,quantile,0.6,1001.457049
 2024-10-23,ARI incidence,2024-10-27,2,BG,quantile,0.65,1016.990314
@@ -229,6 +239,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,BG,quantile,0.95,1165.237367
 2024-10-23,ARI incidence,2024-10-27,2,BG,quantile,0.975,1202.325856
 2024-10-23,ARI incidence,2024-10-27,2,BG,quantile,0.99,1245.44924
+2024-10-23,ARI incidence,2024-10-27,3,BG,median,,1045.095238
 2024-10-23,ARI incidence,2024-10-27,3,BG,quantile,0.01,710.1011441
 2024-10-23,ARI incidence,2024-10-27,3,BG,quantile,0.025,762.8604242
 2024-10-23,ARI incidence,2024-10-27,3,BG,quantile,0.05,808.2363157
@@ -240,7 +251,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,BG,quantile,0.35,989.6090908
 2024-10-23,ARI incidence,2024-10-27,3,BG,quantile,0.4,1008.613255
 2024-10-23,ARI incidence,2024-10-27,3,BG,quantile,0.45,1027.000004
-2024-10-23,ARI incidence,2024-10-27,3,BG,median,,1045.095238
+2024-10-23,ARI incidence,2024-10-27,3,BG,quantile,0.5,1045.095238
 2024-10-23,ARI incidence,2024-10-27,3,BG,quantile,0.55,1063.190472
 2024-10-23,ARI incidence,2024-10-27,3,BG,quantile,0.6,1081.577221
 2024-10-23,ARI incidence,2024-10-27,3,BG,quantile,0.65,1100.581385
@@ -252,6 +263,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,BG,quantile,0.95,1281.95416
 2024-10-23,ARI incidence,2024-10-27,3,BG,quantile,0.975,1327.330052
 2024-10-23,ARI incidence,2024-10-27,3,BG,quantile,0.99,1380.089332
+2024-10-23,ARI incidence,2024-10-27,4,BG,median,,1118.552381
 2024-10-23,ARI incidence,2024-10-27,4,BG,quantile,0.01,713.6515335
 2024-10-23,ARI incidence,2024-10-27,4,BG,quantile,0.025,777.4206495
 2024-10-23,ARI incidence,2024-10-27,4,BG,quantile,0.05,832.2656072
@@ -263,7 +275,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,BG,quantile,0.35,1051.487354
 2024-10-23,ARI incidence,2024-10-27,4,BG,quantile,0.4,1074.457318
 2024-10-23,ARI incidence,2024-10-27,4,BG,quantile,0.45,1096.681024
-2024-10-23,ARI incidence,2024-10-27,4,BG,median,,1118.552381
+2024-10-23,ARI incidence,2024-10-27,4,BG,quantile,0.5,1118.552381
 2024-10-23,ARI incidence,2024-10-27,4,BG,quantile,0.55,1140.423738
 2024-10-23,ARI incidence,2024-10-27,4,BG,quantile,0.6,1162.647444
 2024-10-23,ARI incidence,2024-10-27,4,BG,quantile,0.65,1185.617408
@@ -275,6 +287,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,BG,quantile,0.95,1404.839155
 2024-10-23,ARI incidence,2024-10-27,4,BG,quantile,0.975,1459.684113
 2024-10-23,ARI incidence,2024-10-27,4,BG,quantile,0.99,1523.453228
+2024-10-23,ARI incidence,2024-10-27,-1,CZ,median,,1232.933333
 2024-10-23,ARI incidence,2024-10-27,-1,CZ,quantile,0.01,1073.345869
 2024-10-23,ARI incidence,2024-10-27,-1,CZ,quantile,0.025,1098.479804
 2024-10-23,ARI incidence,2024-10-27,-1,CZ,quantile,0.05,1120.096374
@@ -286,7 +299,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,CZ,quantile,0.35,1206.500349
 2024-10-23,ARI incidence,2024-10-27,-1,CZ,quantile,0.4,1215.553722
 2024-10-23,ARI incidence,2024-10-27,-1,CZ,quantile,0.45,1224.312965
-2024-10-23,ARI incidence,2024-10-27,-1,CZ,median,,1232.933333
+2024-10-23,ARI incidence,2024-10-27,-1,CZ,quantile,0.5,1232.933333
 2024-10-23,ARI incidence,2024-10-27,-1,CZ,quantile,0.55,1241.553701
 2024-10-23,ARI incidence,2024-10-27,-1,CZ,quantile,0.6,1250.312944
 2024-10-23,ARI incidence,2024-10-27,-1,CZ,quantile,0.65,1259.366317
@@ -298,6 +311,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,CZ,quantile,0.95,1345.770292
 2024-10-23,ARI incidence,2024-10-27,-1,CZ,quantile,0.975,1367.386862
 2024-10-23,ARI incidence,2024-10-27,-1,CZ,quantile,0.99,1392.520797
+2024-10-23,ARI incidence,2024-10-27,0,CZ,median,,1352.247619
 2024-10-23,ARI incidence,2024-10-27,0,CZ,quantile,0.01,1153.693828
 2024-10-23,ARI incidence,2024-10-27,0,CZ,quantile,0.025,1184.964693
 2024-10-23,ARI incidence,2024-10-27,0,CZ,quantile,0.05,1211.859362
@@ -309,7 +323,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,CZ,quantile,0.35,1319.360517
 2024-10-23,ARI incidence,2024-10-27,0,CZ,quantile,0.4,1330.624444
 2024-10-23,ARI incidence,2024-10-27,0,CZ,quantile,0.45,1341.522423
-2024-10-23,ARI incidence,2024-10-27,0,CZ,median,,1352.247619
+2024-10-23,ARI incidence,2024-10-27,0,CZ,quantile,0.5,1352.247619
 2024-10-23,ARI incidence,2024-10-27,0,CZ,quantile,0.55,1362.972815
 2024-10-23,ARI incidence,2024-10-27,0,CZ,quantile,0.6,1373.870794
 2024-10-23,ARI incidence,2024-10-27,0,CZ,quantile,0.65,1385.134721
@@ -321,6 +335,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,CZ,quantile,0.95,1492.635876
 2024-10-23,ARI incidence,2024-10-27,0,CZ,quantile,0.975,1519.530545
 2024-10-23,ARI incidence,2024-10-27,0,CZ,quantile,0.99,1550.80141
+2024-10-23,ARI incidence,2024-10-27,1,CZ,median,,1471.561905
 2024-10-23,ARI incidence,2024-10-27,1,CZ,quantile,0.01,1224.154809
 2024-10-23,ARI incidence,2024-10-27,1,CZ,quantile,0.025,1263.119735
 2024-10-23,ARI incidence,2024-10-27,1,CZ,quantile,0.05,1296.631722
@@ -332,7 +347,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,CZ,quantile,0.35,1430.583073
 2024-10-23,ARI incidence,2024-10-27,1,CZ,quantile,0.4,1444.618441
 2024-10-23,ARI incidence,2024-10-27,1,CZ,quantile,0.45,1458.197821
-2024-10-23,ARI incidence,2024-10-27,1,CZ,median,,1471.561905
+2024-10-23,ARI incidence,2024-10-27,1,CZ,quantile,0.5,1471.561905
 2024-10-23,ARI incidence,2024-10-27,1,CZ,quantile,0.55,1484.925989
 2024-10-23,ARI incidence,2024-10-27,1,CZ,quantile,0.6,1498.505369
 2024-10-23,ARI incidence,2024-10-27,1,CZ,quantile,0.65,1512.540737
@@ -344,6 +359,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,CZ,quantile,0.95,1646.492088
 2024-10-23,ARI incidence,2024-10-27,1,CZ,quantile,0.975,1680.004075
 2024-10-23,ARI incidence,2024-10-27,1,CZ,quantile,0.99,1718.969001
+2024-10-23,ARI incidence,2024-10-27,2,CZ,median,,1590.87619
 2024-10-23,ARI incidence,2024-10-27,2,CZ,quantile,0.01,1284.845127
 2024-10-23,ARI incidence,2024-10-27,2,CZ,quantile,0.025,1333.042928
 2024-10-23,ARI incidence,2024-10-27,2,CZ,quantile,0.05,1374.495695
@@ -355,7 +371,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,CZ,quantile,0.35,1540.187283
 2024-10-23,ARI incidence,2024-10-27,2,CZ,quantile,0.4,1557.548379
 2024-10-23,ARI incidence,2024-10-27,2,CZ,quantile,0.45,1574.34544
-2024-10-23,ARI incidence,2024-10-27,2,CZ,median,,1590.87619
+2024-10-23,ARI incidence,2024-10-27,2,CZ,quantile,0.5,1590.87619
 2024-10-23,ARI incidence,2024-10-27,2,CZ,quantile,0.55,1607.40694
 2024-10-23,ARI incidence,2024-10-27,2,CZ,quantile,0.6,1624.204001
 2024-10-23,ARI incidence,2024-10-27,2,CZ,quantile,0.65,1641.565097
@@ -367,6 +383,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,CZ,quantile,0.95,1807.256685
 2024-10-23,ARI incidence,2024-10-27,2,CZ,quantile,0.975,1848.709452
 2024-10-23,ARI incidence,2024-10-27,2,CZ,quantile,0.99,1896.907253
+2024-10-23,ARI incidence,2024-10-27,3,CZ,median,,1710.190476
 2024-10-23,ARI incidence,2024-10-27,3,CZ,quantile,0.01,1335.764786
 2024-10-23,ARI incidence,2024-10-27,3,CZ,quantile,0.025,1394.734273
 2024-10-23,ARI incidence,2024-10-27,3,CZ,quantile,0.05,1445.451285
@@ -378,7 +395,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,CZ,quantile,0.35,1648.173147
 2024-10-23,ARI incidence,2024-10-27,3,CZ,quantile,0.4,1669.41426
 2024-10-23,ARI incidence,2024-10-27,3,CZ,quantile,0.45,1689.965282
-2024-10-23,ARI incidence,2024-10-27,3,CZ,median,,1710.190476
+2024-10-23,ARI incidence,2024-10-27,3,CZ,quantile,0.5,1710.190476
 2024-10-23,ARI incidence,2024-10-27,3,CZ,quantile,0.55,1730.41567
 2024-10-23,ARI incidence,2024-10-27,3,CZ,quantile,0.6,1750.966692
 2024-10-23,ARI incidence,2024-10-27,3,CZ,quantile,0.65,1772.207805
@@ -390,6 +407,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,CZ,quantile,0.95,1974.929667
 2024-10-23,ARI incidence,2024-10-27,3,CZ,quantile,0.975,2025.646679
 2024-10-23,ARI incidence,2024-10-27,3,CZ,quantile,0.99,2084.616166
+2024-10-23,ARI incidence,2024-10-27,4,CZ,median,,1829.504762
 2024-10-23,ARI incidence,2024-10-27,4,CZ,quantile,0.01,1376.913783
 2024-10-23,ARI incidence,2024-10-27,4,CZ,quantile,0.025,1448.193769
 2024-10-23,ARI incidence,2024-10-27,4,CZ,quantile,0.05,1509.498489
@@ -401,7 +419,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,CZ,quantile,0.35,1754.540665
 2024-10-23,ARI incidence,2024-10-27,4,CZ,quantile,0.4,1780.216083
 2024-10-23,ARI incidence,2024-10-27,4,CZ,quantile,0.45,1805.057347
-2024-10-23,ARI incidence,2024-10-27,4,CZ,median,,1829.504762
+2024-10-23,ARI incidence,2024-10-27,4,CZ,quantile,0.5,1829.504762
 2024-10-23,ARI incidence,2024-10-27,4,CZ,quantile,0.55,1853.952177
 2024-10-23,ARI incidence,2024-10-27,4,CZ,quantile,0.6,1878.793441
 2024-10-23,ARI incidence,2024-10-27,4,CZ,quantile,0.65,1904.468859
@@ -413,6 +431,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,CZ,quantile,0.95,2149.511035
 2024-10-23,ARI incidence,2024-10-27,4,CZ,quantile,0.975,2210.815755
 2024-10-23,ARI incidence,2024-10-27,4,CZ,quantile,0.99,2282.095741
+2024-10-23,ARI incidence,2024-10-27,-1,EE,median,,408.2
 2024-10-23,ARI incidence,2024-10-27,-1,EE,quantile,0.01,96.70201967
 2024-10-23,ARI incidence,2024-10-27,-1,EE,quantile,0.025,145.7608225
 2024-10-23,ARI incidence,2024-10-27,-1,EE,quantile,0.05,187.9540994
@@ -424,7 +443,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,EE,quantile,0.35,356.6055895
 2024-10-23,ARI incidence,2024-10-27,-1,EE,quantile,0.4,374.2768229
 2024-10-23,ARI incidence,2024-10-27,-1,EE,quantile,0.45,391.3739457
-2024-10-23,ARI incidence,2024-10-27,-1,EE,median,,408.2
+2024-10-23,ARI incidence,2024-10-27,-1,EE,quantile,0.5,408.2
 2024-10-23,ARI incidence,2024-10-27,-1,EE,quantile,0.55,425.0260543
 2024-10-23,ARI incidence,2024-10-27,-1,EE,quantile,0.6,442.1231771
 2024-10-23,ARI incidence,2024-10-27,-1,EE,quantile,0.65,459.7944105
@@ -436,6 +455,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,EE,quantile,0.95,628.4459006
 2024-10-23,ARI incidence,2024-10-27,-1,EE,quantile,0.975,670.6391775
 2024-10-23,ARI incidence,2024-10-27,-1,EE,quantile,0.99,719.6979803
+2024-10-23,ARI incidence,2024-10-27,0,EE,median,,450.3
 2024-10-23,ARI incidence,2024-10-27,0,EE,quantile,0.01,21.20513463
 2024-10-23,ARI incidence,2024-10-27,0,EE,quantile,0.025,88.78464305
 2024-10-23,ARI incidence,2024-10-27,0,EE,quantile,0.05,146.9067485
@@ -447,7 +467,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,EE,quantile,0.35,379.22764
 2024-10-23,ARI incidence,2024-10-27,0,EE,quantile,0.4,403.5701268
 2024-10-23,ARI incidence,2024-10-27,0,EE,quantile,0.45,427.1217646
-2024-10-23,ARI incidence,2024-10-27,0,EE,median,,450.3
+2024-10-23,ARI incidence,2024-10-27,0,EE,quantile,0.5,450.3
 2024-10-23,ARI incidence,2024-10-27,0,EE,quantile,0.55,473.4782354
 2024-10-23,ARI incidence,2024-10-27,0,EE,quantile,0.6,497.0298732
 2024-10-23,ARI incidence,2024-10-27,0,EE,quantile,0.65,521.37236
@@ -459,6 +479,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,EE,quantile,0.95,753.6932515
 2024-10-23,ARI incidence,2024-10-27,0,EE,quantile,0.975,811.8153569
 2024-10-23,ARI incidence,2024-10-27,0,EE,quantile,0.99,879.3948654
+2024-10-23,ARI incidence,2024-10-27,1,EE,median,,492.4
 2024-10-23,ARI incidence,2024-10-27,1,EE,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,1,EE,quantile,0.025,12.01282739
 2024-10-23,ARI incidence,2024-10-27,1,EE,quantile,0.05,89.24637603
@@ -470,7 +491,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,EE,quantile,0.35,397.9579537
 2024-10-23,ARI incidence,2024-10-27,1,EE,quantile,0.4,430.304625
 2024-10-23,ARI incidence,2024-10-27,1,EE,quantile,0.45,461.6004039
-2024-10-23,ARI incidence,2024-10-27,1,EE,median,,492.4
+2024-10-23,ARI incidence,2024-10-27,1,EE,quantile,0.5,492.4
 2024-10-23,ARI incidence,2024-10-27,1,EE,quantile,0.55,523.1995961
 2024-10-23,ARI incidence,2024-10-27,1,EE,quantile,0.6,554.495375
 2024-10-23,ARI incidence,2024-10-27,1,EE,quantile,0.65,586.8420463
@@ -482,6 +503,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,EE,quantile,0.95,895.553624
 2024-10-23,ARI incidence,2024-10-27,1,EE,quantile,0.975,972.7871726
 2024-10-23,ARI incidence,2024-10-27,1,EE,quantile,0.99,1062.587864
+2024-10-23,ARI incidence,2024-10-27,2,EE,median,,534.5
 2024-10-23,ARI incidence,2024-10-27,2,EE,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,2,EE,quantile,0.025,0
 2024-10-23,ARI incidence,2024-10-27,2,EE,quantile,0.05,14.97298193
@@ -493,7 +515,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,EE,quantile,0.35,412.7965307
 2024-10-23,ARI incidence,2024-10-27,2,EE,quantile,0.4,454.4803175
 2024-10-23,ARI incidence,2024-10-27,2,EE,quantile,0.45,494.80986360000003
-2024-10-23,ARI incidence,2024-10-27,2,EE,median,,534.5
+2024-10-23,ARI incidence,2024-10-27,2,EE,quantile,0.5,534.5
 2024-10-23,ARI incidence,2024-10-27,2,EE,quantile,0.55,574.1901364
 2024-10-23,ARI incidence,2024-10-27,2,EE,quantile,0.6,614.5196825
 2024-10-23,ARI incidence,2024-10-27,2,EE,quantile,0.65,656.2034693
@@ -505,6 +527,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,EE,quantile,0.95,1054.027018
 2024-10-23,ARI incidence,2024-10-27,2,EE,quantile,0.975,1153.554625
 2024-10-23,ARI incidence,2024-10-27,2,EE,quantile,0.99,1269.276976
+2024-10-23,ARI incidence,2024-10-27,3,EE,median,,576.6
 2024-10-23,ARI incidence,2024-10-27,3,EE,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,3,EE,quantile,0.025,0
 2024-10-23,ARI incidence,2024-10-27,3,EE,quantile,0.05,0
@@ -516,7 +539,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,EE,quantile,0.35,423.743371
 2024-10-23,ARI incidence,2024-10-27,3,EE,quantile,0.4,476.0972042
 2024-10-23,ARI incidence,2024-10-27,3,EE,quantile,0.45,526.7501437
-2024-10-23,ARI incidence,2024-10-27,3,EE,median,,576.6
+2024-10-23,ARI incidence,2024-10-27,3,EE,quantile,0.5,576.6
 2024-10-23,ARI incidence,2024-10-27,3,EE,quantile,0.55,626.4498563
 2024-10-23,ARI incidence,2024-10-27,3,EE,quantile,0.6,677.1027958
 2024-10-23,ARI incidence,2024-10-27,3,EE,quantile,0.65,729.456629
@@ -528,6 +551,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,EE,quantile,0.95,1229.113434
 2024-10-23,ARI incidence,2024-10-27,3,EE,quantile,0.975,1354.117713
 2024-10-23,ARI incidence,2024-10-27,3,EE,quantile,0.99,1499.462202
+2024-10-23,ARI incidence,2024-10-27,-1,ES,median,,608.5333333
 2024-10-23,ARI incidence,2024-10-27,-1,ES,quantile,0.01,1.938125144
 2024-10-23,ARI incidence,2024-10-27,-1,ES,quantile,0.025,97.47272433
 2024-10-23,ARI incidence,2024-10-27,-1,ES,quantile,0.05,179.6377501
@@ -539,7 +563,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,ES,quantile,0.35,508.0610217
 2024-10-23,ARI incidence,2024-10-27,-1,ES,quantile,0.4,542.4730762
 2024-10-23,ARI incidence,2024-10-27,-1,ES,quantile,0.45,575.7671371
-2024-10-23,ARI incidence,2024-10-27,-1,ES,median,,608.5333333
+2024-10-23,ARI incidence,2024-10-27,-1,ES,quantile,0.5,608.5333333
 2024-10-23,ARI incidence,2024-10-27,-1,ES,quantile,0.55,641.2995295
 2024-10-23,ARI incidence,2024-10-27,-1,ES,quantile,0.6,674.5935904
 2024-10-23,ARI incidence,2024-10-27,-1,ES,quantile,0.65,709.0056449
@@ -551,6 +575,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,ES,quantile,0.95,1037.428917
 2024-10-23,ARI incidence,2024-10-27,-1,ES,quantile,0.975,1119.593942
 2024-10-23,ARI incidence,2024-10-27,-1,ES,quantile,0.99,1215.128541
+2024-10-23,ARI incidence,2024-10-27,0,ES,median,,662.8761905
 2024-10-23,ARI incidence,2024-10-27,0,ES,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,0,ES,quantile,0.025,26.67188112
 2024-10-23,ARI incidence,2024-10-27,0,ES,quantile,0.05,128.9567032
@@ -562,7 +587,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,ES,quantile,0.35,537.8011671
 2024-10-23,ARI incidence,2024-10-27,0,ES,quantile,0.4,580.6397208
 2024-10-23,ARI incidence,2024-10-27,0,ES,quantile,0.45,622.0865173
-2024-10-23,ARI incidence,2024-10-27,0,ES,median,,662.8761905
+2024-10-23,ARI incidence,2024-10-27,0,ES,quantile,0.5,662.8761905
 2024-10-23,ARI incidence,2024-10-27,0,ES,quantile,0.55,703.6658637
 2024-10-23,ARI incidence,2024-10-27,0,ES,quantile,0.6,745.1126602
 2024-10-23,ARI incidence,2024-10-27,0,ES,quantile,0.65,787.9512139
@@ -574,6 +599,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,ES,quantile,0.95,1196.795678
 2024-10-23,ARI incidence,2024-10-27,0,ES,quantile,0.975,1299.0805
 2024-10-23,ARI incidence,2024-10-27,0,ES,quantile,0.99,1418.00871
+2024-10-23,ARI incidence,2024-10-27,1,ES,median,,717.2190476
 2024-10-23,ARI incidence,2024-10-27,1,ES,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,1,ES,quantile,0.025,0
 2024-10-23,ARI incidence,2024-10-27,1,ES,quantile,0.05,51.95799818
@@ -585,7 +611,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,ES,quantile,0.35,561.376185
 2024-10-23,ARI incidence,2024-10-27,1,ES,quantile,0.4,614.7528117
 2024-10-23,ARI incidence,2024-10-27,1,ES,quantile,0.45,666.3953159
-2024-10-23,ARI incidence,2024-10-27,1,ES,median,,717.2190476
+2024-10-23,ARI incidence,2024-10-27,1,ES,quantile,0.5,717.2190476
 2024-10-23,ARI incidence,2024-10-27,1,ES,quantile,0.55,768.0427793
 2024-10-23,ARI incidence,2024-10-27,1,ES,quantile,0.6,819.6852835
 2024-10-23,ARI incidence,2024-10-27,1,ES,quantile,0.65,873.06191020000006
@@ -597,6 +623,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,ES,quantile,0.95,1382.480097
 2024-10-23,ARI incidence,2024-10-27,1,ES,quantile,0.975,1509.926481
 2024-10-23,ARI incidence,2024-10-27,1,ES,quantile,0.99,1658.110445
+2024-10-23,ARI incidence,2024-10-27,2,ES,median,,771.5619048
 2024-10-23,ARI incidence,2024-10-27,2,ES,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,2,ES,quantile,0.025,0
 2024-10-23,ARI incidence,2024-10-27,2,ES,quantile,0.05,0
@@ -608,7 +635,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,ES,quantile,0.35,578.8053415
 2024-10-23,ARI incidence,2024-10-27,2,ES,quantile,0.4,644.8250165
 2024-10-23,ARI incidence,2024-10-27,2,ES,quantile,0.45,708.699816
-2024-10-23,ARI incidence,2024-10-27,2,ES,median,,771.5619048
+2024-10-23,ARI incidence,2024-10-27,2,ES,quantile,0.5,771.5619048
 2024-10-23,ARI incidence,2024-10-27,2,ES,quantile,0.55,834.4239936
 2024-10-23,ARI incidence,2024-10-27,2,ES,quantile,0.6,898.2987931
 2024-10-23,ARI incidence,2024-10-27,2,ES,quantile,0.65,964.3184681
@@ -620,6 +647,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,ES,quantile,0.95,1594.399932
 2024-10-23,ARI incidence,2024-10-27,2,ES,quantile,0.975,1752.033888
 2024-10-23,ARI incidence,2024-10-27,2,ES,quantile,0.99,1935.317429
+2024-10-23,ARI incidence,2024-10-27,3,ES,median,,825.9047619
 2024-10-23,ARI incidence,2024-10-27,3,ES,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,3,ES,quantile,0.025,0
 2024-10-23,ARI incidence,2024-10-27,3,ES,quantile,0.05,0
@@ -631,7 +659,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,ES,quantile,0.35,590.0886365
 2024-10-23,ARI incidence,2024-10-27,3,ES,quantile,0.4,670.8563348
 2024-10-23,ARI incidence,2024-10-27,3,ES,quantile,0.45,749.0000176
-2024-10-23,ARI incidence,2024-10-27,3,ES,median,,825.9047619
+2024-10-23,ARI incidence,2024-10-27,3,ES,quantile,0.5,825.9047619
 2024-10-23,ARI incidence,2024-10-27,3,ES,quantile,0.55,902.8095062
 2024-10-23,ARI incidence,2024-10-27,3,ES,quantile,0.6,980.953189
 2024-10-23,ARI incidence,2024-10-27,3,ES,quantile,0.65,1061.720887
@@ -643,6 +671,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,ES,quantile,0.95,1832.555182
 2024-10-23,ARI incidence,2024-10-27,3,ES,quantile,0.975,2025.40272
 2024-10-23,ARI incidence,2024-10-27,3,ES,quantile,0.99,2249.629661
+2024-10-23,ARI incidence,2024-10-27,4,ES,median,,880.247619
 2024-10-23,ARI incidence,2024-10-27,4,ES,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,4,ES,quantile,0.025,0
 2024-10-23,ARI incidence,2024-10-27,4,ES,quantile,0.05,0
@@ -654,7 +683,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,ES,quantile,0.35,595.22607
 2024-10-23,ARI incidence,2024-10-27,4,ES,quantile,0.4,692.8467668
 2024-10-23,ARI incidence,2024-10-27,4,ES,quantile,0.45,787.2959207
-2024-10-23,ARI incidence,2024-10-27,4,ES,median,,880.247619
+2024-10-23,ARI incidence,2024-10-27,4,ES,quantile,0.5,880.247619
 2024-10-23,ARI incidence,2024-10-27,4,ES,quantile,0.55,973.1993173
 2024-10-23,ARI incidence,2024-10-27,4,ES,quantile,0.6,1067.648471
 2024-10-23,ARI incidence,2024-10-27,4,ES,quantile,0.65,1165.269168
@@ -666,6 +695,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,ES,quantile,0.95,2096.945847
 2024-10-23,ARI incidence,2024-10-27,4,ES,quantile,0.975,2330.032978
 2024-10-23,ARI incidence,2024-10-27,4,ES,quantile,0.99,2601.047141
+2024-10-23,ARI incidence,2024-10-27,-1,FR,median,,314.0666667
 2024-10-23,ARI incidence,2024-10-27,-1,FR,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,-1,FR,quantile,0.025,14.87816446
 2024-10-23,ARI incidence,2024-10-27,-1,FR,quantile,0.05,62.97976055
@@ -677,7 +707,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,FR,quantile,0.35,255.2474975
 2024-10-23,ARI incidence,2024-10-27,-1,FR,quantile,0.4,275.3932314
 2024-10-23,ARI incidence,2024-10-27,-1,FR,quantile,0.45,294.8844621
-2024-10-23,ARI incidence,2024-10-27,-1,FR,median,,314.0666667
+2024-10-23,ARI incidence,2024-10-27,-1,FR,quantile,0.5,314.0666667
 2024-10-23,ARI incidence,2024-10-27,-1,FR,quantile,0.55,333.2488713
 2024-10-23,ARI incidence,2024-10-27,-1,FR,quantile,0.6,352.740102
 2024-10-23,ARI incidence,2024-10-27,-1,FR,quantile,0.65,372.8858359
@@ -689,6 +719,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,FR,quantile,0.95,565.1535729
 2024-10-23,ARI incidence,2024-10-27,-1,FR,quantile,0.975,613.2551689
 2024-10-23,ARI incidence,2024-10-27,-1,FR,quantile,0.99,669.1836697
+2024-10-23,ARI incidence,2024-10-27,0,FR,median,,342.0380952
 2024-10-23,ARI incidence,2024-10-27,0,FR,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,0,FR,quantile,0.025,0
 2024-10-23,ARI incidence,2024-10-27,0,FR,quantile,0.05,29.4336634
@@ -700,7 +731,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,FR,quantile,0.35,268.8079406
 2024-10-23,ARI incidence,2024-10-27,0,FR,quantile,0.4,293.8894782
 2024-10-23,ARI incidence,2024-10-27,0,FR,quantile,0.45,318.1561562
-2024-10-23,ARI incidence,2024-10-27,0,FR,median,,342.0380952
+2024-10-23,ARI incidence,2024-10-27,0,FR,quantile,0.5,342.0380952
 2024-10-23,ARI incidence,2024-10-27,0,FR,quantile,0.55,365.9200342
 2024-10-23,ARI incidence,2024-10-27,0,FR,quantile,0.6,390.1867122
 2024-10-23,ARI incidence,2024-10-27,0,FR,quantile,0.65,415.2682498
@@ -712,6 +743,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,FR,quantile,0.95,654.642527
 2024-10-23,ARI incidence,2024-10-27,0,FR,quantile,0.975,714.5292505
 2024-10-23,ARI incidence,2024-10-27,0,FR,quantile,0.99,784.1605087
+2024-10-23,ARI incidence,2024-10-27,1,FR,median,,370.0095238
 2024-10-23,ARI incidence,2024-10-27,1,FR,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,1,FR,quantile,0.025,0
 2024-10-23,ARI incidence,2024-10-27,1,FR,quantile,0.05,0
@@ -723,7 +755,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,FR,quantile,0.35,278.7656374
 2024-10-23,ARI incidence,2024-10-27,1,FR,quantile,0.4,310.0169298
 2024-10-23,ARI incidence,2024-10-27,1,FR,quantile,0.45,340.2529169
-2024-10-23,ARI incidence,2024-10-27,1,FR,median,,370.0095238
+2024-10-23,ARI incidence,2024-10-27,1,FR,quantile,0.5,370.0095238
 2024-10-23,ARI incidence,2024-10-27,1,FR,quantile,0.55,399.7661307
 2024-10-23,ARI incidence,2024-10-27,1,FR,quantile,0.6,430.0021178
 2024-10-23,ARI incidence,2024-10-27,1,FR,quantile,0.65,461.2534102
@@ -735,6 +767,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,FR,quantile,0.95,759.5108627
 2024-10-23,ARI incidence,2024-10-27,1,FR,quantile,0.975,834.1289953
 2024-10-23,ARI incidence,2024-10-27,1,FR,quantile,0.99,920.8887004
+2024-10-23,ARI incidence,2024-10-27,2,FR,median,,397.9809524
 2024-10-23,ARI incidence,2024-10-27,2,FR,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,2,FR,quantile,0.025,0
 2024-10-23,ARI incidence,2024-10-27,2,FR,quantile,0.05,0
@@ -746,7 +779,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,FR,quantile,0.35,285.1398538
 2024-10-23,ARI incidence,2024-10-27,2,FR,quantile,0.4,323.7882532
 2024-10-23,ARI incidence,2024-10-27,2,FR,quantile,0.45,361.181027
-2024-10-23,ARI incidence,2024-10-27,2,FR,median,,397.9809524
+2024-10-23,ARI incidence,2024-10-27,2,FR,quantile,0.5,397.9809524
 2024-10-23,ARI incidence,2024-10-27,2,FR,quantile,0.55,434.7808778
 2024-10-23,ARI incidence,2024-10-27,2,FR,quantile,0.6,472.1736516
 2024-10-23,ARI incidence,2024-10-27,2,FR,quantile,0.65,510.822051
@@ -758,6 +791,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,FR,quantile,0.95,879.6763371
 2024-10-23,ARI incidence,2024-10-27,2,FR,quantile,0.975,971.9564053
 2024-10-23,ARI incidence,2024-10-27,2,FR,quantile,0.99,1079.251927
+2024-10-23,ARI incidence,2024-10-27,3,FR,median,,425.952381
 2024-10-23,ARI incidence,2024-10-27,3,FR,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,3,FR,quantile,0.025,0
 2024-10-23,ARI incidence,2024-10-27,3,FR,quantile,0.05,0
@@ -769,7 +803,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,FR,quantile,0.35,287.8920579
 2024-10-23,ARI incidence,2024-10-27,3,FR,quantile,0.4,335.1781139
 2024-10-23,ARI incidence,2024-10-27,3,FR,quantile,0.45,380.9279204
-2024-10-23,ARI incidence,2024-10-27,3,FR,median,,425.952381
+2024-10-23,ARI incidence,2024-10-27,3,FR,quantile,0.5,425.952381
 2024-10-23,ARI incidence,2024-10-27,3,FR,quantile,0.55,470.9768416
 2024-10-23,ARI incidence,2024-10-27,3,FR,quantile,0.6,516.7266481
 2024-10-23,ARI incidence,2024-10-27,3,FR,quantile,0.65,564.0127041
@@ -781,6 +815,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,FR,quantile,0.95,1015.303436
 2024-10-23,ARI incidence,2024-10-27,3,FR,quantile,0.975,1128.207477
 2024-10-23,ARI incidence,2024-10-27,3,FR,quantile,0.99,1259.482824
+2024-10-23,ARI incidence,2024-10-27,4,FR,median,,453.9238095
 2024-10-23,ARI incidence,2024-10-27,4,FR,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,4,FR,quantile,0.025,0
 2024-10-23,ARI incidence,2024-10-27,4,FR,quantile,0.05,0
@@ -792,7 +827,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,FR,quantile,0.35,287.0607815
 2024-10-23,ARI incidence,2024-10-27,4,FR,quantile,0.4,344.2118465
 2024-10-23,ARI incidence,2024-10-27,4,FR,quantile,0.45,399.5061632
-2024-10-23,ARI incidence,2024-10-27,4,FR,median,,453.9238095
+2024-10-23,ARI incidence,2024-10-27,4,FR,quantile,0.5,453.9238095
 2024-10-23,ARI incidence,2024-10-27,4,FR,quantile,0.55,508.3414558
 2024-10-23,ARI incidence,2024-10-27,4,FR,quantile,0.6,563.6357725
 2024-10-23,ARI incidence,2024-10-27,4,FR,quantile,0.65,620.7868375
@@ -804,6 +839,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,FR,quantile,0.95,1166.227673
 2024-10-23,ARI incidence,2024-10-27,4,FR,quantile,0.975,1302.686213
 2024-10-23,ARI incidence,2024-10-27,4,FR,quantile,0.99,1461.348756
+2024-10-23,ARI incidence,2024-10-27,-1,GB-NIR,median,,141.2
 2024-10-23,ARI incidence,2024-10-27,-1,GB-NIR,quantile,0.01,139.4552391
 2024-10-23,ARI incidence,2024-10-27,-1,GB-NIR,quantile,0.025,139.730027
 2024-10-23,ARI incidence,2024-10-27,-1,GB-NIR,quantile,0.05,139.9663598
@@ -815,7 +851,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,GB-NIR,quantile,0.35,140.9110097
 2024-10-23,ARI incidence,2024-10-27,-1,GB-NIR,quantile,0.4,141.0099897
 2024-10-23,ARI incidence,2024-10-27,-1,GB-NIR,quantile,0.45,141.105754
-2024-10-23,ARI incidence,2024-10-27,-1,GB-NIR,median,,141.2
+2024-10-23,ARI incidence,2024-10-27,-1,GB-NIR,quantile,0.5,141.2
 2024-10-23,ARI incidence,2024-10-27,-1,GB-NIR,quantile,0.55,141.294246
 2024-10-23,ARI incidence,2024-10-27,-1,GB-NIR,quantile,0.6,141.3900103
 2024-10-23,ARI incidence,2024-10-27,-1,GB-NIR,quantile,0.65,141.4889903
@@ -827,6 +863,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,GB-NIR,quantile,0.95,142.4336402
 2024-10-23,ARI incidence,2024-10-27,-1,GB-NIR,quantile,0.975,142.669973
 2024-10-23,ARI incidence,2024-10-27,-1,GB-NIR,quantile,0.99,142.9447609
+2024-10-23,ARI incidence,2024-10-27,0,GB-NIR,median,,150.9
 2024-10-23,ARI incidence,2024-10-27,0,GB-NIR,quantile,0.01,148.5736521
 2024-10-23,ARI incidence,2024-10-27,0,GB-NIR,quantile,0.025,148.940036
 2024-10-23,ARI incidence,2024-10-27,0,GB-NIR,quantile,0.05,149.2551464
@@ -838,7 +875,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,GB-NIR,quantile,0.35,150.5146795
 2024-10-23,ARI incidence,2024-10-27,0,GB-NIR,quantile,0.4,150.6466529
 2024-10-23,ARI incidence,2024-10-27,0,GB-NIR,quantile,0.45,150.7743387
-2024-10-23,ARI incidence,2024-10-27,0,GB-NIR,median,,150.9
+2024-10-23,ARI incidence,2024-10-27,0,GB-NIR,quantile,0.5,150.9
 2024-10-23,ARI incidence,2024-10-27,0,GB-NIR,quantile,0.55,151.0256613
 2024-10-23,ARI incidence,2024-10-27,0,GB-NIR,quantile,0.6,151.1533471
 2024-10-23,ARI incidence,2024-10-27,0,GB-NIR,quantile,0.65,151.2853205
@@ -850,6 +887,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,GB-NIR,quantile,0.95,152.5448536
 2024-10-23,ARI incidence,2024-10-27,0,GB-NIR,quantile,0.975,152.859964
 2024-10-23,ARI incidence,2024-10-27,0,GB-NIR,quantile,0.99,153.2263479
+2024-10-23,ARI incidence,2024-10-27,1,GB-NIR,median,,160.6
 2024-10-23,ARI incidence,2024-10-27,1,GB-NIR,quantile,0.01,157.5757478
 2024-10-23,ARI incidence,2024-10-27,1,GB-NIR,quantile,0.025,158.0520468
 2024-10-23,ARI incidence,2024-10-27,1,GB-NIR,quantile,0.05,158.4616903
@@ -861,7 +899,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,GB-NIR,quantile,0.35,160.0990834
 2024-10-23,ARI incidence,2024-10-27,1,GB-NIR,quantile,0.4,160.2706488
 2024-10-23,ARI incidence,2024-10-27,1,GB-NIR,quantile,0.45,160.4366402
-2024-10-23,ARI incidence,2024-10-27,1,GB-NIR,median,,160.6
+2024-10-23,ARI incidence,2024-10-27,1,GB-NIR,quantile,0.5,160.6
 2024-10-23,ARI incidence,2024-10-27,1,GB-NIR,quantile,0.55,160.7633598
 2024-10-23,ARI incidence,2024-10-27,1,GB-NIR,quantile,0.6,160.9293512
 2024-10-23,ARI incidence,2024-10-27,1,GB-NIR,quantile,0.65,161.1009166
@@ -873,6 +911,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,GB-NIR,quantile,0.95,162.7383097
 2024-10-23,ARI incidence,2024-10-27,1,GB-NIR,quantile,0.975,163.1479532
 2024-10-23,ARI incidence,2024-10-27,1,GB-NIR,quantile,0.99,163.6242522
+2024-10-23,ARI incidence,2024-10-27,2,GB-NIR,median,,170.3
 2024-10-23,ARI incidence,2024-10-27,2,GB-NIR,quantile,0.01,166.461526
 2024-10-23,ARI incidence,2024-10-27,2,GB-NIR,quantile,0.025,167.0660594
 2024-10-23,ARI incidence,2024-10-27,2,GB-NIR,quantile,0.05,167.5859915
@@ -884,7 +923,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,GB-NIR,quantile,0.35,169.6642212
 2024-10-23,ARI incidence,2024-10-27,2,GB-NIR,quantile,0.4,169.8819773
 2024-10-23,ARI incidence,2024-10-27,2,GB-NIR,quantile,0.45,170.0926588
-2024-10-23,ARI incidence,2024-10-27,2,GB-NIR,median,,170.3
+2024-10-23,ARI incidence,2024-10-27,2,GB-NIR,quantile,0.5,170.3
 2024-10-23,ARI incidence,2024-10-27,2,GB-NIR,quantile,0.55,170.5073412
 2024-10-23,ARI incidence,2024-10-27,2,GB-NIR,quantile,0.6,170.7180227
 2024-10-23,ARI incidence,2024-10-27,2,GB-NIR,quantile,0.65,170.9357788
@@ -896,6 +935,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,GB-NIR,quantile,0.95,173.0140085
 2024-10-23,ARI incidence,2024-10-27,2,GB-NIR,quantile,0.975,173.5339406
 2024-10-23,ARI incidence,2024-10-27,2,GB-NIR,quantile,0.99,174.138474
+2024-10-23,ARI incidence,2024-10-27,3,GB-NIR,median,,180
 2024-10-23,ARI incidence,2024-10-27,3,GB-NIR,quantile,0.01,175.2309869
 2024-10-23,ARI incidence,2024-10-27,3,GB-NIR,quantile,0.025,175.9820738
 2024-10-23,ARI incidence,2024-10-27,3,GB-NIR,quantile,0.05,176.6280501
@@ -907,7 +947,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,GB-NIR,quantile,0.35,179.210093
 2024-10-23,ARI incidence,2024-10-27,3,GB-NIR,quantile,0.4,179.4806384
 2024-10-23,ARI incidence,2024-10-27,3,GB-NIR,quantile,0.45,179.7423942
-2024-10-23,ARI incidence,2024-10-27,3,GB-NIR,median,,180
+2024-10-23,ARI incidence,2024-10-27,3,GB-NIR,quantile,0.5,180
 2024-10-23,ARI incidence,2024-10-27,3,GB-NIR,quantile,0.55,180.2576058
 2024-10-23,ARI incidence,2024-10-27,3,GB-NIR,quantile,0.6,180.5193616
 2024-10-23,ARI incidence,2024-10-27,3,GB-NIR,quantile,0.65,180.789907
@@ -919,6 +959,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,GB-NIR,quantile,0.95,183.3719499
 2024-10-23,ARI incidence,2024-10-27,3,GB-NIR,quantile,0.975,184.0179262
 2024-10-23,ARI incidence,2024-10-27,3,GB-NIR,quantile,0.99,184.7690131
+2024-10-23,ARI incidence,2024-10-27,4,GB-NIR,median,,189.7
 2024-10-23,ARI incidence,2024-10-27,4,GB-NIR,quantile,0.01,183.7678129
 2024-10-23,ARI incidence,2024-10-27,4,GB-NIR,quantile,0.025,184.7020918
 2024-10-23,ARI incidence,2024-10-27,4,GB-NIR,quantile,0.05,185.5056233
@@ -930,7 +971,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,GB-NIR,quantile,0.35,188.7174328
 2024-10-23,ARI incidence,2024-10-27,4,GB-NIR,quantile,0.4,189.0539649
 2024-10-23,ARI incidence,2024-10-27,4,GB-NIR,quantile,0.45,189.3795636
-2024-10-23,ARI incidence,2024-10-27,4,GB-NIR,median,,189.7
+2024-10-23,ARI incidence,2024-10-27,4,GB-NIR,quantile,0.5,189.7
 2024-10-23,ARI incidence,2024-10-27,4,GB-NIR,quantile,0.55,190.0204364
 2024-10-23,ARI incidence,2024-10-27,4,GB-NIR,quantile,0.6,190.3460351
 2024-10-23,ARI incidence,2024-10-27,4,GB-NIR,quantile,0.65,190.6825672
@@ -942,6 +983,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,GB-NIR,quantile,0.95,193.8943767
 2024-10-23,ARI incidence,2024-10-27,4,GB-NIR,quantile,0.975,194.6979082
 2024-10-23,ARI incidence,2024-10-27,4,GB-NIR,quantile,0.99,195.6321871
+2024-10-23,ARI incidence,2024-10-27,-1,GB-SCT,median,,179.2666667
 2024-10-23,ARI incidence,2024-10-27,-1,GB-SCT,quantile,0.01,173.3344796
 2024-10-23,ARI incidence,2024-10-27,-1,GB-SCT,quantile,0.025,174.2687585
 2024-10-23,ARI incidence,2024-10-27,-1,GB-SCT,quantile,0.05,175.07229
@@ -953,7 +995,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,GB-SCT,quantile,0.35,178.2840995
 2024-10-23,ARI incidence,2024-10-27,-1,GB-SCT,quantile,0.4,178.6206316
 2024-10-23,ARI incidence,2024-10-27,-1,GB-SCT,quantile,0.45,178.9462303
-2024-10-23,ARI incidence,2024-10-27,-1,GB-SCT,median,,179.2666667
+2024-10-23,ARI incidence,2024-10-27,-1,GB-SCT,quantile,0.5,179.2666667
 2024-10-23,ARI incidence,2024-10-27,-1,GB-SCT,quantile,0.55,179.5871031
 2024-10-23,ARI incidence,2024-10-27,-1,GB-SCT,quantile,0.6,179.9127018
 2024-10-23,ARI incidence,2024-10-27,-1,GB-SCT,quantile,0.65,180.2492339
@@ -965,6 +1007,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,GB-SCT,quantile,0.95,183.4610434
 2024-10-23,ARI incidence,2024-10-27,-1,GB-SCT,quantile,0.975,184.2645749
 2024-10-23,ARI incidence,2024-10-27,-1,GB-SCT,quantile,0.99,185.1988538
+2024-10-23,ARI incidence,2024-10-27,0,GB-SCT,median,,187.7238095
 2024-10-23,ARI incidence,2024-10-27,0,GB-SCT,quantile,0.01,180.2794963
 2024-10-23,ARI incidence,2024-10-27,0,GB-SCT,quantile,0.025,181.4519247
 2024-10-23,ARI incidence,2024-10-27,0,GB-SCT,quantile,0.05,182.4602779
@@ -976,7 +1019,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,GB-SCT,quantile,0.35,186.490784
 2024-10-23,ARI incidence,2024-10-27,0,GB-SCT,quantile,0.4,186.9130988
 2024-10-23,ARI incidence,2024-10-27,0,GB-SCT,quantile,0.45,187.3216932
-2024-10-23,ARI incidence,2024-10-27,0,GB-SCT,median,,187.7238095
+2024-10-23,ARI incidence,2024-10-27,0,GB-SCT,quantile,0.5,187.7238095
 2024-10-23,ARI incidence,2024-10-27,0,GB-SCT,quantile,0.55,188.1259258
 2024-10-23,ARI incidence,2024-10-27,0,GB-SCT,quantile,0.6,188.5345202
 2024-10-23,ARI incidence,2024-10-27,0,GB-SCT,quantile,0.65,188.956835
@@ -988,6 +1031,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,GB-SCT,quantile,0.95,192.9873411
 2024-10-23,ARI incidence,2024-10-27,0,GB-SCT,quantile,0.975,193.9956943
 2024-10-23,ARI incidence,2024-10-27,0,GB-SCT,quantile,0.99,195.1681227
+2024-10-23,ARI incidence,2024-10-27,1,GB-SCT,median,,196.1809524
 2024-10-23,ARI incidence,2024-10-27,1,GB-SCT,quantile,0.01,186.9918783
 2024-10-23,ARI incidence,2024-10-27,1,GB-SCT,quantile,0.025,188.4390947
 2024-10-23,ARI incidence,2024-10-27,1,GB-SCT,quantile,0.05,189.6837806
@@ -999,7 +1043,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,GB-SCT,quantile,0.35,194.6589366
 2024-10-23,ARI incidence,2024-10-27,1,GB-SCT,quantile,0.4,195.1802313
 2024-10-23,ARI incidence,2024-10-27,1,GB-SCT,quantile,0.45,195.6845901
-2024-10-23,ARI incidence,2024-10-27,1,GB-SCT,median,,196.1809524
+2024-10-23,ARI incidence,2024-10-27,1,GB-SCT,quantile,0.5,196.1809524
 2024-10-23,ARI incidence,2024-10-27,1,GB-SCT,quantile,0.55,196.6773147
 2024-10-23,ARI incidence,2024-10-27,1,GB-SCT,quantile,0.6,197.1816735
 2024-10-23,ARI incidence,2024-10-27,1,GB-SCT,quantile,0.65,197.7029682
@@ -1011,6 +1055,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,GB-SCT,quantile,0.95,202.6781242
 2024-10-23,ARI incidence,2024-10-27,1,GB-SCT,quantile,0.975,203.9228101
 2024-10-23,ARI incidence,2024-10-27,1,GB-SCT,quantile,0.99,205.3700265
+2024-10-23,ARI incidence,2024-10-27,2,GB-SCT,median,,204.6380952
 2024-10-23,ARI incidence,2024-10-27,2,GB-SCT,quantile,0.01,193.2389906
 2024-10-23,ARI incidence,2024-10-27,2,GB-SCT,quantile,0.025,195.0342717
 2024-10-23,ARI incidence,2024-10-27,2,GB-SCT,quantile,0.05,196.5783124
@@ -1022,7 +1067,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,GB-SCT,quantile,0.35,202.7500249
 2024-10-23,ARI incidence,2024-10-27,2,GB-SCT,quantile,0.4,203.3966944
 2024-10-23,ARI incidence,2024-10-27,2,GB-SCT,quantile,0.45,204.0223546
-2024-10-23,ARI incidence,2024-10-27,2,GB-SCT,median,,204.6380952
+2024-10-23,ARI incidence,2024-10-27,2,GB-SCT,quantile,0.5,204.6380952
 2024-10-23,ARI incidence,2024-10-27,2,GB-SCT,quantile,0.55,205.2538358
 2024-10-23,ARI incidence,2024-10-27,2,GB-SCT,quantile,0.6,205.879496
 2024-10-23,ARI incidence,2024-10-27,2,GB-SCT,quantile,0.65,206.5261655
@@ -1034,6 +1079,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,GB-SCT,quantile,0.95,212.697878
 2024-10-23,ARI incidence,2024-10-27,2,GB-SCT,quantile,0.975,214.2419187
 2024-10-23,ARI incidence,2024-10-27,2,GB-SCT,quantile,0.99,216.0371998
+2024-10-23,ARI incidence,2024-10-27,3,GB-SCT,median,,213.0952381
 2024-10-23,ARI incidence,2024-10-27,3,GB-SCT,quantile,0.01,199.1371509
 2024-10-23,ARI incidence,2024-10-27,3,GB-SCT,quantile,0.025,201.3354542
 2024-10-23,ARI incidence,2024-10-27,3,GB-SCT,quantile,0.05,203.2261163
@@ -1045,7 +1091,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,GB-SCT,quantile,0.35,210.7833153
 2024-10-23,ARI incidence,2024-10-27,3,GB-SCT,quantile,0.4,211.5751555
 2024-10-23,ARI incidence,2024-10-27,3,GB-SCT,quantile,0.45,212.34127
-2024-10-23,ARI incidence,2024-10-27,3,GB-SCT,median,,213.0952381
+2024-10-23,ARI incidence,2024-10-27,3,GB-SCT,quantile,0.5,213.0952381
 2024-10-23,ARI incidence,2024-10-27,3,GB-SCT,quantile,0.55,213.8492062
 2024-10-23,ARI incidence,2024-10-27,3,GB-SCT,quantile,0.6,214.6153207
 2024-10-23,ARI incidence,2024-10-27,3,GB-SCT,quantile,0.65,215.4071609
@@ -1057,6 +1103,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,GB-SCT,quantile,0.95,222.9643599
 2024-10-23,ARI incidence,2024-10-27,3,GB-SCT,quantile,0.975,224.855022
 2024-10-23,ARI incidence,2024-10-27,3,GB-SCT,quantile,0.99,227.0533253
+2024-10-23,ARI incidence,2024-10-27,4,GB-SCT,median,,221.552381
 2024-10-23,ARI incidence,2024-10-27,4,GB-SCT,quantile,0.01,204.6863589
 2024-10-23,ARI incidence,2024-10-27,4,GB-SCT,quantile,0.025,207.3426421
 2024-10-23,ARI incidence,2024-10-27,4,GB-SCT,quantile,0.05,209.6271922
@@ -1068,7 +1115,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,GB-SCT,quantile,0.35,218.7588076
 2024-10-23,ARI incidence,2024-10-27,4,GB-SCT,quantile,0.4,219.7156145
 2024-10-23,ARI incidence,2024-10-27,4,GB-SCT,quantile,0.45,220.6413362
-2024-10-23,ARI incidence,2024-10-27,4,GB-SCT,median,,221.552381
+2024-10-23,ARI incidence,2024-10-27,4,GB-SCT,quantile,0.5,221.552381
 2024-10-23,ARI incidence,2024-10-27,4,GB-SCT,quantile,0.55,222.4634258
 2024-10-23,ARI incidence,2024-10-27,4,GB-SCT,quantile,0.6,223.3891475
 2024-10-23,ARI incidence,2024-10-27,4,GB-SCT,quantile,0.65,224.3459544
@@ -1080,6 +1127,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,GB-SCT,quantile,0.95,233.4775698
 2024-10-23,ARI incidence,2024-10-27,4,GB-SCT,quantile,0.975,235.7621199
 2024-10-23,ARI incidence,2024-10-27,4,GB-SCT,quantile,0.99,238.4184031
+2024-10-23,ARI incidence,2024-10-27,-1,LT,median,,1345.066667
 2024-10-23,ARI incidence,2024-10-27,-1,LT,quantile,0.01,957.101632
 2024-10-23,ARI incidence,2024-10-27,-1,LT,quantile,0.025,1018.203473
 2024-10-23,ARI incidence,2024-10-27,-1,LT,quantile,0.05,1070.754428
@@ -1091,7 +1139,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,LT,quantile,0.35,1280.806773
 2024-10-23,ARI incidence,2024-10-27,-1,LT,quantile,0.4,1302.815971
 2024-10-23,ARI incidence,2024-10-27,-1,LT,quantile,0.45,1324.110124
-2024-10-23,ARI incidence,2024-10-27,-1,LT,median,,1345.066667
+2024-10-23,ARI incidence,2024-10-27,-1,LT,quantile,0.5,1345.066667
 2024-10-23,ARI incidence,2024-10-27,-1,LT,quantile,0.55,1366.02321
 2024-10-23,ARI incidence,2024-10-27,-1,LT,quantile,0.6,1387.317363
 2024-10-23,ARI incidence,2024-10-27,-1,LT,quantile,0.65,1409.326561
@@ -1103,6 +1151,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,LT,quantile,0.95,1619.378906
 2024-10-23,ARI incidence,2024-10-27,-1,LT,quantile,0.975,1671.929861
 2024-10-23,ARI incidence,2024-10-27,-1,LT,quantile,0.99,1733.031702
+2024-10-23,ARI incidence,2024-10-27,0,LT,median,,1465.466667
 2024-10-23,ARI incidence,2024-10-27,0,LT,quantile,0.01,982.4935849
 2024-10-23,ARI incidence,2024-10-27,0,LT,quantile,0.025,1058.558544
 2024-10-23,ARI incidence,2024-10-27,0,LT,quantile,0.05,1123.978606
@@ -1114,7 +1163,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,LT,quantile,0.35,1385.470285
 2024-10-23,ARI incidence,2024-10-27,0,LT,quantile,0.4,1412.869275
 2024-10-23,ARI incidence,2024-10-27,0,LT,quantile,0.45,1439.378115
-2024-10-23,ARI incidence,2024-10-27,0,LT,median,,1465.466667
+2024-10-23,ARI incidence,2024-10-27,0,LT,quantile,0.5,1465.466667
 2024-10-23,ARI incidence,2024-10-27,0,LT,quantile,0.55,1491.555219
 2024-10-23,ARI incidence,2024-10-27,0,LT,quantile,0.6,1518.064059
 2024-10-23,ARI incidence,2024-10-27,0,LT,quantile,0.65,1545.463049
@@ -1126,6 +1175,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,LT,quantile,0.95,1806.954728
 2024-10-23,ARI incidence,2024-10-27,0,LT,quantile,0.975,1872.37479
 2024-10-23,ARI incidence,2024-10-27,0,LT,quantile,0.99,1948.439749
+2024-10-23,ARI incidence,2024-10-27,1,LT,median,,1585.866667
 2024-10-23,ARI incidence,2024-10-27,1,LT,quantile,0.01,984.1335259
 2024-10-23,ARI incidence,2024-10-27,1,LT,quantile,0.025,1078.902383
 2024-10-23,ARI incidence,2024-10-27,1,LT,quantile,0.05,1160.408828
@@ -1137,7 +1187,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,LT,quantile,0.35,1486.199675
 2024-10-23,ARI incidence,2024-10-27,1,LT,quantile,0.4,1520.335905
 2024-10-23,ARI incidence,2024-10-27,1,LT,quantile,0.45,1553.363103
-2024-10-23,ARI incidence,2024-10-27,1,LT,median,,1585.866667
+2024-10-23,ARI incidence,2024-10-27,1,LT,quantile,0.5,1585.866667
 2024-10-23,ARI incidence,2024-10-27,1,LT,quantile,0.55,1618.370231
 2024-10-23,ARI incidence,2024-10-27,1,LT,quantile,0.6,1651.397429
 2024-10-23,ARI incidence,2024-10-27,1,LT,quantile,0.65,1685.533659
@@ -1149,6 +1199,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,LT,quantile,0.95,2011.324506
 2024-10-23,ARI incidence,2024-10-27,1,LT,quantile,0.975,2092.830951
 2024-10-23,ARI incidence,2024-10-27,1,LT,quantile,0.99,2187.599808
+2024-10-23,ARI incidence,2024-10-27,2,LT,median,,1706.266667
 2024-10-23,ARI incidence,2024-10-27,2,LT,quantile,0.01,961.9981917
 2024-10-23,ARI incidence,2024-10-27,2,LT,quantile,0.025,1079.215389
 2024-10-23,ARI incidence,2024-10-27,2,LT,quantile,0.05,1180.028646
@@ -1160,7 +1211,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,LT,quantile,0.35,1582.99109
 2024-10-23,ARI incidence,2024-10-27,2,LT,quantile,0.4,1625.213328
 2024-10-23,ARI incidence,2024-10-27,2,LT,quantile,0.45,1666.063832
-2024-10-23,ARI incidence,2024-10-27,2,LT,median,,1706.266667
+2024-10-23,ARI incidence,2024-10-27,2,LT,quantile,0.5,1706.266667
 2024-10-23,ARI incidence,2024-10-27,2,LT,quantile,0.55,1746.469502
 2024-10-23,ARI incidence,2024-10-27,2,LT,quantile,0.6,1787.320006
 2024-10-23,ARI incidence,2024-10-27,2,LT,quantile,0.65,1829.542244
@@ -1172,6 +1223,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,LT,quantile,0.95,2232.504688
 2024-10-23,ARI incidence,2024-10-27,2,LT,quantile,0.975,2333.317945
 2024-10-23,ARI incidence,2024-10-27,2,LT,quantile,0.99,2450.535142
+2024-10-23,ARI incidence,2024-10-27,3,LT,median,,1826.666667
 2024-10-23,ARI incidence,2024-10-27,3,LT,quantile,0.01,916.1341091
 2024-10-23,ARI incidence,2024-10-27,3,LT,quantile,0.025,1059.536763
 2024-10-23,ARI incidence,2024-10-27,3,LT,quantile,0.05,1182.870957
@@ -1183,7 +1235,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,LT,quantile,0.35,1675.852236
 2024-10-23,ARI incidence,2024-10-27,3,LT,quantile,0.4,1727.506611
 2024-10-23,ARI incidence,2024-10-27,3,LT,quantile,0.45,1777.482816
-2024-10-23,ARI incidence,2024-10-27,3,LT,median,,1826.666667
+2024-10-23,ARI incidence,2024-10-27,3,LT,quantile,0.5,1826.666667
 2024-10-23,ARI incidence,2024-10-27,3,LT,quantile,0.55,1875.850518
 2024-10-23,ARI incidence,2024-10-27,3,LT,quantile,0.6,1925.826723
 2024-10-23,ARI incidence,2024-10-27,3,LT,quantile,0.65,1977.481098
@@ -1195,6 +1247,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,LT,quantile,0.95,2470.462377
 2024-10-23,ARI incidence,2024-10-27,3,LT,quantile,0.975,2593.796571
 2024-10-23,ARI incidence,2024-10-27,3,LT,quantile,0.99,2737.199225
+2024-10-23,ARI incidence,2024-10-27,4,LT,median,,1947.066667
 2024-10-23,ARI incidence,2024-10-27,4,LT,quantile,0.01,846.5180147
 2024-10-23,ARI incidence,2024-10-27,4,LT,quantile,0.025,1019.846905
 2024-10-23,ARI incidence,2024-10-27,4,LT,quantile,0.05,1168.919313
@@ -1206,7 +1259,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,LT,quantile,0.35,1764.779261
 2024-10-23,ARI incidence,2024-10-27,4,LT,quantile,0.4,1827.213219
 2024-10-23,ARI incidence,2024-10-27,4,LT,quantile,0.45,1887.618797
-2024-10-23,ARI incidence,2024-10-27,4,LT,median,,1947.066667
+2024-10-23,ARI incidence,2024-10-27,4,LT,quantile,0.5,1947.066667
 2024-10-23,ARI incidence,2024-10-27,4,LT,quantile,0.55,2006.514537
 2024-10-23,ARI incidence,2024-10-27,4,LT,quantile,0.6,2066.920115
 2024-10-23,ARI incidence,2024-10-27,4,LT,quantile,0.65,2129.354073
@@ -1218,6 +1271,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,LT,quantile,0.95,2725.214021
 2024-10-23,ARI incidence,2024-10-27,4,LT,quantile,0.975,2874.286429
 2024-10-23,ARI incidence,2024-10-27,4,LT,quantile,0.99,3047.615319
+2024-10-23,ARI incidence,2024-10-27,-1,RO,median,,1113.6
 2024-10-23,ARI incidence,2024-10-27,-1,RO,quantile,0.01,495.7452681
 2024-10-23,ARI incidence,2024-10-27,-1,RO,quantile,0.025,593.0531653
 2024-10-23,ARI incidence,2024-10-27,-1,RO,quantile,0.05,676.7433252
@@ -1229,7 +1283,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,RO,quantile,0.35,1011.262737
 2024-10-23,ARI incidence,2024-10-27,-1,RO,quantile,0.4,1046.313543
 2024-10-23,ARI incidence,2024-10-27,-1,RO,quantile,0.45,1080.225603
-2024-10-23,ARI incidence,2024-10-27,-1,RO,median,,1113.6
+2024-10-23,ARI incidence,2024-10-27,-1,RO,quantile,0.5,1113.6
 2024-10-23,ARI incidence,2024-10-27,-1,RO,quantile,0.55,1146.974397
 2024-10-23,ARI incidence,2024-10-27,-1,RO,quantile,0.6,1180.886457
 2024-10-23,ARI incidence,2024-10-27,-1,RO,quantile,0.65,1215.937263
@@ -1241,6 +1295,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,RO,quantile,0.95,1550.456675
 2024-10-23,ARI incidence,2024-10-27,-1,RO,quantile,0.975,1634.146835
 2024-10-23,ARI incidence,2024-10-27,-1,RO,quantile,0.99,1731.454732
+2024-10-23,ARI incidence,2024-10-27,0,RO,median,,1207.628571
 2024-10-23,ARI incidence,2024-10-27,0,RO,quantile,0.01,438.4681734
 2024-10-23,ARI incidence,2024-10-27,0,RO,quantile,0.025,559.6056788
 2024-10-23,ARI incidence,2024-10-27,0,RO,quantile,0.05,663.7906163
@@ -1252,7 +1307,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,RO,quantile,0.35,1080.230065
 2024-10-23,ARI incidence,2024-10-27,0,RO,quantile,0.4,1123.864418
 2024-10-23,ARI incidence,2024-10-27,0,RO,quantile,0.45,1166.08116
-2024-10-23,ARI incidence,2024-10-27,0,RO,median,,1207.628571
+2024-10-23,ARI incidence,2024-10-27,0,RO,quantile,0.5,1207.628571
 2024-10-23,ARI incidence,2024-10-27,0,RO,quantile,0.55,1249.175982
 2024-10-23,ARI incidence,2024-10-27,0,RO,quantile,0.6,1291.392724
 2024-10-23,ARI incidence,2024-10-27,0,RO,quantile,0.65,1335.027077
@@ -1264,6 +1319,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,RO,quantile,0.95,1751.466526
 2024-10-23,ARI incidence,2024-10-27,0,RO,quantile,0.975,1855.651463
 2024-10-23,ARI incidence,2024-10-27,0,RO,quantile,0.99,1976.788969
+2024-10-23,ARI incidence,2024-10-27,1,RO,median,,1301.657143
 2024-10-23,ARI incidence,2024-10-27,1,RO,quantile,0.01,343.3646632
 2024-10-23,ARI incidence,2024-10-27,1,RO,quantile,0.025,494.2891788
 2024-10-23,ARI incidence,2024-10-27,1,RO,quantile,0.05,624.0925884
@@ -1275,7 +1331,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,RO,quantile,0.35,1142.932083
 2024-10-23,ARI incidence,2024-10-27,1,RO,quantile,0.4,1197.295871
 2024-10-23,ARI incidence,2024-10-27,1,RO,quantile,0.45,1249.893464
-2024-10-23,ARI incidence,2024-10-27,1,RO,median,,1301.657143
+2024-10-23,ARI incidence,2024-10-27,1,RO,quantile,0.5,1301.657143
 2024-10-23,ARI incidence,2024-10-27,1,RO,quantile,0.55,1353.420822
 2024-10-23,ARI incidence,2024-10-27,1,RO,quantile,0.6,1406.018415
 2024-10-23,ARI incidence,2024-10-27,1,RO,quantile,0.65,1460.382203
@@ -1287,6 +1343,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,RO,quantile,0.95,1979.221698
 2024-10-23,ARI incidence,2024-10-27,1,RO,quantile,0.975,2109.025107
 2024-10-23,ARI incidence,2024-10-27,1,RO,quantile,0.99,2259.949623
+2024-10-23,ARI incidence,2024-10-27,2,RO,median,,1395.685714
 2024-10-23,ARI incidence,2024-10-27,2,RO,quantile,0.01,210.4347357
 2024-10-23,ARI incidence,2024-10-27,2,RO,quantile,0.025,397.1036635
 2024-10-23,ARI incidence,2024-10-27,2,RO,quantile,0.05,557.6492396
@@ -1298,7 +1355,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,RO,quantile,0.35,1199.36879
 2024-10-23,ARI incidence,2024-10-27,2,RO,quantile,0.4,1266.607898
 2024-10-23,ARI incidence,2024-10-27,2,RO,quantile,0.45,1331.662514
-2024-10-23,ARI incidence,2024-10-27,2,RO,median,,1395.685714
+2024-10-23,ARI incidence,2024-10-27,2,RO,quantile,0.5,1395.685714
 2024-10-23,ARI incidence,2024-10-27,2,RO,quantile,0.55,1459.708914
 2024-10-23,ARI incidence,2024-10-27,2,RO,quantile,0.6,1524.76353
 2024-10-23,ARI incidence,2024-10-27,2,RO,quantile,0.65,1592.002638
@@ -1310,6 +1367,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,RO,quantile,0.95,2233.722188
 2024-10-23,ARI incidence,2024-10-27,2,RO,quantile,0.975,2394.267764
 2024-10-23,ARI incidence,2024-10-27,2,RO,quantile,0.99,2580.936692
+2024-10-23,ARI incidence,2024-10-27,3,RO,median,,1489.714286
 2024-10-23,ARI incidence,2024-10-27,3,RO,quantile,0.01,39.65512915
 2024-10-23,ARI incidence,2024-10-27,3,RO,quantile,0.025,268.0295352
 2024-10-23,ARI incidence,2024-10-27,3,RO,quantile,0.05,464.4441232
@@ -1321,7 +1379,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,RO,quantile,0.35,1249.536333
 2024-10-23,ARI incidence,2024-10-27,3,RO,quantile,0.4,1331.79797
 2024-10-23,ARI incidence,2024-10-27,3,RO,quantile,0.45,1411.387055
-2024-10-23,ARI incidence,2024-10-27,3,RO,median,,1489.714286
+2024-10-23,ARI incidence,2024-10-27,3,RO,quantile,0.5,1489.714286
 2024-10-23,ARI incidence,2024-10-27,3,RO,quantile,0.55,1568.041517
 2024-10-23,ARI incidence,2024-10-27,3,RO,quantile,0.6,1647.630602
 2024-10-23,ARI incidence,2024-10-27,3,RO,quantile,0.65,1729.892239
@@ -1333,6 +1391,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,RO,quantile,0.95,2514.984449
 2024-10-23,ARI incidence,2024-10-27,3,RO,quantile,0.975,2711.399037
 2024-10-23,ARI incidence,2024-10-27,3,RO,quantile,0.99,2939.773443
+2024-10-23,ARI incidence,2024-10-27,4,RO,median,,1583.742857
 2024-10-23,ARI incidence,2024-10-27,4,RO,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,4,RO,quantile,0.025,107.105991
 2024-10-23,ARI incidence,2024-10-27,4,RO,quantile,0.05,344.5101345
@@ -1344,7 +1403,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,RO,quantile,0.35,1293.442418
 2024-10-23,ARI incidence,2024-10-27,4,RO,quantile,0.4,1392.871149
 2024-10-23,ARI incidence,2024-10-27,4,RO,quantile,0.45,1489.069598
-2024-10-23,ARI incidence,2024-10-27,4,RO,median,,1583.742857
+2024-10-23,ARI incidence,2024-10-27,4,RO,quantile,0.5,1583.742857
 2024-10-23,ARI incidence,2024-10-27,4,RO,quantile,0.55,1678.416116
 2024-10-23,ARI incidence,2024-10-27,4,RO,quantile,0.6,1774.614565
 2024-10-23,ARI incidence,2024-10-27,4,RO,quantile,0.65,1874.043296
@@ -1356,6 +1415,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,RO,quantile,0.95,2822.97558
 2024-10-23,ARI incidence,2024-10-27,4,RO,quantile,0.975,3060.379723
 2024-10-23,ARI incidence,2024-10-27,4,RO,quantile,0.99,3336.413345
+2024-10-23,ARI incidence,2024-10-27,-1,SI,median,,1995.2
 2024-10-23,ARI incidence,2024-10-27,-1,SI,quantile,0.01,509.6407746
 2024-10-23,ARI incidence,2024-10-27,-1,SI,quantile,0.025,743.6061988
 2024-10-23,ARI incidence,2024-10-27,-1,SI,quantile,0.05,944.8293709
@@ -1367,7 +1427,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,SI,quantile,0.35,1749.142057
 2024-10-23,ARI incidence,2024-10-27,-1,SI,quantile,0.4,1833.417607
 2024-10-23,ARI incidence,2024-10-27,-1,SI,quantile,0.45,1914.955177
-2024-10-23,ARI incidence,2024-10-27,-1,SI,median,,1995.2
+2024-10-23,ARI incidence,2024-10-27,-1,SI,quantile,0.5,1995.2
 2024-10-23,ARI incidence,2024-10-27,-1,SI,quantile,0.55,2075.444823
 2024-10-23,ARI incidence,2024-10-27,-1,SI,quantile,0.6,2156.982393
 2024-10-23,ARI incidence,2024-10-27,-1,SI,quantile,0.65,2241.257943
@@ -1379,6 +1439,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,-1,SI,quantile,0.95,3045.570629
 2024-10-23,ARI incidence,2024-10-27,-1,SI,quantile,0.975,3246.793801
 2024-10-23,ARI incidence,2024-10-27,-1,SI,quantile,0.99,3480.759225
+2024-10-23,ARI incidence,2024-10-27,0,SI,median,,2130.257143
 2024-10-23,ARI incidence,2024-10-27,0,SI,quantile,0.01,280.9036371
 2024-10-23,ARI incidence,2024-10-27,0,SI,quantile,0.025,572.1641739
 2024-10-23,ARI incidence,2024-10-27,0,SI,quantile,0.05,822.6643037
@@ -1390,7 +1451,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,SI,quantile,0.35,1823.942785
 2024-10-23,ARI incidence,2024-10-27,0,SI,quantile,0.4,1928.85633
 2024-10-23,ARI incidence,2024-10-27,0,SI,quantile,0.45,2030.361399
-2024-10-23,ARI incidence,2024-10-27,0,SI,median,,2130.257143
+2024-10-23,ARI incidence,2024-10-27,0,SI,quantile,0.5,2130.257143
 2024-10-23,ARI incidence,2024-10-27,0,SI,quantile,0.55,2230.152887
 2024-10-23,ARI incidence,2024-10-27,0,SI,quantile,0.6,2331.657956
 2024-10-23,ARI incidence,2024-10-27,0,SI,quantile,0.65,2436.571501
@@ -1402,6 +1463,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,0,SI,quantile,0.95,3437.849982
 2024-10-23,ARI incidence,2024-10-27,0,SI,quantile,0.975,3688.350112
 2024-10-23,ARI incidence,2024-10-27,0,SI,quantile,0.99,3979.610649
+2024-10-23,ARI incidence,2024-10-27,1,SI,median,,2265.314286
 2024-10-23,ARI incidence,2024-10-27,1,SI,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,1,SI,quantile,0.025,324.0679575
 2024-10-23,ARI incidence,2024-10-27,1,SI,quantile,0.05,636.1690112
@@ -1413,7 +1475,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,SI,quantile,0.35,1883.67363
 2024-10-23,ARI incidence,2024-10-27,1,SI,quantile,0.4,2014.386648
 2024-10-23,ARI incidence,2024-10-27,1,SI,quantile,0.45,2140.853005
-2024-10-23,ARI incidence,2024-10-27,1,SI,median,,2265.314286
+2024-10-23,ARI incidence,2024-10-27,1,SI,quantile,0.5,2265.314286
 2024-10-23,ARI incidence,2024-10-27,1,SI,quantile,0.55,2389.775567
 2024-10-23,ARI incidence,2024-10-27,1,SI,quantile,0.6,2516.241924
 2024-10-23,ARI incidence,2024-10-27,1,SI,quantile,0.65,2646.954942
@@ -1425,6 +1487,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,1,SI,quantile,0.95,3894.459561
 2024-10-23,ARI incidence,2024-10-27,1,SI,quantile,0.975,4206.560614
 2024-10-23,ARI incidence,2024-10-27,1,SI,quantile,0.99,4569.445538
+2024-10-23,ARI incidence,2024-10-27,2,SI,median,,2400.371429
 2024-10-23,ARI incidence,2024-10-27,2,SI,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,2,SI,quantile,0.025,0
 2024-10-23,ARI incidence,2024-10-27,2,SI,quantile,0.05,385.3763904
@@ -1436,7 +1499,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,SI,quantile,0.35,1928.342298
 2024-10-23,ARI incidence,2024-10-27,2,SI,quantile,0.4,2090.013627
 2024-10-23,ARI incidence,2024-10-27,2,SI,quantile,0.45,2246.432509
-2024-10-23,ARI incidence,2024-10-27,2,SI,median,,2400.371429
+2024-10-23,ARI incidence,2024-10-27,2,SI,quantile,0.5,2400.371429
 2024-10-23,ARI incidence,2024-10-27,2,SI,quantile,0.55,2554.310349
 2024-10-23,ARI incidence,2024-10-27,2,SI,quantile,0.6,2710.729231
 2024-10-23,ARI incidence,2024-10-27,2,SI,quantile,0.65,2872.40056
@@ -1448,6 +1511,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,2,SI,quantile,0.95,4415.366468
 2024-10-23,ARI incidence,2024-10-27,2,SI,quantile,0.975,4801.386109
 2024-10-23,ARI incidence,2024-10-27,2,SI,quantile,0.99,5250.217365
+2024-10-23,ARI incidence,2024-10-27,3,SI,median,,2535.428571
 2024-10-23,ARI incidence,2024-10-27,3,SI,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,3,SI,quantile,0.025,0
 2024-10-23,ARI incidence,2024-10-27,3,SI,quantile,0.05,70.28644029
@@ -1459,7 +1523,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,SI,quantile,0.35,1957.948788
 2024-10-23,ARI incidence,2024-10-27,3,SI,quantile,0.4,2155.737268
 2024-10-23,ARI incidence,2024-10-27,3,SI,quantile,0.45,2347.09991
-2024-10-23,ARI incidence,2024-10-27,3,SI,median,,2535.428571
+2024-10-23,ARI incidence,2024-10-27,3,SI,quantile,0.5,2535.428571
 2024-10-23,ARI incidence,2024-10-27,3,SI,quantile,0.55,2723.757232
 2024-10-23,ARI incidence,2024-10-27,3,SI,quantile,0.6,2915.119874
 2024-10-23,ARI incidence,2024-10-27,3,SI,quantile,0.65,3112.908354
@@ -1471,6 +1535,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,3,SI,quantile,0.95,5000.570702
 2024-10-23,ARI incidence,2024-10-27,3,SI,quantile,0.975,5472.826595
 2024-10-23,ARI incidence,2024-10-27,3,SI,quantile,0.99,6021.92613
+2024-10-23,ARI incidence,2024-10-27,4,SI,median,,2670.485714
 2024-10-23,ARI incidence,2024-10-27,4,SI,quantile,0.01,0
 2024-10-23,ARI incidence,2024-10-27,4,SI,quantile,0.025,0
 2024-10-23,ARI incidence,2024-10-27,4,SI,quantile,0.05,0
@@ -1482,7 +1547,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,SI,quantile,0.35,1972.489249
 2024-10-23,ARI incidence,2024-10-27,4,SI,quantile,0.4,2211.555037
 2024-10-23,ARI incidence,2024-10-27,4,SI,quantile,0.45,2442.853954
-2024-10-23,ARI incidence,2024-10-27,4,SI,median,,2670.485714
+2024-10-23,ARI incidence,2024-10-27,4,SI,quantile,0.5,2670.485714
 2024-10-23,ARI incidence,2024-10-27,4,SI,quantile,0.55,2898.117474
 2024-10-23,ARI incidence,2024-10-27,4,SI,quantile,0.6,3129.416391
 2024-10-23,ARI incidence,2024-10-27,4,SI,quantile,0.65,3368.482179
@@ -1494,6 +1559,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ARI incidence,2024-10-27,4,SI,quantile,0.95,5650.088714
 2024-10-23,ARI incidence,2024-10-27,4,SI,quantile,0.975,6220.901673
 2024-10-23,ARI incidence,2024-10-27,4,SI,quantile,0.99,6884.595097
+2024-10-23,ILI incidence,2024-10-27,-1,BE,median,,286.9333333
 2024-10-23,ILI incidence,2024-10-27,-1,BE,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,-1,BE,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,-1,BE,quantile,0.05,34.2838162
@@ -1505,7 +1571,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,BE,quantile,0.35,227.7481097
 2024-10-23,ILI incidence,2024-10-27,-1,BE,quantile,0.4,248.0192183
 2024-10-23,ILI incidence,2024-10-27,-1,BE,quantile,0.45,267.6317504
-2024-10-23,ILI incidence,2024-10-27,-1,BE,median,,286.9333333
+2024-10-23,ILI incidence,2024-10-27,-1,BE,quantile,0.5,286.9333333
 2024-10-23,ILI incidence,2024-10-27,-1,BE,quantile,0.55,306.2349162
 2024-10-23,ILI incidence,2024-10-27,-1,BE,quantile,0.6,325.8474483
 2024-10-23,ILI incidence,2024-10-27,-1,BE,quantile,0.65,346.1185569
@@ -1517,6 +1583,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,BE,quantile,0.95,539.5828504
 2024-10-23,ILI incidence,2024-10-27,-1,BE,quantile,0.975,587.9838013
 2024-10-23,ILI incidence,2024-10-27,-1,BE,quantile,0.99,644.2603668
+2024-10-23,ILI incidence,2024-10-27,0,BE,median,,321.1047619
 2024-10-23,ILI incidence,2024-10-27,0,BE,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,0,BE,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,0,BE,quantile,0.05,6.608748427
@@ -1528,7 +1595,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,BE,quantile,0.35,247.4314887
 2024-10-23,ILI incidence,2024-10-27,0,BE,quantile,0.4,272.6647958
 2024-10-23,ILI incidence,2024-10-27,0,BE,quantile,0.45,297.0783124
-2024-10-23,ILI incidence,2024-10-27,0,BE,median,,321.1047619
+2024-10-23,ILI incidence,2024-10-27,0,BE,quantile,0.5,321.1047619
 2024-10-23,ILI incidence,2024-10-27,0,BE,quantile,0.55,345.1312114
 2024-10-23,ILI incidence,2024-10-27,0,BE,quantile,0.6,369.544728
 2024-10-23,ILI incidence,2024-10-27,0,BE,quantile,0.65,394.7780351
@@ -1540,6 +1607,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,BE,quantile,0.95,635.6007754
 2024-10-23,ILI incidence,2024-10-27,0,BE,quantile,0.975,695.8498757
 2024-10-23,ILI incidence,2024-10-27,0,BE,quantile,0.99,765.9024754
+2024-10-23,ILI incidence,2024-10-27,1,BE,median,,355.2761905
 2024-10-23,ILI incidence,2024-10-27,1,BE,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,1,BE,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,1,BE,quantile,0.05,0
@@ -1551,7 +1619,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,BE,quantile,0.35,263.4928554
 2024-10-23,ILI incidence,2024-10-27,1,BE,quantile,0.4,294.9289105
 2024-10-23,ILI incidence,2024-10-27,1,BE,quantile,0.45,325.3436577
-2024-10-23,ILI incidence,2024-10-27,1,BE,median,,355.2761905
+2024-10-23,ILI incidence,2024-10-27,1,BE,quantile,0.5,355.2761905
 2024-10-23,ILI incidence,2024-10-27,1,BE,quantile,0.55,385.2087233
 2024-10-23,ILI incidence,2024-10-27,1,BE,quantile,0.6,415.6234705
 2024-10-23,ILI incidence,2024-10-27,1,BE,quantile,0.65,447.0595256
@@ -1563,6 +1631,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,BE,quantile,0.95,747.0803244
 2024-10-23,ILI incidence,2024-10-27,1,BE,quantile,0.975,822.1396116
 2024-10-23,ILI incidence,2024-10-27,1,BE,quantile,0.99,909.4122541
+2024-10-23,ILI incidence,2024-10-27,2,BE,median,,389.447619
 2024-10-23,ILI incidence,2024-10-27,2,BE,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,2,BE,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,2,BE,quantile,0.05,0
@@ -1574,7 +1643,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,BE,quantile,0.35,275.9322096
 2024-10-23,ILI incidence,2024-10-27,2,BE,quantile,0.4,314.8115624
 2024-10-23,ILI incidence,2024-10-27,2,BE,quantile,0.45,352.4277862
-2024-10-23,ILI incidence,2024-10-27,2,BE,median,,389.447619
+2024-10-23,ILI incidence,2024-10-27,2,BE,quantile,0.5,389.447619
 2024-10-23,ILI incidence,2024-10-27,2,BE,quantile,0.55,426.4674518
 2024-10-23,ILI incidence,2024-10-27,2,BE,quantile,0.6,464.0836756
 2024-10-23,ILI incidence,2024-10-27,2,BE,quantile,0.65,502.9630284
@@ -1586,6 +1655,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,BE,quantile,0.95,874.0214975
 2024-10-23,ILI incidence,2024-10-27,2,BE,quantile,0.975,966.8530088
 2024-10-23,ILI incidence,2024-10-27,2,BE,quantile,0.99,1074.789703
+2024-10-23,ILI incidence,2024-10-27,3,BE,median,,423.6190476
 2024-10-23,ILI incidence,2024-10-27,3,BE,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,3,BE,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,3,BE,quantile,0.05,0
@@ -1597,7 +1667,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,BE,quantile,0.35,284.7495515
 2024-10-23,ILI incidence,2024-10-27,3,BE,quantile,0.4,332.3127516
 2024-10-23,ILI incidence,2024-10-27,3,BE,quantile,0.45,378.3306982
-2024-10-23,ILI incidence,2024-10-27,3,BE,median,,423.6190476
+2024-10-23,ILI incidence,2024-10-27,3,BE,quantile,0.5,423.6190476
 2024-10-23,ILI incidence,2024-10-27,3,BE,quantile,0.55,468.907397
 2024-10-23,ILI incidence,2024-10-27,3,BE,quantile,0.6,514.9253436
 2024-10-23,ILI incidence,2024-10-27,3,BE,quantile,0.65,562.4885437
@@ -1609,6 +1679,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,BE,quantile,0.95,1016.424295
 2024-10-23,ILI incidence,2024-10-27,3,BE,quantile,0.975,1129.990068
 2024-10-23,ILI incidence,2024-10-27,3,BE,quantile,0.99,1262.034821
+2024-10-23,ILI incidence,2024-10-27,4,BE,median,,457.7904762
 2024-10-23,ILI incidence,2024-10-27,4,BE,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,4,BE,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,4,BE,quantile,0.05,0
@@ -1620,7 +1691,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,BE,quantile,0.35,289.944881
 2024-10-23,ILI incidence,2024-10-27,4,BE,quantile,0.4,347.4324781
 2024-10-23,ILI incidence,2024-10-27,4,BE,quantile,0.45,403.0523935
-2024-10-23,ILI incidence,2024-10-27,4,BE,median,,457.7904762
+2024-10-23,ILI incidence,2024-10-27,4,BE,quantile,0.5,457.7904762
 2024-10-23,ILI incidence,2024-10-27,4,BE,quantile,0.55,512.5285589
 2024-10-23,ILI incidence,2024-10-27,4,BE,quantile,0.6,568.1484743
 2024-10-23,ILI incidence,2024-10-27,4,BE,quantile,0.65,625.6360714
@@ -1632,6 +1703,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,BE,quantile,0.95,1174.288716
 2024-10-23,ILI incidence,2024-10-27,4,BE,quantile,0.975,1311.550788
 2024-10-23,ILI incidence,2024-10-27,4,BE,quantile,0.99,1471.14761
+2024-10-23,ILI incidence,2024-10-27,-1,CH,median,,46.2
 2024-10-23,ILI incidence,2024-10-27,-1,CH,quantile,0.01,39.45359117
 2024-10-23,ILI incidence,2024-10-27,-1,CH,quantile,0.025,40.51610444
 2024-10-23,ILI incidence,2024-10-27,-1,CH,quantile,0.05,41.42992448
@@ -1643,7 +1715,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,CH,quantile,0.35,45.08257065
 2024-10-23,ILI incidence,2024-10-27,-1,CH,quantile,0.4,45.4652934
 2024-10-23,ILI incidence,2024-10-27,-1,CH,quantile,0.45,45.83558209
-2024-10-23,ILI incidence,2024-10-27,-1,CH,median,,46.2
+2024-10-23,ILI incidence,2024-10-27,-1,CH,quantile,0.5,46.2
 2024-10-23,ILI incidence,2024-10-27,-1,CH,quantile,0.55,46.56441791
 2024-10-23,ILI incidence,2024-10-27,-1,CH,quantile,0.6,46.9347066
 2024-10-23,ILI incidence,2024-10-27,-1,CH,quantile,0.65,47.31742935
@@ -1655,6 +1727,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,CH,quantile,0.95,50.97007552
 2024-10-23,ILI incidence,2024-10-27,-1,CH,quantile,0.975,51.88389556
 2024-10-23,ILI incidence,2024-10-27,-1,CH,quantile,0.99,52.94640883
+2024-10-23,ILI incidence,2024-10-27,0,CH,median,,50.25714286
 2024-10-23,ILI incidence,2024-10-27,0,CH,quantile,0.01,41.88229051
 2024-10-23,ILI incidence,2024-10-27,0,CH,quantile,0.025,43.20127252
 2024-10-23,ILI incidence,2024-10-27,0,CH,quantile,0.05,44.3356698
@@ -1666,7 +1739,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,CH,quantile,0.35,48.86998918
 2024-10-23,ILI incidence,2024-10-27,0,CH,quantile,0.4,49.34509329
 2024-10-23,ILI incidence,2024-10-27,0,CH,quantile,0.45,49.80476201
-2024-10-23,ILI incidence,2024-10-27,0,CH,median,,50.25714286
+2024-10-23,ILI incidence,2024-10-27,0,CH,quantile,0.5,50.25714286
 2024-10-23,ILI incidence,2024-10-27,0,CH,quantile,0.55,50.70952371
 2024-10-23,ILI incidence,2024-10-27,0,CH,quantile,0.6,51.16919243
 2024-10-23,ILI incidence,2024-10-27,0,CH,quantile,0.65,51.64429654
@@ -1678,6 +1751,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,CH,quantile,0.95,56.17861592
 2024-10-23,ILI incidence,2024-10-27,0,CH,quantile,0.975,57.3130132
 2024-10-23,ILI incidence,2024-10-27,0,CH,quantile,0.99,58.63199521
+2024-10-23,ILI incidence,2024-10-27,1,CH,median,,54.31428571
 2024-10-23,ILI incidence,2024-10-27,1,CH,quantile,0.01,43.84572028
 2024-10-23,ILI incidence,2024-10-27,1,CH,quantile,0.025,45.49444778
 2024-10-23,ILI incidence,2024-10-27,1,CH,quantile,0.05,46.91244439
@@ -1689,7 +1763,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,CH,quantile,0.35,52.58034361
 2024-10-23,ILI incidence,2024-10-27,1,CH,quantile,0.4,53.17422375
 2024-10-23,ILI incidence,2024-10-27,1,CH,quantile,0.45,53.74880965
-2024-10-23,ILI incidence,2024-10-27,1,CH,median,,54.31428571
+2024-10-23,ILI incidence,2024-10-27,1,CH,quantile,0.5,54.31428571
 2024-10-23,ILI incidence,2024-10-27,1,CH,quantile,0.55,54.87976177
 2024-10-23,ILI incidence,2024-10-27,1,CH,quantile,0.6,55.45434767
 2024-10-23,ILI incidence,2024-10-27,1,CH,quantile,0.65,56.04822781
@@ -1701,6 +1775,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,CH,quantile,0.95,61.71612703
 2024-10-23,ILI incidence,2024-10-27,1,CH,quantile,0.975,63.13412364
 2024-10-23,ILI incidence,2024-10-27,1,CH,quantile,0.99,64.78285114
+2024-10-23,ILI incidence,2024-10-27,2,CH,median,,58.37142857
 2024-10-23,ILI incidence,2024-10-27,2,CH,quantile,0.01,45.57651526
 2024-10-23,ILI incidence,2024-10-27,2,CH,quantile,0.025,47.59162666
 2024-10-23,ILI incidence,2024-10-27,2,CH,quantile,0.05,49.32473362
@@ -1712,7 +1787,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,CH,quantile,0.35,56.252166
 2024-10-23,ILI incidence,2024-10-27,2,CH,quantile,0.4,56.9780195
 2024-10-23,ILI incidence,2024-10-27,2,CH,quantile,0.45,57.68029116
-2024-10-23,ILI incidence,2024-10-27,2,CH,median,,58.37142857
+2024-10-23,ILI incidence,2024-10-27,2,CH,quantile,0.5,58.37142857
 2024-10-23,ILI incidence,2024-10-27,2,CH,quantile,0.55,59.06256598
 2024-10-23,ILI incidence,2024-10-27,2,CH,quantile,0.6,59.76483764
 2024-10-23,ILI incidence,2024-10-27,2,CH,quantile,0.65,60.49069114
@@ -1724,6 +1799,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,CH,quantile,0.95,67.41812352
 2024-10-23,ILI incidence,2024-10-27,2,CH,quantile,0.975,69.15123048
 2024-10-23,ILI incidence,2024-10-27,2,CH,quantile,0.99,71.16634188
+2024-10-23,ILI incidence,2024-10-27,3,CH,median,,62.42857143
 2024-10-23,ILI incidence,2024-10-27,3,CH,quantile,0.01,46.60940589
 2024-10-23,ILI incidence,2024-10-27,3,CH,quantile,0.025,49.10081634
 2024-10-23,ILI incidence,2024-10-27,3,CH,quantile,0.05,51.24356677
@@ -1735,7 +1811,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,CH,quantile,0.35,59.80839226
 2024-10-23,ILI incidence,2024-10-27,3,CH,quantile,0.4,60.70581113
 2024-10-23,ILI incidence,2024-10-27,3,CH,quantile,0.45,61.57407427
-2024-10-23,ILI incidence,2024-10-27,3,CH,median,,62.42857143
+2024-10-23,ILI incidence,2024-10-27,3,CH,quantile,0.5,62.42857143
 2024-10-23,ILI incidence,2024-10-27,3,CH,quantile,0.55,63.28306859
 2024-10-23,ILI incidence,2024-10-27,3,CH,quantile,0.6,64.15133173
 2024-10-23,ILI incidence,2024-10-27,3,CH,quantile,0.65,65.0487506
@@ -1747,6 +1823,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,CH,quantile,0.95,73.61357609
 2024-10-23,ILI incidence,2024-10-27,3,CH,quantile,0.975,75.75632652
 2024-10-23,ILI incidence,2024-10-27,3,CH,quantile,0.99,78.24773697
+2024-10-23,ILI incidence,2024-10-27,4,CH,median,,66.48571429
 2024-10-23,ILI incidence,2024-10-27,4,CH,quantile,0.01,47.40966172
 2024-10-23,ILI incidence,2024-10-27,4,CH,quantile,0.025,50.41400962
 2024-10-23,ILI incidence,2024-10-27,4,CH,quantile,0.05,52.99791455
@@ -1758,7 +1835,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,CH,quantile,0.35,63.32608647
 2024-10-23,ILI incidence,2024-10-27,4,CH,quantile,0.4,64.40826804
 2024-10-23,ILI incidence,2024-10-27,4,CH,quantile,0.45,65.45529125
-2024-10-23,ILI incidence,2024-10-27,4,CH,median,,66.48571429
+2024-10-23,ILI incidence,2024-10-27,4,CH,quantile,0.5,66.48571429
 2024-10-23,ILI incidence,2024-10-27,4,CH,quantile,0.55,67.51613733
 2024-10-23,ILI incidence,2024-10-27,4,CH,quantile,0.6,68.56316054
 2024-10-23,ILI incidence,2024-10-27,4,CH,quantile,0.65,69.64534211
@@ -1770,6 +1847,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,CH,quantile,0.95,79.97351403
 2024-10-23,ILI incidence,2024-10-27,4,CH,quantile,0.975,82.55741896
 2024-10-23,ILI incidence,2024-10-27,4,CH,quantile,0.99,85.56176686
+2024-10-23,ILI incidence,2024-10-27,-1,CZ,median,,24.2
 2024-10-23,ILI incidence,2024-10-27,-1,CZ,quantile,0.01,23.4323052
 2024-10-23,ILI incidence,2024-10-27,-1,CZ,quantile,0.025,23.55321189
 2024-10-23,ILI incidence,2024-10-27,-1,CZ,quantile,0.05,23.6571983
@@ -1781,7 +1859,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,CZ,quantile,0.35,24.07284425
 2024-10-23,ILI incidence,2024-10-27,-1,CZ,quantile,0.4,24.11639546
 2024-10-23,ILI incidence,2024-10-27,-1,CZ,quantile,0.45,24.15853176
-2024-10-23,ILI incidence,2024-10-27,-1,CZ,median,,24.2
+2024-10-23,ILI incidence,2024-10-27,-1,CZ,quantile,0.5,24.2
 2024-10-23,ILI incidence,2024-10-27,-1,CZ,quantile,0.55,24.24146824
 2024-10-23,ILI incidence,2024-10-27,-1,CZ,quantile,0.6,24.28360454
 2024-10-23,ILI incidence,2024-10-27,-1,CZ,quantile,0.65,24.32715575
@@ -1793,6 +1871,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,CZ,quantile,0.95,24.7428017
 2024-10-23,ILI incidence,2024-10-27,-1,CZ,quantile,0.975,24.84678811
 2024-10-23,ILI incidence,2024-10-27,-1,CZ,quantile,0.99,24.9676948
+2024-10-23,ILI incidence,2024-10-27,0,CZ,median,,26.97142857
 2024-10-23,ILI incidence,2024-10-27,0,CZ,quantile,0.01,26.01762594
 2024-10-23,ILI incidence,2024-10-27,0,CZ,quantile,0.025,26.16784334
 2024-10-23,ILI incidence,2024-10-27,0,CZ,quantile,0.05,26.29703858
@@ -1804,7 +1883,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,CZ,quantile,0.35,26.81344718
 2024-10-23,ILI incidence,2024-10-27,0,CZ,quantile,0.4,26.86755626
 2024-10-23,ILI incidence,2024-10-27,0,CZ,quantile,0.45,26.91990742
-2024-10-23,ILI incidence,2024-10-27,0,CZ,median,,26.97142857
+2024-10-23,ILI incidence,2024-10-27,0,CZ,quantile,0.5,26.97142857
 2024-10-23,ILI incidence,2024-10-27,0,CZ,quantile,0.55,27.02294972
 2024-10-23,ILI incidence,2024-10-27,0,CZ,quantile,0.6,27.07530088
 2024-10-23,ILI incidence,2024-10-27,0,CZ,quantile,0.65,27.12940996
@@ -1816,6 +1895,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,CZ,quantile,0.95,27.64581856
 2024-10-23,ILI incidence,2024-10-27,0,CZ,quantile,0.975,27.7750138
 2024-10-23,ILI incidence,2024-10-27,0,CZ,quantile,0.99,27.9252312
+2024-10-23,ILI incidence,2024-10-27,1,CZ,median,,29.74285714
 2024-10-23,ILI incidence,2024-10-27,1,CZ,quantile,0.01,28.55641972
 2024-10-23,ILI incidence,2024-10-27,1,CZ,quantile,0.025,28.74327551
 2024-10-23,ILI incidence,2024-10-27,1,CZ,quantile,0.05,28.90398179
@@ -1827,7 +1907,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,CZ,quantile,0.35,29.5463437
 2024-10-23,ILI incidence,2024-10-27,1,CZ,quantile,0.4,29.61365012
 2024-10-23,ILI incidence,2024-10-27,1,CZ,quantile,0.45,29.67876985
-2024-10-23,ILI incidence,2024-10-27,1,CZ,median,,29.74285714
+2024-10-23,ILI incidence,2024-10-27,1,CZ,quantile,0.5,29.74285714
 2024-10-23,ILI incidence,2024-10-27,1,CZ,quantile,0.55,29.80694443
 2024-10-23,ILI incidence,2024-10-27,1,CZ,quantile,0.6,29.87206416
 2024-10-23,ILI incidence,2024-10-27,1,CZ,quantile,0.65,29.93937058
@@ -1839,6 +1919,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,CZ,quantile,0.95,30.58173249
 2024-10-23,ILI incidence,2024-10-27,1,CZ,quantile,0.975,30.74243877
 2024-10-23,ILI incidence,2024-10-27,1,CZ,quantile,0.99,30.92929456
+2024-10-23,ILI incidence,2024-10-27,2,CZ,median,,32.51428571
 2024-10-23,ILI incidence,2024-10-27,2,CZ,quantile,0.01,31.04868655
 2024-10-23,ILI incidence,2024-10-27,2,CZ,quantile,0.025,31.2795084
 2024-10-23,ILI incidence,2024-10-27,2,CZ,quantile,0.05,31.47802793
@@ -1850,7 +1931,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,CZ,quantile,0.35,32.27153382
 2024-10-23,ILI incidence,2024-10-27,2,CZ,quantile,0.4,32.35467704
 2024-10-23,ILI incidence,2024-10-27,2,CZ,quantile,0.45,32.43511906
-2024-10-23,ILI incidence,2024-10-27,2,CZ,median,,32.51428571
+2024-10-23,ILI incidence,2024-10-27,2,CZ,quantile,0.5,32.51428571
 2024-10-23,ILI incidence,2024-10-27,2,CZ,quantile,0.55,32.59345236
 2024-10-23,ILI incidence,2024-10-27,2,CZ,quantile,0.6,32.67389438
 2024-10-23,ILI incidence,2024-10-27,2,CZ,quantile,0.65,32.7570376
@@ -1862,6 +1943,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,CZ,quantile,0.95,33.55054349
 2024-10-23,ILI incidence,2024-10-27,2,CZ,quantile,0.975,33.74906302
 2024-10-23,ILI incidence,2024-10-27,2,CZ,quantile,0.99,33.97988487
+2024-10-23,ILI incidence,2024-10-27,3,CZ,median,,35.28571429
 2024-10-23,ILI incidence,2024-10-27,3,CZ,quantile,0.01,33.47116295
 2024-10-23,ILI incidence,2024-10-27,3,CZ,quantile,0.025,33.75694238
 2024-10-23,ILI incidence,2024-10-27,3,CZ,quantile,0.05,34.00272846
@@ -1873,7 +1955,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,CZ,quantile,0.35,34.98516433
 2024-10-23,ILI incidence,2024-10-27,3,CZ,quantile,0.4,35.08810355
 2024-10-23,ILI incidence,2024-10-27,3,CZ,quantile,0.45,35.18769844
-2024-10-23,ILI incidence,2024-10-27,3,CZ,median,,35.28571429
+2024-10-23,ILI incidence,2024-10-27,3,CZ,quantile,0.5,35.28571429
 2024-10-23,ILI incidence,2024-10-27,3,CZ,quantile,0.55,35.38373014
 2024-10-23,ILI incidence,2024-10-27,3,CZ,quantile,0.6,35.48332503
 2024-10-23,ILI incidence,2024-10-27,3,CZ,quantile,0.65,35.58626425
@@ -1885,6 +1967,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,CZ,quantile,0.95,36.56870012
 2024-10-23,ILI incidence,2024-10-27,3,CZ,quantile,0.975,36.8144862
 2024-10-23,ILI incidence,2024-10-27,3,CZ,quantile,0.99,37.10026563
+2024-10-23,ILI incidence,2024-10-27,4,CZ,median,,38.05714286
 2024-10-23,ILI incidence,2024-10-27,4,CZ,quantile,0.01,35.87037586
 2024-10-23,ILI incidence,2024-10-27,4,CZ,quantile,0.025,36.21477671
 2024-10-23,ILI incidence,2024-10-27,4,CZ,quantile,0.05,36.51098045
@@ -1896,7 +1979,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,CZ,quantile,0.35,37.69494162
 2024-10-23,ILI incidence,2024-10-27,4,CZ,quantile,0.4,37.81899658
 2024-10-23,ILI incidence,2024-10-27,4,CZ,quantile,0.45,37.93902119
-2024-10-23,ILI incidence,2024-10-27,4,CZ,median,,38.05714286
+2024-10-23,ILI incidence,2024-10-27,4,CZ,quantile,0.5,38.05714286
 2024-10-23,ILI incidence,2024-10-27,4,CZ,quantile,0.55,38.17526453
 2024-10-23,ILI incidence,2024-10-27,4,CZ,quantile,0.6,38.29528914
 2024-10-23,ILI incidence,2024-10-27,4,CZ,quantile,0.65,38.419344100000004
@@ -1908,6 +1991,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,CZ,quantile,0.95,39.60330527
 2024-10-23,ILI incidence,2024-10-27,4,CZ,quantile,0.975,39.89950901
 2024-10-23,ILI incidence,2024-10-27,4,CZ,quantile,0.99,40.24390986
+2024-10-23,ILI incidence,2024-10-27,-1,DK,median,,151.2666667
 2024-10-23,ILI incidence,2024-10-27,-1,DK,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,-1,DK,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,-1,DK,quantile,0.05,14.41484494
@@ -1919,7 +2003,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,DK,quantile,0.35,119.2080039
 2024-10-23,ILI incidence,2024-10-27,-1,DK,quantile,0.4,130.1881877
 2024-10-23,ILI incidence,2024-10-27,-1,DK,quantile,0.45,140.8116426
-2024-10-23,ILI incidence,2024-10-27,-1,DK,median,,151.2666667
+2024-10-23,ILI incidence,2024-10-27,-1,DK,quantile,0.5,151.2666667
 2024-10-23,ILI incidence,2024-10-27,-1,DK,quantile,0.55,161.7216908
 2024-10-23,ILI incidence,2024-10-27,-1,DK,quantile,0.6,172.3451457
 2024-10-23,ILI incidence,2024-10-27,-1,DK,quantile,0.65,183.3253295
@@ -1931,6 +2015,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,DK,quantile,0.95,288.1184885
 2024-10-23,ILI incidence,2024-10-27,-1,DK,quantile,0.975,314.3356702
 2024-10-23,ILI incidence,2024-10-27,-1,DK,quantile,0.99,344.8188098
+2024-10-23,ILI incidence,2024-10-27,0,DK,median,,159.5809524
 2024-10-23,ILI incidence,2024-10-27,0,DK,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,0,DK,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,0,DK,quantile,0.05,0
@@ -1942,7 +2027,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,DK,quantile,0.35,119.6617521
 2024-10-23,ILI incidence,2024-10-27,0,DK,quantile,0.4,133.3341925
 2024-10-23,ILI incidence,2024-10-27,0,DK,quantile,0.45,146.5624369
-2024-10-23,ILI incidence,2024-10-27,0,DK,median,,159.5809524
+2024-10-23,ILI incidence,2024-10-27,0,DK,quantile,0.5,159.5809524
 2024-10-23,ILI incidence,2024-10-27,0,DK,quantile,0.55,172.5994679
 2024-10-23,ILI incidence,2024-10-27,0,DK,quantile,0.6,185.8277123
 2024-10-23,ILI incidence,2024-10-27,0,DK,quantile,0.65,199.5001527
@@ -1954,6 +2039,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,DK,quantile,0.95,329.9877882
 2024-10-23,ILI incidence,2024-10-27,0,DK,quantile,0.975,362.6332212
 2024-10-23,ILI incidence,2024-10-27,0,DK,quantile,0.99,400.5905922
+2024-10-23,ILI incidence,2024-10-27,1,DK,median,,167.8952381
 2024-10-23,ILI incidence,2024-10-27,1,DK,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,1,DK,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,1,DK,quantile,0.05,0
@@ -1965,7 +2051,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,DK,quantile,0.35,118.1503659
 2024-10-23,ILI incidence,2024-10-27,1,DK,quantile,0.4,135.1881271
 2024-10-23,ILI incidence,2024-10-27,1,DK,quantile,0.45,151.6723582
-2024-10-23,ILI incidence,2024-10-27,1,DK,median,,167.8952381
+2024-10-23,ILI incidence,2024-10-27,1,DK,quantile,0.5,167.8952381
 2024-10-23,ILI incidence,2024-10-27,1,DK,quantile,0.55,184.118118
 2024-10-23,ILI incidence,2024-10-27,1,DK,quantile,0.6,200.6023491
 2024-10-23,ILI incidence,2024-10-27,1,DK,quantile,0.65,217.6401103
@@ -1977,6 +2063,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,DK,quantile,0.95,380.2458413
 2024-10-23,ILI incidence,2024-10-27,1,DK,quantile,0.975,420.9265885
 2024-10-23,ILI incidence,2024-10-27,1,DK,quantile,0.99,468.2267486
+2024-10-23,ILI incidence,2024-10-27,2,DK,median,,176.2095238
 2024-10-23,ILI incidence,2024-10-27,2,DK,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,2,DK,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,2,DK,quantile,0.05,0
@@ -1988,7 +2075,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,DK,quantile,0.35,114.7123774
 2024-10-23,ILI incidence,2024-10-27,2,DK,quantile,0.4,135.7753261
 2024-10-23,ILI incidence,2024-10-27,2,DK,quantile,0.45,156.1539728
-2024-10-23,ILI incidence,2024-10-27,2,DK,median,,176.2095238
+2024-10-23,ILI incidence,2024-10-27,2,DK,quantile,0.5,176.2095238
 2024-10-23,ILI incidence,2024-10-27,2,DK,quantile,0.55,196.2650748
 2024-10-23,ILI incidence,2024-10-27,2,DK,quantile,0.6,216.6437215
 2024-10-23,ILI incidence,2024-10-27,2,DK,quantile,0.65,237.7066702
@@ -2000,6 +2087,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,DK,quantile,0.95,438.7281627
 2024-10-23,ILI incidence,2024-10-27,2,DK,quantile,0.975,489.0197757
 2024-10-23,ILI incidence,2024-10-27,2,DK,quantile,0.99,547.4946445
+2024-10-23,ILI incidence,2024-10-27,3,DK,median,,184.5238095
 2024-10-23,ILI incidence,2024-10-27,3,DK,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,3,DK,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,3,DK,quantile,0.05,0
@@ -2011,7 +2099,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,DK,quantile,0.35,109.2707224
 2024-10-23,ILI incidence,2024-10-27,3,DK,quantile,0.4,135.0451203
 2024-10-23,ILI incidence,2024-10-27,3,DK,quantile,0.45,159.9821485
-2024-10-23,ILI incidence,2024-10-27,3,DK,median,,184.5238095
+2024-10-23,ILI incidence,2024-10-27,3,DK,quantile,0.5,184.5238095
 2024-10-23,ILI incidence,2024-10-27,3,DK,quantile,0.55,209.0654705
 2024-10-23,ILI incidence,2024-10-27,3,DK,quantile,0.6,234.0024987
 2024-10-23,ILI incidence,2024-10-27,3,DK,quantile,0.65,259.7768966
@@ -2023,6 +2111,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,DK,quantile,0.95,505.7637228
 2024-10-23,ILI incidence,2024-10-27,3,DK,quantile,0.975,567.3047757
 2024-10-23,ILI incidence,2024-10-27,3,DK,quantile,0.99,638.8595493
+2024-10-23,ILI incidence,2024-10-27,4,DK,median,,192.8380952
 2024-10-23,ILI incidence,2024-10-27,4,DK,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,4,DK,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,4,DK,quantile,0.05,0
@@ -2034,7 +2123,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,DK,quantile,0.35,101.9024651
 2024-10-23,ILI incidence,2024-10-27,4,DK,quantile,0.4,133.0481789
 2024-10-23,ILI incidence,2024-10-27,4,DK,quantile,0.45,163.1820173
-2024-10-23,ILI incidence,2024-10-27,4,DK,median,,192.8380952
+2024-10-23,ILI incidence,2024-10-27,4,DK,quantile,0.5,192.8380952
 2024-10-23,ILI incidence,2024-10-27,4,DK,quantile,0.55,222.4941731
 2024-10-23,ILI incidence,2024-10-27,4,DK,quantile,0.6,252.6280115
 2024-10-23,ILI incidence,2024-10-27,4,DK,quantile,0.65,283.7737253
@@ -2046,6 +2135,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,DK,quantile,0.95,581.0235512
 2024-10-23,ILI incidence,2024-10-27,4,DK,quantile,0.975,655.3895956
 2024-10-23,ILI incidence,2024-10-27,4,DK,quantile,0.99,741.8561935
+2024-10-23,ILI incidence,2024-10-27,-1,EE,median,,321.8
 2024-10-23,ILI incidence,2024-10-27,-1,EE,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,-1,EE,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,-1,EE,quantile,0.05,14.70582785
@@ -2057,7 +2147,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,EE,quantile,0.35,249.8606689
 2024-10-23,ILI incidence,2024-10-27,-1,EE,quantile,0.4,274.5000958
 2024-10-23,ILI incidence,2024-10-27,-1,EE,quantile,0.45,298.3390265
-2024-10-23,ILI incidence,2024-10-27,-1,EE,median,,321.8
+2024-10-23,ILI incidence,2024-10-27,-1,EE,quantile,0.5,321.8
 2024-10-23,ILI incidence,2024-10-27,-1,EE,quantile,0.55,345.2609735
 2024-10-23,ILI incidence,2024-10-27,-1,EE,quantile,0.6,369.0999042
 2024-10-23,ILI incidence,2024-10-27,-1,EE,quantile,0.65,393.7393311
@@ -2069,6 +2159,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,EE,quantile,0.95,628.8941722
 2024-10-23,ILI incidence,2024-10-27,-1,EE,quantile,0.975,687.7252759
 2024-10-23,ILI incidence,2024-10-27,-1,EE,quantile,0.99,756.1291481
+2024-10-23,ILI incidence,2024-10-27,0,EE,median,,346.7
 2024-10-23,ILI incidence,2024-10-27,0,EE,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,0,EE,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,0,EE,quantile,0.05,0
@@ -2080,7 +2171,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,EE,quantile,0.35,247.595576
 2024-10-23,ILI incidence,2024-10-27,0,EE,quantile,0.4,281.5391251
 2024-10-23,ILI incidence,2024-10-27,0,EE,quantile,0.45,314.3799016
-2024-10-23,ILI incidence,2024-10-27,0,EE,median,,346.7
+2024-10-23,ILI incidence,2024-10-27,0,EE,quantile,0.5,346.7
 2024-10-23,ILI incidence,2024-10-27,0,EE,quantile,0.55,379.0200984
 2024-10-23,ILI incidence,2024-10-27,0,EE,quantile,0.6,411.8608749
 2024-10-23,ILI incidence,2024-10-27,0,EE,quantile,0.65,445.804424
@@ -2092,6 +2183,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,EE,quantile,0.95,769.7563529
 2024-10-23,ILI incidence,2024-10-27,0,EE,quantile,0.975,850.8027368
 2024-10-23,ILI incidence,2024-10-27,0,EE,quantile,0.99,945.0366732
+2024-10-23,ILI incidence,2024-10-27,1,EE,median,,371.6
 2024-10-23,ILI incidence,2024-10-27,1,EE,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,1,EE,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,1,EE,quantile,0.05,0
@@ -2103,7 +2195,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,EE,quantile,0.35,239.8974646
 2024-10-23,ILI incidence,2024-10-27,1,EE,quantile,0.4,285.0059601
 2024-10-23,ILI incidence,2024-10-27,1,EE,quantile,0.45,328.6489516
-2024-10-23,ILI incidence,2024-10-27,1,EE,median,,371.6
+2024-10-23,ILI incidence,2024-10-27,1,EE,quantile,0.5,371.6
 2024-10-23,ILI incidence,2024-10-27,1,EE,quantile,0.55,414.5510484
 2024-10-23,ILI incidence,2024-10-27,1,EE,quantile,0.6,458.1940399
 2024-10-23,ILI incidence,2024-10-27,1,EE,quantile,0.65,503.3025354
@@ -2115,6 +2207,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,EE,quantile,0.95,933.8109697
 2024-10-23,ILI incidence,2024-10-27,1,EE,quantile,0.975,1041.51569
 2024-10-23,ILI incidence,2024-10-27,1,EE,quantile,0.99,1166.745703
+2024-10-23,ILI incidence,2024-10-27,2,EE,median,,396.5
 2024-10-23,ILI incidence,2024-10-27,2,EE,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,2,EE,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,2,EE,quantile,0.05,0
@@ -2126,7 +2219,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,EE,quantile,0.35,226.8048666
 2024-10-23,ILI incidence,2024-10-27,2,EE,quantile,0.4,284.9259358
 2024-10-23,ILI incidence,2024-10-27,2,EE,quantile,0.45,341.1587428
-2024-10-23,ILI incidence,2024-10-27,2,EE,median,,396.5
+2024-10-23,ILI incidence,2024-10-27,2,EE,quantile,0.5,396.5
 2024-10-23,ILI incidence,2024-10-27,2,EE,quantile,0.55,451.8412572
 2024-10-23,ILI incidence,2024-10-27,2,EE,quantile,0.6,508.0740642
 2024-10-23,ILI incidence,2024-10-27,2,EE,quantile,0.65,566.1951334
@@ -2138,6 +2231,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,EE,quantile,0.95,1120.893537
 2024-10-23,ILI incidence,2024-10-27,2,EE,quantile,0.975,1259.668139
 2024-10-23,ILI incidence,2024-10-27,2,EE,quantile,0.99,1421.023604
+2024-10-23,ILI incidence,2024-10-27,3,EE,median,,421.4
 2024-10-23,ILI incidence,2024-10-27,3,EE,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,3,EE,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,3,EE,quantile,0.05,0
@@ -2149,7 +2243,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,EE,quantile,0.35,208.240718
 2024-10-23,ILI incidence,2024-10-27,3,EE,quantile,0.4,281.2483825
 2024-10-23,ILI incidence,2024-10-27,3,EE,quantile,0.45,351.8841429
-2024-10-23,ILI incidence,2024-10-27,3,EE,median,,421.4
+2024-10-23,ILI incidence,2024-10-27,3,EE,quantile,0.5,421.4
 2024-10-23,ILI incidence,2024-10-27,3,EE,quantile,0.55,490.9158571
 2024-10-23,ILI incidence,2024-10-27,3,EE,quantile,0.6,561.5516175
 2024-10-23,ILI incidence,2024-10-27,3,EE,quantile,0.65,634.559282
@@ -2161,6 +2255,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,EE,quantile,0.95,1331.333026
 2024-10-23,ILI incidence,2024-10-27,3,EE,quantile,0.975,1505.652076
 2024-10-23,ILI incidence,2024-10-27,3,EE,quantile,0.99,1708.335644
+2024-10-23,ILI incidence,2024-10-27,-1,FR,median,,164.0666667
 2024-10-23,ILI incidence,2024-10-27,-1,FR,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,-1,FR,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,-1,FR,quantile,0.05,0
@@ -2172,7 +2267,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,FR,quantile,0.35,117.5970185
 2024-10-23,ILI incidence,2024-10-27,-1,FR,quantile,0.4,133.5130061
 2024-10-23,ILI incidence,2024-10-27,-1,FR,quantile,0.45,148.9119083
-2024-10-23,ILI incidence,2024-10-27,-1,FR,median,,164.0666667
+2024-10-23,ILI incidence,2024-10-27,-1,FR,quantile,0.5,164.0666667
 2024-10-23,ILI incidence,2024-10-27,-1,FR,quantile,0.55,179.2214251
 2024-10-23,ILI incidence,2024-10-27,-1,FR,quantile,0.6,194.6203273
 2024-10-23,ILI incidence,2024-10-27,-1,FR,quantile,0.65,210.5363149
@@ -2184,6 +2279,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,FR,quantile,0.95,362.4360141
 2024-10-23,ILI incidence,2024-10-27,-1,FR,quantile,0.975,400.4383232
 2024-10-23,ILI incidence,2024-10-27,-1,FR,quantile,0.99,444.6242203
+2024-10-23,ILI incidence,2024-10-27,0,FR,median,,178.8952381
 2024-10-23,ILI incidence,2024-10-27,0,FR,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,0,FR,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,0,FR,quantile,0.05,0
@@ -2195,7 +2291,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,FR,quantile,0.35,121.020104
 2024-10-23,ILI incidence,2024-10-27,0,FR,quantile,0.4,140.8425032
 2024-10-23,ILI incidence,2024-10-27,0,FR,quantile,0.45,160.0209038
-2024-10-23,ILI incidence,2024-10-27,0,FR,median,,178.8952381
+2024-10-23,ILI incidence,2024-10-27,0,FR,quantile,0.5,178.8952381
 2024-10-23,ILI incidence,2024-10-27,0,FR,quantile,0.55,197.7695724
 2024-10-23,ILI incidence,2024-10-27,0,FR,quantile,0.6,216.947973
 2024-10-23,ILI incidence,2024-10-27,0,FR,quantile,0.65,236.7703722
@@ -2207,6 +2303,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,FR,quantile,0.95,425.9522529
 2024-10-23,ILI incidence,2024-10-27,0,FR,quantile,0.975,473.2818286
 2024-10-23,ILI incidence,2024-10-27,0,FR,quantile,0.99,528.3126888
+2024-10-23,ILI incidence,2024-10-27,1,FR,median,,193.7238095
 2024-10-23,ILI incidence,2024-10-27,1,FR,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,1,FR,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,1,FR,quantile,0.05,0
@@ -2218,7 +2315,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,FR,quantile,0.35,121.6303502
 2024-10-23,ILI incidence,2024-10-27,1,FR,quantile,0.4,146.3225665
 2024-10-23,ILI incidence,2024-10-27,1,FR,quantile,0.45,170.2125715
-2024-10-23,ILI incidence,2024-10-27,1,FR,median,,193.7238095
+2024-10-23,ILI incidence,2024-10-27,1,FR,quantile,0.5,193.7238095
 2024-10-23,ILI incidence,2024-10-27,1,FR,quantile,0.55,217.2350475
 2024-10-23,ILI incidence,2024-10-27,1,FR,quantile,0.6,241.1250525
 2024-10-23,ILI incidence,2024-10-27,1,FR,quantile,0.65,265.8172688
@@ -2230,6 +2327,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,FR,quantile,0.95,501.4759231
 2024-10-23,ILI incidence,2024-10-27,1,FR,quantile,0.975,560.433071
 2024-10-23,ILI incidence,2024-10-27,1,FR,quantile,0.99,628.9834967
+2024-10-23,ILI incidence,2024-10-27,2,FR,median,,208.552381
 2024-10-23,ILI incidence,2024-10-27,2,FR,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,2,FR,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,2,FR,quantile,0.05,0
@@ -2241,7 +2339,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,FR,quantile,0.35,119.3892251
 2024-10-23,ILI incidence,2024-10-27,2,FR,quantile,0.4,149.9278613
 2024-10-23,ILI incidence,2024-10-27,2,FR,quantile,0.45,179.4743453
-2024-10-23,ILI incidence,2024-10-27,2,FR,median,,208.552381
+2024-10-23,ILI incidence,2024-10-27,2,FR,quantile,0.5,208.552381
 2024-10-23,ILI incidence,2024-10-27,2,FR,quantile,0.55,237.6304167
 2024-10-23,ILI incidence,2024-10-27,2,FR,quantile,0.6,267.1769007
 2024-10-23,ILI incidence,2024-10-27,2,FR,quantile,0.65,297.7155369
@@ -2253,6 +2351,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,FR,quantile,0.95,589.1715103
 2024-10-23,ILI incidence,2024-10-27,2,FR,quantile,0.975,662.088047
 2024-10-23,ILI incidence,2024-10-27,2,FR,quantile,0.99,746.8692791
+2024-10-23,ILI incidence,2024-10-27,3,FR,median,,223.3809524
 2024-10-23,ILI incidence,2024-10-27,3,FR,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,3,FR,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,3,FR,quantile,0.05,0
@@ -2264,7 +2363,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,FR,quantile,0.35,114.2967284
 2024-10-23,ILI incidence,2024-10-27,3,FR,quantile,0.4,151.6583875
 2024-10-23,ILI incidence,2024-10-27,3,FR,quantile,0.45,187.8062251
-2024-10-23,ILI incidence,2024-10-27,3,FR,median,,223.3809524
+2024-10-23,ILI incidence,2024-10-27,3,FR,quantile,0.5,223.3809524
 2024-10-23,ILI incidence,2024-10-27,3,FR,quantile,0.55,258.9556797
 2024-10-23,ILI incidence,2024-10-27,3,FR,quantile,0.6,295.1035173
 2024-10-23,ILI incidence,2024-10-27,3,FR,quantile,0.65,332.4651764
@@ -2276,6 +2375,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,FR,quantile,0.95,689.0390142
 2024-10-23,ILI incidence,2024-10-27,3,FR,quantile,0.975,778.2467564
 2024-10-23,ILI incidence,2024-10-27,3,FR,quantile,0.99,881.9700355
+2024-10-23,ILI incidence,2024-10-27,4,FR,median,,238.2095238
 2024-10-23,ILI incidence,2024-10-27,4,FR,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,4,FR,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,4,FR,quantile,0.05,0
@@ -2287,7 +2387,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,FR,quantile,0.35,106.3528602
 2024-10-23,ILI incidence,2024-10-27,4,FR,quantile,0.4,151.5141451
 2024-10-23,ILI incidence,2024-10-27,4,FR,quantile,0.45,195.2082109
-2024-10-23,ILI incidence,2024-10-27,4,FR,median,,238.2095238
+2024-10-23,ILI incidence,2024-10-27,4,FR,quantile,0.5,238.2095238
 2024-10-23,ILI incidence,2024-10-27,4,FR,quantile,0.55,281.2108367
 2024-10-23,ILI incidence,2024-10-27,4,FR,quantile,0.6,324.9049025
 2024-10-23,ILI incidence,2024-10-27,4,FR,quantile,0.65,370.0661874
@@ -2299,6 +2399,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,FR,quantile,0.95,801.0784349
 2024-10-23,ILI incidence,2024-10-27,4,FR,quantile,0.975,908.9091993
 2024-10-23,ILI incidence,2024-10-27,4,FR,quantile,0.99,1034.285766
+2024-10-23,ILI incidence,2024-10-27,-1,GB-NIR,median,,3.6
 2024-10-23,ILI incidence,2024-10-27,-1,GB-NIR,quantile,0.01,3.53486226
 2024-10-23,ILI incidence,2024-10-27,-1,GB-NIR,quantile,0.025,3.545121008
 2024-10-23,ILI incidence,2024-10-27,-1,GB-NIR,quantile,0.05,3.553944098
@@ -2310,7 +2411,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,GB-NIR,quantile,0.35,3.589211027
 2024-10-23,ILI incidence,2024-10-27,-1,GB-NIR,quantile,0.4,3.592906281
 2024-10-23,ILI incidence,2024-10-27,-1,GB-NIR,quantile,0.45,3.596481482
-2024-10-23,ILI incidence,2024-10-27,-1,GB-NIR,median,,3.6
+2024-10-23,ILI incidence,2024-10-27,-1,GB-NIR,quantile,0.5,3.6
 2024-10-23,ILI incidence,2024-10-27,-1,GB-NIR,quantile,0.55,3.603518518
 2024-10-23,ILI incidence,2024-10-27,-1,GB-NIR,quantile,0.6,3.607093719
 2024-10-23,ILI incidence,2024-10-27,-1,GB-NIR,quantile,0.65,3.610788973
@@ -2322,6 +2423,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,GB-NIR,quantile,0.95,3.646055902
 2024-10-23,ILI incidence,2024-10-27,-1,GB-NIR,quantile,0.975,3.654878992
 2024-10-23,ILI incidence,2024-10-27,-1,GB-NIR,quantile,0.99,3.66513774
+2024-10-23,ILI incidence,2024-10-27,0,GB-NIR,median,,3.9
 2024-10-23,ILI incidence,2024-10-27,0,GB-NIR,quantile,0.01,3.813925129
 2024-10-23,ILI incidence,2024-10-27,0,GB-NIR,quantile,0.025,3.827481333
 2024-10-23,ILI incidence,2024-10-27,0,GB-NIR,quantile,0.05,3.8391404159999998
@@ -2333,7 +2435,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,GB-NIR,quantile,0.35,3.885743143
 2024-10-23,ILI incidence,2024-10-27,0,GB-NIR,quantile,0.4,3.890626157
 2024-10-23,ILI incidence,2024-10-27,0,GB-NIR,quantile,0.45,3.89535053
-2024-10-23,ILI incidence,2024-10-27,0,GB-NIR,median,,3.9
+2024-10-23,ILI incidence,2024-10-27,0,GB-NIR,quantile,0.5,3.9
 2024-10-23,ILI incidence,2024-10-27,0,GB-NIR,quantile,0.55,3.90464947
 2024-10-23,ILI incidence,2024-10-27,0,GB-NIR,quantile,0.6,3.909373843
 2024-10-23,ILI incidence,2024-10-27,0,GB-NIR,quantile,0.65,3.914256857
@@ -2345,6 +2447,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,GB-NIR,quantile,0.95,3.960859584
 2024-10-23,ILI incidence,2024-10-27,0,GB-NIR,quantile,0.975,3.972518667
 2024-10-23,ILI incidence,2024-10-27,0,GB-NIR,quantile,0.99,3.986074871
+2024-10-23,ILI incidence,2024-10-27,1,GB-NIR,median,,4.2
 2024-10-23,ILI incidence,2024-10-27,1,GB-NIR,quantile,0.01,4.088335302
 2024-10-23,ILI incidence,2024-10-27,1,GB-NIR,quantile,0.025,4.105921729
 2024-10-23,ILI incidence,2024-10-27,1,GB-NIR,quantile,0.05,4.121047026
@@ -2356,7 +2459,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,GB-NIR,quantile,0.35,4.181504618
 2024-10-23,ILI incidence,2024-10-27,1,GB-NIR,quantile,0.4,4.187839339
 2024-10-23,ILI incidence,2024-10-27,1,GB-NIR,quantile,0.45,4.193968255
-2024-10-23,ILI incidence,2024-10-27,1,GB-NIR,median,,4.2
+2024-10-23,ILI incidence,2024-10-27,1,GB-NIR,quantile,0.5,4.2
 2024-10-23,ILI incidence,2024-10-27,1,GB-NIR,quantile,0.55,4.206031745
 2024-10-23,ILI incidence,2024-10-27,1,GB-NIR,quantile,0.6,4.212160661
 2024-10-23,ILI incidence,2024-10-27,1,GB-NIR,quantile,0.65,4.218495382
@@ -2368,6 +2471,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,GB-NIR,quantile,0.95,4.278952974
 2024-10-23,ILI incidence,2024-10-27,1,GB-NIR,quantile,0.975,4.294078271
 2024-10-23,ILI incidence,2024-10-27,1,GB-NIR,quantile,0.99,4.311664698
+2024-10-23,ILI incidence,2024-10-27,2,GB-NIR,median,,4.5
 2024-10-23,ILI incidence,2024-10-27,2,GB-NIR,quantile,0.01,4.35809278
 2024-10-23,ILI incidence,2024-10-27,2,GB-NIR,quantile,0.025,4.380442197
 2024-10-23,ILI incidence,2024-10-27,2,GB-NIR,quantile,0.05,4.399663929
@@ -2379,7 +2483,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,GB-NIR,quantile,0.35,4.476495452
 2024-10-23,ILI incidence,2024-10-27,2,GB-NIR,quantile,0.4,4.484545827
 2024-10-23,ILI incidence,2024-10-27,2,GB-NIR,quantile,0.45,4.492334658
-2024-10-23,ILI incidence,2024-10-27,2,GB-NIR,median,,4.5
+2024-10-23,ILI incidence,2024-10-27,2,GB-NIR,quantile,0.5,4.5
 2024-10-23,ILI incidence,2024-10-27,2,GB-NIR,quantile,0.55,4.507665342
 2024-10-23,ILI incidence,2024-10-27,2,GB-NIR,quantile,0.6,4.515454173
 2024-10-23,ILI incidence,2024-10-27,2,GB-NIR,quantile,0.65,4.523504548
@@ -2391,6 +2495,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,GB-NIR,quantile,0.95,4.600336071
 2024-10-23,ILI incidence,2024-10-27,2,GB-NIR,quantile,0.975,4.619557803
 2024-10-23,ILI incidence,2024-10-27,2,GB-NIR,quantile,0.99,4.64190722
+2024-10-23,ILI incidence,2024-10-27,3,GB-NIR,median,,4.8
 2024-10-23,ILI incidence,2024-10-27,3,GB-NIR,quantile,0.01,4.623197562
 2024-10-23,ILI incidence,2024-10-27,3,GB-NIR,quantile,0.025,4.651042737
 2024-10-23,ILI incidence,2024-10-27,3,GB-NIR,quantile,0.05,4.674991124
@@ -2402,7 +2507,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,GB-NIR,quantile,0.35,4.770715645
 2024-10-23,ILI incidence,2024-10-27,3,GB-NIR,quantile,0.4,4.78074562
 2024-10-23,ILI incidence,2024-10-27,3,GB-NIR,quantile,0.45,4.790449738
-2024-10-23,ILI incidence,2024-10-27,3,GB-NIR,median,,4.8
+2024-10-23,ILI incidence,2024-10-27,3,GB-NIR,quantile,0.5,4.8
 2024-10-23,ILI incidence,2024-10-27,3,GB-NIR,quantile,0.55,4.809550262
 2024-10-23,ILI incidence,2024-10-27,3,GB-NIR,quantile,0.6,4.81925438
 2024-10-23,ILI incidence,2024-10-27,3,GB-NIR,quantile,0.65,4.829284355
@@ -2414,6 +2519,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,GB-NIR,quantile,0.95,4.925008876
 2024-10-23,ILI incidence,2024-10-27,3,GB-NIR,quantile,0.975,4.948957263
 2024-10-23,ILI incidence,2024-10-27,3,GB-NIR,quantile,0.99,4.976802438
+2024-10-23,ILI incidence,2024-10-27,4,GB-NIR,median,,5.1
 2024-10-23,ILI incidence,2024-10-27,4,GB-NIR,quantile,0.01,4.883649648
 2024-10-23,ILI incidence,2024-10-27,4,GB-NIR,quantile,0.025,4.917723349
 2024-10-23,ILI incidence,2024-10-27,4,GB-NIR,quantile,0.05,4.947028613
@@ -2425,7 +2531,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,GB-NIR,quantile,0.35,5.064165197
 2024-10-23,ILI incidence,2024-10-27,4,GB-NIR,quantile,0.4,5.076438719
 2024-10-23,ILI incidence,2024-10-27,4,GB-NIR,quantile,0.45,5.088313495
-2024-10-23,ILI incidence,2024-10-27,4,GB-NIR,median,,5.1
+2024-10-23,ILI incidence,2024-10-27,4,GB-NIR,quantile,0.5,5.1
 2024-10-23,ILI incidence,2024-10-27,4,GB-NIR,quantile,0.55,5.111686505
 2024-10-23,ILI incidence,2024-10-27,4,GB-NIR,quantile,0.6,5.123561281
 2024-10-23,ILI incidence,2024-10-27,4,GB-NIR,quantile,0.65,5.135834803
@@ -2437,6 +2543,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,GB-NIR,quantile,0.95,5.252971387
 2024-10-23,ILI incidence,2024-10-27,4,GB-NIR,quantile,0.975,5.282276651
 2024-10-23,ILI incidence,2024-10-27,4,GB-NIR,quantile,0.99,5.316350352
+2024-10-23,ILI incidence,2024-10-27,-1,GB-SCT,median,,1.666666667
 2024-10-23,ILI incidence,2024-10-27,-1,GB-SCT,quantile,0.01,1.522433099
 2024-10-23,ILI incidence,2024-10-27,-1,GB-SCT,quantile,0.025,1.5451489
 2024-10-23,ILI incidence,2024-10-27,-1,GB-SCT,quantile,0.05,1.564685742
@@ -2448,7 +2555,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,GB-SCT,quantile,0.35,1.642776798
 2024-10-23,ILI incidence,2024-10-27,-1,GB-SCT,quantile,0.4,1.650959147
 2024-10-23,ILI incidence,2024-10-27,-1,GB-SCT,quantile,0.45,1.658875663
-2024-10-23,ILI incidence,2024-10-27,-1,GB-SCT,median,,1.666666667
+2024-10-23,ILI incidence,2024-10-27,-1,GB-SCT,quantile,0.5,1.666666667
 2024-10-23,ILI incidence,2024-10-27,-1,GB-SCT,quantile,0.55,1.674457671
 2024-10-23,ILI incidence,2024-10-27,-1,GB-SCT,quantile,0.6,1.682374187
 2024-10-23,ILI incidence,2024-10-27,-1,GB-SCT,quantile,0.65,1.690556536
@@ -2460,6 +2567,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,GB-SCT,quantile,0.95,1.768647592
 2024-10-23,ILI incidence,2024-10-27,-1,GB-SCT,quantile,0.975,1.788184434
 2024-10-23,ILI incidence,2024-10-27,-1,GB-SCT,quantile,0.99,1.810900235
+2024-10-23,ILI incidence,2024-10-27,0,GB-SCT,median,,1.666666667
 2024-10-23,ILI incidence,2024-10-27,0,GB-SCT,quantile,0.01,1.487537881
 2024-10-23,ILI incidence,2024-10-27,0,GB-SCT,quantile,0.025,1.51574944
 2024-10-23,ILI incidence,2024-10-27,0,GB-SCT,quantile,0.05,1.540012938
@@ -2471,7 +2579,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,GB-SCT,quantile,0.35,1.636996991
 2024-10-23,ILI incidence,2024-10-27,0,GB-SCT,quantile,0.4,1.64715894
 2024-10-23,ILI incidence,2024-10-27,0,GB-SCT,quantile,0.45,1.656990743
-2024-10-23,ILI incidence,2024-10-27,0,GB-SCT,median,,1.666666667
+2024-10-23,ILI incidence,2024-10-27,0,GB-SCT,quantile,0.5,1.666666667
 2024-10-23,ILI incidence,2024-10-27,0,GB-SCT,quantile,0.55,1.676342591
 2024-10-23,ILI incidence,2024-10-27,0,GB-SCT,quantile,0.6,1.686174394
 2024-10-23,ILI incidence,2024-10-27,0,GB-SCT,quantile,0.65,1.696336343
@@ -2483,6 +2591,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,GB-SCT,quantile,0.95,1.793320396
 2024-10-23,ILI incidence,2024-10-27,0,GB-SCT,quantile,0.975,1.817583894
 2024-10-23,ILI incidence,2024-10-27,0,GB-SCT,quantile,0.99,1.845795453
+2024-10-23,ILI incidence,2024-10-27,1,GB-SCT,median,,1.666666667
 2024-10-23,ILI incidence,2024-10-27,1,GB-SCT,quantile,0.01,1.441010923
 2024-10-23,ILI incidence,2024-10-27,1,GB-SCT,quantile,0.025,1.47655016
 2024-10-23,ILI incidence,2024-10-27,1,GB-SCT,quantile,0.05,1.507115865
@@ -2494,7 +2603,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,GB-SCT,quantile,0.35,1.629290582
 2024-10-23,ILI incidence,2024-10-27,1,GB-SCT,quantile,0.4,1.642091998
 2024-10-23,ILI incidence,2024-10-27,1,GB-SCT,quantile,0.45,1.654477516
-2024-10-23,ILI incidence,2024-10-27,1,GB-SCT,median,,1.666666667
+2024-10-23,ILI incidence,2024-10-27,1,GB-SCT,quantile,0.5,1.666666667
 2024-10-23,ILI incidence,2024-10-27,1,GB-SCT,quantile,0.55,1.678855818
 2024-10-23,ILI incidence,2024-10-27,1,GB-SCT,quantile,0.6,1.691241336
 2024-10-23,ILI incidence,2024-10-27,1,GB-SCT,quantile,0.65,1.704042752
@@ -2506,6 +2615,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,GB-SCT,quantile,0.95,1.826217469
 2024-10-23,ILI incidence,2024-10-27,1,GB-SCT,quantile,0.975,1.856783174
 2024-10-23,ILI incidence,2024-10-27,1,GB-SCT,quantile,0.99,1.892322411
+2024-10-23,ILI incidence,2024-10-27,2,GB-SCT,median,,1.666666667
 2024-10-23,ILI incidence,2024-10-27,2,GB-SCT,quantile,0.01,1.387504922
 2024-10-23,ILI incidence,2024-10-27,2,GB-SCT,quantile,0.025,1.431470989
 2024-10-23,ILI incidence,2024-10-27,2,GB-SCT,quantile,0.05,1.469284232
@@ -2517,7 +2627,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,GB-SCT,quantile,0.35,1.620428211
 2024-10-23,ILI incidence,2024-10-27,2,GB-SCT,quantile,0.4,1.636265015
 2024-10-23,ILI incidence,2024-10-27,2,GB-SCT,quantile,0.45,1.651587305
-2024-10-23,ILI incidence,2024-10-27,2,GB-SCT,median,,1.666666667
+2024-10-23,ILI incidence,2024-10-27,2,GB-SCT,quantile,0.5,1.666666667
 2024-10-23,ILI incidence,2024-10-27,2,GB-SCT,quantile,0.55,1.681746029
 2024-10-23,ILI incidence,2024-10-27,2,GB-SCT,quantile,0.6,1.697068319
 2024-10-23,ILI incidence,2024-10-27,2,GB-SCT,quantile,0.65,1.712905123
@@ -2529,6 +2639,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,GB-SCT,quantile,0.95,1.864049102
 2024-10-23,ILI incidence,2024-10-27,2,GB-SCT,quantile,0.975,1.901862345
 2024-10-23,ILI incidence,2024-10-27,2,GB-SCT,quantile,0.99,1.945828412
+2024-10-23,ILI incidence,2024-10-27,3,GB-SCT,median,,1.666666667
 2024-10-23,ILI incidence,2024-10-27,3,GB-SCT,quantile,0.01,1.317714486
 2024-10-23,ILI incidence,2024-10-27,3,GB-SCT,quantile,0.025,1.372672069
 2024-10-23,ILI incidence,2024-10-27,3,GB-SCT,quantile,0.05,1.419938623
@@ -2540,7 +2651,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,GB-SCT,quantile,0.35,1.608868597
 2024-10-23,ILI incidence,2024-10-27,3,GB-SCT,quantile,0.4,1.628664602
 2024-10-23,ILI incidence,2024-10-27,3,GB-SCT,quantile,0.45,1.647817465
-2024-10-23,ILI incidence,2024-10-27,3,GB-SCT,median,,1.666666667
+2024-10-23,ILI incidence,2024-10-27,3,GB-SCT,quantile,0.5,1.666666667
 2024-10-23,ILI incidence,2024-10-27,3,GB-SCT,quantile,0.55,1.685515869
 2024-10-23,ILI incidence,2024-10-27,3,GB-SCT,quantile,0.6,1.704668732
 2024-10-23,ILI incidence,2024-10-27,3,GB-SCT,quantile,0.65,1.724464737
@@ -2552,6 +2663,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,GB-SCT,quantile,0.95,1.913394711
 2024-10-23,ILI incidence,2024-10-27,3,GB-SCT,quantile,0.975,1.960661265
 2024-10-23,ILI incidence,2024-10-27,3,GB-SCT,quantile,0.99,2.015618848
+2024-10-23,ILI incidence,2024-10-27,4,GB-SCT,median,,1.666666667
 2024-10-23,ILI incidence,2024-10-27,4,GB-SCT,quantile,0.01,1.24792405
 2024-10-23,ILI incidence,2024-10-27,4,GB-SCT,quantile,0.025,1.31387315
 2024-10-23,ILI incidence,2024-10-27,4,GB-SCT,quantile,0.05,1.370593014
@@ -2563,7 +2675,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,GB-SCT,quantile,0.35,1.597308983
 2024-10-23,ILI incidence,2024-10-27,4,GB-SCT,quantile,0.4,1.621064188
 2024-10-23,ILI incidence,2024-10-27,4,GB-SCT,quantile,0.45,1.644047625
-2024-10-23,ILI incidence,2024-10-27,4,GB-SCT,median,,1.666666667
+2024-10-23,ILI incidence,2024-10-27,4,GB-SCT,quantile,0.5,1.666666667
 2024-10-23,ILI incidence,2024-10-27,4,GB-SCT,quantile,0.55,1.689285709
 2024-10-23,ILI incidence,2024-10-27,4,GB-SCT,quantile,0.6,1.712269146
 2024-10-23,ILI incidence,2024-10-27,4,GB-SCT,quantile,0.65,1.736024351
@@ -2575,6 +2687,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,GB-SCT,quantile,0.95,1.96274032
 2024-10-23,ILI incidence,2024-10-27,4,GB-SCT,quantile,0.975,2.019460184
 2024-10-23,ILI incidence,2024-10-27,4,GB-SCT,quantile,0.99,2.085409284
+2024-10-23,ILI incidence,2024-10-27,-1,GR,median,,725.8
 2024-10-23,ILI incidence,2024-10-27,-1,GR,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,-1,GR,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,-1,GR,quantile,0.05,0
@@ -2586,7 +2699,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,GR,quantile,0.35,361.479499
 2024-10-23,ILI incidence,2024-10-27,-1,GR,quantile,0.4,486.260314
 2024-10-23,ILI incidence,2024-10-27,-1,GR,quantile,0.45,606.9871965
-2024-10-23,ILI incidence,2024-10-27,-1,GR,median,,725.8
+2024-10-23,ILI incidence,2024-10-27,-1,GR,quantile,0.5,725.8
 2024-10-23,ILI incidence,2024-10-27,-1,GR,quantile,0.55,844.6128035
 2024-10-23,ILI incidence,2024-10-27,-1,GR,quantile,0.6,965.339686
 2024-10-23,ILI incidence,2024-10-27,-1,GR,quantile,0.65,1090.120501
@@ -2598,6 +2711,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,GR,quantile,0.95,2281.009104
 2024-10-23,ILI incidence,2024-10-27,-1,GR,quantile,0.975,2578.945947
 2024-10-23,ILI incidence,2024-10-27,-1,GR,quantile,0.99,2925.361915
+2024-10-23,ILI incidence,2024-10-27,0,GR,median,,787.8857143
 2024-10-23,ILI incidence,2024-10-27,0,GR,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,0,GR,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,0,GR,quantile,0.05,0
@@ -2609,7 +2723,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,GR,quantile,0.35,334.3249933
 2024-10-23,ILI incidence,2024-10-27,0,GR,quantile,0.4,489.6708392
 2024-10-23,ILI incidence,2024-10-27,0,GR,quantile,0.45,639.9697429
-2024-10-23,ILI incidence,2024-10-27,0,GR,median,,787.8857143
+2024-10-23,ILI incidence,2024-10-27,0,GR,quantile,0.5,787.8857143
 2024-10-23,ILI incidence,2024-10-27,0,GR,quantile,0.55,935.8016857
 2024-10-23,ILI incidence,2024-10-27,0,GR,quantile,0.6,1086.100589
 2024-10-23,ILI incidence,2024-10-27,0,GR,quantile,0.65,1241.446435
@@ -2621,6 +2735,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,GR,quantile,0.95,2724.042919
 2024-10-23,ILI incidence,2024-10-27,0,GR,quantile,0.975,3094.959321
 2024-10-23,ILI incidence,2024-10-27,0,GR,quantile,0.99,3526.229797
+2024-10-23,ILI incidence,2024-10-27,1,GR,median,,849.9714286
 2024-10-23,ILI incidence,2024-10-27,1,GR,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,1,GR,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,1,GR,quantile,0.05,0
@@ -2632,7 +2747,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,GR,quantile,0.35,284.8989646
 2024-10-23,ILI incidence,2024-10-27,1,GR,quantile,0.4,478.4379019
 2024-10-23,ILI incidence,2024-10-27,1,GR,quantile,0.45,665.6890634
-2024-10-23,ILI incidence,2024-10-27,1,GR,median,,849.9714286
+2024-10-23,ILI incidence,2024-10-27,1,GR,quantile,0.5,849.9714286
 2024-10-23,ILI incidence,2024-10-27,1,GR,quantile,0.55,1034.253794
 2024-10-23,ILI incidence,2024-10-27,1,GR,quantile,0.6,1221.504955
 2024-10-23,ILI incidence,2024-10-27,1,GR,quantile,0.65,1415.043893
@@ -2644,6 +2759,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,GR,quantile,0.95,3262.149273
 2024-10-23,ILI incidence,2024-10-27,1,GR,quantile,0.975,3724.258612
 2024-10-23,ILI incidence,2024-10-27,1,GR,quantile,0.99,4261.560586
+2024-10-23,ILI incidence,2024-10-27,2,GR,median,,912.0571429
 2024-10-23,ILI incidence,2024-10-27,2,GR,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,2,GR,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,2,GR,quantile,0.05,0
@@ -2655,7 +2771,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,GR,quantile,0.35,213.1243489
 2024-10-23,ILI incidence,2024-10-27,2,GR,quantile,0.4,452.5108325
 2024-10-23,ILI incidence,2024-10-27,2,GR,quantile,0.45,684.1200258
-2024-10-23,ILI incidence,2024-10-27,2,GR,median,,912.0571429
+2024-10-23,ILI incidence,2024-10-27,2,GR,quantile,0.5,912.0571429
 2024-10-23,ILI incidence,2024-10-27,2,GR,quantile,0.55,1139.99426
 2024-10-23,ILI incidence,2024-10-27,2,GR,quantile,0.6,1371.603453
 2024-10-23,ILI incidence,2024-10-27,2,GR,quantile,0.65,1610.989937
@@ -2667,6 +2783,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,GR,quantile,0.95,3895.657137
 2024-10-23,ILI incidence,2024-10-27,2,GR,quantile,0.975,4467.235814
 2024-10-23,ILI incidence,2024-10-27,2,GR,quantile,0.99,5131.819552
+2024-10-23,ILI incidence,2024-10-27,3,GR,median,,974.1428571
 2024-10-23,ILI incidence,2024-10-27,3,GR,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,3,GR,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,3,GR,quantile,0.05,0
@@ -2678,7 +2795,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,GR,quantile,0.35,119.0782101
 2024-10-23,ILI incidence,2024-10-27,3,GR,quantile,0.4,411.9403005
 2024-10-23,ILI incidence,2024-10-27,3,GR,quantile,0.45,695.2877623
-2024-10-23,ILI incidence,2024-10-27,3,GR,median,,974.1428571
+2024-10-23,ILI incidence,2024-10-27,3,GR,quantile,0.5,974.1428571
 2024-10-23,ILI incidence,2024-10-27,3,GR,quantile,0.55,1252.997952
 2024-10-23,ILI incidence,2024-10-27,3,GR,quantile,0.6,1536.345414
 2024-10-23,ILI incidence,2024-10-27,3,GR,quantile,0.65,1829.207504
@@ -2690,6 +2807,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,GR,quantile,0.95,4624.237541
 2024-10-23,ILI incidence,2024-10-27,3,GR,quantile,0.975,5323.498935
 2024-10-23,ILI incidence,2024-10-27,3,GR,quantile,0.99,6136.541424
+2024-10-23,ILI incidence,2024-10-27,4,GR,median,,1036.228571
 2024-10-23,ILI incidence,2024-10-27,4,GR,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,4,GR,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,4,GR,quantile,0.05,0
@@ -2701,7 +2819,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,GR,quantile,0.35,2.722016002
 2024-10-23,ILI incidence,2024-10-27,4,GR,quantile,0.4,356.700971
 2024-10-23,ILI incidence,2024-10-27,4,GR,quantile,0.45,699.1797065
-2024-10-23,ILI incidence,2024-10-27,4,GR,median,,1036.228571
+2024-10-23,ILI incidence,2024-10-27,4,GR,quantile,0.5,1036.228571
 2024-10-23,ILI incidence,2024-10-27,4,GR,quantile,0.55,1373.277436
 2024-10-23,ILI incidence,2024-10-27,4,GR,quantile,0.6,1715.756171
 2024-10-23,ILI incidence,2024-10-27,4,GR,quantile,0.65,2069.735126
@@ -2713,6 +2831,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,GR,quantile,0.95,5448.054969
 2024-10-23,ILI incidence,2024-10-27,4,GR,quantile,0.975,6293.24397
 2024-10-23,ILI incidence,2024-10-27,4,GR,quantile,0.99,7275.958839
+2024-10-23,ILI incidence,2024-10-27,-1,IE,median,,8.666666667
 2024-10-23,ILI incidence,2024-10-27,-1,IE,quantile,0.01,8.615487014
 2024-10-23,ILI incidence,2024-10-27,-1,IE,quantile,0.025,8.623547459
 2024-10-23,ILI incidence,2024-10-27,-1,IE,quantile,0.05,8.630479887
@@ -2724,7 +2843,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,IE,quantile,0.35,8.658189617
 2024-10-23,ILI incidence,2024-10-27,-1,IE,quantile,0.4,8.661093031
 2024-10-23,ILI incidence,2024-10-27,-1,IE,quantile,0.45,8.663902117
-2024-10-23,ILI incidence,2024-10-27,-1,IE,median,,8.666666667
+2024-10-23,ILI incidence,2024-10-27,-1,IE,quantile,0.5,8.666666667
 2024-10-23,ILI incidence,2024-10-27,-1,IE,quantile,0.55,8.669431217
 2024-10-23,ILI incidence,2024-10-27,-1,IE,quantile,0.6,8.672240303
 2024-10-23,ILI incidence,2024-10-27,-1,IE,quantile,0.65,8.675143717
@@ -2736,6 +2855,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,IE,quantile,0.95,8.702853447
 2024-10-23,ILI incidence,2024-10-27,-1,IE,quantile,0.975,8.709785875
 2024-10-23,ILI incidence,2024-10-27,-1,IE,quantile,0.99,8.71784632
+2024-10-23,ILI incidence,2024-10-27,0,IE,median,,9.80952381
 2024-10-23,ILI incidence,2024-10-27,0,IE,quantile,0.01,9.74438607
 2024-10-23,ILI incidence,2024-10-27,0,IE,quantile,0.025,9.754644818
 2024-10-23,ILI incidence,2024-10-27,0,IE,quantile,0.05,9.763467908
@@ -2747,7 +2867,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,IE,quantile,0.35,9.798734837
 2024-10-23,ILI incidence,2024-10-27,0,IE,quantile,0.4,9.802430091
 2024-10-23,ILI incidence,2024-10-27,0,IE,quantile,0.45,9.806005292
-2024-10-23,ILI incidence,2024-10-27,0,IE,median,,9.80952381
+2024-10-23,ILI incidence,2024-10-27,0,IE,quantile,0.5,9.80952381
 2024-10-23,ILI incidence,2024-10-27,0,IE,quantile,0.55,9.813042328
 2024-10-23,ILI incidence,2024-10-27,0,IE,quantile,0.6,9.816617529
 2024-10-23,ILI incidence,2024-10-27,0,IE,quantile,0.65,9.820312783
@@ -2759,6 +2879,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,IE,quantile,0.95,9.855579712
 2024-10-23,ILI incidence,2024-10-27,0,IE,quantile,0.975,9.864402802
 2024-10-23,ILI incidence,2024-10-27,0,IE,quantile,0.99,9.87466155
+2024-10-23,ILI incidence,2024-10-27,1,IE,median,,10.95238095
 2024-10-23,ILI incidence,2024-10-27,1,IE,quantile,0.01,10.87328512
 2024-10-23,ILI incidence,2024-10-27,1,IE,quantile,0.025,10.88574217
 2024-10-23,ILI incidence,2024-10-27,1,IE,quantile,0.05,10.89645593
@@ -2770,7 +2891,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,IE,quantile,0.35,10.93928005
 2024-10-23,ILI incidence,2024-10-27,1,IE,quantile,0.4,10.94376715
 2024-10-23,ILI incidence,2024-10-27,1,IE,quantile,0.45,10.94810846
-2024-10-23,ILI incidence,2024-10-27,1,IE,median,,10.95238095
+2024-10-23,ILI incidence,2024-10-27,1,IE,quantile,0.5,10.95238095
 2024-10-23,ILI incidence,2024-10-27,1,IE,quantile,0.55,10.95665344
 2024-10-23,ILI incidence,2024-10-27,1,IE,quantile,0.6,10.96099475
 2024-10-23,ILI incidence,2024-10-27,1,IE,quantile,0.65,10.96548185
@@ -2782,6 +2903,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,IE,quantile,0.95,11.00830597
 2024-10-23,ILI incidence,2024-10-27,1,IE,quantile,0.975,11.01901973
 2024-10-23,ILI incidence,2024-10-27,1,IE,quantile,0.99,11.03147678
+2024-10-23,ILI incidence,2024-10-27,2,IE,median,,12.0952381
 2024-10-23,ILI incidence,2024-10-27,2,IE,quantile,0.01,11.99520514
 2024-10-23,ILI incidence,2024-10-27,2,IE,quantile,0.025,12.01095965
 2024-10-23,ILI incidence,2024-10-27,2,IE,quantile,0.05,12.02450939
@@ -2793,7 +2915,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,IE,quantile,0.35,12.07866932
 2024-10-23,ILI incidence,2024-10-27,2,IE,quantile,0.4,12.08434417
 2024-10-23,ILI incidence,2024-10-27,2,IE,quantile,0.45,12.08983466
-2024-10-23,ILI incidence,2024-10-27,2,IE,median,,12.0952381
+2024-10-23,ILI incidence,2024-10-27,2,IE,quantile,0.5,12.0952381
 2024-10-23,ILI incidence,2024-10-27,2,IE,quantile,0.55,12.10064154
 2024-10-23,ILI incidence,2024-10-27,2,IE,quantile,0.6,12.10613203
 2024-10-23,ILI incidence,2024-10-27,2,IE,quantile,0.65,12.11180688
@@ -2805,6 +2927,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,IE,quantile,0.95,12.16596681
 2024-10-23,ILI incidence,2024-10-27,2,IE,quantile,0.975,12.17951655
 2024-10-23,ILI incidence,2024-10-27,2,IE,quantile,0.99,12.19527106
+2024-10-23,ILI incidence,2024-10-27,3,IE,median,,13.23809524
 2024-10-23,ILI incidence,2024-10-27,3,IE,quantile,0.01,13.11712515
 2024-10-23,ILI incidence,2024-10-27,3,IE,quantile,0.025,13.13617711
 2024-10-23,ILI incidence,2024-10-27,3,IE,quantile,0.05,13.15256285
@@ -2816,7 +2939,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,IE,quantile,0.35,13.21805858
 2024-10-23,ILI incidence,2024-10-27,3,IE,quantile,0.4,13.22492119
 2024-10-23,ILI incidence,2024-10-27,3,IE,quantile,0.45,13.23156085
-2024-10-23,ILI incidence,2024-10-27,3,IE,median,,13.23809524
+2024-10-23,ILI incidence,2024-10-27,3,IE,quantile,0.5,13.23809524
 2024-10-23,ILI incidence,2024-10-27,3,IE,quantile,0.55,13.24462963
 2024-10-23,ILI incidence,2024-10-27,3,IE,quantile,0.6,13.25126929
 2024-10-23,ILI incidence,2024-10-27,3,IE,quantile,0.65,13.2581319
@@ -2828,6 +2951,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,IE,quantile,0.95,13.32362763
 2024-10-23,ILI incidence,2024-10-27,3,IE,quantile,0.975,13.34001337
 2024-10-23,ILI incidence,2024-10-27,3,IE,quantile,0.99,13.35906533
+2024-10-23,ILI incidence,2024-10-27,4,IE,median,,14.38095238
 2024-10-23,ILI incidence,2024-10-27,4,IE,quantile,0.01,14.23439246
 2024-10-23,ILI incidence,2024-10-27,4,IE,quantile,0.025,14.25747465
 2024-10-23,ILI incidence,2024-10-27,4,IE,quantile,0.05,14.2773266
@@ -2839,7 +2963,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,IE,quantile,0.35,14.35667719
 2024-10-23,ILI incidence,2024-10-27,4,IE,quantile,0.4,14.36499151
 2024-10-23,ILI incidence,2024-10-27,4,IE,quantile,0.45,14.37303572
-2024-10-23,ILI incidence,2024-10-27,4,IE,median,,14.38095238
+2024-10-23,ILI incidence,2024-10-27,4,IE,quantile,0.5,14.38095238
 2024-10-23,ILI incidence,2024-10-27,4,IE,quantile,0.55,14.38886904
 2024-10-23,ILI incidence,2024-10-27,4,IE,quantile,0.6,14.39691325
 2024-10-23,ILI incidence,2024-10-27,4,IE,quantile,0.65,14.40522757
@@ -2851,6 +2975,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,IE,quantile,0.95,14.48457816
 2024-10-23,ILI incidence,2024-10-27,4,IE,quantile,0.975,14.50443011
 2024-10-23,ILI incidence,2024-10-27,4,IE,quantile,0.99,14.5275123
+2024-10-23,ILI incidence,2024-10-27,-1,LT,median,,3.266666667
 2024-10-23,ILI incidence,2024-10-27,-1,LT,quantile,0.01,3.145696578
 2024-10-23,ILI incidence,2024-10-27,-1,LT,quantile,0.025,3.16474854
 2024-10-23,ILI incidence,2024-10-27,-1,LT,quantile,0.05,3.181134278
@@ -2862,7 +2987,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,LT,quantile,0.35,3.246630003
 2024-10-23,ILI incidence,2024-10-27,-1,LT,quantile,0.4,3.253492618
 2024-10-23,ILI incidence,2024-10-27,-1,LT,quantile,0.45,3.260132277
-2024-10-23,ILI incidence,2024-10-27,-1,LT,median,,3.266666667
+2024-10-23,ILI incidence,2024-10-27,-1,LT,quantile,0.5,3.266666667
 2024-10-23,ILI incidence,2024-10-27,-1,LT,quantile,0.55,3.273201057
 2024-10-23,ILI incidence,2024-10-27,-1,LT,quantile,0.6,3.279840716
 2024-10-23,ILI incidence,2024-10-27,-1,LT,quantile,0.65,3.286703331
@@ -2874,6 +2999,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,LT,quantile,0.95,3.352199056
 2024-10-23,ILI incidence,2024-10-27,-1,LT,quantile,0.975,3.368584794
 2024-10-23,ILI incidence,2024-10-27,-1,LT,quantile,0.99,3.387636756
+2024-10-23,ILI incidence,2024-10-27,0,LT,median,,3.580952381
 2024-10-23,ILI incidence,2024-10-27,0,LT,quantile,0.01,3.432066117
 2024-10-23,ILI incidence,2024-10-27,0,LT,quantile,0.025,3.455514686
 2024-10-23,ILI incidence,2024-10-27,0,LT,quantile,0.05,3.475681749
@@ -2885,7 +3011,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,LT,quantile,0.35,3.556291871
 2024-10-23,ILI incidence,2024-10-27,0,LT,quantile,0.4,3.564738166
 2024-10-23,ILI incidence,2024-10-27,0,LT,quantile,0.45,3.572910055
-2024-10-23,ILI incidence,2024-10-27,0,LT,median,,3.580952381
+2024-10-23,ILI incidence,2024-10-27,0,LT,quantile,0.5,3.580952381
 2024-10-23,ILI incidence,2024-10-27,0,LT,quantile,0.55,3.588994707
 2024-10-23,ILI incidence,2024-10-27,0,LT,quantile,0.6,3.597166596
 2024-10-23,ILI incidence,2024-10-27,0,LT,quantile,0.65,3.605612891
@@ -2897,6 +3023,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,LT,quantile,0.95,3.686223013
 2024-10-23,ILI incidence,2024-10-27,0,LT,quantile,0.975,3.706390076
 2024-10-23,ILI incidence,2024-10-27,0,LT,quantile,0.99,3.729838645
+2024-10-23,ILI incidence,2024-10-27,1,LT,median,,3.895238095
 2024-10-23,ILI incidence,2024-10-27,1,LT,quantile,0.01,3.709130265
 2024-10-23,ILI incidence,2024-10-27,1,LT,quantile,0.025,3.738440976
 2024-10-23,ILI incidence,2024-10-27,1,LT,quantile,0.05,3.763649805
@@ -2908,7 +3035,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,LT,quantile,0.35,3.864412458
 2024-10-23,ILI incidence,2024-10-27,1,LT,quantile,0.4,3.874970327
 2024-10-23,ILI incidence,2024-10-27,1,LT,quantile,0.45,3.885185187
-2024-10-23,ILI incidence,2024-10-27,1,LT,median,,3.895238095
+2024-10-23,ILI incidence,2024-10-27,1,LT,quantile,0.5,3.895238095
 2024-10-23,ILI incidence,2024-10-27,1,LT,quantile,0.55,3.905291003
 2024-10-23,ILI incidence,2024-10-27,1,LT,quantile,0.6,3.915505863
 2024-10-23,ILI incidence,2024-10-27,1,LT,quantile,0.65,3.926063732
@@ -2920,6 +3047,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,LT,quantile,0.95,4.026826385
 2024-10-23,ILI incidence,2024-10-27,1,LT,quantile,0.975,4.052035214
 2024-10-23,ILI incidence,2024-10-27,1,LT,quantile,0.99,4.081345925
+2024-10-23,ILI incidence,2024-10-27,2,LT,median,,4.20952381
 2024-10-23,ILI incidence,2024-10-27,2,LT,quantile,0.01,3.97921537
 2024-10-23,ILI incidence,2024-10-27,2,LT,quantile,0.025,4.015487376
 2024-10-23,ILI incidence,2024-10-27,2,LT,quantile,0.05,4.046683301
@@ -2931,7 +3059,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,LT,quantile,0.35,4.171377084
 2024-10-23,ILI incidence,2024-10-27,2,LT,quantile,0.4,4.184442447
 2024-10-23,ILI incidence,2024-10-27,2,LT,quantile,0.45,4.197083337
-2024-10-23,ILI incidence,2024-10-27,2,LT,median,,4.20952381
+2024-10-23,ILI incidence,2024-10-27,2,LT,quantile,0.5,4.20952381
 2024-10-23,ILI incidence,2024-10-27,2,LT,quantile,0.55,4.221964283
 2024-10-23,ILI incidence,2024-10-27,2,LT,quantile,0.6,4.234605173
 2024-10-23,ILI incidence,2024-10-27,2,LT,quantile,0.65,4.247670536
@@ -2943,6 +3071,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,LT,quantile,0.95,4.372364319
 2024-10-23,ILI incidence,2024-10-27,2,LT,quantile,0.975,4.403560244
 2024-10-23,ILI incidence,2024-10-27,2,LT,quantile,0.99,4.43983225
+2024-10-23,ILI incidence,2024-10-27,3,LT,median,,4.523809524
 2024-10-23,ILI incidence,2024-10-27,3,LT,quantile,0.01,4.244647779
 2024-10-23,ILI incidence,2024-10-27,3,LT,quantile,0.025,4.288613846
 2024-10-23,ILI incidence,2024-10-27,3,LT,quantile,0.05,4.326427089
@@ -2954,7 +3083,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,LT,quantile,0.35,4.477571068
 2024-10-23,ILI incidence,2024-10-27,3,LT,quantile,0.4,4.493407872
 2024-10-23,ILI incidence,2024-10-27,3,LT,quantile,0.45,4.508730162
-2024-10-23,ILI incidence,2024-10-27,3,LT,median,,4.523809524
+2024-10-23,ILI incidence,2024-10-27,3,LT,quantile,0.5,4.523809524
 2024-10-23,ILI incidence,2024-10-27,3,LT,quantile,0.55,4.538888886
 2024-10-23,ILI incidence,2024-10-27,3,LT,quantile,0.6,4.554211176
 2024-10-23,ILI incidence,2024-10-27,3,LT,quantile,0.65,4.57004798
@@ -2966,6 +3095,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,LT,quantile,0.95,4.721191959
 2024-10-23,ILI incidence,2024-10-27,3,LT,quantile,0.975,4.759005202
 2024-10-23,ILI incidence,2024-10-27,3,LT,quantile,0.99,4.802971269
+2024-10-23,ILI incidence,2024-10-27,4,LT,median,,4.838095238
 2024-10-23,ILI incidence,2024-10-27,4,LT,quantile,0.01,4.489143057
 2024-10-23,ILI incidence,2024-10-27,4,LT,quantile,0.025,4.54410064
 2024-10-23,ILI incidence,2024-10-27,4,LT,quantile,0.05,4.591367194
@@ -2977,7 +3107,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,LT,quantile,0.35,4.780297168
 2024-10-23,ILI incidence,2024-10-27,4,LT,quantile,0.4,4.800093173
 2024-10-23,ILI incidence,2024-10-27,4,LT,quantile,0.45,4.819246036
-2024-10-23,ILI incidence,2024-10-27,4,LT,median,,4.838095238
+2024-10-23,ILI incidence,2024-10-27,4,LT,quantile,0.5,4.838095238
 2024-10-23,ILI incidence,2024-10-27,4,LT,quantile,0.55,4.85694444
 2024-10-23,ILI incidence,2024-10-27,4,LT,quantile,0.6,4.876097303
 2024-10-23,ILI incidence,2024-10-27,4,LT,quantile,0.65,4.895893308
@@ -2989,6 +3119,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,LT,quantile,0.95,5.084823282
 2024-10-23,ILI incidence,2024-10-27,4,LT,quantile,0.975,5.132089836
 2024-10-23,ILI incidence,2024-10-27,4,LT,quantile,0.99,5.187047419
+2024-10-23,ILI incidence,2024-10-27,-1,NL,median,,23.53333333
 2024-10-23,ILI incidence,2024-10-27,-1,NL,quantile,0.01,17.01955928
 2024-10-23,ILI incidence,2024-10-27,-1,NL,quantile,0.025,18.04543417
 2024-10-23,ILI incidence,2024-10-27,-1,NL,quantile,0.05,18.92774317
@@ -3000,7 +3131,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,NL,quantile,0.35,22.45443602
 2024-10-23,ILI incidence,2024-10-27,-1,NL,quantile,0.4,22.82396144
 2024-10-23,ILI incidence,2024-10-27,-1,NL,quantile,0.45,23.18148156
-2024-10-23,ILI incidence,2024-10-27,-1,NL,median,,23.53333333
+2024-10-23,ILI incidence,2024-10-27,-1,NL,quantile,0.5,23.53333333
 2024-10-23,ILI incidence,2024-10-27,-1,NL,quantile,0.55,23.8851851
 2024-10-23,ILI incidence,2024-10-27,-1,NL,quantile,0.6,24.24270522
 2024-10-23,ILI incidence,2024-10-27,-1,NL,quantile,0.65,24.61223064
@@ -3012,6 +3143,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,NL,quantile,0.95,28.13892349
 2024-10-23,ILI incidence,2024-10-27,-1,NL,quantile,0.975,29.02123249
 2024-10-23,ILI incidence,2024-10-27,-1,NL,quantile,0.99,30.04710738
+2024-10-23,ILI incidence,2024-10-27,0,NL,median,,26.44761905
 2024-10-23,ILI incidence,2024-10-27,0,NL,quantile,0.01,18.30540149
 2024-10-23,ILI incidence,2024-10-27,0,NL,quantile,0.025,19.5877451
 2024-10-23,ILI incidence,2024-10-27,0,NL,quantile,0.05,20.69063136
@@ -3023,7 +3155,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,NL,quantile,0.35,25.09899742
 2024-10-23,ILI incidence,2024-10-27,0,NL,quantile,0.4,25.56090419
 2024-10-23,ILI incidence,2024-10-27,0,NL,quantile,0.45,26.00780434
-2024-10-23,ILI incidence,2024-10-27,0,NL,median,,26.44761905
+2024-10-23,ILI incidence,2024-10-27,0,NL,quantile,0.5,26.44761905
 2024-10-23,ILI incidence,2024-10-27,0,NL,quantile,0.55,26.88743376
 2024-10-23,ILI incidence,2024-10-27,0,NL,quantile,0.6,27.33433391
 2024-10-23,ILI incidence,2024-10-27,0,NL,quantile,0.65,27.79624068
@@ -3035,6 +3167,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,NL,quantile,0.95,32.20460674
 2024-10-23,ILI incidence,2024-10-27,0,NL,quantile,0.975,33.307493
 2024-10-23,ILI incidence,2024-10-27,0,NL,quantile,0.99,34.58983661
+2024-10-23,ILI incidence,2024-10-27,1,NL,median,,29.36190476
 2024-10-23,ILI incidence,2024-10-27,1,NL,quantile,0.01,19.12597411
 2024-10-23,ILI incidence,2024-10-27,1,NL,quantile,0.025,20.73806323
 2024-10-23,ILI incidence,2024-10-27,1,NL,quantile,0.05,22.1245488
@@ -3046,7 +3179,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,NL,quantile,0.35,27.66649471
 2024-10-23,ILI incidence,2024-10-27,1,NL,quantile,0.4,28.24717751
 2024-10-23,ILI incidence,2024-10-27,1,NL,quantile,0.45,28.80899483
-2024-10-23,ILI incidence,2024-10-27,1,NL,median,,29.36190476
+2024-10-23,ILI incidence,2024-10-27,1,NL,quantile,0.5,29.36190476
 2024-10-23,ILI incidence,2024-10-27,1,NL,quantile,0.55,29.91481469
 2024-10-23,ILI incidence,2024-10-27,1,NL,quantile,0.6,30.47663201
 2024-10-23,ILI incidence,2024-10-27,1,NL,quantile,0.65,31.05731481
@@ -3058,6 +3191,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,NL,quantile,0.95,36.59926072
 2024-10-23,ILI incidence,2024-10-27,1,NL,quantile,0.975,37.98574629
 2024-10-23,ILI incidence,2024-10-27,1,NL,quantile,0.99,39.59783541
+2024-10-23,ILI incidence,2024-10-27,2,NL,median,,32.27619048
 2024-10-23,ILI incidence,2024-10-27,2,NL,quantile,0.01,19.71391196
 2024-10-23,ILI incidence,2024-10-27,2,NL,quantile,0.025,21.69238496
 2024-10-23,ILI incidence,2024-10-27,2,NL,quantile,0.05,23.39398089
@@ -3069,7 +3203,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,NL,quantile,0.35,30.19545996
 2024-10-23,ILI incidence,2024-10-27,2,NL,quantile,0.4,30.90811612
 2024-10-23,ILI incidence,2024-10-27,2,NL,quantile,0.45,31.59761921
-2024-10-23,ILI incidence,2024-10-27,2,NL,median,,32.27619048
+2024-10-23,ILI incidence,2024-10-27,2,NL,quantile,0.5,32.27619048
 2024-10-23,ILI incidence,2024-10-27,2,NL,quantile,0.55,32.95476175
 2024-10-23,ILI incidence,2024-10-27,2,NL,quantile,0.6,33.64426484
 2024-10-23,ILI incidence,2024-10-27,2,NL,quantile,0.65,34.356921
@@ -3081,6 +3215,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,NL,quantile,0.95,41.15840007
 2024-10-23,ILI incidence,2024-10-27,2,NL,quantile,0.975,42.859996
 2024-10-23,ILI incidence,2024-10-27,2,NL,quantile,0.99,44.838469
+2024-10-23,ILI incidence,2024-10-27,3,NL,median,,35.19047619
 2024-10-23,ILI incidence,2024-10-27,3,NL,quantile,0.01,19.83658022
 2024-10-23,ILI incidence,2024-10-27,3,NL,quantile,0.025,22.25471389
 2024-10-23,ILI incidence,2024-10-27,3,NL,quantile,0.05,24.33444225
@@ -3092,7 +3227,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,NL,quantile,0.35,32.64736111
 2024-10-23,ILI incidence,2024-10-27,3,NL,quantile,0.4,33.51838531
 2024-10-23,ILI incidence,2024-10-27,3,NL,quantile,0.45,34.3611113
-2024-10-23,ILI incidence,2024-10-27,3,NL,median,,35.19047619
+2024-10-23,ILI incidence,2024-10-27,3,NL,quantile,0.5,35.19047619
 2024-10-23,ILI incidence,2024-10-27,3,NL,quantile,0.55,36.01984108
 2024-10-23,ILI incidence,2024-10-27,3,NL,quantile,0.6,36.86256707
 2024-10-23,ILI incidence,2024-10-27,3,NL,quantile,0.65,37.73359127
@@ -3104,6 +3239,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,NL,quantile,0.95,46.04651013
 2024-10-23,ILI incidence,2024-10-27,3,NL,quantile,0.975,48.12623849
 2024-10-23,ILI incidence,2024-10-27,3,NL,quantile,0.99,50.54437216
+2024-10-23,ILI incidence,2024-10-27,4,NL,median,,38.1047619
 2024-10-23,ILI incidence,2024-10-27,4,NL,quantile,0.01,19.49397891
 2024-10-23,ILI incidence,2024-10-27,4,NL,quantile,0.025,22.42505002
 2024-10-23,ILI incidence,2024-10-27,4,NL,quantile,0.05,24.94593288
@@ -3115,7 +3251,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,NL,quantile,0.35,35.02219817
 2024-10-23,ILI incidence,2024-10-27,4,NL,quantile,0.4,36.07798507
 2024-10-23,ILI incidence,2024-10-27,4,NL,quantile,0.45,37.09947113
-2024-10-23,ILI incidence,2024-10-27,4,NL,median,,38.1047619
+2024-10-23,ILI incidence,2024-10-27,4,NL,quantile,0.5,38.1047619
 2024-10-23,ILI incidence,2024-10-27,4,NL,quantile,0.55,39.11005267
 2024-10-23,ILI incidence,2024-10-27,4,NL,quantile,0.6,40.13153873
 2024-10-23,ILI incidence,2024-10-27,4,NL,quantile,0.65,41.18732563
@@ -3127,6 +3263,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,NL,quantile,0.95,51.26359092
 2024-10-23,ILI incidence,2024-10-27,4,NL,quantile,0.975,53.78447378
 2024-10-23,ILI incidence,2024-10-27,4,NL,quantile,0.99,56.71554489
+2024-10-23,ILI incidence,2024-10-27,-1,NO,median,,19.66666667
 2024-10-23,ILI incidence,2024-10-27,-1,NO,quantile,0.01,18.96876231
 2024-10-23,ILI incidence,2024-10-27,-1,NO,quantile,0.025,19.07867747
 2024-10-23,ILI incidence,2024-10-27,-1,NO,quantile,0.05,19.17321058
@@ -3138,7 +3275,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,NO,quantile,0.35,19.55107053
 2024-10-23,ILI incidence,2024-10-27,-1,NO,quantile,0.4,19.59066254
 2024-10-23,ILI incidence,2024-10-27,-1,NO,quantile,0.45,19.62896827
-2024-10-23,ILI incidence,2024-10-27,-1,NO,median,,19.66666667
+2024-10-23,ILI incidence,2024-10-27,-1,NO,quantile,0.5,19.66666667
 2024-10-23,ILI incidence,2024-10-27,-1,NO,quantile,0.55,19.70436507
 2024-10-23,ILI incidence,2024-10-27,-1,NO,quantile,0.6,19.7426708
 2024-10-23,ILI incidence,2024-10-27,-1,NO,quantile,0.65,19.78226281
@@ -3150,6 +3287,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,NO,quantile,0.95,20.16012276
 2024-10-23,ILI incidence,2024-10-27,-1,NO,quantile,0.975,20.25465587
 2024-10-23,ILI incidence,2024-10-27,-1,NO,quantile,0.99,20.36457103
+2024-10-23,ILI incidence,2024-10-27,0,NO,median,,19.52380952
 2024-10-23,ILI incidence,2024-10-27,0,NO,quantile,0.01,18.63979733
 2024-10-23,ILI incidence,2024-10-27,0,NO,quantile,0.025,18.77902321
 2024-10-23,ILI incidence,2024-10-27,0,NO,quantile,0.05,18.89876514
@@ -3161,7 +3299,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,NO,quantile,0.35,19.37738774
 2024-10-23,ILI incidence,2024-10-27,0,NO,quantile,0.4,19.42753762
 2024-10-23,ILI incidence,2024-10-27,0,NO,quantile,0.45,19.47605821
-2024-10-23,ILI incidence,2024-10-27,0,NO,median,,19.52380952
+2024-10-23,ILI incidence,2024-10-27,0,NO,quantile,0.5,19.52380952
 2024-10-23,ILI incidence,2024-10-27,0,NO,quantile,0.55,19.57156083
 2024-10-23,ILI incidence,2024-10-27,0,NO,quantile,0.6,19.620081420000002
 2024-10-23,ILI incidence,2024-10-27,0,NO,quantile,0.65,19.6702313
@@ -3173,6 +3311,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,NO,quantile,0.95,20.1488539
 2024-10-23,ILI incidence,2024-10-27,0,NO,quantile,0.975,20.26859583
 2024-10-23,ILI incidence,2024-10-27,0,NO,quantile,0.99,20.40782171
+2024-10-23,ILI incidence,2024-10-27,1,NO,median,,19.38095238
 2024-10-23,ILI incidence,2024-10-27,1,NO,quantile,0.01,18.28756888
 2024-10-23,ILI incidence,2024-10-27,1,NO,quantile,0.025,18.45976931
 2024-10-23,ILI incidence,2024-10-27,1,NO,quantile,0.05,18.60787118
@@ -3184,7 +3323,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,NO,quantile,0.35,19.19985176
 2024-10-23,ILI incidence,2024-10-27,1,NO,quantile,0.4,19.26187924
 2024-10-23,ILI incidence,2024-10-27,1,NO,quantile,0.45,19.32189155
-2024-10-23,ILI incidence,2024-10-27,1,NO,median,,19.38095238
+2024-10-23,ILI incidence,2024-10-27,1,NO,quantile,0.5,19.38095238
 2024-10-23,ILI incidence,2024-10-27,1,NO,quantile,0.55,19.44001321
 2024-10-23,ILI incidence,2024-10-27,1,NO,quantile,0.6,19.50002552
 2024-10-23,ILI incidence,2024-10-27,1,NO,quantile,0.65,19.562053
@@ -3196,6 +3335,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,NO,quantile,0.95,20.15403358
 2024-10-23,ILI incidence,2024-10-27,1,NO,quantile,0.975,20.30213545
 2024-10-23,ILI incidence,2024-10-27,1,NO,quantile,0.99,20.47433588
+2024-10-23,ILI incidence,2024-10-27,2,NO,median,,19.23809524
 2024-10-23,ILI incidence,2024-10-27,2,NO,quantile,0.01,17.88881347
 2024-10-23,ILI incidence,2024-10-27,2,NO,quantile,0.025,18.10131613
 2024-10-23,ILI incidence,2024-10-27,2,NO,quantile,0.05,18.28408014
@@ -3207,7 +3347,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,NO,quantile,0.35,19.01460937
 2024-10-23,ILI incidence,2024-10-27,2,NO,quantile,0.4,19.09115392
 2024-10-23,ILI incidence,2024-10-27,2,NO,quantile,0.45,19.16521166
-2024-10-23,ILI incidence,2024-10-27,2,NO,median,,19.23809524
+2024-10-23,ILI incidence,2024-10-27,2,NO,quantile,0.5,19.23809524
 2024-10-23,ILI incidence,2024-10-27,2,NO,quantile,0.55,19.31097882
 2024-10-23,ILI incidence,2024-10-27,2,NO,quantile,0.6,19.38503656
 2024-10-23,ILI incidence,2024-10-27,2,NO,quantile,0.65,19.46158111
@@ -3219,6 +3359,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,NO,quantile,0.95,20.19211034
 2024-10-23,ILI incidence,2024-10-27,2,NO,quantile,0.975,20.37487435
 2024-10-23,ILI incidence,2024-10-27,2,NO,quantile,0.99,20.58737701
+2024-10-23,ILI incidence,2024-10-27,3,NO,median,,19.0952381
 2024-10-23,ILI incidence,2024-10-27,3,NO,quantile,0.01,17.44353111
 2024-10-23,ILI incidence,2024-10-27,3,NO,quantile,0.025,17.70366367
 2024-10-23,ILI incidence,2024-10-27,3,NO,quantile,0.05,17.92739202
@@ -3230,7 +3371,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,NO,quantile,0.35,18.82166057
 2024-10-23,ILI incidence,2024-10-27,3,NO,quantile,0.4,18.91536166
 2024-10-23,ILI incidence,2024-10-27,3,NO,quantile,0.45,19.00601854
-2024-10-23,ILI incidence,2024-10-27,3,NO,median,,19.0952381
+2024-10-23,ILI incidence,2024-10-27,3,NO,quantile,0.5,19.0952381
 2024-10-23,ILI incidence,2024-10-27,3,NO,quantile,0.55,19.18445766
 2024-10-23,ILI incidence,2024-10-27,3,NO,quantile,0.6,19.27511454
 2024-10-23,ILI incidence,2024-10-27,3,NO,quantile,0.65,19.36881563
@@ -3242,6 +3383,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,NO,quantile,0.95,20.26308418
 2024-10-23,ILI incidence,2024-10-27,3,NO,quantile,0.975,20.48681253
 2024-10-23,ILI incidence,2024-10-27,3,NO,quantile,0.99,20.74694509
+2024-10-23,ILI incidence,2024-10-27,4,NO,median,,18.95238095
 2024-10-23,ILI incidence,2024-10-27,4,NO,quantile,0.01,16.95172178
 2024-10-23,ILI incidence,2024-10-27,4,NO,quantile,0.025,17.26681192
 2024-10-23,ILI incidence,2024-10-27,4,NO,quantile,0.05,17.53780683
@@ -3253,7 +3395,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,NO,quantile,0.35,18.62100535
 2024-10-23,ILI incidence,2024-10-27,4,NO,quantile,0.4,18.73450244
 2024-10-23,ILI incidence,2024-10-27,4,NO,quantile,0.45,18.84431219
-2024-10-23,ILI incidence,2024-10-27,4,NO,median,,18.95238095
+2024-10-23,ILI incidence,2024-10-27,4,NO,quantile,0.5,18.95238095
 2024-10-23,ILI incidence,2024-10-27,4,NO,quantile,0.55,19.06044971
 2024-10-23,ILI incidence,2024-10-27,4,NO,quantile,0.6,19.17025946
 2024-10-23,ILI incidence,2024-10-27,4,NO,quantile,0.65,19.28375655
@@ -3265,6 +3407,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,NO,quantile,0.95,20.36695507
 2024-10-23,ILI incidence,2024-10-27,4,NO,quantile,0.975,20.63794998
 2024-10-23,ILI incidence,2024-10-27,4,NO,quantile,0.99,20.95304012
+2024-10-23,ILI incidence,2024-10-27,-1,PL,median,,448.6666667
 2024-10-23,ILI incidence,2024-10-27,-1,PL,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,-1,PL,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,-1,PL,quantile,0.05,0
@@ -3276,7 +3419,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,PL,quantile,0.35,340.4301477
 2024-10-23,ILI incidence,2024-10-27,-1,PL,quantile,0.4,377.5014654
 2024-10-23,ILI incidence,2024-10-27,-1,PL,quantile,0.45,413.3683944
-2024-10-23,ILI incidence,2024-10-27,-1,PL,median,,448.6666667
+2024-10-23,ILI incidence,2024-10-27,-1,PL,quantile,0.5,448.6666667
 2024-10-23,ILI incidence,2024-10-27,-1,PL,quantile,0.55,483.964939
 2024-10-23,ILI incidence,2024-10-27,-1,PL,quantile,0.6,519.831868
 2024-10-23,ILI incidence,2024-10-27,-1,PL,quantile,0.65,556.9031857
@@ -3288,6 +3431,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,PL,quantile,0.95,910.7060505
 2024-10-23,ILI incidence,2024-10-27,-1,PL,quantile,0.975,999.22055
 2024-10-23,ILI incidence,2024-10-27,-1,PL,quantile,0.99,1102.137785
+2024-10-23,ILI incidence,2024-10-27,0,PL,median,,490.2380952
 2024-10-23,ILI incidence,2024-10-27,0,PL,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,0,PL,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,0,PL,quantile,0.05,0
@@ -3299,7 +3443,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,PL,quantile,0.35,355.4915281
 2024-10-23,ILI incidence,2024-10-27,0,PL,quantile,0.4,401.6426132
 2024-10-23,ILI incidence,2024-10-27,0,PL,quantile,0.45,446.2943222
-2024-10-23,ILI incidence,2024-10-27,0,PL,median,,490.2380952
+2024-10-23,ILI incidence,2024-10-27,0,PL,quantile,0.5,490.2380952
 2024-10-23,ILI incidence,2024-10-27,0,PL,quantile,0.55,534.1818682
 2024-10-23,ILI incidence,2024-10-27,0,PL,quantile,0.6,578.8335772
 2024-10-23,ILI incidence,2024-10-27,0,PL,quantile,0.65,624.9846623
@@ -3311,6 +3455,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,PL,quantile,0.95,1065.443409
 2024-10-23,ILI incidence,2024-10-27,0,PL,quantile,0.975,1175.637501
 2024-10-23,ILI incidence,2024-10-27,0,PL,quantile,0.99,1303.761947
+2024-10-23,ILI incidence,2024-10-27,1,PL,median,,531.8095238
 2024-10-23,ILI incidence,2024-10-27,1,PL,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,1,PL,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,1,PL,quantile,0.05,0
@@ -3322,7 +3467,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,PL,quantile,0.35,363.9253966
 2024-10-23,ILI incidence,2024-10-27,1,PL,quantile,0.4,421.426191
 2024-10-23,ILI incidence,2024-10-27,1,PL,quantile,0.45,477.058875
-2024-10-23,ILI incidence,2024-10-27,1,PL,median,,531.8095238
+2024-10-23,ILI incidence,2024-10-27,1,PL,quantile,0.5,531.8095238
 2024-10-23,ILI incidence,2024-10-27,1,PL,quantile,0.55,586.5601726
 2024-10-23,ILI incidence,2024-10-27,1,PL,quantile,0.6,642.1928566
 2024-10-23,ILI incidence,2024-10-27,1,PL,quantile,0.65,699.693651
@@ -3334,6 +3479,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,PL,quantile,0.95,1248.472249
 2024-10-23,ILI incidence,2024-10-27,1,PL,quantile,0.975,1385.765832
 2024-10-23,ILI incidence,2024-10-27,1,PL,quantile,0.99,1545.399293
+2024-10-23,ILI incidence,2024-10-27,2,PL,median,,573.3809524
 2024-10-23,ILI incidence,2024-10-27,2,PL,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,2,PL,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,2,PL,quantile,0.05,0
@@ -3345,7 +3491,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,PL,quantile,0.35,365.7317531
 2024-10-23,ILI incidence,2024-10-27,2,PL,quantile,0.4,436.8521985
 2024-10-23,ILI incidence,2024-10-27,2,PL,quantile,0.45,505.6620526
-2024-10-23,ILI incidence,2024-10-27,2,PL,median,,573.3809524
+2024-10-23,ILI incidence,2024-10-27,2,PL,quantile,0.5,573.3809524
 2024-10-23,ILI incidence,2024-10-27,2,PL,quantile,0.55,641.0998522
 2024-10-23,ILI incidence,2024-10-27,2,PL,quantile,0.6,709.9097063
 2024-10-23,ILI incidence,2024-10-27,2,PL,quantile,0.65,781.0301517
@@ -3357,6 +3503,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,PL,quantile,0.95,1459.792572
 2024-10-23,ILI incidence,2024-10-27,2,PL,quantile,0.975,1629.605544
 2024-10-23,ILI incidence,2024-10-27,2,PL,quantile,0.99,1827.049822
+2024-10-23,ILI incidence,2024-10-27,3,PL,median,,614.952381
 2024-10-23,ILI incidence,2024-10-27,3,PL,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,3,PL,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,3,PL,quantile,0.05,0
@@ -3368,7 +3515,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,PL,quantile,0.35,360.9105975
 2024-10-23,ILI incidence,2024-10-27,3,PL,quantile,0.4,447.9206359
 2024-10-23,ILI incidence,2024-10-27,3,PL,quantile,0.45,532.103855
-2024-10-23,ILI incidence,2024-10-27,3,PL,median,,614.952381
+2024-10-23,ILI incidence,2024-10-27,3,PL,quantile,0.5,614.952381
 2024-10-23,ILI incidence,2024-10-27,3,PL,quantile,0.55,697.800907
 2024-10-23,ILI incidence,2024-10-27,3,PL,quantile,0.6,781.9841261
 2024-10-23,ILI incidence,2024-10-27,3,PL,quantile,0.65,868.9941645
@@ -3380,6 +3527,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,PL,quantile,0.95,1699.404377
 2024-10-23,ILI incidence,2024-10-27,3,PL,quantile,0.975,1907.156636
 2024-10-23,ILI incidence,2024-10-27,3,PL,quantile,0.99,2148.713534
+2024-10-23,ILI incidence,2024-10-27,4,PL,median,,656.5238095
 2024-10-23,ILI incidence,2024-10-27,4,PL,quantile,0.01,0
 2024-10-23,ILI incidence,2024-10-27,4,PL,quantile,0.025,0
 2024-10-23,ILI incidence,2024-10-27,4,PL,quantile,0.05,0
@@ -3391,7 +3539,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,PL,quantile,0.35,349.4619298
 2024-10-23,ILI incidence,2024-10-27,4,PL,quantile,0.4,454.631503
 2024-10-23,ILI incidence,2024-10-27,4,PL,quantile,0.45,556.3842822
-2024-10-23,ILI incidence,2024-10-27,4,PL,median,,656.5238095
+2024-10-23,ILI incidence,2024-10-27,4,PL,quantile,0.5,656.5238095
 2024-10-23,ILI incidence,2024-10-27,4,PL,quantile,0.55,756.6633368
 2024-10-23,ILI incidence,2024-10-27,4,PL,quantile,0.6,858.416116
 2024-10-23,ILI incidence,2024-10-27,4,PL,quantile,0.65,963.5856892
@@ -3403,6 +3551,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,PL,quantile,0.95,1967.307665
 2024-10-23,ILI incidence,2024-10-27,4,PL,quantile,0.975,2218.419109
 2024-10-23,ILI incidence,2024-10-27,4,PL,quantile,0.99,2510.39043
+2024-10-23,ILI incidence,2024-10-27,-1,SI,median,,8.8
 2024-10-23,ILI incidence,2024-10-27,-1,SI,quantile,0.01,5.310478189
 2024-10-23,ILI incidence,2024-10-27,-1,SI,quantile,0.025,5.860054023
 2024-10-23,ILI incidence,2024-10-27,-1,SI,quantile,0.05,6.33271956
@@ -3414,7 +3563,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,SI,quantile,0.35,8.2220193
 2024-10-23,ILI incidence,2024-10-27,-1,SI,quantile,0.4,8.419979345
 2024-10-23,ILI incidence,2024-10-27,-1,SI,quantile,0.45,8.61150798
-2024-10-23,ILI incidence,2024-10-27,-1,SI,median,,8.8
+2024-10-23,ILI incidence,2024-10-27,-1,SI,quantile,0.5,8.8
 2024-10-23,ILI incidence,2024-10-27,-1,SI,quantile,0.55,8.98849202
 2024-10-23,ILI incidence,2024-10-27,-1,SI,quantile,0.6,9.180020655
 2024-10-23,ILI incidence,2024-10-27,-1,SI,quantile,0.65,9.3779807
@@ -3426,6 +3575,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,-1,SI,quantile,0.95,11.26728044
 2024-10-23,ILI incidence,2024-10-27,-1,SI,quantile,0.975,11.73994598
 2024-10-23,ILI incidence,2024-10-27,-1,SI,quantile,0.99,12.28952181
+2024-10-23,ILI incidence,2024-10-27,0,SI,median,,10.45714286
 2024-10-23,ILI incidence,2024-10-27,0,SI,quantile,0.01,6.037081899
 2024-10-23,ILI incidence,2024-10-27,0,SI,quantile,0.025,6.733211289
 2024-10-23,ILI incidence,2024-10-27,0,SI,quantile,0.05,7.331920969
@@ -3437,7 +3587,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,SI,quantile,0.35,9.725033974
 2024-10-23,ILI incidence,2024-10-27,0,SI,quantile,0.4,9.975783364
 2024-10-23,ILI incidence,2024-10-27,0,SI,quantile,0.45,10.2183863
-2024-10-23,ILI incidence,2024-10-27,0,SI,median,,10.45714286
+2024-10-23,ILI incidence,2024-10-27,0,SI,quantile,0.5,10.45714286
 2024-10-23,ILI incidence,2024-10-27,0,SI,quantile,0.55,10.69589942
 2024-10-23,ILI incidence,2024-10-27,0,SI,quantile,0.6,10.93850236
 2024-10-23,ILI incidence,2024-10-27,0,SI,quantile,0.65,11.18925175
@@ -3449,6 +3599,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,0,SI,quantile,0.95,13.58236475
 2024-10-23,ILI incidence,2024-10-27,0,SI,quantile,0.975,14.18107443
 2024-10-23,ILI incidence,2024-10-27,0,SI,quantile,0.99,14.87720382
+2024-10-23,ILI incidence,2024-10-27,1,SI,median,,12.11428571
 2024-10-23,ILI incidence,2024-10-27,1,SI,quantile,0.01,6.7636856
 2024-10-23,ILI incidence,2024-10-27,1,SI,quantile,0.025,7.606368546
 2024-10-23,ILI incidence,2024-10-27,1,SI,quantile,0.05,8.331122368
@@ -3460,7 +3611,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,SI,quantile,0.35,11.22804864
 2024-10-23,ILI incidence,2024-10-27,1,SI,quantile,0.4,11.53158737
 2024-10-23,ILI incidence,2024-10-27,1,SI,quantile,0.45,11.82526461
-2024-10-23,ILI incidence,2024-10-27,1,SI,median,,12.11428571
+2024-10-23,ILI incidence,2024-10-27,1,SI,quantile,0.5,12.11428571
 2024-10-23,ILI incidence,2024-10-27,1,SI,quantile,0.55,12.40330681
 2024-10-23,ILI incidence,2024-10-27,1,SI,quantile,0.6,12.69698405
 2024-10-23,ILI incidence,2024-10-27,1,SI,quantile,0.65,13.00052278
@@ -3472,6 +3623,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,1,SI,quantile,0.95,15.89744905
 2024-10-23,ILI incidence,2024-10-27,1,SI,quantile,0.975,16.62220287
 2024-10-23,ILI incidence,2024-10-27,1,SI,quantile,0.99,17.46488582
+2024-10-23,ILI incidence,2024-10-27,2,SI,median,,13.77142857
 2024-10-23,ILI incidence,2024-10-27,2,SI,quantile,0.01,7.025019735
 2024-10-23,ILI incidence,2024-10-27,2,SI,quantile,0.025,8.087533015
 2024-10-23,ILI incidence,2024-10-27,2,SI,quantile,0.05,9.001353052
@@ -3483,7 +3635,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,SI,quantile,0.35,12.65399922
 2024-10-23,ILI incidence,2024-10-27,2,SI,quantile,0.4,13.03672197
 2024-10-23,ILI incidence,2024-10-27,2,SI,quantile,0.45,13.40701066
-2024-10-23,ILI incidence,2024-10-27,2,SI,median,,13.77142857
+2024-10-23,ILI incidence,2024-10-27,2,SI,quantile,0.5,13.77142857
 2024-10-23,ILI incidence,2024-10-27,2,SI,quantile,0.55,14.13584648
 2024-10-23,ILI incidence,2024-10-27,2,SI,quantile,0.6,14.50613517
 2024-10-23,ILI incidence,2024-10-27,2,SI,quantile,0.65,14.88885792
@@ -3495,6 +3647,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,2,SI,quantile,0.95,18.54150409
 2024-10-23,ILI incidence,2024-10-27,2,SI,quantile,0.975,19.45532413
 2024-10-23,ILI incidence,2024-10-27,2,SI,quantile,0.99,20.5178374
+2024-10-23,ILI incidence,2024-10-27,3,SI,median,,15.42857143
 2024-10-23,ILI incidence,2024-10-27,3,SI,quantile,0.01,7.286353871
 2024-10-23,ILI incidence,2024-10-27,3,SI,quantile,0.025,8.568697484
 2024-10-23,ILI incidence,2024-10-27,3,SI,quantile,0.05,9.671583736
@@ -3506,7 +3659,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,SI,quantile,0.35,14.0799498
 2024-10-23,ILI incidence,2024-10-27,3,SI,quantile,0.4,14.54185657
 2024-10-23,ILI incidence,2024-10-27,3,SI,quantile,0.45,14.98875672
-2024-10-23,ILI incidence,2024-10-27,3,SI,median,,15.42857143
+2024-10-23,ILI incidence,2024-10-27,3,SI,quantile,0.5,15.42857143
 2024-10-23,ILI incidence,2024-10-27,3,SI,quantile,0.55,15.86838614
 2024-10-23,ILI incidence,2024-10-27,3,SI,quantile,0.6,16.31528629
 2024-10-23,ILI incidence,2024-10-27,3,SI,quantile,0.65,16.77719306
@@ -3518,6 +3671,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,3,SI,quantile,0.95,21.18555912
 2024-10-23,ILI incidence,2024-10-27,3,SI,quantile,0.975,22.28844538
 2024-10-23,ILI incidence,2024-10-27,3,SI,quantile,0.99,23.57078899
+2024-10-23,ILI incidence,2024-10-27,4,SI,median,,17.08571429
 2024-10-23,ILI incidence,2024-10-27,4,SI,quantile,0.01,7.315053219
 2024-10-23,ILI incidence,2024-10-27,4,SI,quantile,0.025,8.853865555
 2024-10-23,ILI incidence,2024-10-27,4,SI,quantile,0.05,10.17732906
@@ -3529,7 +3683,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-10-23,ILI incidence,2024-10-27,4,SI,quantile,0.35,15.46736833
 2024-10-23,ILI incidence,2024-10-27,4,SI,quantile,0.4,16.02165646
 2024-10-23,ILI incidence,2024-10-27,4,SI,quantile,0.45,16.55793663
-2024-10-23,ILI incidence,2024-10-27,4,SI,median,,17.08571429
+2024-10-23,ILI incidence,2024-10-27,4,SI,quantile,0.5,17.08571429
 2024-10-23,ILI incidence,2024-10-27,4,SI,quantile,0.55,17.61349195
 2024-10-23,ILI incidence,2024-10-27,4,SI,quantile,0.6,18.14977212
 2024-10-23,ILI incidence,2024-10-27,4,SI,quantile,0.65,18.70406025
