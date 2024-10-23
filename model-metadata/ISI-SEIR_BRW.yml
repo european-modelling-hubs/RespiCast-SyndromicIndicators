@@ -1,0 +1,12 @@
+team_name: ISI Foundation
+model_name: SEIR_BRW
+team_abbr: ISI
+model_abbr: SEIR_BRW
+model_contributors:
+  - name: Valeria Marras
+    affiliation: ISI Foundation
+    email: valeria.marras@isi.it
+team_model_designation: secondary
+methods: SEIR Beta Random Walks is a stochastic compartmental model with random variations in the transmission rate, that provides short-term incidence forecasts.
+data_inputs: ECDC ERVISS
+license: CC-BY-4.0
