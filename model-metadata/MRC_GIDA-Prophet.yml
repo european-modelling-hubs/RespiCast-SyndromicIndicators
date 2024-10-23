@@ -3,19 +3,19 @@ model_name: Prophet
 team_abbr: MRC_GIDA
 model_abbr: Prophet
 model_contributors:
-+ name: Rhys Earl
+- name: Rhys Earl
   affiliation: Imperial College London
   email: r.earl22@imperial.ac.uk
-+ name: Marc Baguelin
+- name: Marc Baguelin
   affiliation: Imperial College London
   email: m.baguelin@imperial.ac.uk
-+ name: Edwin Van Leeuwen 
+- name: Edwin Van Leeuwen 
   affiliation: LSHTM
   email: Edwin.van-Leeuwen@lshtm.ac.uk
-+ name: Jamie Lopez-Bernal
+- name: Jamie Lopez-Bernal
   affiliation: UKHSA
   email: Jamie.LopezBernal2@ukhsa.gov.uk
-+ name: Neil Ferguson
+- name: Neil Ferguson
   affiliation: Imperial College London
   email: neil.ferguson@imperial.ac.uk
 team_model_designation: primary
