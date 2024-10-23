@@ -1,0 +1,12 @@
+team_name: Safinea
+model_name: SS_KF_syndromic
+team_abbr: Safinea
+model_abbr: syndromic
+model_contributors:
+  - name: Helen Johnson
+    affiliation: Safinea
+    email: helen.johnson@safinea.eu
+team_model_designation: primary
+methods: A state-space model with respiratory disease as a hidden states and separate observation processes for ILI and ARI reporting. Smoothed with unscented Kalman Filter, poisson process 
+data_inputs: ECDC ERVISS 
+license: CC-BY-4.0
