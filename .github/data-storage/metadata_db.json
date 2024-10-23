@@ -1,13 +1,15 @@
 {
     "changes": [
-        "model-metadata/ISI-FluABCaster.yml",
-        "model-metadata/QMUL-ARIMA.yml",
-        "model-metadata/RIVM-KFdlm.yml",
-        "model-metadata/ECDC-SARIMA.yml",
         "model-metadata/fjordhest-ensemble.yml",
+        "model-metadata/ISI-FluABCaster.yml",
+        "model-metadata/ItaLuxColab-EpiEKF.yml",
+        "model-metadata/ECDC-soca_simplex.yml",
+        "model-metadata/ECDC-SARIMA.yml",
         "model-metadata/ISI-SynTestModel.yml",
-        "model-metadata/ISI-RC_AdaptEns2.yml",
+        "model-metadata/ItaLuxColab-EpiNetEKF.yml",
+        "model-metadata/QMUL-ARIMA.yml",
         "model-metadata/ISI-FluBcast.yml",
-        "model-metadata/ECDC-soca_simplex.yml"
+        "model-metadata/ISI-RC_AdaptEns2.yml",
+        "model-metadata/RIVM-KFdlm.yml"
     ]
 }
