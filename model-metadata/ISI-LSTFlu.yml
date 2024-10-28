@@ -1,0 +1,12 @@
+team_name: ISI Foundation
+model_name: LSTFlu
+team_abbr: ISI
+model_abbr: LSTFlu
+model_contributors:
+  - name: Mattia Mazzoli
+    affiliation: ISI Foundation
+    email: mattia.mazzoli@isi.it
+team_model_designation: secondary
+methods: Bidirectional Long Short Term Memory model trained over 10 years of ILI surveillance data from Italy.
+data_inputs: ECDC ERVISS.
+license: CC-BY-4.0
