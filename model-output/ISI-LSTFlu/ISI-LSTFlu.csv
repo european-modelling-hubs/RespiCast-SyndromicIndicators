@@ -1,0 +1,5 @@
+origin_date,target,target_end_date,horizon,location,output_type,output_type_id,value
+2024-10-30,ILI incidence,2024-10-27,1,BE,median,,214.79230427861484
+2024-10-30,ILI incidence,2024-11-03,2,BE,median,,232.5257560493148
+2024-10-30,ILI incidence,2024-11-10,3,BE,median,,251.12389445107726
+2024-10-30,ILI incidence,2024-11-17,4,BE,median,,288.0215803873753
