@@ -52,7 +52,7 @@ jobs:
     - name: compute baseline
       id: compute_baseline
       run: |
-        python ./tools/code/quantile_baseline.py --hub_path ./repo --targets "ILI_incidence ARI_incidence" --symmetrize True --nsamples 10000 --horizon 4 --team_abbr "respicastSyndromic" --model_abbr "quantileBaseline" --submission_end_weekday 2
+        python ./tools/code/quantile_baseline.py --hub_path ./repo --targets "ILI_incidence ARI_incidence" --symmetrize True --nsamples 10000 --horizon 4 --team_abbr "respicast" --model_abbr "quantileBaseline" --submission_end_weekday 2
 
     - name: Commit data repo changes
       uses: EndBug/add-and-commit@v7

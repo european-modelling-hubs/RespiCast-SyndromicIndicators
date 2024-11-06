@@ -58,11 +58,11 @@ jobs:
       run: |
         install.packages("remotes")
         install.packages("arrow", repos = c("https://apache.r-universe.dev", "https://cran.r-project.org"))
-        remotes::install_github("Infectious-Disease-Modeling-Hubs/hubData")
+        remotes::install_github("hubverse-org/hubData")
         install.packages("dplyr")
         install.packages('jsonlite')
         install.packages("optparse")
-        install.packages("scoringutils")
+        remotes::install_github("epiforecasts/scoringutils@v1.2.2")
       shell: Rscript {0}
 
     # Setup Python
@@ -82,7 +82,7 @@ jobs:
       id: generate_scoring
       run: |
         # call R script from tools
-        Rscript ./tools/R-code/forecast_evaluation.R --hub_path "./repo" --truth_file_name "latest-ILI_incidence.csv" --subfolders "ERVISS,FluID"
+        Rscript ./tools/R-code/respicast_forecast_evaluation.R --hub_path "./repo" --targets "ILI_incidence,ARI_incidence" --subfolders "ERVISS,FluID"
 
     # Do the python manipulations and produce an output file (scoring_file)
     # ------------------------------------------------------------------------

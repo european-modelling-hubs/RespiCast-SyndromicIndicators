@@ -1,29 +1,39 @@
 {
+    "RIVM": [
+        {
+            "model": "KFdlm",
+            "changes": [
+                "model-output/RIVM-KFdlm/2024-11-06-RIVM-KFdlm.csv"
+            ]
+        }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2024-11-06-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2024-11-06-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
+    ],
     "ISI": [
         {
             "model": "RC_AdaptEns2",
             "changes": [
-                "model-output/ISI-RC_AdaptEns2/2024-10-30-ISI-RC_AdaptEns2.csv"
-            ]
-        },
-        {
-            "model": "FluBcast",
-            "changes": [
-                "model-output/ISI-FluBcast/2024-10-30-ISI-FluBcast.csv"
-            ]
-        },
-        {
-            "model": "LSTFlu",
-            "changes": [
-                "model-output/ISI-LSTFlu/2024-10-30-ISI-LSTFlu.csv"
+                "model-output/ISI-RC_AdaptEns2/2024-11-06-ISI-RC_AdaptEns2.csv"
             ]
         }
     ],
-    "fjordhest": [
+    "QMUL": [
         {
-            "model": "ensemble",
+            "model": "ARIMA",
             "changes": [
-                "model-output/fjordhest-ensemble/2024-10-30-fjordhest-ensemble.csv"
+                "model-output/QMUL-ARIMA/2024-11-06-QMUL-ARIMA.csv"
             ]
         }
     ]
