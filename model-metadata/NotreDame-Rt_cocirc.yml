@@ -1,0 +1,15 @@
+team_name: Notre Dame Perkins Lab
+model_name: Rt co-circulation
+team_abbr: NotreDame
+model_abbr: Rt_cocirc
+model_contributors:
+    - name: Alex Perkins
+      affiliation: Notre Dame Univerity Deparment of Biological Sciences
+      email: taperkins@nd.edu
+    - name: Kelsey Shaw
+      affiliation: Notre Dame Univerity Deparment of Biological Sciences
+      email: kshaw7@nd.edu
+
+team_model_designation: primary
+methods: Smoothed ILI historic data used to estimate the Rt using the EpiEstim package in R. Rt then predicted into the future by a GAM model with smoothed COVID and Influenza data as predictors
+data_inputs: Syndromic data from Respicast Github and COVID and Influenza non-sentinel detection data from ERVISS
