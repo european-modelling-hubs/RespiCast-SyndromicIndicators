@@ -14,7 +14,7 @@ on:
 jobs:
   
   ensemble_job:
-    # if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}
     runs-on: ubuntu-latest
     outputs:
       changed_files:  ${{ steps.generate_ensemble.outputs.ensemble_file }}
@@ -46,8 +46,8 @@ jobs:
       run: |
         install.packages("remotes")
         install.packages("arrow", repos = c("https://apache.r-universe.dev", "https://cran.r-project.org"))
-        remotes::install_github("Infectious-Disease-Modeling-Hubs/hubData")
-        remotes::install_github("Infectious-Disease-Modeling-Hubs/hubEnsembles")
+        remotes::install_github("hubverse-org/hubData")
+        remotes::install_github("hubverse-org/hubEnsembles")
         install.packages("dplyr")
         install.packages("jsonlite")
         install.packages("optparse")
