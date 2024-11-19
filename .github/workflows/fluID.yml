@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "30 18 * * 5"
-    - cron: '30 18 * * 1'
+    # - cron: '30 18 * * 1'
     
 jobs:
 
@@ -17,28 +17,28 @@ jobs:
       
     steps:
     
-    # Check if run is needed
-    # -----------------------------
-    - name: Get previous workflow run
-      id: get_previous_run
-      if: github.event.schedule != '30 18 * * 5'
-      uses: actions/github-script@v6
-      with:
-        script: |
-          const response = await github.rest.actions.listWorkflowRuns({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            workflow_id: 'fluID.yml',
-            per_page: 1,
-          });
-          const lastRun = response.data.workflow_runs[0];
-          core.setOutput('conclusion', lastRun.conclusion || 'no_run');
+    # # Check if run is needed
+    # # -----------------------------
+    # - name: Get previous workflow run
+    #   id: get_previous_run
+    #   if: github.event.schedule != '30 18 * * 5'
+    #   uses: actions/github-script@v6
+    #   with:
+    #     script: |
+    #       const response = await github.rest.actions.listWorkflowRuns({
+    #         owner: context.repo.owner,
+    #         repo: context.repo.repo,
+    #         workflow_id: 'fluID.yml',
+    #         per_page: 1,
+    #       });
+    #       const lastRun = response.data.workflow_runs[0];
+    #       core.setOutput('conclusion', lastRun.conclusion || 'no_run');
 
-    - name: Cancel workflow if last run was successful (Only if not running on friday)
-      if: ${{ github.event.schedule != '30 18 * * 5' && steps.get_previous_run.outputs.conclusion == 'success' }}
-      run: |
-        echo "Previous run was successful. No need to run the workflow today."
-        exit 0 # Stop workflow run
+    # - name: Cancel workflow if last run was successful (Only if not running on friday)
+    #   if: ${{ github.event.schedule != '30 18 * * 5' && steps.get_previous_run.outputs.conclusion == 'success' }}
+    #   run: |
+    #     echo "Previous run was successful. No need to run the workflow today."
+    #     exit 0 # Stop workflow run
 
 
     # Checkout the python tools repo
