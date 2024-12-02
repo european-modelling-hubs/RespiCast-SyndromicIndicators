@@ -1,1 +1,24 @@
-{}
+{
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2024-12-04-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2024-12-04-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
+    ],
+    "fjordhest": [
+        {
+            "model": "ensemble",
+            "changes": [
+                "model-output/fjordhest-ensemble/2024-12-04-fjordhest-ensemble.csv"
+            ]
+        }
+    ]
+}
