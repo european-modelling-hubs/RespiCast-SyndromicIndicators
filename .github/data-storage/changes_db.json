@@ -1,31 +1,15 @@
 {
-    "ISI": [
-        {
-            "model": "LSTFlu",
-            "changes": [
-                "model-output/ISI-LSTFlu/2024-11-27-ISI-LSTFlu.csv"
-            ]
-        }
-    ],
-    "RIVM": [
-        {
-            "model": "KFdlm",
-            "changes": [
-                "model-output/RIVM-KFdlm/2024-11-27-RIVM-KFdlm.csv"
-            ]
-        }
-    ],
     "ItaLuxColab": [
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2024-11-27-ItaLuxColab-EpiEKF.csv"
+                "model-output/ItaLuxColab-EpiEKF/2024-12-04-ItaLuxColab-EpiEKF.csv"
             ]
         },
         {
             "model": "EpiNetEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2024-11-27-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/ItaLuxColab-EpiNetEKF/2024-12-04-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
     ],
@@ -33,7 +17,33 @@
         {
             "model": "ensemble",
             "changes": [
-                "model-output/fjordhest-ensemble/2024-11-27-fjordhest-ensemble.csv"
+                "model-output/fjordhest-ensemble/2024-12-04-fjordhest-ensemble.csv"
+            ]
+        }
+    ],
+    "ISI": [
+        {
+            "model": "LSTFlu",
+            "changes": [
+                "model-output/ISI-LSTFlu/2024-12-04-ISI-LSTFlu.csv"
+            ]
+        },
+        {
+            "model": "FluBcast",
+            "changes": [
+                "model-output/ISI-FluBcast/2024-12-04-ISI-FluBcast.csv"
+            ]
+        },
+        {
+            "model": "RC_AdaptEns2",
+            "changes": [
+                "model-output/ISI-RC_AdaptEns2/2024-12-04-ISI-RC_AdaptEns2.csv"
+            ]
+        },
+        {
+            "model": "FluABCaster",
+            "changes": [
+                "model-output/ISI-FluABCaster/2024-12-04-ISI-FluABCaster.csv"
             ]
         }
     ]
