@@ -1,1 +1,62 @@
-{}
+{
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2024-12-11-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2024-12-11-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
+    ],
+    "fjordhest": [
+        {
+            "model": "ensemble",
+            "changes": [
+                "model-output/fjordhest-ensemble/2024-12-11-fjordhest-ensemble.csv"
+            ]
+        }
+    ],
+    "RIVM": [
+        {
+            "model": "KFdlm",
+            "changes": [
+                "model-output/RIVM-KFdlm/2024-12-11-RIVM-KFdlm.csv"
+            ]
+        }
+    ],
+    "ECDC": [
+        {
+            "model": "SARIMA",
+            "changes": [
+                "model-output/ECDC-SARIMA/2024-12-11-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2024-12-11-ECDC-soca_simplex.csv"
+            ]
+        }
+    ],
+    "safinea": [
+        {
+            "model": "syndromic",
+            "changes": [
+                "model-output/safinea-syndromic/2024-12-11-safinea-syndromic.csv"
+            ]
+        }
+    ],
+    "ISI": [
+        {
+            "model": "FluABCaster",
+            "changes": [
+                "model-output/ISI-FluABCaster/2024-12-11-ISI-FluABCaster.csv"
+            ]
+        }
+    ]
+}
