@@ -4175,7 +4175,7 @@ origin_date,target,target_end_date,horizon,location,output_type,output_type_id,v
 2024-12-11,ARI incidence,2024-12-15,2,FR,median,,409.7519839886148
 2024-12-11,ARI incidence,2024-12-22,3,FR,median,,446.4187427165157
 2024-12-11,ARI incidence,2024-12-29,4,FR,median,,446.8269825658473
-024-12-11,ARI incidence,2024-11-24,-1,GB-NIR,quantile,0.01,145.72726122518864
+2024-12-11,ARI incidence,2024-11-24,-1,GB-NIR,quantile,0.01,145.72726122518864
 2024-12-11,ARI incidence,2024-12-01,0,GB-NIR,quantile,0.01,163.71933514703002
 2024-12-11,ARI incidence,2024-12-08,1,GB-NIR,quantile,0.01,169.3750066244438
 2024-12-11,ARI incidence,2024-12-15,2,GB-NIR,quantile,0.01,155.4405085413321
