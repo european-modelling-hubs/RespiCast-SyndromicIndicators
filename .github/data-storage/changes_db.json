@@ -27,6 +27,18 @@
             "changes": [
                 "model-output/ISI-FluABCaster/2024-12-25-ISI-FluABCaster.csv"
             ]
+        },
+        {
+            "model": "FluBcast",
+            "changes": [
+                "model-output/ISI-FluBcast/2024-12-25-ISI-FluBcast.csv"
+            ]
+        },
+        {
+            "model": "RC_AdaptEns2",
+            "changes": [
+                "model-output/ISI-RC_AdaptEns2/2024-12-25-ISI-RC_AdaptEns2.csv"
+            ]
         }
     ]
 }
