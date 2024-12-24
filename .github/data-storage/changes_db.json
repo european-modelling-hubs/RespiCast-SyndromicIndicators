@@ -1,15 +1,57 @@
 {
+    "fjordhest": [
+        {
+            "model": "ensemble",
+            "changes": [
+                "model-output/fjordhest-ensemble/2024-12-25-fjordhest-ensemble.csv"
+            ]
+        }
+    ],
     "ItaLuxColab": [
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2024-12-18-ItaLuxColab-EpiEKF.csv"
+                "model-output/ItaLuxColab-EpiEKF/2024-12-25-ItaLuxColab-EpiEKF.csv"
             ]
         },
         {
             "model": "EpiNetEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2024-12-18-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/ItaLuxColab-EpiNetEKF/2024-12-25-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
+    ],
+    "ISI": [
+        {
+            "model": "FluABCaster",
+            "changes": [
+                "model-output/ISI-FluABCaster/2024-12-25-ISI-FluABCaster.csv"
+            ]
+        },
+        {
+            "model": "FluBcast",
+            "changes": [
+                "model-output/ISI-FluBcast/2024-12-25-ISI-FluBcast.csv"
+            ]
+        },
+        {
+            "model": "RC_AdaptEns2",
+            "changes": [
+                "model-output/ISI-RC_AdaptEns2/2024-12-25-ISI-RC_AdaptEns2.csv"
+            ]
+        },
+        {
+            "model": "LSTFlu",
+            "changes": [
+                "model-output/ISI-LSTFlu/2024-12-25-ISI-LSTFlu.csv"
+            ]
+        }
+    ],
+    "NotreDame": [
+        {
+            "model": "Rt_cocirc",
+            "changes": [
+                "model-output/NotreDame-Rt_cocirc/2024-12-25-NotreDame-Rt_cocirc.csv"
             ]
         }
     ],
@@ -17,15 +59,21 @@
         {
             "model": "KFdlm",
             "changes": [
-                "model-output/RIVM-KFdlm/2024-12-18-RIVM-KFdlm.csv"
+                "model-output/RIVM-KFdlm/2024-12-25-RIVM-KFdlm.csv"
             ]
         }
     ],
-    "fjordhest": [
+    "ECDC": [
         {
-            "model": "ensemble",
+            "model": "SARIMA",
             "changes": [
-                "model-output/fjordhest-ensemble/2024-12-18-fjordhest-ensemble.csv"
+                "model-output/ECDC-SARIMA/2024-12-25-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2024-12-25-ECDC-soca_simplex.csv"
             ]
         }
     ]
