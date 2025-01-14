@@ -1,23 +1,15 @@
 {
-    "NotreDame": [
+    "ISI": [
         {
-            "model": "Rt_cocirc",
+            "model": "LSTFlu",
             "changes": [
-                "model-output/NotreDame-Rt_cocirc/2025-01-08-NotreDame-Rt_cocirc.csv"
-            ]
-        }
-    ],
-    "ItaLuxColab": [
-        {
-            "model": "EpiEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-01-08-ItaLuxColab-EpiEKF.csv"
+                "model-output/ISI-LSTFlu/2025-01-15-ISI-LSTFlu.csv"
             ]
         },
         {
-            "model": "EpiNetEKF",
+            "model": "FluABCaster",
             "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2025-01-08-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/ISI-FluABCaster/2025-01-15-ISI-FluABCaster.csv"
             ]
         }
     ],
@@ -25,15 +17,21 @@
         {
             "model": "KFdlm",
             "changes": [
-                "model-output/RIVM-KFdlm/2025-01-08-RIVM-KFdlm.csv"
+                "model-output/RIVM-KFdlm/2025-01-15-RIVM-KFdlm.csv"
             ]
         }
     ],
-    "ISI": [
+    "ItaLuxColab": [
         {
-            "model": "FluABCaster",
+            "model": "EpiEKF",
             "changes": [
-                "model-output/ISI-FluABCaster/2025-01-08-ISI-FluABCaster.csv"
+                "model-output/ItaLuxColab-EpiEKF/2025-01-15-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2025-01-15-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
     ],
@@ -41,13 +39,21 @@
         {
             "model": "SARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2025-01-08-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA/2025-01-15-ECDC-SARIMA.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2025-01-08-ECDC-soca_simplex.csv"
+                "model-output/ECDC-soca_simplex/2025-01-15-ECDC-soca_simplex.csv"
+            ]
+        }
+    ],
+    "fjordhest": [
+        {
+            "model": "ensemble",
+            "changes": [
+                "model-output/fjordhest-ensemble/2025-01-15-fjordhest-ensemble.csv"
             ]
         }
     ]
