@@ -15,7 +15,7 @@ jobs:
   
   ensemble_job:
     if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     outputs:
       changed_files:  ${{ steps.generate_ensemble.outputs.ensemble_file }}
     env:
