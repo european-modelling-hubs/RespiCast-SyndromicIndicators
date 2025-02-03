@@ -9,7 +9,7 @@ model_contributors:
   - name: Yuhan Li
     affiliation: Queen Mary University of London
     email: yuhan.li@qmul.ac.uk
-team_model_designation: proposed
+team_model_designation: secondary
 methods: An SEIR compartmental model using biased wampe for selecting predictions
 license: CC-BY-4.0
 data_inputs: ECDC ERVISS
