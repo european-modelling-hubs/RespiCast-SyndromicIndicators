@@ -3,21 +3,15 @@
         {
             "model": "ensemble",
             "changes": [
-                "model-output/fjordhest-ensemble/2025-02-05-fjordhest-ensemble.csv"
+                "model-output/fjordhest-ensemble/2025-02-12-fjordhest-ensemble.csv"
             ]
         }
     ],
-    "ItaLuxColab": [
+    "RIVM": [
         {
-            "model": "EpiEKF",
+            "model": "KFdlm",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-02-05-ItaLuxColab-EpiEKF.csv"
-            ]
-        },
-        {
-            "model": "EpiNetEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2025-02-05-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/RIVM-KFdlm/2025-02-12-RIVM-KFdlm.csv"
             ]
         }
     ]
