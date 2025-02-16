@@ -1,17 +1,31 @@
 {
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2025-02-19-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2025-02-19-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
+    ],
+    "ISI": [
+        {
+            "model": "FluABCaster",
+            "changes": [
+                "model-output/ISI-FluABCaster/2025-02-19-ISI-FluABCaster.csv"
+            ]
+        }
+    ],
     "fjordhest": [
         {
             "model": "ensemble",
             "changes": [
-                "model-output/fjordhest-ensemble/2025-02-12-fjordhest-ensemble.csv"
-            ]
-        }
-    ],
-    "RIVM": [
-        {
-            "model": "KFdlm",
-            "changes": [
-                "model-output/RIVM-KFdlm/2025-02-12-RIVM-KFdlm.csv"
+                "model-output/fjordhest-ensemble/2025-02-19-fjordhest-ensemble.csv"
             ]
         }
     ]
