@@ -1,51 +1,51 @@
 {
-    "fjordhest": [
+    "ItaLuxColab": [
         {
-            "model": "ensemble",
+            "model": "EpiEKF",
             "changes": [
-                "model-output/fjordhest-ensemble/2025-02-12-fjordhest-ensemble.csv"
+                "model-output/ItaLuxColab-EpiEKF/2025-02-19-ItaLuxColab-EpiEKF.csv"
             ]
-        }
-    ],
-    "RIVM": [
+        },
         {
-            "model": "KFdlm",
+            "model": "EpiNetEKF",
             "changes": [
-                "model-output/RIVM-KFdlm/2025-02-12-RIVM-KFdlm.csv"
+                "model-output/ItaLuxColab-EpiNetEKF/2025-02-19-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
     ],
     "ISI": [
         {
+            "model": "FluABCaster",
+            "changes": [
+                "model-output/ISI-FluABCaster/2025-02-19-ISI-FluABCaster.csv"
+            ]
+        },
+        {
             "model": "FluBcast",
             "changes": [
-                "model-output/ISI-FluBcast/2025-02-12-ISI-FluBcast.csv"
+                "model-output/ISI-FluBcast/2025-02-19-ISI-FluBcast.csv"
             ]
         },
         {
             "model": "RC_AdaptEns2",
             "changes": [
-                "model-output/ISI-RC_AdaptEns2/2025-02-12-ISI-RC_AdaptEns2.csv"
-            ]
-        },
-        {
-            "model": "FluABCaster",
-            "changes": [
-                "model-output/ISI-FluABCaster/2025-02-12-ISI-FluABCaster.csv"
+                "model-output/ISI-RC_AdaptEns2/2025-02-19-ISI-RC_AdaptEns2.csv"
             ]
         }
     ],
-    "ECDC": [
+    "fjordhest": [
         {
-            "model": "SARIMA",
+            "model": "ensemble",
             "changes": [
-                "model-output/ECDC-SARIMA/2025-02-12-ECDC-SARIMA.csv"
+                "model-output/fjordhest-ensemble/2025-02-19-fjordhest-ensemble.csv"
             ]
-        },
+        }
+    ],
+    "NotreDame": [
         {
-            "model": "soca_simplex",
+            "model": "Rt_cocirc",
             "changes": [
-                "model-output/ECDC-soca_simplex/2025-02-12-ECDC-soca_simplex.csv"
+                "model-output/NotreDame-Rt_cocirc/2025-02-19-NotreDame-Rt_cocirc.csv"
             ]
         }
     ]
