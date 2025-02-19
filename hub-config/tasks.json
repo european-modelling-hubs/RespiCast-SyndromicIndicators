@@ -1,5 +1,5 @@
 {
-    "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v3.0.1/tasks-schema.json",
+    "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v5.0.0/tasks-schema.json",
     "rounds": [
         {
             "round_id_from_variable": true,
@@ -112,9 +112,9 @@
                                     0.950,
                                     0.975,
                                     0.990
-                                ],
-                                "optional": null
+                                ]
                             },
+                            "is_required": true,
                             "value": {
                                 "type": "double",
                                 "minimum": 0
@@ -122,9 +122,9 @@
                         },
                         "median": {
                             "output_type_id": {
-                                "required": null,
-                                "optional": ["NA"]
+                                "required": null
                             },
+                            "is_required": false,
                             "value": {
                                 "type": "double",
                                 "minimum": 0
@@ -253,9 +253,9 @@
                                     0.950,
                                     0.975,
                                     0.990
-                                ],
-                                "optional": null
+                                ]
                             },
+                            "is_required": true,
                             "value": {
                                 "type": "double",
                                 "minimum": 0
@@ -263,9 +263,9 @@
                         },
                         "median": {
                             "output_type_id": {
-                                "required": null,
-                                "optional": ["NA"]
+                                "required": null
                             },
+                            "is_required": false,
                             "value": {
                                 "type": "double",
                                 "minimum": 0
