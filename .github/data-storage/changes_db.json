@@ -1,15 +1,9 @@
 {
-    "ItaLuxColab": [
+    "fjordhest": [
         {
-            "model": "EpiEKF",
+            "model": "ensemble",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-02-19-ItaLuxColab-EpiEKF.csv"
-            ]
-        },
-        {
-            "model": "EpiNetEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2025-02-19-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/fjordhest-ensemble/2025-02-26-fjordhest-ensemble.csv"
             ]
         }
     ],
@@ -17,35 +11,41 @@
         {
             "model": "FluABCaster",
             "changes": [
-                "model-output/ISI-FluABCaster/2025-02-19-ISI-FluABCaster.csv"
+                "model-output/ISI-FluABCaster/2025-02-26-ISI-FluABCaster.csv"
             ]
         },
         {
             "model": "FluBcast",
             "changes": [
-                "model-output/ISI-FluBcast/2025-02-19-ISI-FluBcast.csv"
+                "model-output/ISI-FluBcast/2025-02-26-ISI-FluBcast.csv"
             ]
         },
         {
             "model": "RC_AdaptEns2",
             "changes": [
-                "model-output/ISI-RC_AdaptEns2/2025-02-19-ISI-RC_AdaptEns2.csv"
+                "model-output/ISI-RC_AdaptEns2/2025-02-26-ISI-RC_AdaptEns2.csv"
             ]
         }
     ],
-    "fjordhest": [
+    "ItaLuxColab": [
         {
-            "model": "ensemble",
+            "model": "EpiEKF",
             "changes": [
-                "model-output/fjordhest-ensemble/2025-02-19-fjordhest-ensemble.csv"
+                "model-output/ItaLuxColab-EpiEKF/2025-02-26-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2025-02-26-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
     ],
-    "NotreDame": [
+    "RIVM": [
         {
-            "model": "Rt_cocirc",
+            "model": "KFdlm",
             "changes": [
-                "model-output/NotreDame-Rt_cocirc/2025-02-19-NotreDame-Rt_cocirc.csv"
+                "model-output/RIVM-KFdlm/2025-02-26-RIVM-KFdlm.csv"
             ]
         }
     ]
