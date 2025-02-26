@@ -45,6 +45,13 @@ jobs:
         ref: 'main'
         path: './repo/'
 
+    # Installing lib curl
+    # -------------------------------------------
+    - name: Install lib curl
+      run: |
+        sudo apt-get update
+        sudo apt-get install libcurl4-openssl-dev        
+
 
     # Setup R env
     # -------------------------
