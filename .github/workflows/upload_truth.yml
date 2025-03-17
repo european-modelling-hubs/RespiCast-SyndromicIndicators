@@ -1,4 +1,4 @@
-name: Truth Upload
+name: TruthUpload
 
 on:
   # scheduled submission every Wednesday at 23.30 CET  
