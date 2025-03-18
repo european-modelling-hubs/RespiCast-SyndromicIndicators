@@ -13,14 +13,15 @@ on:
   
 jobs:
   scheduled-submit:
-    if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}
-    runs-on: ubuntu-latest
+    # if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}
+    # runs-on: ubuntu-latest
+    runs-on: macos-13
     
     steps:
       # Introduce some delay to complete DB write 
-      - name: Sleep for 90 seconds
-        run: sleep 90s
-        shell: bash
+      # - name: Sleep for 90 seconds
+      #   run: sleep 90s
+      #   shell: bash
       
       # Checkout the python tools repo
       # used to authenticate and validate the PR
@@ -45,9 +46,11 @@ jobs:
       # Get the list of changes from a json file 
       - name: Get changes list
         id: get_changes
+        shell: bash
         run: |
           echo "Read changes list from json"
-          content=`cat ./repo/.github/data-storage/evaluation_db.json`
+          # content=`cat ./repo/.github/data-storage/evaluation_db.json`
+          content=$(cat ./repo/.github/data-storage/evaluation_db.json)
           content="${content//'%'/'%25'}"
           content="${content//$'\n'/'%0A'}"
           content="${content//$'\r'/'%0D'}"
