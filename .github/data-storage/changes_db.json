@@ -1,43 +1,9 @@
 {
-    "RIVM": [
-        {
-            "model": "KFdlm",
-            "changes": [
-                "model-output/RIVM-KFdlm/2025-03-19-RIVM-KFdlm.csv"
-            ]
-        }
-    ],
     "fjordhest": [
         {
             "model": "ensemble",
             "changes": [
-                "model-output/fjordhest-ensemble/2025-03-19-fjordhest-ensemble.csv"
-            ]
-        }
-    ],
-    "ISI": [
-        {
-            "model": "FluABCaster",
-            "changes": [
-                "model-output/ISI-FluABCaster/2025-03-19-ISI-FluABCaster.csv"
-            ]
-        },
-        {
-            "model": "FluBcast",
-            "changes": [
-                "model-output/ISI-FluBcast/2025-03-19-ISI-FluBcast.csv"
-            ]
-        },
-        {
-            "model": "RC_AdaptEns2",
-            "changes": [
-                "model-output/ISI-RC_AdaptEns2/2025-03-19-ISI-RC_AdaptEns2.csv"
-            ]
-        },
-        {
-            "model": "LSTFlu",
-            "changes": [
-                "model-output/ISI-LSTFlu/2025-03-19-ISI-LSTFlu.csv"
+                "model-output/fjordhest-ensemble/2025-03-26-fjordhest-ensemble.csv"
             ]
         }
     ],
@@ -45,35 +11,41 @@
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-03-19-ItaLuxColab-EpiEKF.csv"
+                "model-output/ItaLuxColab-EpiEKF/2025-03-26-ItaLuxColab-EpiEKF.csv"
             ]
         },
         {
             "model": "EpiNetEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2025-03-19-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/ItaLuxColab-EpiNetEKF/2025-03-26-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
     ],
-    "NotreDame": [
+    "ISI": [
         {
-            "model": "Rt_cocirc",
+            "model": "FluABCaster",
             "changes": [
-                "model-output/NotreDame-Rt_cocirc/2025-03-19-NotreDame-Rt_cocirc.csv"
-            ]
-        }
-    ],
-    "ECDC": [
-        {
-            "model": "SARIMA",
-            "changes": [
-                "model-output/ECDC-SARIMA/2025-03-19-ECDC-SARIMA.csv"
+                "model-output/ISI-FluABCaster/2025-03-26-ISI-FluABCaster.csv"
             ]
         },
         {
-            "model": "soca_simplex",
+            "model": "FluBcast",
             "changes": [
-                "model-output/ECDC-soca_simplex/2025-03-19-ECDC-soca_simplex.csv"
+                "model-output/ISI-FluBcast/2025-03-26-ISI-FluBcast.csv"
+            ]
+        },
+        {
+            "model": "RC_AdaptEns2",
+            "changes": [
+                "model-output/ISI-RC_AdaptEns2/2025-03-26-ISI-RC_AdaptEns2.csv"
+            ]
+        }
+    ],
+    "RIVM": [
+        {
+            "model": "KFdlm",
+            "changes": [
+                "model-output/RIVM-KFdlm/2025-03-26-RIVM-KFdlm.csv"
             ]
         }
     ]
