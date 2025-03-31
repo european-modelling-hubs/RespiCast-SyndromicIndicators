@@ -3,21 +3,7 @@
         {
             "model": "ensemble",
             "changes": [
-                "model-output/fjordhest-ensemble/2025-03-26-fjordhest-ensemble.csv"
-            ]
-        }
-    ],
-    "ItaLuxColab": [
-        {
-            "model": "EpiEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-03-26-ItaLuxColab-EpiEKF.csv"
-            ]
-        },
-        {
-            "model": "EpiNetEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2025-03-26-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/fjordhest-ensemble/2025-04-02-fjordhest-ensemble.csv"
             ]
         }
     ],
@@ -25,27 +11,27 @@
         {
             "model": "FluABCaster",
             "changes": [
-                "model-output/ISI-FluABCaster/2025-03-26-ISI-FluABCaster.csv"
+                "model-output/ISI-FluABCaster/2025-04-02-ISI-FluABCaster.csv"
             ]
         },
         {
-            "model": "FluBcast",
+            "model": "SEIR_BRW",
             "changes": [
-                "model-output/ISI-FluBcast/2025-03-26-ISI-FluBcast.csv"
-            ]
-        },
-        {
-            "model": "RC_AdaptEns2",
-            "changes": [
-                "model-output/ISI-RC_AdaptEns2/2025-03-26-ISI-RC_AdaptEns2.csv"
+                "model-output/ISI-SEIR_BRW/2025-04-02-ISI-SEIR_BRW.csv"
             ]
         }
     ],
-    "RIVM": [
+    "ItaLuxColab": [
         {
-            "model": "KFdlm",
+            "model": "EpiEKF",
             "changes": [
-                "model-output/RIVM-KFdlm/2025-03-26-RIVM-KFdlm.csv"
+                "model-output/ItaLuxColab-EpiEKF/2025-04-02-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2025-04-02-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
     ]
