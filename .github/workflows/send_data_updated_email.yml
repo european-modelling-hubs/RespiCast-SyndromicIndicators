@@ -2,7 +2,7 @@ name: SendDataUpdatedEmail
 
 on:
   workflow_run:
-    workflows: [TestRequests]
+    workflows: [MergeRecents]
       
     types:
       - completed  
@@ -46,7 +46,7 @@ jobs:
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "RespiCast-SyndromicIndicators - Target data error!"
           body: "Hi,\n\nAn error occurred during ERVISS data import process. Not sending data updated email to teams!\n\nRespiCast tech team."
-          to: paolo.milano@gmail.com,paolo.milano@isi.it  # Change with support mailing-list
+          to: paolo.milano@isi.it,corrado.gioannini@isi.it,nicolo.gozzi@isi.it
           from: "Respicast Team <respicast@isi.it>"
           content_type: text/plain
 
@@ -101,8 +101,9 @@ jobs:
           server_port: 587
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: "Nuovo aggiornamento nel repository!"
-          body: "Ciao,\n\nAbbiamo appena aggiornato il repository. Controlla le modifiche!\n\nSaluti,\nIl team."
-          to: ${{ steps.extract_from_metadata.outputs.email_list }}
+          subject: "RespiCast-SyndromicIndicators Data Update"
+          body: ${{ secrets.EMAIL_TEXT }}
+          to: respicast@isi.it
+          bcc: ${{ steps.extract_from_metadata.outputs.email_list }}
           from: "Respicast Team <respicast@isi.it>"
           content_type: text/plain
