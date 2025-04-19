@@ -103,7 +103,8 @@ jobs:
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "RespiCast-SyndromicIndicators Data Update"
           body: ${{ secrets.EMAIL_TEXT }}
-          to: respicast@isi.it
-          bcc: ${{ steps.extract_from_metadata.outputs.email_list }}
+          to: paolo.milano@isi.it,corrado.gioannini@isi.it
+          # to: respicast@isi.it
+          # bcc: ${{ steps.extract_from_metadata.outputs.email_list }}
           from: "Respicast Team <respicast@isi.it>"
           content_type: text/plain
