@@ -1,1 +1,10 @@
-{}
+{
+    "fjordhest": [
+        {
+            "model": "ensemble",
+            "changes": [
+                "model-output/fjordhest-ensemble/2025-04-30-fjordhest-ensemble.csv"
+            ]
+        }
+    ]
+}
