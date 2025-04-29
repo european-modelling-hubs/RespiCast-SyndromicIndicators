@@ -3,7 +3,21 @@
         {
             "model": "ensemble",
             "changes": [
-                "model-output/fjordhest-ensemble/2025-04-16-fjordhest-ensemble.csv"
+                "model-output/fjordhest-ensemble/2025-04-30-fjordhest-ensemble.csv"
+            ]
+        }
+    ],
+    "ISI": [
+        {
+            "model": "FluBcast",
+            "changes": [
+                "model-output/ISI-FluBcast/2025-04-30-ISI-FluBcast.csv"
+            ]
+        },
+        {
+            "model": "RC_AdaptEns2",
+            "changes": [
+                "model-output/ISI-RC_AdaptEns2/2025-04-30-ISI-RC_AdaptEns2.csv"
             ]
         }
     ],
@@ -11,49 +25,7 @@
         {
             "model": "KFdlm",
             "changes": [
-                "model-output/RIVM-KFdlm/2025-04-16-RIVM-KFdlm.csv"
-            ]
-        }
-    ],
-    "ISI": [
-        {
-            "model": "FluABCaster",
-            "changes": [
-                "model-output/ISI-FluABCaster/2025-04-16-ISI-FluABCaster.csv"
-            ]
-        },
-        {
-            "model": "FluBcast",
-            "changes": [
-                "model-output/ISI-FluBcast/2025-04-16-ISI-FluBcast.csv"
-            ]
-        },
-        {
-            "model": "RC_AdaptEns2",
-            "changes": [
-                "model-output/ISI-RC_AdaptEns2/2025-04-16-ISI-RC_AdaptEns2.csv"
-            ]
-        }
-    ],
-    "ItaLuxColab": [
-        {
-            "model": "EpiEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-04-16-ItaLuxColab-EpiEKF.csv"
-            ]
-        },
-        {
-            "model": "EpiNetEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2025-04-16-ItaLuxColab-EpiNetEKF.csv"
-            ]
-        }
-    ],
-    "NotreDame": [
-        {
-            "model": "Rt_cocirc",
-            "changes": [
-                "model-output/NotreDame-Rt_cocirc/2025-04-16-NotreDame-Rt_cocirc.csv"
+                "model-output/RIVM-KFdlm/2025-04-30-RIVM-KFdlm.csv"
             ]
         }
     ],
@@ -61,13 +33,13 @@
         {
             "model": "SARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2025-04-16-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA/2025-04-30-ECDC-SARIMA.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2025-04-16-ECDC-soca_simplex.csv"
+                "model-output/ECDC-soca_simplex/2025-04-30-ECDC-soca_simplex.csv"
             ]
         }
     ]
