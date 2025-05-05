@@ -1,0 +1,28 @@
+name: Test-SendDataUpdatedEmail
+
+on:
+
+  workflow_dispatch:
+
+jobs:
+  scheduled-submit:
+  
+    if: ${{ github.repository_owner == 'european-modelling-hubs' }}    
+    runs-on: ubuntu-latest
+    
+    steps:
+   
+      - name: Send warning email to admin
+        uses: dawidd6/action-send-mail@v5
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "RespiCast-SyndromicIndicators - Test mail sending!"
+          body: "Hi,\n\nTEST EMAIL!\n\nRespiCast tech team."
+          to: paolo.milano@isi.it
+          from: "Respicast Team <respicast@isi.it>"
+
+          
+      
