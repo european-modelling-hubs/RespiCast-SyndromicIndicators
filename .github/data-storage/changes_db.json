@@ -1,15 +1,21 @@
 {
-    "ItaLuxColab": [
+    "QMUL": [
         {
-            "model": "EpiEKF",
+            "model": "ARIMA",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-05-28-ItaLuxColab-EpiEKF.csv"
+                "model-output/QMUL-ARIMA/2025-06-11-QMUL-ARIMA.csv"
             ]
         },
         {
-            "model": "EpiNetEKF",
+            "model": "SEIR",
             "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2025-05-28-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/QMUL-SEIR/2025-06-11-QMUL-SEIR.csv"
+            ]
+        },
+        {
+            "model": "SEIR_agumented",
+            "changes": [
+                "model-output/QMUL-SEIR_agumented/2025-06-11-QMUL-SEIR_agumented.csv"
             ]
         }
     ]
