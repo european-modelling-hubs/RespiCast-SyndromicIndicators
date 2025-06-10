@@ -1,7 +1,7 @@
 team_name: Safinea
 model_name: PRFM
 team_abbr: safinea
-model_abbr: syndromic
+model_abbr: PRFM
 model_contributors:
   - name: Rok Grah
     affiliation: Safinea
