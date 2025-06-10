@@ -10,6 +10,7 @@ model_contributors:
     affiliation: Safinea
     email: helen.johnson@safinea.eu
 team_model_designation: primary
-methods: The PRFM model uses historical time-series motifs to detect similarities between the most recent data and past observations, and using principles from deterministic chaos theory to forecast the future incidence based on assigning weights to historical data and combining those to an ensemble-style forecast. Importantly, its hyperparameter tuning is driven by maximizing RespiCast top rank rather than minimizing WIS, avoiding issues related to combining past low and high WIS scores for optimization.
+methods: Ensemble-style forecasts using weighted average of historical time series motifs
+methods_long: The PRFM model uses historical time-series motifs to detect similarities between the most recent data and past observations, and using principles from deterministic chaos theory to forecast the future incidence based on assigning weights to historical data and combining those to an ensemble-style forecast. Importantly, its hyperparameter tuning is driven by maximizing RespiCast top rank rather than minimizing WIS, avoiding issues related to combining past low and high WIS scores for optimization.
 data_inputs: ECDC ERVISS 
 license: CC-BY-4.0
