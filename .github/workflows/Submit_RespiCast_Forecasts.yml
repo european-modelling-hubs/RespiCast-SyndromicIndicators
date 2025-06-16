@@ -91,6 +91,7 @@ jobs:
       # commit changes to the new brach! This step is needed in order
       # to succesfully open the subsequent pull request
       - run: |
+          wednesday_date=${{ steps.calculate_wednesday.outputs.wednesday_date }}
           git add ./model-output/safinea-PRFM/${wednesday_date}-safinea-PRFM.csv
           git commit -m "AutoSubmitPR"
           git push -u origin pr-new-branch
