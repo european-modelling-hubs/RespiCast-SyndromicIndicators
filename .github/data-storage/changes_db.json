@@ -1,1 +1,10 @@
-{}
+{
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2025-06-18-safinea-PRFM.csv"
+            ]
+        }
+    ]
+}
