@@ -45,7 +45,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: 'main' # the git branch to work on
-          token: ${{ secrets.RESPICAST_SYNDROMIC_FORK_REQUEST }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository: 'RokGrah/Forecasting_models'
           path: './data-repo/' # Relative path under $GITHUB_WORKSPACE to place the repository
 
@@ -104,4 +104,4 @@ jobs:
       - name: Open the pull requests
         run: gh pr create --head  RokGrah:pr-new-branch  --base main --title 'PR Title' --body 'PR Body'
         env:
-          GH_TOKEN: ${{ secrets.MY_PAT_SECRET  }}
+          GH_TOKEN: ${{ secrets.RESPICAST_SYNDROMIC_FORK_REQUEST  }}
