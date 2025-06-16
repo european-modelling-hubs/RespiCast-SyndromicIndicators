@@ -45,7 +45,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: 'main' # the git branch to work on
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RESPICAST_SYNDROMIC_FORK_REQUEST }}
           repository: 'RokGrah/Forecasting_models'
           path: './data-repo/' # Relative path under $GITHUB_WORKSPACE to place the repository
 
