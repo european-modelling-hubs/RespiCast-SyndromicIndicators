@@ -1,23 +1,23 @@
 {
-    "safinea": [
-        {
-            "model": "PRFM",
-            "changes": [
-                "model-output/safinea-PRFM/2025-06-18-safinea-PRFM.csv"
-            ]
-        }
-    ],
     "ECDC": [
         {
             "model": "SARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2025-06-18-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA/2025-06-25-ECDC-SARIMA.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2025-06-18-ECDC-soca_simplex.csv"
+                "model-output/ECDC-soca_simplex/2025-06-25-ECDC-soca_simplex.csv"
+            ]
+        }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2025-06-25-safinea-PRFM.csv"
             ]
         }
     ]
