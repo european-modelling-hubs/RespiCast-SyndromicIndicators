@@ -95,7 +95,7 @@ jobs:
           wednesday_date=${{ steps.calculate_wednesday.outputs.wednesday_date }}
           git add ./model-output/safinea-PRFM/${wednesday_date}-safinea-PRFM.csv
           git commit -m "AutoSubmitPR" || echo "Nothing to commit"
-          git push -u origin pr-new-branch
+          git push -f -u origin pr-new-branch
 
       # Finally, open the pull request from local pr-new-branch to the main branch
       # secrets.MY_PAT_SECRET is a repository secret you have to create in your forked repository
