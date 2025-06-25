@@ -73,12 +73,11 @@ jobs:
       # Pull directly from main branch of the upstream repository,
       # so you do not have to sync and the workflow is not part of the PR
       - run: |
-          wednesday_date=${{ steps.calculate_wednesday.outputs.wednesday_date }}
           git config --global user.name "YourGitHubUserName"
           git config --global user.email "your_email@ewhatever.com"
           git remote add upstream https://github.com/european-modelling-hubs/RespiCast-SyndromicIndicators.git
-          git fetch --all
-          git checkout -b pr-new-branch upstream/main
+          git fetch upstream
+          git switch -C pr-new-branch upstream/main
 
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -95,7 +94,7 @@ jobs:
           wednesday_date=${{ steps.calculate_wednesday.outputs.wednesday_date }}
           git add ./model-output/TeamName-ModelName/${wednesday_date}-team-model.csv
           git commit -m "AutoSubmitPR"
-          git push -u origin pr-new-branch
+          git push -f -u origin pr-new-branch
 
 
       # Finally, open the pull request from local pr-new-branch to the main branch
