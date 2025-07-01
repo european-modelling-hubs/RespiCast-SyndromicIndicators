@@ -1,0 +1,51 @@
+name: CheckIntermediateRun(R)
+
+on:
+  workflow_dispatch:
+
+  # schedule:
+  # - cron: '00 10,18 * * 0,1,2,6'
+  # - cron: '00 10 * * 3'  
+
+jobs:
+  scheduled-submit:
+    if: github.repository_owner == 'european-modelling-hubs'
+    runs-on: ubuntu-latest
+    
+    steps:
+
+      # Checkout the python tools repo
+      # used to verify if run is needed
+      # -------------------------------------------      
+      - name: checkout python tools repo
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: 'european-modelling-hubs/hub-tools'
+          ref: 'main'
+          path: tools
+
+
+      - name: checkout data repo
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: 'european-modelling-hubs/RespiCast-SyndromicIndicators'
+          ref: 'main'
+          path: './repo/'
+
+
+
+
+      # Test if an intermediate upload is needed 
+      # --------------------------------------------
+      - name: Test Intermediate 
+        id: test_intermediate
+          
+        run: |
+          pip install PyYAML          
+          python ./tools/code/check_intermediate_run.py --hub_path './repo/'
+          
+      - name: trace only
+        run: |
+          echo "intermediate test completed"

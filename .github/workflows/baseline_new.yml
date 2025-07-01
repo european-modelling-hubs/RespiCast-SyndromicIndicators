@@ -1,0 +1,122 @@
+name: GenerateBaseline 
+
+on:
+
+  workflow_dispatch:
+
+  # workflow_run:
+  #   workflows: [ForecastUpload]
+      
+  #   types:
+  #     - completed
+    
+jobs:
+
+  verify_baseline_job:
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}
+    runs-on: ubuntu-latest
+    outputs: 
+      baseline_exists: ${{ steps.check_baseline.outputs.bl_exists == 'exists' }}
+
+    steps:
+      
+    # Checkout the python tools repo
+    # -------------------------------------------      
+    - name: checkout python tools repo
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        repository: 'european-modelling-hubs/hub-tools'
+        ref: 'main'
+        path: './tools/'
+
+    # Checkout the data repository
+    # -------------------------------------------      
+    - name: checkout data repo
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        repository: 'european-modelling-hubs/RespiCast-SyndromicIndicators'
+        ref: 'main'
+        path: './repo/'
+
+
+
+    # Run Pyton code
+    # -------------------------
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.10' 
+
+    # Verify if baseline already exists
+    # this will write "exists" or "missing" in the out var baseline_exists
+    - name: check baseline exists
+      id: check_baseline
+      run: |
+        python ./tools/code/FH_current_baseline_exists.py --hub_path ./repo
+
+  
+  # 
+  # ---------------------------------------------------------------------------------------
+  baseline_job:
+    needs: verify_baseline_job
+    if: ${{ github.repository_owner == 'european-modelling-hubs' && needs.verify_baseline_job.outputs.baseline_exists == 'false'}} 
+    outputs:
+      changed_files:  ${{ steps.compute_baseline.outputs.baseline_file }}  
+    
+    runs-on: ubuntu-latest
+    
+    steps:
+
+    # Checkout the python tools repo
+    # -------------------------------------------      
+    - name: checkout python tools repo
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        repository: 'european-modelling-hubs/hub-tools'
+        ref: 'main'
+        path: './tools/'
+
+    # Checkout the data repository
+    # -------------------------------------------      
+    - name: checkout data repo
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        repository: 'european-modelling-hubs/RespiCast-SyndromicIndicators'
+        ref: 'main'
+        path: './repo/'
+    
+    # Run Pyton code
+    # -------------------------
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.10' 
+    
+    - run: pip install pandas numpy==1.22.4
+    
+    - name: compute baseline
+      id: compute_baseline
+      run: |
+        python ./tools/code/quantile_baseline.py --hub_path ./repo --targets "ILI_incidence ARI_incidence" --symmetrize True --nsamples 10000 --horizon 4 --team_abbr "respicast" --model_abbr "quantileBaseline" --submission_end_weekday 2
+
+    - name: Commit data repo changes
+      uses: EndBug/add-and-commit@v7
+      with: 
+          cwd: './repo'
+          message: "Update data storage"
+          default_author: github_actions
+          push: true
+
+
+  call-persisting-wf:
+    needs: baseline_job
+    if: ${{ github.repository_owner == 'european-modelling-hubs' }}
+    uses: european-modelling-hubs/RespiCast-SyndromicIndicators/.github/workflows/persist_changes.yml@main
+    with:
+      changes-list: ${{ needs.baseline_job.outputs.changed_files }}
+
+    secrets:
+      envPAT: ${{ secrets.GITHUB_TOKEN }}      
+      
