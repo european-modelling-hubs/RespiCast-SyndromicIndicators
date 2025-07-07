@@ -49,7 +49,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: main
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MY_PAT_SECRET }}
 
       # Checkout the model data repository - main branch -
       # This is the repository where the model output data reside
@@ -101,6 +101,11 @@ jobs:
       # secrets.MY_PAT_SECRET is a repository secret you have to create in your forked repository
       # containing a valid PERSONAL ACCESS TOKEN for YourGitHubUserName.
       # Without this secret the pr create fails with "Resource not accessible by integration" error
+      # Please, note that it is important that this PAT is created with the following scope:
+      # - repo
+      # - workflow
+
+
       - name: Open the pull requests
         run: |
           wednesday_date=${{ steps.calculate_wednesday.outputs.wednesday_date }}
