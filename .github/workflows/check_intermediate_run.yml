@@ -3,9 +3,9 @@ name: CheckIntermediateRun(R)
 on:
   workflow_dispatch:
 
-  # schedule:
-  # - cron: '00 10,18 * * 0,1,2,6'
-  # - cron: '00 10 * * 3'  
+  schedule:
+  - cron: '00 10,18 * * 0,1,2,6'
+  - cron: '00 10 * * 3'  
 
 jobs:
   scheduled-submit:
@@ -44,7 +44,7 @@ jobs:
           
         run: |
           pip install PyYAML          
-          python ./tools/code/check_intermediate_run.py --hub_path './repo/'
+          python ./tools/code/FH_check_intermediate_run.py --hub_path './repo/'
           
       - name: trace only
         run: |
