@@ -1,17 +1,17 @@
 name: BaselineEnsembleUpload
 
 on:
-  # workflow_run:
+  workflow_run:
   #   workflows: [GenerateEnsemble]
+    workflows: [GenerateBaseline_Old]
     
-      
-  #   types:
-  #     - completed
+    types:
+      - completed
 
   # TEMPORARY - Until intermediate Ensemble upload is approved
   # scheduled submission every Thursday at 00.55 CET
-  schedule:
-    - cron: '55 23 * * 3' 
+  # schedule:
+  #   - cron: '55 23 * * 3' 
   
   workflow_dispatch:
 
@@ -19,8 +19,8 @@ on:
 jobs:
   scheduled-submit:
     # TEMPORARY - Until intermediate Ensemble upload is approved
-    # if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}
-    if: ${{ github.repository_owner == 'european-modelling-hubs' }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'european-modelling-hubs' }}
+    # if: ${{ github.repository_owner == 'european-modelling-hubs' }}
     runs-on: ubuntu-latest
     
     steps:
