@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 
   schedule:
-  - cron: '00 10,18 * * 0,1,2,6'
-  - cron: '00 10 * * 3'  
+  - cron: '00 10,18 * * 0,1,2,3,6'
+  - cron: '30 23 * * 3'  
 
 jobs:
   scheduled-submit:
