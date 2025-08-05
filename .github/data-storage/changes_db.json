@@ -3,13 +3,13 @@
         {
             "model": "SARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2025-07-30-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA/2025-08-06-ECDC-SARIMA.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2025-07-30-ECDC-soca_simplex.csv"
+                "model-output/ECDC-soca_simplex/2025-08-06-ECDC-soca_simplex.csv"
             ]
         }
     ],
@@ -17,15 +17,7 @@
         {
             "model": "Rt_cocirc",
             "changes": [
-                "model-output/NotreDame-Rt_cocirc/2025-07-30-NotreDame-Rt_cocirc.csv"
-            ]
-        }
-    ],
-    "safinea": [
-        {
-            "model": "PRFM",
-            "changes": [
-                "model-output/safinea-PRFM/2025-07-30-safinea-PRFM.csv"
+                "model-output/NotreDame-Rt_cocirc/2025-08-06-NotreDame-Rt_cocirc.csv"
             ]
         }
     ]
