@@ -1,0 +1,29 @@
+name: Forecast pipeline
+
+on:
+  workflow_dispatch:
+    inputs:      
+      environment:
+        description: "Ambiente (dev|staging|prod)"
+        required: false
+        default: "prod"
+
+
+jobs:
+
+  forecast_pipeline_job:
+    if: ${{ github.repository_owner == 'european-modelling-hubs' }}
+
+    runs-on: ubuntu-latest
+      
+    steps:
+  
+    # Checkout the python tools repo
+    # -------------------------------------------      
+    - name: checkout python tools repo
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        repository: 'european-modelling-hubs/hub-tools'
+        ref: 'main'
+        path: './tools/'
