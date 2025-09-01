@@ -1,0 +1,81 @@
+name: GenerateEnsemblePipelined
+
+on:
+
+  workflow_dispatch:
+
+  workflow_call:
+
+jobs:
+  
+  ensemble_job:
+    if: github.repository_owner == 'european-modelling-hubs' && (github.event_name == 'workflow_dispatch' || github.event_name == 'workflow_call')
+    runs-on: ubuntu-22.04
+    outputs:
+      changed_files:  ${{ steps.generate_ensemble.outputs.ensemble_file }}
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+    # checkout repo
+    - uses: actions/checkout@v3
+      with: 
+        path: './repo/'
+
+    # Checkout the python tools repo
+    # -------------------------------------------      
+    - name: checkout python tools repo
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        repository: 'european-modelling-hubs/hub-tools'
+        ref: 'main'
+        path: './tools/'
+
+
+    - name: Install lib curl
+      run: |
+        sudo apt-get update
+        sudo apt-get install libcurl4-openssl-dev        
+     
+    - uses: r-lib/actions/setup-r@v2
+      with:
+        install-r: false
+        use-public-rspm: true
+        
+    - name: Installing dependencies
+      run: |
+        install.packages("remotes")
+        install.packages("arrow", repos = c("https://apache.r-universe.dev", "https://cran.r-project.org"))
+        install.packages("hubUtils", dependencies = TRUE)
+        install.packages('hubData', repos = c('https://hubverse-org.r-universe.dev', 'https://cloud.r-project.org'))
+        install.packages("hubEnsembles")
+        install.packages("dplyr")
+        install.packages("jsonlite")
+        install.packages("optparse")
+        install.packages("purrr")
+      shell: Rscript {0}
+
+    - name: Generate Ensemble
+      id: generate_ensemble
+      run: |
+        # call R script from tools
+        Rscript ./tools/R-code/generate-ensemble.R --hub_path "./repo" --agg_fun "median" --model_id "hubEnsemble" --team_id "respicast"
+
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v7
+      with: 
+          cwd: './repo'
+          message: "Update ensemble data"
+          default_author: github_actions
+          push: true
+
+
+  call-persisting-wf:
+    needs: ensemble_job
+    uses: european-modelling-hubs/RespiCast-SyndromicIndicators/.github/workflows/persist_changes.yml@main
+    with:
+      changes-list: ${{ needs.ensemble_job.outputs.changed_files }}
+
+    secrets:
+      envPAT: ${{ secrets.GITHUB_TOKEN }}     

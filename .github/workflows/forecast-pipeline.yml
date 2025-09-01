@@ -1,0 +1,44 @@
+name: ForecastPipeline
+
+on:
+  workflow_dispatch:
+    inputs:      
+      environment:
+        description: "Ambiente (dev|staging|prod)"
+        required: false
+        default: "prod"
+
+  # schedule:
+  #   - cron: '15 23 * * 3'
+
+jobs:
+
+  gen_baseline_job:
+    uses: ./.github/workflows/generate_baseline_pipelined.yml
+    secrets: inherit     # passa tutti i secrets del repo/org al figlio
+
+  gen_ensemble_job:
+    needs: gen_baseline_job
+    uses: ./.github/workflows/generate_ensemble_pipelined.yml
+    secrets: inherit
+
+  upload_forecasts_job:
+    needs: gen_ensemble_job
+    uses: ./.github/workflows/upload_forecasts_pipelined.yml
+    secrets: inherit
+
+  upload_baseline_ensemble_job:
+    needs: upload_forecasts_job
+    uses: ./.github/workflows/upload_baseline_ensemble_pipelined.yml
+    secrets: inherit
+    
+    
+
+  # deploy_app:
+  #   needs: [build_app, test_app]
+  #   uses: ./.github/workflows/deploy.yml
+  #   with:
+  #     target_env: production
+  #     image_tag: ${{ needs.build_app.outputs.image_tag }}   # output dal figlio
+  #   secrets:
+  #     MY_TOKEN: ${{ secrets.MY_TOKEN }}   # esempio: passaggio esplicito
