@@ -5,8 +5,8 @@ on:
   #   workflows: [CheckIntermediateRun(R)]
 
   # scheduled submission every Thursday at 00.15 CET
-  schedule:
-    - cron: '15 23 * * 3'  
+  # schedule:
+  #   - cron: '15 23 * * 3'  
 
   workflow_dispatch:
 
