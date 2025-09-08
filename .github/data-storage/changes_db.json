@@ -12,5 +12,13 @@
                 "model-output/ItaLuxColab-EpiNetEKF/2025-09-10-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
+    ],
+    "QMUL": [
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2025-09-10-QMUL-ARIMA.csv"
+            ]
+        }
     ]
 }
