@@ -10,8 +10,8 @@ on:
 
   # TEMPORARY - Until intermediate Ensemble upload is approved
   # scheduled submission every Thursday at 00.55 CET
-  schedule:
-    - cron: '00 01 * * 4' 
+  # schedule:
+  #   - cron: '00 01 * * 4' 
   
   workflow_dispatch:
 
