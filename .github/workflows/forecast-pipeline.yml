@@ -5,8 +5,7 @@ on:
 
     
   schedule:
-    - cron: '30, 23 * * 3'
-    #- cron: '15 23 * * 3'
+    - cron: '15 23 * * 3'
 
 jobs:
   gatekeeper:
