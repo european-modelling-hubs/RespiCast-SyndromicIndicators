@@ -8,8 +8,8 @@ on:
     #     required: false
     #     default: "prod"
 
-  # schedule:
-  #   - cron: '15 23 * * 3'
+  schedule:
+    - cron: '30 23 * * 3'
 
 jobs:
   gatekeeper:
