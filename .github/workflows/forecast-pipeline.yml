@@ -2,14 +2,10 @@ name: ForecastPipeline
 
 on:
   workflow_dispatch:
-    # inputs:      
-    #   environment:
-    #     description: "Ambiente (dev|staging|prod)"
-    #     required: false
-    #     default: "prod"
 
-  # schedule:
-  #   - cron: '15 23 * * 3'
+    
+  schedule:
+    - cron: '30 23 * * 3'
 
 jobs:
   gatekeeper:
@@ -48,13 +44,4 @@ jobs:
     uses: ./.github/workflows/upload_baseline_ensemble_pipelined.yml
     secrets: inherit
     
-    
-
-  # deploy_app:
-  #   needs: [build_app, test_app]
-  #   uses: ./.github/workflows/deploy.yml
-  #   with:
-  #     target_env: production
-  #     image_tag: ${{ needs.build_app.outputs.image_tag }}   # output dal figlio
-  #   secrets:
-  #     MY_TOKEN: ${{ secrets.MY_TOKEN }}   # esempio: passaggio esplicito
+  
