@@ -3,13 +3,21 @@
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-09-10-ItaLuxColab-EpiEKF.csv"
+                "model-output/ItaLuxColab-EpiEKF/2025-09-24-ItaLuxColab-EpiEKF.csv"
             ]
         },
         {
             "model": "EpiNetEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2025-09-10-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/ItaLuxColab-EpiNetEKF/2025-09-24-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
+    ],
+    "NotreDame": [
+        {
+            "model": "Rt_cocirc",
+            "changes": [
+                "model-output/NotreDame-Rt_cocirc/2025-09-24-NotreDame-Rt_cocirc.csv"
             ]
         }
     ]
