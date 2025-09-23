@@ -26,7 +26,7 @@ jobs:
   gen_baseline_job:
     # needs: gatekeeper
     # if: ${{ needs.gatekeeper.outputs.run_pipeline == 'true' }}
-    if: ${{ github.repository_owner == 'european-modelling-hubs' && (github.event_name == 'workflow_dispatch' || github.event_name == 'workflow_call') }}
+    if: ${{ github.repository_owner == 'european-modelling-hubs' && (github.event_name == 'workflow_dispatch' || github.event_name == 'schedule') }}
     uses: ./.github/workflows/generate_baseline_pipelined.yml
     secrets: inherit     # passa tutti i secrets del repo/org al figlio
 
