@@ -5,7 +5,7 @@ on:
 
     
   schedule:
-    - cron: '30 22 * * 3'
+    - cron: '50 23 * * 3'
 
 jobs:
   
