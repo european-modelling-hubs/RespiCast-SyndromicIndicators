@@ -6,5 +6,19 @@
                 "model-output/ISI-FluBcast/2025-10-01-ISI-FluBcast.csv"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "SARIMA",
+            "changes": [
+                "model-output/ECDC-SARIMA/2025-10-01-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2025-10-01-ECDC-soca_simplex.csv"
+            ]
+        }
     ]
 }
