@@ -1,7 +1,7 @@
 team_name: MRC Centre for Global Infectious Disease Analysis
-model_name: NBEATS
+model_name: TiDE
 team_abbr: MRC_GIDA
-model_abbr: NBEATS
+model_abbr: TiDE
 model_contributors:
 - name: Rhys Earl
   affiliation: Imperial College London
@@ -20,4 +20,4 @@ model_contributors:
   email: neil.ferguson@imperial.ac.uk
 team_model_designation: secondary
 data_inputs: ECDC ERVISS
-methods: Neural Basis Expansion Analysis for Time Series
+methods: Time Series Dense Encoder
