@@ -1,7 +1,7 @@
-team_name: MRC Centre for Global Imfectious Disease Analysis
-model_name: CATBoost
+team_name: MRC Centre for Global Infectious Disease Analysis
+model_name: NHiTS
 team_abbr: MRC_GIDA
-model_abbr: CATBoost
+model_abbr: NHiTS
 model_contributors:
 - name: Rhys Earl
   affiliation: Imperial College London
@@ -20,4 +20,4 @@ model_contributors:
   email: neil.ferguson@imperial.ac.uk
 team_model_designation: secondary
 data_inputs: ECDC ERVISS
-methods: Categorical Boosting model
+methods: Neural Hierarchical Interpolation for Time Series
