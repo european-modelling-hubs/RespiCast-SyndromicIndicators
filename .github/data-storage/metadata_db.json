@@ -1,8 +1,1 @@
-{
-    "changes": [
-        "model-metadata/MRC_GIDA-TiDE.yml",
-        "model-metadata/MRC_GIDA-NBEATS.yml",
-        "model-metadata/MRC_GIDA-NHiTS.yml",
-        "model-metadata/MRC_GIDA-Prophet.yml"
-    ]
-}
+{}
