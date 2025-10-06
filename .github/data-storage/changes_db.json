@@ -54,5 +54,19 @@
                 "model-output/QMUL-ARIMA/2025-10-08-QMUL-ARIMA.csv"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "SARIMA",
+            "changes": [
+                "model-output/ECDC-SARIMA/2025-10-08-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2025-10-08-ECDC-soca_simplex.csv"
+            ]
+        }
     ]
 }
