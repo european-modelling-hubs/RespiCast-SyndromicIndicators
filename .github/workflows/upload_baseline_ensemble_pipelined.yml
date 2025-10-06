@@ -8,7 +8,7 @@ on:
 jobs:
   scheduled-submit:
    
-    if: github.repository_owner == 'european-modelling-hubs' && (github.event_name == 'workflow_dispatch' || github.event_name == 'workflow_call')
+    if: github.repository_owner == 'european-modelling-hubs' && (github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' || github.event_name == 'workflow_call')
     # if: github.repository_owner == 'european-modelling-hubs'
     runs-on: ubuntu-latest
     
