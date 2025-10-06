@@ -24,5 +24,13 @@
                 "model-output/MRC_GIDA-TiDE/2025-10-08-MRC_GIDA-TiDE.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "FluBcast",
+            "changes": [
+                "model-output/ISI-FluBcast/2025-10-08-ISI-FluBcast.csv"
+            ]
+        }
     ]
 }
