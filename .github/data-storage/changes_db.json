@@ -38,5 +38,19 @@
                 "model-output/ItaLuxColab-EpiNetEKF/2025-10-22-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "SARIMA",
+            "changes": [
+                "model-output/ECDC-SARIMA/2025-10-22-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2025-10-22-ECDC-soca_simplex.csv"
+            ]
+        }
     ]
 }
