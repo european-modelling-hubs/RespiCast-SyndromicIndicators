@@ -24,5 +24,19 @@
                 "model-output/MRC_GIDA-TiDE/2025-10-22-MRC_GIDA-TiDE.csv"
             ]
         }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2025-10-22-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2025-10-22-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
     ]
 }
