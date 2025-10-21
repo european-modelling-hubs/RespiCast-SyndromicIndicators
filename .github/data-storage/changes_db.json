@@ -72,5 +72,13 @@
                 "model-output/QMUL-SEIR_agumented/2025-10-22-QMUL-SEIR_agumented.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "FluBcast",
+            "changes": [
+                "model-output/ISI-FluBcast/2025-10-22-ISI-FluBcast.csv"
+            ]
+        }
     ]
 }
