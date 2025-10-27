@@ -1,41 +1,23 @@
 {
-    "MRC_GIDA": [
+    "ISI": [
         {
-            "model": "NBEATS",
+            "model": "FluBcast",
             "changes": [
-                "model-output/MRC_GIDA-NBEATS/2025-10-22-MRC_GIDA-NBEATS.csv"
-            ]
-        },
-        {
-            "model": "NHiTS",
-            "changes": [
-                "model-output/MRC_GIDA-NHiTS/2025-10-22-MRC_GIDA-NHiTS.csv"
-            ]
-        },
-        {
-            "model": "Prophet",
-            "changes": [
-                "model-output/MRC_GIDA-Prophet/2025-10-22-MRC_GIDA-Prophet.csv"
-            ]
-        },
-        {
-            "model": "TiDE",
-            "changes": [
-                "model-output/MRC_GIDA-TiDE/2025-10-22-MRC_GIDA-TiDE.csv"
+                "model-output/ISI-FluBcast/2025-10-29-ISI-FluBcast.csv"
             ]
         }
     ],
-    "ItaLuxColab": [
+    "ECDC": [
         {
-            "model": "EpiEKF",
+            "model": "SARIMA",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-10-22-ItaLuxColab-EpiEKF.csv"
+                "model-output/ECDC-SARIMA/2025-10-29-ECDC-SARIMA.csv"
             ]
         },
         {
-            "model": "EpiNetEKF",
+            "model": "soca_simplex",
             "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2025-10-22-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/ECDC-soca_simplex/2025-10-29-ECDC-soca_simplex.csv"
             ]
         }
     ]
