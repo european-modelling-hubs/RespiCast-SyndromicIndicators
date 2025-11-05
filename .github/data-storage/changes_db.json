@@ -3,7 +3,7 @@
         {
             "model": "FluBcast",
             "changes": [
-                "model-output/ISI-FluBcast/2025-10-29-ISI-FluBcast.csv"
+                "model-output/ISI-FluBcast/2025-11-05-ISI-FluBcast.csv"
             ]
         }
     ],
@@ -11,13 +11,77 @@
         {
             "model": "SARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2025-10-29-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA/2025-11-05-ECDC-SARIMA.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2025-10-29-ECDC-soca_simplex.csv"
+                "model-output/ECDC-soca_simplex/2025-11-05-ECDC-soca_simplex.csv"
+            ]
+        }
+    ],
+    "MRC_GIDA": [
+        {
+            "model": "NBEATS",
+            "changes": [
+                "model-output/MRC_GIDA-NBEATS/2025-11-05-MRC_GIDA-NBEATS.csv"
+            ]
+        },
+        {
+            "model": "NHiTS",
+            "changes": [
+                "model-output/MRC_GIDA-NHiTS/2025-11-05-MRC_GIDA-NHiTS.csv"
+            ]
+        },
+        {
+            "model": "Prophet",
+            "changes": [
+                "model-output/MRC_GIDA-Prophet/2025-11-05-MRC_GIDA-Prophet.csv"
+            ]
+        },
+        {
+            "model": "TiDE",
+            "changes": [
+                "model-output/MRC_GIDA-TiDE/2025-11-05-MRC_GIDA-TiDE.csv"
+            ]
+        }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2025-11-05-safinea-PRFM.csv"
+            ]
+        }
+    ],
+    "NotreDame": [
+        {
+            "model": "Rt_cocirc",
+            "changes": [
+                "model-output/NotreDame-Rt_cocirc/2025-11-05-NotreDame-Rt_cocirc.csv"
+            ]
+        }
+    ],
+    "RIVM": [
+        {
+            "model": "KFdlm",
+            "changes": [
+                "model-output/RIVM-KFdlm/2025-11-05-RIVM-KFdlm.csv"
+            ]
+        }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2025-11-05-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2025-11-05-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
     ]
