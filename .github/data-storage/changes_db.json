@@ -84,5 +84,25 @@
                 "model-output/ItaLuxColab-EpiNetEKF/2025-11-05-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
+    ],
+    "QMUL": [
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2025-11-05-QMUL-ARIMA.csv"
+            ]
+        },
+        {
+            "model": "SEIR",
+            "changes": [
+                "model-output/QMUL-SEIR/2025-11-05-QMUL-SEIR.csv"
+            ]
+        },
+        {
+            "model": "SEIR_agumented",
+            "changes": [
+                "model-output/QMUL-SEIR_agumented/2025-11-05-QMUL-SEIR_agumented.csv"
+            ]
+        }
     ]
 }
