@@ -60,5 +60,13 @@
                 "model-output/MRC_GIDA-TiDE/2025-11-12-MRC_GIDA-TiDE.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2025-11-12-safinea-PRFM.csv"
+            ]
+        }
     ]
 }
