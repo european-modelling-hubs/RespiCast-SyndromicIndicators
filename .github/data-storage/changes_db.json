@@ -19,6 +19,12 @@
             "changes": [
                 "model-output/ISI-FluABCaster/2025-11-19-ISI-FluABCaster.csv"
             ]
+        },
+        {
+            "model": "FluBcast",
+            "changes": [
+                "model-output/ISI-FluBcast/2025-11-19-ISI-FluBcast.csv"
+            ]
         }
     ],
     "MRC_GIDA": [
