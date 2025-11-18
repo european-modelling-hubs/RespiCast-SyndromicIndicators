@@ -94,5 +94,13 @@
                 "model-output/NotreDame-Rt_cocirc/2025-11-19-NotreDame-Rt_cocirc.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2025-11-19-safinea-PRFM.csv"
+            ]
+        }
     ]
 }
