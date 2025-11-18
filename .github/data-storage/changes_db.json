@@ -66,5 +66,19 @@
                 "model-output/ECDC-soca_simplex/2025-11-19-ECDC-soca_simplex.csv"
             ]
         }
+    ],
+    "QMUL": [
+        {
+            "model": "SEIR",
+            "changes": [
+                "model-output/QMUL-SEIR/2025-11-19-QMUL-SEIR.csv"
+            ]
+        },
+        {
+            "model": "SEIR_agumented",
+            "changes": [
+                "model-output/QMUL-SEIR_agumented/2025-11-19-QMUL-SEIR_agumented.csv"
+            ]
+        }
     ]
 }
