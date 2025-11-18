@@ -79,6 +79,12 @@
             "changes": [
                 "model-output/QMUL-SEIR_agumented/2025-11-19-QMUL-SEIR_agumented.csv"
             ]
+        },
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2025-11-19-QMUL-ARIMA.csv"
+            ]
         }
     ]
 }
