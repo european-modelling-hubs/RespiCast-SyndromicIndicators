@@ -86,5 +86,13 @@
                 "model-output/QMUL-SEIR_agumented/2025-11-26-QMUL-SEIR_agumented.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2025-11-26-safinea-PRFM.csv"
+            ]
+        }
     ]
 }
