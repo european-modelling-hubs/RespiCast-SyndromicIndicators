@@ -37,6 +37,12 @@
             "changes": [
                 "model-output/ISI-FluABCaster/2025-12-03-ISI-FluABCaster.csv"
             ]
+        },
+        {
+            "model": "GLEAM",
+            "changes": [
+                "model-output/ISI-GLEAM/2025-12-03-ISI-GLEAM.csv"
+            ]
         }
     ],
     "ECDC": [
