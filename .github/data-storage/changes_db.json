@@ -1,1 +1,10 @@
-{}
+{
+    "ISI": [
+        {
+            "model": "FluBcast",
+            "changes": [
+                "model-output/ISI-FluBcast/2025-12-10-ISI-FluBcast.csv"
+            ]
+        }
+    ]
+}
