@@ -1,63 +1,49 @@
 {
+    "ISI": [
+        {
+            "model": "FluBcast",
+            "changes": [
+                "model-output/ISI-FluBcast/2025-12-10-ISI-FluBcast.csv"
+            ]
+        }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2025-12-10-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2025-12-10-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
+    ],
     "MRC_GIDA": [
         {
             "model": "NBEATS",
             "changes": [
-                "model-output/MRC_GIDA-NBEATS/2025-12-03-MRC_GIDA-NBEATS.csv"
+                "model-output/MRC_GIDA-NBEATS/2025-12-10-MRC_GIDA-NBEATS.csv"
             ]
         },
         {
             "model": "NHiTS",
             "changes": [
-                "model-output/MRC_GIDA-NHiTS/2025-12-03-MRC_GIDA-NHiTS.csv"
+                "model-output/MRC_GIDA-NHiTS/2025-12-10-MRC_GIDA-NHiTS.csv"
             ]
         },
         {
             "model": "Prophet",
             "changes": [
-                "model-output/MRC_GIDA-Prophet/2025-12-03-MRC_GIDA-Prophet.csv"
+                "model-output/MRC_GIDA-Prophet/2025-12-10-MRC_GIDA-Prophet.csv"
             ]
         },
         {
             "model": "TiDE",
             "changes": [
-                "model-output/MRC_GIDA-TiDE/2025-12-03-MRC_GIDA-TiDE.csv"
-            ]
-        }
-    ],
-    "ISI": [
-        {
-            "model": "FluBcast",
-            "changes": [
-                "model-output/ISI-FluBcast/2025-12-03-ISI-FluBcast.csv"
-            ]
-        },
-        {
-            "model": "FluABCaster",
-            "changes": [
-                "model-output/ISI-FluABCaster/2025-12-03-ISI-FluABCaster.csv"
-            ]
-        }
-    ],
-    "ECDC": [
-        {
-            "model": "SARIMA",
-            "changes": [
-                "model-output/ECDC-SARIMA/2025-12-03-ECDC-SARIMA.csv"
-            ]
-        },
-        {
-            "model": "soca_simplex",
-            "changes": [
-                "model-output/ECDC-soca_simplex/2025-12-03-ECDC-soca_simplex.csv"
-            ]
-        }
-    ],
-    "NotreDame": [
-        {
-            "model": "Rt_cocirc",
-            "changes": [
-                "model-output/NotreDame-Rt_cocirc/2025-12-03-NotreDame-Rt_cocirc.csv"
+                "model-output/MRC_GIDA-TiDE/2025-12-10-MRC_GIDA-TiDE.csv"
             ]
         }
     ]
