@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
   
   # scheduled run every Friday at 20.00 (19.00 UTC)
-  schedule:
-    - cron: '00 19 * * 5'
+  # schedule:
+  #   - cron: '00 19 * * 5'
     
 jobs:
 
