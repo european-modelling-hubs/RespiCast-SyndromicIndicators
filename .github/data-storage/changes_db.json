@@ -37,6 +37,12 @@
             "changes": [
                 "model-output/ISI-FluBcast/2025-12-17-ISI-FluBcast.csv"
             ]
+        },
+        {
+            "model": "LSTFlu",
+            "changes": [
+                "model-output/ISI-LSTFlu/2025-12-17-ISI-LSTFlu.csv"
+            ]
         }
     ],
     "ItaLuxColab": [
