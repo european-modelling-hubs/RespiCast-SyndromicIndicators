@@ -67,5 +67,13 @@
                 "model-output/ECDC-soca_simplex/2025-12-24-ECDC-soca_simplex.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2025-12-24-safinea-PRFM.csv"
+            ]
+        }
     ]
 }
