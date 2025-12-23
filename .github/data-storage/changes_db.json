@@ -19,6 +19,13 @@
             "changes": [
                 "model-output/ISI-FluBcast/2025-12-24-ISI-FluBcast.csv"
             ]
+        },
+        {
+            "model": "RespiVAR",
+            "changes": [
+                "model-output/ISI-RespiVAR/2025-12-24-ISI-RespiVAR.csv",
+                "model-output/ISI-RespiVAR/placeholder.txt"
+            ]
         }
     ],
     "QMUL": [
