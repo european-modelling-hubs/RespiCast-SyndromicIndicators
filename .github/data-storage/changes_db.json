@@ -1,92 +1,9 @@
 {
-    "ItaLuxColab": [
-        {
-            "model": "EpiEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-12-24-ItaLuxColab-EpiEKF.csv"
-            ]
-        },
-        {
-            "model": "EpiNetEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2025-12-24-ItaLuxColab-EpiNetEKF.csv"
-            ]
-        }
-    ],
     "ISI": [
-        {
-            "model": "FluBcast",
-            "changes": [
-                "model-output/ISI-FluBcast/2025-12-24-ISI-FluBcast.csv"
-            ]
-        },
         {
             "model": "RespiVAR",
             "changes": [
-                "model-output/ISI-RespiVAR/2025-12-24-ISI-RespiVAR.csv",
                 "model-output/ISI-RespiVAR/placeholder.txt"
-            ]
-        },
-        {
-            "model": "FluABCaster",
-            "changes": [
-                "model-output/ISI-FluABCaster/2025-12-24-ISI-FluABCaster.csv"
-            ]
-        },
-        {
-            "model": "GLEAM",
-            "changes": [
-                "model-output/ISI-GLEAM/2025-12-24-ISI-GLEAM.csv"
-            ]
-        }
-    ],
-    "QMUL": [
-        {
-            "model": "ARIMA",
-            "changes": [
-                "model-output/QMUL-ARIMA/2025-12-24-QMUL-ARIMA.csv"
-            ]
-        },
-        {
-            "model": "SEIR",
-            "changes": [
-                "model-output/QMUL-SEIR/2025-12-24-QMUL-SEIR.csv"
-            ]
-        },
-        {
-            "model": "SEIR_agumented",
-            "changes": [
-                "model-output/QMUL-SEIR_agumented/2025-12-24-QMUL-SEIR_agumented.csv"
-            ]
-        }
-    ],
-    "ECDC": [
-        {
-            "model": "SARIMA",
-            "changes": [
-                "model-output/ECDC-SARIMA/2025-12-24-ECDC-SARIMA.csv"
-            ]
-        },
-        {
-            "model": "soca_simplex",
-            "changes": [
-                "model-output/ECDC-soca_simplex/2025-12-24-ECDC-soca_simplex.csv"
-            ]
-        }
-    ],
-    "safinea": [
-        {
-            "model": "PRFM",
-            "changes": [
-                "model-output/safinea-PRFM/2025-12-24-safinea-PRFM.csv"
-            ]
-        }
-    ],
-    "RIVM": [
-        {
-            "model": "KFdlm",
-            "changes": [
-                "model-output/RIVM-KFdlm/2025-12-24-RIVM-KFdlm.csv"
             ]
         }
     ]
