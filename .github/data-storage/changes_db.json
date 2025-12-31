@@ -5,6 +5,12 @@
             "changes": [
                 "model-output/ISI-RespiVAR/placeholder.txt"
             ]
+        },
+        {
+            "model": "GLEAM",
+            "changes": [
+                "model-output/ISI-GLEAM/2025-12-31-ISI-GLEAM.csv"
+            ]
         }
     ],
     "ItaLuxColab": [
