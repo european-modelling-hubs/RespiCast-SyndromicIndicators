@@ -5,48 +5,6 @@
             "changes": [
                 "model-output/ISI-RespiVAR/placeholder.txt"
             ]
-        },
-        {
-            "model": "GLEAM",
-            "changes": [
-                "model-output/ISI-GLEAM/2025-12-31-ISI-GLEAM.csv"
-            ]
-        }
-    ],
-    "ItaLuxColab": [
-        {
-            "model": "EpiEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2025-12-31-ItaLuxColab-EpiEKF.csv"
-            ]
-        },
-        {
-            "model": "EpiNetEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2025-12-31-ItaLuxColab-EpiNetEKF.csv"
-            ]
-        }
-    ],
-    "ECDC": [
-        {
-            "model": "SARIMA",
-            "changes": [
-                "model-output/ECDC-SARIMA/2025-12-31-ECDC-SARIMA.csv"
-            ]
-        },
-        {
-            "model": "soca_simplex",
-            "changes": [
-                "model-output/ECDC-soca_simplex/2025-12-31-ECDC-soca_simplex.csv"
-            ]
-        }
-    ],
-    "safinea": [
-        {
-            "model": "PRFM",
-            "changes": [
-                "model-output/safinea-PRFM/2025-12-31-safinea-PRFM.csv"
-            ]
         }
     ]
 }
