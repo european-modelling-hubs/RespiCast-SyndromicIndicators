@@ -20,5 +20,13 @@
                 "model-output/ECDC-soca_simplex/2026-01-07-ECDC-soca_simplex.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2026-01-07-safinea-PRFM.csv"
+            ]
+        }
     ]
 }
