@@ -1,10 +1,1 @@
-{
-    "ISI": [
-        {
-            "model": "RespiVAR",
-            "changes": [
-                "model-output/ISI-RespiVAR/placeholder.txt"
-            ]
-        }
-    ]
-}
+{}
