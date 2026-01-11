@@ -1,10 +1,1 @@
-{
-    "respicast": [
-        {
-            "model": "hubEnsemble",
-            "changes": [
-                "model-output/respicast-hubEnsemble/2026-01-07-respicast-hubEnsemble.csv"
-            ]
-        }
-    ]
-}
+{}
