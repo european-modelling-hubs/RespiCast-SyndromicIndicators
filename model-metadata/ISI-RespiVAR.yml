@@ -1,0 +1,21 @@
+team_name: ISI Foundation
+model_name: RespiVAR
+team_abbr: ISI
+model_abbr: RespiVAR
+model_contributors:
+  - name: Nadillia Sahputra
+    affiliation: ISI Foundation
+    email: nadillia.sahputra@isi.it
+  - name: Stefania Fiandrino
+    affiliation: ISI Foundation
+    email: stefania.fiandrino@isi.it
+  - name: Daniela Paolotti
+    affiliation: ISI Foundation
+    email: daniela.paolotti@isi.it
+  - name: Nicolò Gozzi
+    affiliation: ISI Foundation
+    email: nicolo.gozzi@isi.it
+team_model_designation: secondary
+methods: Multivariate VAR trained on weekly flu-season observations only.  
+data_inputs: ECDC ERVISS, FluID WHO
+license: CC-BY-4.0
