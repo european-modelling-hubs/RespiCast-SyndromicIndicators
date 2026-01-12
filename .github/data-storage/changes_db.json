@@ -18,5 +18,19 @@
                 "model-output/QMUL-SEIR_agumented/2026-01-14-QMUL-SEIR_agumented.csv"
             ]
         }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2026-01-14-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2026-01-14-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
     ]
 }
