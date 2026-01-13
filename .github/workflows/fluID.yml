@@ -3,9 +3,9 @@ name: DownloadFluID
 on:
 
   workflow_dispatch:
-  # schedule:
-  #   - cron: "30 18 * * 5"
-  #   # - cron: '30 18 * * 1'
+  schedule:
+    - cron: "30 18 * * 5"
+    # - cron: '30 18 * * 1'
     
 jobs:
 
