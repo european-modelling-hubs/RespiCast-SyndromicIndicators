@@ -45,6 +45,12 @@
             "changes": [
                 "model-output/ISI-LSTFlu/2026-01-14-ISI-LSTFlu.csv"
             ]
+        },
+        {
+            "model": "FluABCaster",
+            "changes": [
+                "model-output/ISI-FluABCaster/2026-01-14-ISI-FluABCaster.csv"
+            ]
         }
     ],
     "ECDC": [
