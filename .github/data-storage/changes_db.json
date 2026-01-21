@@ -80,5 +80,25 @@
                 "model-output/RIVM-KFdlm/2026-01-21-RIVM-KFdlm.csv"
             ]
         }
+    ],
+    "QMUL": [
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2026-01-21-QMUL-ARIMA.csv"
+            ]
+        },
+        {
+            "model": "SEIR",
+            "changes": [
+                "model-output/QMUL-SEIR/2026-01-21-QMUL-SEIR.csv"
+            ]
+        },
+        {
+            "model": "SEIR_agumented",
+            "changes": [
+                "model-output/QMUL-SEIR_agumented/2026-01-21-QMUL-SEIR_agumented.csv"
+            ]
+        }
     ]
 }
