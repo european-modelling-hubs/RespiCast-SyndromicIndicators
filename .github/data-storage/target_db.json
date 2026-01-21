@@ -1,12 +1,1 @@
-{
-    "ILI incidence": {
-        "changes": [
-            "target-data/ERVISS/snapshots/2026-01-16-ILI_incidence.csv"
-        ]
-    },
-    "ARI incidence": {
-        "changes": [
-            "target-data/ERVISS/snapshots/2026-01-16-ARI_incidence.csv"
-        ]
-    }
-}
+{}
