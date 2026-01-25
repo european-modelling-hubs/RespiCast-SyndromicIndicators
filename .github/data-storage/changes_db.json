@@ -3,21 +3,7 @@
         {
             "model": "FluABCaster",
             "changes": [
-                "model-output/ISI-FluABCaster/2026-01-21-ISI-FluABCaster.csv"
-            ]
-        }
-    ],
-    "ItaLuxColab": [
-        {
-            "model": "EpiEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2026-01-21-ItaLuxColab-EpiEKF.csv"
-            ]
-        },
-        {
-            "model": "EpiNetEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2026-01-21-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/ISI-FluABCaster/2026-01-28-ISI-FluABCaster.csv"
             ]
         }
     ]
