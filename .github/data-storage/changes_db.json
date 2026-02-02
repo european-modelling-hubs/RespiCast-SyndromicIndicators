@@ -6,5 +6,13 @@
                 "model-output/ISI-FluBcast/2026-02-04-ISI-FluBcast.csv"
             ]
         }
+    ],
+    "NotreDame": [
+        {
+            "model": "Rt_cocirc",
+            "changes": [
+                "model-output/NotreDame-Rt_cocirc/2026-02-04-NotreDame-Rt_cocirc.csv"
+            ]
+        }
     ]
 }
