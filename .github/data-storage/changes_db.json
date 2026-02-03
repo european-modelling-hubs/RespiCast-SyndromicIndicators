@@ -48,5 +48,19 @@
                 "model-output/ECDC-soca_simplex/2026-02-04-ECDC-soca_simplex.csv"
             ]
         }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2026-02-04-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2026-02-04-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
     ]
 }
