@@ -6,5 +6,13 @@
                 "model-output/Chronos-Chronos2/2026-02-11-Chronos-Chronos2.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "FluBcast",
+            "changes": [
+                "model-output/ISI-FluBcast/2026-02-11-ISI-FluBcast.csv"
+            ]
+        }
     ]
 }
