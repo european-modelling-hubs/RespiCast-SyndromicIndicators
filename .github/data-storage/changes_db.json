@@ -31,6 +31,12 @@
             "changes": [
                 "model-output/ISI-RespiVAR/2026-02-11-ISI-RespiVAR.csv"
             ]
+        },
+        {
+            "model": "GLEAM",
+            "changes": [
+                "model-output/ISI-GLEAM/2026-02-11-ISI-GLEAM.csv"
+            ]
         }
     ],
     "NotreDame": [
