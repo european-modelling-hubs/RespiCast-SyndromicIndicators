@@ -25,6 +25,12 @@
             "changes": [
                 "model-output/ISI-LSTFlu/2026-02-11-ISI-LSTFlu.csv"
             ]
+        },
+        {
+            "model": "RespiVAR",
+            "changes": [
+                "model-output/ISI-RespiVAR/2026-02-11-ISI-RespiVAR.csv"
+            ]
         }
     ],
     "NotreDame": [
