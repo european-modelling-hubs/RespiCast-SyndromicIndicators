@@ -1,0 +1,14 @@
+team_name: Chronos
+model_name: Chronos-2
+team_abbr: Chronos
+model_abbr: Chronos2
+model_contributors:
+  - name: Abdul Fatir Ansari
+    affiliation: Amazon Web Services
+    email: abdulfatirs@gmail.com
+team_model_designation: primary
+data_inputs: ECDC ERVISS, WHO FluID
+methods: Chronos-2 time series foundation model used in zero-shot mode with in-context cross learning between locations enabled.
+website_url: https://github.com/amazon-science/chronos-forecasting
+citation: "Ansari, A. F., Shchur, O., Küken, J., ... & Bohlke-Schneider, M. (2025). Chronos-2: From univariate to universal forecasting. arXiv preprint arXiv:2510.15821."
+note: Contribution made in personal capacity, not as an official AWS submission
