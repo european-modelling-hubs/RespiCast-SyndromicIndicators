@@ -102,5 +102,13 @@
                 "model-output/QMUL-SEIR_agumented/2026-02-11-QMUL-SEIR_agumented.csv"
             ]
         }
+    ],
+    "RIVM": [
+        {
+            "model": "KFdlm",
+            "changes": [
+                "model-output/RIVM-KFdlm/2026-02-11-RIVM-KFdlm.csv"
+            ]
+        }
     ]
 }
