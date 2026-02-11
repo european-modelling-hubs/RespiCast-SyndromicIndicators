@@ -19,6 +19,12 @@
             "changes": [
                 "model-output/ISI-FluABCaster/2026-02-11-ISI-FluABCaster.csv"
             ]
+        },
+        {
+            "model": "LSTFlu",
+            "changes": [
+                "model-output/ISI-LSTFlu/2026-02-11-ISI-LSTFlu.csv"
+            ]
         }
     ],
     "NotreDame": [
