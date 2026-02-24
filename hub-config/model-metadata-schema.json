@@ -100,7 +100,7 @@
             "type": "string"
         }
     },
-    "additionalProperties": true,
+    "additionalProperties": false,
     "required": [
         "team_name",
         "model_name",
