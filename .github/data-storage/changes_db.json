@@ -17,6 +17,12 @@
             "changes": [
                 "model-output/ISI-LSTFlu/2026-02-25-ISI-LSTFlu.csv"
             ]
+        },
+        {
+            "model": "GLEAM",
+            "changes": [
+                "model-output/ISI-GLEAM/2026-02-25-ISI-GLEAM.csv"
+            ]
         }
     ],
     "ECDC": [
