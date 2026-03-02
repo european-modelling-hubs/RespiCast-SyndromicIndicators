@@ -3,21 +3,7 @@
         {
             "model": "FluBcast",
             "changes": [
-                "model-output/ISI-FluBcast/2026-02-25-ISI-FluBcast.csv"
-            ]
-        }
-    ],
-    "ECDC": [
-        {
-            "model": "SARIMA",
-            "changes": [
-                "model-output/ECDC-SARIMA/2026-02-25-ECDC-SARIMA.csv"
-            ]
-        },
-        {
-            "model": "soca_simplex",
-            "changes": [
-                "model-output/ECDC-soca_simplex/2026-02-25-ECDC-soca_simplex.csv"
+                "model-output/ISI-FluBcast/2026-03-04-ISI-FluBcast.csv"
             ]
         }
     ],
@@ -25,13 +11,13 @@
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2026-02-25-ItaLuxColab-EpiEKF.csv"
+                "model-output/ItaLuxColab-EpiEKF/2026-03-04-ItaLuxColab-EpiEKF.csv"
             ]
         },
         {
             "model": "EpiNetEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2026-02-25-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/ItaLuxColab-EpiNetEKF/2026-03-04-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
     ]
