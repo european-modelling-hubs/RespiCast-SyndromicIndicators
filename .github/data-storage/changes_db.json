@@ -5,6 +5,12 @@
             "changes": [
                 "model-output/ISI-FluBcast/2026-03-04-ISI-FluBcast.csv"
             ]
+        },
+        {
+            "model": "FluABCaster",
+            "changes": [
+                "model-output/ISI-FluABCaster/2026-03-04-ISI-FluABCaster.csv"
+            ]
         }
     ],
     "ItaLuxColab": [
