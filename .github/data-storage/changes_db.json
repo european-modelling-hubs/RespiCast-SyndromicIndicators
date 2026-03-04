@@ -90,5 +90,13 @@
                 "model-output/safinea-PRFM/2026-03-04-safinea-PRFM.csv"
             ]
         }
+    ],
+    "Chronos": [
+        {
+            "model": "Chronos2",
+            "changes": [
+                "model-output/Chronos-Chronos2/2026-03-04-Chronos-Chronos2.csv"
+            ]
+        }
     ]
 }
