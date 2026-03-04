@@ -68,5 +68,13 @@
                 "model-output/NotreDame-Rt_cocirc/2026-03-04-NotreDame-Rt_cocirc.csv"
             ]
         }
+    ],
+    "RIVM": [
+        {
+            "model": "KFdlm",
+            "changes": [
+                "model-output/RIVM-KFdlm/2026-03-04-RIVM-KFdlm.csv"
+            ]
+        }
     ]
 }
