@@ -26,5 +26,13 @@
                 "model-output/QMUL-SEIR_agumented/2026-03-11-QMUL-SEIR_agumented.csv"
             ]
         }
+    ],
+    "NotreDame": [
+        {
+            "model": "Rt_cocirc",
+            "changes": [
+                "model-output/NotreDame-Rt_cocirc/2026-03-11-NotreDame-Rt_cocirc.csv"
+            ]
+        }
     ]
 }
