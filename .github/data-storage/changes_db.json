@@ -17,6 +17,12 @@
             "changes": [
                 "model-output/ISI-GLEAM/2026-03-11-ISI-GLEAM.csv"
             ]
+        },
+        {
+            "model": "RespiVAR",
+            "changes": [
+                "model-output/ISI-RespiVAR/2026-03-11-ISI-RespiVAR.csv"
+            ]
         }
     ],
     "QMUL": [
