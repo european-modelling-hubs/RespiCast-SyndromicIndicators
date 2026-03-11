@@ -84,5 +84,13 @@
                 "model-output/ItaLuxColab-EpiNetEKF/2026-03-11-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
+    ],
+    "Chronos": [
+        {
+            "model": "Chronos2",
+            "changes": [
+                "model-output/Chronos-Chronos2/2026-03-11-Chronos-Chronos2.csv"
+            ]
+        }
     ]
 }
