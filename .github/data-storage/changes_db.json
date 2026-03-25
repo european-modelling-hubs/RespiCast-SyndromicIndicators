@@ -3,19 +3,13 @@
         {
             "model": "FluBcast",
             "changes": [
-                "model-output/ISI-FluBcast/2026-03-18-ISI-FluBcast.csv"
+                "model-output/ISI-FluBcast/2026-03-25-ISI-FluBcast.csv"
             ]
         },
         {
             "model": "RespiVAR",
             "changes": [
-                "model-output/ISI-RespiVAR/2026-03-18-ISI-RespiVAR.csv"
-            ]
-        },
-        {
-            "model": "GLEAM",
-            "changes": [
-                "model-output/ISI-GLEAM/2026-03-18-ISI-GLEAM.csv"
+                "model-output/ISI-RespiVAR/2026-03-25-ISI-RespiVAR.csv"
             ]
         }
     ],
@@ -23,59 +17,45 @@
         {
             "model": "NBEATS",
             "changes": [
-                "model-output/MRC_GIDA-NBEATS/2026-03-18-MRC_GIDA-NBEATS.csv"
+                "model-output/MRC_GIDA-NBEATS/2026-03-25-MRC_GIDA-NBEATS.csv"
             ]
         },
         {
             "model": "NHiTS",
             "changes": [
-                "model-output/MRC_GIDA-NHiTS/2026-03-18-MRC_GIDA-NHiTS.csv"
+                "model-output/MRC_GIDA-NHiTS/2026-03-25-MRC_GIDA-NHiTS.csv"
             ]
         },
         {
             "model": "Prophet",
             "changes": [
-                "model-output/MRC_GIDA-Prophet/2026-03-18-MRC_GIDA-Prophet.csv"
+                "model-output/MRC_GIDA-Prophet/2026-03-25-MRC_GIDA-Prophet.csv"
             ]
         },
         {
             "model": "TiDE",
             "changes": [
-                "model-output/MRC_GIDA-TiDE/2026-03-18-MRC_GIDA-TiDE.csv"
-            ]
-        }
-    ],
-    "ItaLuxColab": [
-        {
-            "model": "EpiEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2026-03-18-ItaLuxColab-EpiEKF.csv"
-            ]
-        },
-        {
-            "model": "EpiNetEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2026-03-18-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/MRC_GIDA-TiDE/2026-03-25-MRC_GIDA-TiDE.csv"
             ]
         }
     ],
     "QMUL": [
         {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2026-03-25-QMUL-ARIMA.csv"
+            ]
+        },
+        {
             "model": "SEIR",
             "changes": [
-                "model-output/QMUL-SEIR/2026-03-18-QMUL-SEIR.csv"
+                "model-output/QMUL-SEIR/2026-03-25-QMUL-SEIR.csv"
             ]
         },
         {
             "model": "SEIR_agumented",
             "changes": [
-                "model-output/QMUL-SEIR_agumented/2026-03-18-QMUL-SEIR_agumented.csv"
-            ]
-        },
-        {
-            "model": "ARIMA",
-            "changes": [
-                "model-output/QMUL-ARIMA/2026-03-18-QMUL-ARIMA.csv"
+                "model-output/QMUL-SEIR_agumented/2026-03-25-QMUL-SEIR_agumented.csv"
             ]
         }
     ],
@@ -83,29 +63,13 @@
         {
             "model": "SARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2026-03-18-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA/2026-03-25-ECDC-SARIMA.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2026-03-18-ECDC-soca_simplex.csv"
-            ]
-        }
-    ],
-    "safinea": [
-        {
-            "model": "PRFM",
-            "changes": [
-                "model-output/safinea-PRFM/2026-03-18-safinea-PRFM.csv"
-            ]
-        }
-    ],
-    "RIVM": [
-        {
-            "model": "KFdlm",
-            "changes": [
-                "model-output/RIVM-KFdlm/2026-03-18-RIVM-KFdlm.csv"
+                "model-output/ECDC-soca_simplex/2026-03-25-ECDC-soca_simplex.csv"
             ]
         }
     ],
@@ -113,7 +77,31 @@
         {
             "model": "Rt_cocirc",
             "changes": [
-                "model-output/NotreDame-Rt_cocirc/2026-03-18-NotreDame-Rt_cocirc.csv"
+                "model-output/NotreDame-Rt_cocirc/2026-03-25-NotreDame-Rt_cocirc.csv"
+            ]
+        }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2026-03-25-safinea-PRFM.csv"
+            ]
+        }
+    ],
+    "RIVM": [
+        {
+            "model": "KFdlm",
+            "changes": [
+                "model-output/RIVM-KFdlm/2026-03-25-RIVM-KFdlm.csv"
+            ]
+        }
+    ],
+    "Chronos": [
+        {
+            "model": "Chronos2",
+            "changes": [
+                "model-output/Chronos-Chronos2/2026-03-25-Chronos-Chronos2.csv"
             ]
         }
     ]
