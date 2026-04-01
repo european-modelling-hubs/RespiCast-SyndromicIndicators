@@ -3,7 +3,13 @@
         {
             "model": "FluBcast",
             "changes": [
-                "model-output/ISI-FluBcast/2026-03-25-ISI-FluBcast.csv"
+                "model-output/ISI-FluBcast/2026-04-01-ISI-FluBcast.csv"
+            ]
+        },
+        {
+            "model": "RespiVAR",
+            "changes": [
+                "model-output/ISI-RespiVAR/2026-04-01-ISI-RespiVAR.csv"
             ]
         }
     ],
@@ -11,25 +17,25 @@
         {
             "model": "NBEATS",
             "changes": [
-                "model-output/MRC_GIDA-NBEATS/2026-03-25-MRC_GIDA-NBEATS.csv"
+                "model-output/MRC_GIDA-NBEATS/2026-04-01-MRC_GIDA-NBEATS.csv"
             ]
         },
         {
             "model": "NHiTS",
             "changes": [
-                "model-output/MRC_GIDA-NHiTS/2026-03-25-MRC_GIDA-NHiTS.csv"
+                "model-output/MRC_GIDA-NHiTS/2026-04-01-MRC_GIDA-NHiTS.csv"
             ]
         },
         {
             "model": "Prophet",
             "changes": [
-                "model-output/MRC_GIDA-Prophet/2026-03-25-MRC_GIDA-Prophet.csv"
+                "model-output/MRC_GIDA-Prophet/2026-04-01-MRC_GIDA-Prophet.csv"
             ]
         },
         {
             "model": "TiDE",
             "changes": [
-                "model-output/MRC_GIDA-TiDE/2026-03-25-MRC_GIDA-TiDE.csv"
+                "model-output/MRC_GIDA-TiDE/2026-04-01-MRC_GIDA-TiDE.csv"
             ]
         }
     ],
@@ -37,19 +43,19 @@
         {
             "model": "ARIMA",
             "changes": [
-                "model-output/QMUL-ARIMA/2026-03-25-QMUL-ARIMA.csv"
+                "model-output/QMUL-ARIMA/2026-04-01-QMUL-ARIMA.csv"
             ]
         },
         {
             "model": "SEIR",
             "changes": [
-                "model-output/QMUL-SEIR/2026-03-25-QMUL-SEIR.csv"
+                "model-output/QMUL-SEIR/2026-04-01-QMUL-SEIR.csv"
             ]
         },
         {
             "model": "SEIR_agumented",
             "changes": [
-                "model-output/QMUL-SEIR_agumented/2026-03-25-QMUL-SEIR_agumented.csv"
+                "model-output/QMUL-SEIR_agumented/2026-04-01-QMUL-SEIR_agumented.csv"
             ]
         }
     ],
@@ -57,21 +63,13 @@
         {
             "model": "SARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2026-03-25-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA/2026-04-01-ECDC-SARIMA.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2026-03-25-ECDC-soca_simplex.csv"
-            ]
-        }
-    ],
-    "NotreDame": [
-        {
-            "model": "Rt_cocirc",
-            "changes": [
-                "model-output/NotreDame-Rt_cocirc/2026-03-25-NotreDame-Rt_cocirc.csv"
+                "model-output/ECDC-soca_simplex/2026-04-01-ECDC-soca_simplex.csv"
             ]
         }
     ],
@@ -79,7 +77,7 @@
         {
             "model": "PRFM",
             "changes": [
-                "model-output/safinea-PRFM/2026-03-25-safinea-PRFM.csv"
+                "model-output/safinea-PRFM/2026-04-01-safinea-PRFM.csv"
             ]
         }
     ]
