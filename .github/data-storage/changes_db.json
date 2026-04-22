@@ -102,5 +102,13 @@
                 "model-output/ECDC-soca_simplex/2026-04-22-ECDC-soca_simplex.csv"
             ]
         }
+    ],
+    "NotreDame": [
+        {
+            "model": "Rt_cocirc",
+            "changes": [
+                "model-output/NotreDame-Rt_cocirc/2026-04-22-NotreDame-Rt_cocirc.csv"
+            ]
+        }
     ]
 }
