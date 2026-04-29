@@ -88,5 +88,19 @@
                 "model-output/RIVM-KFdlm/2026-04-29-RIVM-KFdlm.csv"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "SARIMA",
+            "changes": [
+                "model-output/ECDC-SARIMA/2026-04-29-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2026-04-29-ECDC-soca_simplex.csv"
+            ]
+        }
     ]
 }
