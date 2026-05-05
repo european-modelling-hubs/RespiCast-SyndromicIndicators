@@ -60,5 +60,13 @@
                 "model-output/ISI-FluBcast/2026-05-06-ISI-FluBcast.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2026-05-06-safinea-PRFM.csv"
+            ]
+        }
     ]
 }
