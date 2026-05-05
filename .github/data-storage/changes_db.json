@@ -52,5 +52,13 @@
                 "model-output/MRC_GIDA-TiDE/2026-05-06-MRC_GIDA-TiDE.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "FluBcast",
+            "changes": [
+                "model-output/ISI-FluBcast/2026-05-06-ISI-FluBcast.csv"
+            ]
+        }
     ]
 }
