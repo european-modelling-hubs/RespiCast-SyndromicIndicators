@@ -59,6 +59,12 @@
             "changes": [
                 "model-output/ISI-FluBcast/2026-05-06-ISI-FluBcast.csv"
             ]
+        },
+        {
+            "model": "RespiVAR",
+            "changes": [
+                "model-output/ISI-RespiVAR/2026-05-06-ISI-RespiVAR.csv"
+            ]
         }
     ],
     "safinea": [
