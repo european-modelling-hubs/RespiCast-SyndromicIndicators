@@ -1,1 +1,5 @@
-{}
+{
+    "changes": [
+        "model-metadata/IceLab-EDM.yml"
+    ]
+}
