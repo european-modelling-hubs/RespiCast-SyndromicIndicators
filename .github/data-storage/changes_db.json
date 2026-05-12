@@ -40,5 +40,31 @@
                 "model-output/QMUL-SEIR_agumented/2026-05-13-QMUL-SEIR_agumented.csv"
             ]
         }
+    ],
+    "MRC_GIDA": [
+        {
+            "model": "NBEATS",
+            "changes": [
+                "model-output/MRC_GIDA-NBEATS/2026-05-13-MRC_GIDA-NBEATS.csv"
+            ]
+        },
+        {
+            "model": "NHiTS",
+            "changes": [
+                "model-output/MRC_GIDA-NHiTS/2026-05-13-MRC_GIDA-NHiTS.csv"
+            ]
+        },
+        {
+            "model": "Prophet",
+            "changes": [
+                "model-output/MRC_GIDA-Prophet/2026-05-13-MRC_GIDA-Prophet.csv"
+            ]
+        },
+        {
+            "model": "TiDE",
+            "changes": [
+                "model-output/MRC_GIDA-TiDE/2026-05-13-MRC_GIDA-TiDE.csv"
+            ]
+        }
     ]
 }
