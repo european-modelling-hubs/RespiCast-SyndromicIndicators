@@ -7,5 +7,5 @@ model_contributors:
     affiliation: IceLab, Umeå University
     email: albertas.dvirnas@umu.se
 team_model_designation: primary
-data_inputs: ECDC ARI
+data_inputs: ECDC ERVISS, ECDC FluID
 methods: Empirical Dynamical modelling, based on Takens embedding theorem
