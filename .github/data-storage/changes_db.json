@@ -32,5 +32,13 @@
                 "model-output/ISI-FluBcast/2026-05-27-ISI-FluBcast.csv"
             ]
         }
+    ],
+    "IceLab": [
+        {
+            "model": "EDM",
+            "changes": [
+                "model-output/IceLab-EDM/2026-05-27-IceLab-EDM.csv"
+            ]
+        }
     ]
 }
