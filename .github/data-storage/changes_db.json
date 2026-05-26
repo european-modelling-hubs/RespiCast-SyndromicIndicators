@@ -1,9 +1,43 @@
 {
+    "MRC_GIDA": [
+        {
+            "model": "NBEATS",
+            "changes": [
+                "model-output/MRC_GIDA-NBEATS/2026-05-27-MRC_GIDA-NBEATS.csv"
+            ]
+        },
+        {
+            "model": "NHiTS",
+            "changes": [
+                "model-output/MRC_GIDA-NHiTS/2026-05-27-MRC_GIDA-NHiTS.csv"
+            ]
+        },
+        {
+            "model": "Prophet",
+            "changes": [
+                "model-output/MRC_GIDA-Prophet/2026-05-27-MRC_GIDA-Prophet.csv"
+            ]
+        },
+        {
+            "model": "TiDE",
+            "changes": [
+                "model-output/MRC_GIDA-TiDE/2026-05-27-MRC_GIDA-TiDE.csv"
+            ]
+        }
+    ],
     "ISI": [
         {
             "model": "FluBcast",
             "changes": [
-                "model-output/ISI-FluBcast/2026-05-13-ISI-FluBcast.csv"
+                "model-output/ISI-FluBcast/2026-05-27-ISI-FluBcast.csv"
+            ]
+        }
+    ],
+    "IceLab": [
+        {
+            "model": "EDM",
+            "changes": [
+                "model-output/IceLab-EDM/2026-05-27-IceLab-EDM.csv"
             ]
         }
     ],
@@ -11,13 +45,13 @@
         {
             "model": "SARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2026-05-13-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA/2026-05-27-ECDC-SARIMA.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2026-05-13-ECDC-soca_simplex.csv"
+                "model-output/ECDC-soca_simplex/2026-05-27-ECDC-soca_simplex.csv"
             ]
         }
     ]
