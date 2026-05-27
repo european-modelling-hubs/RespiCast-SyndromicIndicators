@@ -1,0 +1,11 @@
+team_name: Integrated Science Lab
+model_name: Empirical Dynamical modelling
+team_abbr: IceLab
+model_abbr: EDM
+model_contributors:
+  - name: Albertas Dvirnas 
+    affiliation: IceLab, Umeå University
+    email: albertas.dvirnas@umu.se
+team_model_designation: primary
+data_inputs: ECDC ARI
+methods: Empirical Dynamical modelling, based on Takens embedding theorem
