@@ -40,7 +40,7 @@ jobs:
           wednesday_date=$(date -d "$offset days" +%Y-%m-%d)
           echo "Wednesday's date is $wednesday_date"
           # Set the output
-          echo "::set-output name=wednesday_date::$wednesday_date"
+          echo "wednesday_date=$wednesday_date" >> "$GITHUB_OUTPUT"
 
       # Checkout your forked repository - main branch -
       # where this action is currently hosted !
