@@ -68,7 +68,7 @@ jobs:
       # Set the default remote repository to use when querying the GitHub API for the locally cloned repository.
       - run: gh repo set-default european-modelling-hubs/RespiCast-SyndromicIndicators
         env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.MY_PAT_SECRET }}
 
       # Pull directly from main branch of the upstream repository,
       # so you do not have to sync and the workflow is not part of the PR
@@ -80,7 +80,7 @@ jobs:
           git switch -C pr-new-branch upstream/main
 
         env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.MY_PAT_SECRET }}
 
       # make a copy of the needed files from data repository
       - name: Copy model-output file
