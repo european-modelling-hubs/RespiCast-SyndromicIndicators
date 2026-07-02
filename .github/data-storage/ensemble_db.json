@@ -1,1 +1,10 @@
-{}
+{
+    "respicast": [
+        {
+            "model": "quantileBaseline",
+            "changes": [
+                "model-output/respicast-quantileBaseline/2026-07-01-respicast-quantileBaseline.csv"
+            ]
+        }
+    ]
+}
