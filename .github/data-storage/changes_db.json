@@ -3,13 +3,15 @@
         {
             "model": "SARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2026-07-01-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA/2026-07-01-ECDC-SARIMA.csv",
+                "model-output/ECDC-SARIMA/2026-07-08-ECDC-SARIMA.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2026-07-01-ECDC-soca_simplex.csv"
+                "model-output/ECDC-soca_simplex/2026-07-01-ECDC-soca_simplex.csv",
+                "model-output/ECDC-soca_simplex/2026-07-08-ECDC-soca_simplex.csv"
             ]
         }
     ]
