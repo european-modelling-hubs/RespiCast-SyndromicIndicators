@@ -1,13 +1,15 @@
 {
     "ILI incidence": {
         "changes": [
+            "target-data/FluID/snapshots/2026-06-26-ILI_incidence.csv",
             "target-data/FluID/snapshots/2026-07-03-ILI_incidence.csv",
-            "target-data/FluID/snapshots/2026-06-26-ILI_incidence.csv"
+            "target-data/FluID/snapshots/2026-07-10-ILI_incidence.csv"
         ]
     },
     "ARI incidence": {
         "changes": [
-            "target-data/FluID/snapshots/2026-06-26-ARI_incidence.csv"
+            "target-data/FluID/snapshots/2026-06-26-ARI_incidence.csv",
+            "target-data/FluID/snapshots/2026-07-10-ARI_incidence.csv"
         ]
     }
 }
