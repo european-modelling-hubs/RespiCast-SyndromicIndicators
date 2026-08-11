@@ -18,5 +18,13 @@
                 "model-output/ECDC-soca_simplex/2026-07-22-ECDC-soca_simplex.csv"
             ]
         }
+    ],
+    "TestTeam": [
+        {
+            "model": "TestModel",
+            "changes": [
+                "model-output/TestTeam-TestModel/2026-08-12-TestTeam-TestModel.csv"
+            ]
+        }
     ]
 }
