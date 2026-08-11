@@ -40,7 +40,7 @@ jobs:
           wednesday_date=$(date -d "$offset days" +%Y-%m-%d)
           echo "Wednesday's date is $wednesday_date"
           # Set the output
-          echo "::set-output name=wednesday_date::$wednesday_date"
+          echo "wednesday_date=$wednesday_date" >> "$GITHUB_OUTPUT"
 
       # Checkout your forked repository - main branch -
       # where this action is currently hosted !
@@ -59,7 +59,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: 'main' # the git branch to work on
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MY_PAT_SECRET }}
           repository: 'your_organization/modeloutput-data-repo'
           path: './data-repo/' # Relative path under $GITHUB_WORKSPACE to place the repository
 
@@ -68,7 +68,7 @@ jobs:
       # Set the default remote repository to use when querying the GitHub API for the locally cloned repository.
       - run: gh repo set-default european-modelling-hubs/RespiCast-SyndromicIndicators
         env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.MY_PAT_SECRET }}
 
       # Pull directly from main branch of the upstream repository,
       # so you do not have to sync and the workflow is not part of the PR
@@ -80,7 +80,7 @@ jobs:
           git switch -C pr-new-branch upstream/main
 
         env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.MY_PAT_SECRET }}
 
       # make a copy of the needed files from data repository
       - name: Copy model-output file
