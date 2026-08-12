@@ -20,5 +20,21 @@
                 "model-output/ISI-LightGBM/2026-08-12-ISI-LightGBM.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2026-08-12-safinea-PRFM.csv"
+            ]
+        }
+    ],
+    "RIVM": [
+        {
+            "model": "KFdlm",
+            "changes": [
+                "model-output/RIVM-KFdlm/2026-08-12-RIVM-KFdlm.csv"
+            ]
+        }
     ]
 }
