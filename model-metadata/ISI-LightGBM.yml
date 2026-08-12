@@ -16,6 +16,6 @@ model_contributors:
     affiliation: ISI Foundation
     email: nicolo.gozzi@isi.it
 team_model_designation: secondary
-methods: Two-stage LightGBM pipeline: first stage predicts central value, second stage (LightGBMLSS) approximates predictive quantiles. Jointly trained across countries with Google Search Trends with related topics as predictors.
+methods: Two-stage LightGBM pipeline, first stage predicts central value, second stage (LightGBMLSS) approximates predictive quantiles. Jointly trained across countries with Google Search Trends with related topics as predictors.
 data_inputs: ECDC ERVISS, FluID WHO
 license: CC-BY-4.0
