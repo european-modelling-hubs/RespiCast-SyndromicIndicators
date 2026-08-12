@@ -16,9 +16,6 @@ model_contributors:
     affiliation: ISI Foundation
     email: nicolo.gozzi@isi.it
 team_model_designation: secondary
-methods: |
-  The forecasting model is a two-stage LightGBM pipeline: a first LightGBM stage predicts the central value, and a second LightGBMLSS stage approximates the remaining predictive quantiles.
-  Both stages are trained jointly across countries on a pooled panel, which induces cross-country dependence. 
-  We also include, as predictors, Google Search Trends volumes for query topics related to ILI and ARI symptoms, treatments, and care-seeking behaviour.
+methods: Two-stage LightGBM pipeline: first stage predicts central value, second stage (LightGBMLSS) approximates predictive quantiles. Jointly trained across countries with Google Search Trends with related topics as predictors.
 data_inputs: ECDC ERVISS, FluID WHO
 license: CC-BY-4.0
