@@ -23,7 +23,8 @@ jobs:
       PR_NUMBER: ${{ github.event.pull_request.number }}
 
     steps:
-      - uses: actions/checkout@v3
+      # - uses: actions/checkout@v3
+      - uses: actions/checkout@v3.6.0
         with:
           ref: ${{ github.event.pull_request.head.sha }}
 
@@ -36,9 +37,11 @@ jobs:
         
       # DEBUG ONLY
       - name: List all changed files
+        env:
+          ALL_CHANGED_FILES: ${{ steps.get_changed_files.outputs.all_changed_files }}
         run: |
-          for file in ${{ steps.get_changed_files.outputs.all_changed_files }}; do
-            echo "$file was changed"
+          for file in $ALL_CHANGED_FILES; do
+            printf '%s was changed\n' "$file"
           done
 
       # Install Python
