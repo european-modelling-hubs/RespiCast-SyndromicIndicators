@@ -18,5 +18,13 @@
                 "model-output/QMUL-SEIR_agumented/2026-08-19-QMUL-SEIR_agumented.csv"
             ]
         }
+    ],
+    "IceLab": [
+        {
+            "model": "EDM",
+            "changes": [
+                "model-output/IceLab-EDM/2026-08-19-IceLab-EDM.csv"
+            ]
+        }
     ]
 }
