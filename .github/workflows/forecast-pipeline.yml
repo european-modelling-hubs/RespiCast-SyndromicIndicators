@@ -30,7 +30,6 @@ jobs:
     secrets: inherit
     
   send_failure_email:
-
     needs:
       - gen_baseline_job
       - gen_ensemble_job
@@ -51,7 +50,6 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-
       - name: Send warning email to admin
         uses: dawidd6/action-send-mail@v3
         with:
