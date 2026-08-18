@@ -29,4 +29,55 @@ jobs:
     uses: ./.github/workflows/upload_baseline_ensemble_pipelined.yml
     secrets: inherit
     
-  
+  send_failure_email:
+
+    needs:
+      - gen_baseline_job
+      - gen_ensemble_job
+      - upload_forecasts_job
+      - upload_baseline_ensemble_job
+
+    if: >-
+
+      ${{
+        always() &&
+        (
+          needs.gen_baseline_job.result == 'failure' ||
+          needs.gen_ensemble_job.result == 'failure' ||
+          needs.upload_forecasts_job.result == 'failure' ||
+          needs.upload_baseline_ensemble_job.result == 'failure'
+        )
+      }}
+
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Send warning email to admin
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "RespiCast - Forecast pipeline error!"
+          body: |
+            Hi,
+            An error occurred during the RespiCast forecast pipeline.
+            Job status:
+            Generate baseline:
+            ${{ needs.gen_baseline_job.result }}
+            Generate ensemble:
+            ${{ needs.gen_ensemble_job.result }}
+            Upload forecasts:
+            ${{ needs.upload_forecasts_job.result }}
+            Upload baseline/ensemble:
+            ${{ needs.upload_baseline_ensemble_job.result }}
+
+            GitHub Actions run:
+            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            RespiCast tech team.
+
+          to: paolo.milano@isi.it,corrado.gioannini@isi.it,nicolo.gozzi@isi.it
+          from: "Respicast Team <respicast@isi.it>"
+          content_type: text/plain
