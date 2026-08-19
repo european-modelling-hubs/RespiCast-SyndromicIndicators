@@ -1,21 +1,57 @@
 {
+    "QMUL": [
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2026-08-19-QMUL-ARIMA.csv"
+            ]
+        },
+        {
+            "model": "SEIR",
+            "changes": [
+                "model-output/QMUL-SEIR/2026-08-19-QMUL-SEIR.csv"
+            ]
+        },
+        {
+            "model": "SEIR_agumented",
+            "changes": [
+                "model-output/QMUL-SEIR_agumented/2026-08-19-QMUL-SEIR_agumented.csv"
+            ]
+        }
+    ],
+    "IceLab": [
+        {
+            "model": "EDM",
+            "changes": [
+                "model-output/IceLab-EDM/2026-08-19-IceLab-EDM.csv"
+            ]
+        }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2026-08-19-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2026-08-19-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
+    ],
     "ECDC": [
         {
             "model": "SARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2026-07-01-ECDC-SARIMA.csv",
-                "model-output/ECDC-SARIMA/2026-07-08-ECDC-SARIMA.csv",
-                "model-output/ECDC-SARIMA/2026-07-15-ECDC-SARIMA.csv",
-                "model-output/ECDC-SARIMA/2026-07-22-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA/2026-08-19-ECDC-SARIMA.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2026-07-01-ECDC-soca_simplex.csv",
-                "model-output/ECDC-soca_simplex/2026-07-08-ECDC-soca_simplex.csv",
-                "model-output/ECDC-soca_simplex/2026-07-15-ECDC-soca_simplex.csv",
-                "model-output/ECDC-soca_simplex/2026-07-22-ECDC-soca_simplex.csv"
+                "model-output/ECDC-soca_simplex/2026-08-19-ECDC-soca_simplex.csv"
             ]
         }
     ],
@@ -23,7 +59,7 @@
         {
             "model": "PRFM",
             "changes": [
-                "model-output/safinea-PRFM/2026-08-12-safinea-PRFM.csv"
+                "model-output/safinea-PRFM/2026-08-19-safinea-PRFM.csv"
             ]
         }
     ]

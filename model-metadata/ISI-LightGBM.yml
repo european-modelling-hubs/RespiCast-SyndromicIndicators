@@ -1,0 +1,21 @@
+team_name: ISI Foundation
+model_name: LightGBM
+team_abbr: ISI
+model_abbr: LightGBM
+model_contributors:
+  - name: Nadillia Sahputra
+    affiliation: ISI Foundation
+    email: nadillia.sahputra@isi.it
+  - name: Stefania Fiandrino
+    affiliation: ISI Foundation
+    email: stefania.fiandrino@isi.it
+  - name: Daniela Paolotti
+    affiliation: ISI Foundation
+    email: daniela.paolotti@isi.it
+  - name: Nicolò Gozzi
+    affiliation: ISI Foundation
+    email: nicolo.gozzi@isi.it
+team_model_designation: secondary
+methods: Two-stage LightGBM pipeline, first stage predicts central value, second stage approximates predictive quantiles. Jointly trained across countries with related Google Search Trends as added predictors.
+data_inputs: ECDC ERVISS, FluID WHO
+license: CC-BY-4.0
