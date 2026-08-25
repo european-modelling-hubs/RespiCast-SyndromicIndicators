@@ -54,5 +54,13 @@
                 "model-output/ECDC-soca_simplex/2026-08-26-ECDC-soca_simplex.csv"
             ]
         }
+    ],
+    "DHauser": [
+        {
+            "model": "FluChronos",
+            "changes": [
+                "model-output/DHauser-FluChronos/2026-08-26-DHauser-FluChronos.csv"
+            ]
+        }
     ]
 }
