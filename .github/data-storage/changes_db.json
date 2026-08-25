@@ -62,5 +62,13 @@
                 "model-output/DHauser-FluChronos/2026-08-26-DHauser-FluChronos.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2026-08-26-safinea-PRFM.csv"
+            ]
+        }
     ]
 }
