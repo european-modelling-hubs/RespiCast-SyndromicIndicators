@@ -78,5 +78,13 @@
                 "model-output/RIVM-KFdlm/2026-08-26-RIVM-KFdlm.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "LightGBM",
+            "changes": [
+                "model-output/ISI-LightGBM/2026-08-26-ISI-LightGBM.csv"
+            ]
+        }
     ]
 }
