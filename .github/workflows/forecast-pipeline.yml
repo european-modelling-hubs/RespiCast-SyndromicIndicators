@@ -57,10 +57,10 @@ jobs:
           server_port: 587
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: "RespiCast - Forecast pipeline error!"
+          subject: "RespiCast SyndromicIndicators - Forecast pipeline error!"
           body: |
             Hi,
-            An error occurred during the RespiCast forecast pipeline.
+            An error occurred during the RespiCast SyndromicIndicators forecast pipeline.
             Job status:
             Generate baseline:
             ${{ needs.gen_baseline_job.result }}
