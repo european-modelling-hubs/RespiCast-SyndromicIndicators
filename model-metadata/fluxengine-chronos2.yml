@@ -8,6 +8,6 @@ model_contributors:
     email: mail@davidwegener.de
 team_model_designation: "primary"
 methods: "Zero-shot Chronos-2 quantile forecasts for German ARI from point-in-time RKI data snapshots, origin-isolated, with monotone quantiles."
-data_inputs: "RKI ARE consultation incidence and GrippeWeb, archived point-in-time snapshots"
+data_inputs: "RKI ARE consultation incidence (ARE-Konsultationsinzidenz), point-in-time snapshots"
 license: "CC-BY-4.0"
 website_url: "https://fluxengine.labpulse.ai"
