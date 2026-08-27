@@ -1,89 +1,9 @@
 {
-    "ItaLuxColab": [
-        {
-            "model": "EpiEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2026-08-26-ItaLuxColab-EpiEKF.csv"
-            ]
-        },
-        {
-            "model": "EpiNetEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2026-08-26-ItaLuxColab-EpiNetEKF.csv"
-            ]
-        }
-    ],
-    "IceLab": [
-        {
-            "model": "EDM",
-            "changes": [
-                "model-output/IceLab-EDM/2026-08-26-IceLab-EDM.csv"
-            ]
-        }
-    ],
-    "QMUL": [
-        {
-            "model": "ARIMA",
-            "changes": [
-                "model-output/QMUL-ARIMA/2026-08-26-QMUL-ARIMA.csv"
-            ]
-        },
-        {
-            "model": "SEIR",
-            "changes": [
-                "model-output/QMUL-SEIR/2026-08-26-QMUL-SEIR.csv"
-            ]
-        },
-        {
-            "model": "SEIR_agumented",
-            "changes": [
-                "model-output/QMUL-SEIR_agumented/2026-08-26-QMUL-SEIR_agumented.csv"
-            ]
-        }
-    ],
-    "ECDC": [
-        {
-            "model": "SARIMA",
-            "changes": [
-                "model-output/ECDC-SARIMA/2026-08-26-ECDC-SARIMA.csv"
-            ]
-        },
-        {
-            "model": "soca_simplex",
-            "changes": [
-                "model-output/ECDC-soca_simplex/2026-08-26-ECDC-soca_simplex.csv"
-            ]
-        }
-    ],
     "DHauser": [
         {
             "model": "FluChronos",
             "changes": [
                 "model-output/DHauser-FluChronos/2026-08-26-DHauser-FluChronos.csv"
-            ]
-        }
-    ],
-    "safinea": [
-        {
-            "model": "PRFM",
-            "changes": [
-                "model-output/safinea-PRFM/2026-08-26-safinea-PRFM.csv"
-            ]
-        }
-    ],
-    "RIVM": [
-        {
-            "model": "KFdlm",
-            "changes": [
-                "model-output/RIVM-KFdlm/2026-08-26-RIVM-KFdlm.csv"
-            ]
-        }
-    ],
-    "ISI": [
-        {
-            "model": "LightGBM",
-            "changes": [
-                "model-output/ISI-LightGBM/2026-08-26-ISI-LightGBM.csv"
             ]
         }
     ]
