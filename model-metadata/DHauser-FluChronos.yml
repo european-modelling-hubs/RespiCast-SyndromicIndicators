@@ -7,7 +7,6 @@ model_contributors:
     affiliation: Independent researcher
     email: hauser-david@hotmail.com
 team_model_designation: primary
-model_version: "1.0"
 methods: Chronos-2 fine-tuned on weekly WHO FluID ILI/ARI surveillance series with a hemisphere covariate; forecasts current RespiCast incidence histories.
 methods_long: Fine-tunes Amazon Chronos-2 across global weekly WHO FluID ILI/ARI series using five-year context windows, four-week targets, recency weighting, and peak oversampling. For each eligible RespiCast target and location, it uses that series' latest ECDC incidence history and a Northern Hemisphere covariate. Quantiles are requested from Chronos-2, monotonically rearranged if needed, and clamped at zero. Only locations with at least 156 finite observations and finite truth exactly through the hub's horizon-zero date are submitted.
 data_inputs: ECDC ERVISS incidence data supplied by RespiCast; WHO FluID ILI/ARI surveillance data for model fine-tuning.
