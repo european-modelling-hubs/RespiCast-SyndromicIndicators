@@ -26,5 +26,13 @@
                 "model-output/ItaLuxColab-EpiNetEKF/2026-09-02-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
+    ],
+    "fluxengine": [
+        {
+            "model": "chronos2",
+            "changes": [
+                "model-output/fluxengine-chronos2/2026-09-02-fluxengine-chronos2.csv"
+            ]
+        }
     ]
 }
