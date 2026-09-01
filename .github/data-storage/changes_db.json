@@ -34,5 +34,13 @@
                 "model-output/fluxengine-chronos2/2026-09-02-fluxengine-chronos2.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2026-09-02-safinea-PRFM.csv"
+            ]
+        }
     ]
 }
