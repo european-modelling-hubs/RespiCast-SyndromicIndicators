@@ -42,5 +42,13 @@
                 "model-output/safinea-PRFM/2026-09-02-safinea-PRFM.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "LightGBM",
+            "changes": [
+                "model-output/ISI-LightGBM/2026-09-02-ISI-LightGBM.csv"
+            ]
+        }
     ]
 }
