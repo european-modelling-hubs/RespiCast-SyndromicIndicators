@@ -56,10 +56,6 @@
             "type": "string",
             "enum": ["primary", "secondary", "proposed", "other", "ensemble", "hub_other"]
         },
-        "model_version": {
-            "description": "Identifier of the version of the model",
-            "type": "string"
-        },
         "methods": {
             "description": "A brief (200 char.) description of the methods used by this model",
             "type": "string",
