@@ -6,5 +6,13 @@
                 "model-output/fluxengine-chronos2/2026-09-09-fluxengine-chronos2.csv"
             ]
         }
+    ],
+    "DHauser": [
+        {
+            "model": "FluChronos",
+            "changes": [
+                "model-output/DHauser-FluChronos/2026-09-09-DHauser-FluChronos.csv"
+            ]
+        }
     ]
 }
