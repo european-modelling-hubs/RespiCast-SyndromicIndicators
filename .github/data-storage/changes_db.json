@@ -1,1 +1,10 @@
-{}
+{
+    "fluxengine": [
+        {
+            "model": "chronos2",
+            "changes": [
+                "model-output/fluxengine-chronos2/2026-09-09-fluxengine-chronos2.csv"
+            ]
+        }
+    ]
+}
