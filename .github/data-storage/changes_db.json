@@ -5,6 +5,12 @@
             "changes": [
                 "model-output/fluxengine-chronos2/2026-09-09-fluxengine-chronos2.csv"
             ]
+        },
+        {
+            "model": "coldcastARE",
+            "changes": [
+                "model-output/fluxengine-coldcastARE/2026-09-09-fluxengine-coldcastARE.csv"
+            ]
         }
     ],
     "DHauser": [
