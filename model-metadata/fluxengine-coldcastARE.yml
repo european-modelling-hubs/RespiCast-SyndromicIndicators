@@ -1,0 +1,22 @@
+team_name: FluxEngine
+team_abbr: fluxengine
+model_name: FluxEngine ColdCast ARE
+model_abbr: coldcastARE
+model_contributors:
+- name: David Wegener
+  affiliation: FluxEngine (labpulse.ai)
+  email: mail@davidwegener.de
+team_model_designation: proposed
+methods: 'Age19 ColdCast ARE: fixed national+five-age lags/features, seasonal climatology
+  and released same-horizon log-residual quantiles.'
+methods_long: 'Fixed Age19 ColdCast transfer for RKI national ARE consultation incidence:
+  national plus five age series, nine lags and ten fixed features; seasonal climatology
+  bandwidth 2 with guard 6 weeks, ridge alpha 4 and minimum 156 training rows. No
+  cross-learning or pretrained model. Q23 uses capped empirical absolute log residuals
+  from earlier same-horizon truths released by issue time. The historical standalone
+  Q5 loss was +12.99%; this is not native GrippeWeb ARE-minus-ILI and has no coverage
+  or superiority guarantee.'
+data_inputs: 'RKI ARE consultation incidence: national and five age groups, frozen
+  public release.'
+license: CC-BY-4.0
+website_url: https://fluxengine.labpulse.ai
