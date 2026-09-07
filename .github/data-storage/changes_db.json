@@ -20,5 +20,19 @@
                 "model-output/DHauser-FluChronos/2026-09-09-DHauser-FluChronos.csv"
             ]
         }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2026-09-09-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2026-09-09-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
     ]
 }
