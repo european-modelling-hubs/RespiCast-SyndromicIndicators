@@ -48,5 +48,13 @@
                 "model-output/ECDC-soca_simplex/2026-09-09-ECDC-soca_simplex.csv"
             ]
         }
+    ],
+    "IceLab": [
+        {
+            "model": "EDM",
+            "changes": [
+                "model-output/IceLab-EDM/2026-09-09-IceLab-EDM.csv"
+            ]
+        }
     ]
 }
