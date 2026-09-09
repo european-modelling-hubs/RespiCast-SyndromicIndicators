@@ -1,15 +1,23 @@
 {
-    "ECDC": [
+    "fluxengine": [
         {
-            "model": "SARIMA",
+            "model": "chronos2",
             "changes": [
-                "model-output/ECDC-SARIMA/2026-09-02-ECDC-SARIMA.csv"
+                "model-output/fluxengine-chronos2/2026-09-09-fluxengine-chronos2.csv"
             ]
         },
         {
-            "model": "soca_simplex",
+            "model": "coldcastARE",
             "changes": [
-                "model-output/ECDC-soca_simplex/2026-09-02-ECDC-soca_simplex.csv"
+                "model-output/fluxengine-coldcastARE/2026-09-09-fluxengine-coldcastARE.csv"
+            ]
+        }
+    ],
+    "DHauser": [
+        {
+            "model": "FluChronos",
+            "changes": [
+                "model-output/DHauser-FluChronos/2026-09-09-DHauser-FluChronos.csv"
             ]
         }
     ],
@@ -17,21 +25,55 @@
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2026-09-02-ItaLuxColab-EpiEKF.csv"
+                "model-output/ItaLuxColab-EpiEKF/2026-09-09-ItaLuxColab-EpiEKF.csv"
             ]
         },
         {
             "model": "EpiNetEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2026-09-02-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/ItaLuxColab-EpiNetEKF/2026-09-09-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
     ],
-    "fluxengine": [
+    "ECDC": [
         {
-            "model": "chronos2",
+            "model": "SARIMA",
             "changes": [
-                "model-output/fluxengine-chronos2/2026-09-02-fluxengine-chronos2.csv"
+                "model-output/ECDC-SARIMA/2026-09-09-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2026-09-09-ECDC-soca_simplex.csv"
+            ]
+        }
+    ],
+    "IceLab": [
+        {
+            "model": "EDM",
+            "changes": [
+                "model-output/IceLab-EDM/2026-09-09-IceLab-EDM.csv"
+            ]
+        }
+    ],
+    "QMUL": [
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2026-09-09-QMUL-ARIMA.csv"
+            ]
+        },
+        {
+            "model": "SEIR",
+            "changes": [
+                "model-output/QMUL-SEIR/2026-09-09-QMUL-SEIR.csv"
+            ]
+        },
+        {
+            "model": "SEIR_agumented",
+            "changes": [
+                "model-output/QMUL-SEIR_agumented/2026-09-09-QMUL-SEIR_agumented.csv"
             ]
         }
     ],
@@ -39,7 +81,15 @@
         {
             "model": "PRFM",
             "changes": [
-                "model-output/safinea-PRFM/2026-09-02-safinea-PRFM.csv"
+                "model-output/safinea-PRFM/2026-09-09-safinea-PRFM.csv"
+            ]
+        }
+    ],
+    "RIVM": [
+        {
+            "model": "KFdlm",
+            "changes": [
+                "model-output/RIVM-KFdlm/2026-09-09-RIVM-KFdlm.csv"
             ]
         }
     ]
