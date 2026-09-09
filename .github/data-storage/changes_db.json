@@ -84,5 +84,13 @@
                 "model-output/safinea-PRFM/2026-09-09-safinea-PRFM.csv"
             ]
         }
+    ],
+    "RIVM": [
+        {
+            "model": "KFdlm",
+            "changes": [
+                "model-output/RIVM-KFdlm/2026-09-09-RIVM-KFdlm.csv"
+            ]
+        }
     ]
 }
