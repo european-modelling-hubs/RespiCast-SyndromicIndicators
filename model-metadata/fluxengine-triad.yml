@@ -1,0 +1,13 @@
+team_name: FluxEngine
+team_abbr: fluxengine
+model_name: FluxEngine Triad
+model_abbr: triad
+model_contributors:
+  - name: David Wegener
+    affiliation: FluxEngine (labpulse.ai)
+    email: mail@davidwegener.de
+team_model_designation: proposed
+methods: "Probabilistic ensemble combining Chronos-2 and pooled quantile boosting for German national ARI from point-in-time RKI consultation-incidence data."
+data_inputs: "RKI ARE consultation incidence (ARE-Konsultationsinzidenz): national all-age and national age-specific series, point-in-time snapshots."
+license: CC-BY-4.0
+website_url: https://fluxengine.labpulse.ai
