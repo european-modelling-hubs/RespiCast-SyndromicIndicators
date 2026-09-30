@@ -64,5 +64,13 @@
                 "model-output/ItaLuxColab-EpiNetEKF/2026-09-30-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "LightGBM",
+            "changes": [
+                "model-output/ISI-LightGBM/2026-09-30-ISI-LightGBM.csv"
+            ]
+        }
     ]
 }
