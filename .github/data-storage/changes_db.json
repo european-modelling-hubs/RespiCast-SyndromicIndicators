@@ -72,5 +72,25 @@
                 "model-output/ISI-LightGBM/2026-09-30-ISI-LightGBM.csv"
             ]
         }
+    ],
+    "QMUL": [
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2026-09-30-QMUL-ARIMA.csv"
+            ]
+        },
+        {
+            "model": "SEIR",
+            "changes": [
+                "model-output/QMUL-SEIR/2026-09-30-QMUL-SEIR.csv"
+            ]
+        },
+        {
+            "model": "SEIR_agumented",
+            "changes": [
+                "model-output/QMUL-SEIR_agumented/2026-09-30-QMUL-SEIR_agumented.csv"
+            ]
+        }
     ]
 }
