@@ -6,5 +6,13 @@
                 "model-output/IceLab-EDM/2026-10-07-IceLab-EDM.csv"
             ]
         }
+    ],
+    "DHauser": [
+        {
+            "model": "FluChronos",
+            "changes": [
+                "model-output/DHauser-FluChronos/2026-10-07-DHauser-FluChronos.csv"
+            ]
+        }
     ]
 }
