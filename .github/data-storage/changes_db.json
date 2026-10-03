@@ -1,1 +1,10 @@
-{}
+{
+    "IceLab": [
+        {
+            "model": "EDM",
+            "changes": [
+                "model-output/IceLab-EDM/2026-10-07-IceLab-EDM.csv"
+            ]
+        }
+    ]
+}
