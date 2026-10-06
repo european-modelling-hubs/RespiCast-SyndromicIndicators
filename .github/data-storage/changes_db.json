@@ -1,15 +1,9 @@
 {
-    "ECDC": [
+    "IceLab": [
         {
-            "model": "SARIMA",
+            "model": "EDM",
             "changes": [
-                "model-output/ECDC-SARIMA/2026-09-30-ECDC-SARIMA.csv"
-            ]
-        },
-        {
-            "model": "soca_simplex",
-            "changes": [
-                "model-output/ECDC-soca_simplex/2026-09-30-ECDC-soca_simplex.csv"
+                "model-output/IceLab-EDM/2026-10-07-IceLab-EDM.csv"
             ]
         }
     ],
@@ -17,37 +11,7 @@
         {
             "model": "FluChronos",
             "changes": [
-                "model-output/DHauser-FluChronos/2026-09-30-DHauser-FluChronos.csv"
-            ]
-        }
-    ],
-    "fluxengine": [
-        {
-            "model": "chronos2",
-            "changes": [
-                "model-output/fluxengine-chronos2/2026-09-30-fluxengine-chronos2.csv"
-            ]
-        },
-        {
-            "model": "triad",
-            "changes": [
-                "model-output/fluxengine-triad/2026-09-30-fluxengine-triad.csv"
-            ]
-        }
-    ],
-    "IceLab": [
-        {
-            "model": "EDM",
-            "changes": [
-                "model-output/IceLab-EDM/2026-09-30-IceLab-EDM.csv"
-            ]
-        }
-    ],
-    "safinea": [
-        {
-            "model": "PRFM",
-            "changes": [
-                "model-output/safinea-PRFM/2026-09-30-safinea-PRFM.csv"
+                "model-output/DHauser-FluChronos/2026-10-07-DHauser-FluChronos.csv"
             ]
         }
     ],
@@ -55,21 +19,27 @@
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2026-09-30-ItaLuxColab-EpiEKF.csv"
+                "model-output/ItaLuxColab-EpiEKF/2026-10-07-ItaLuxColab-EpiEKF.csv"
             ]
         },
         {
             "model": "EpiNetEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2026-09-30-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/ItaLuxColab-EpiNetEKF/2026-10-07-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
     ],
-    "ISI": [
+    "ECDC": [
         {
-            "model": "LightGBM",
+            "model": "SARIMA",
             "changes": [
-                "model-output/ISI-LightGBM/2026-09-30-ISI-LightGBM.csv"
+                "model-output/ECDC-SARIMA/2026-10-07-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2026-10-07-ECDC-soca_simplex.csv"
             ]
         }
     ]
