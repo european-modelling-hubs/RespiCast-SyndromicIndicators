@@ -1,51 +1,9 @@
 {
-    "fluxengine": [
-        {
-            "model": "chronos2",
-            "changes": [
-                "model-output/fluxengine-chronos2/2026-09-23-fluxengine-chronos2.csv"
-            ]
-        },
-        {
-            "model": "coldcastARE",
-            "changes": [
-                "model-output/fluxengine-coldcastARE/2026-09-23-fluxengine-coldcastARE.csv"
-            ]
-        }
-    ],
     "IceLab": [
         {
             "model": "EDM",
             "changes": [
-                "model-output/IceLab-EDM/2026-09-23-IceLab-EDM.csv"
-            ]
-        }
-    ],
-    "ItaLuxColab": [
-        {
-            "model": "EpiEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2026-09-23-ItaLuxColab-EpiEKF.csv"
-            ]
-        },
-        {
-            "model": "EpiNetEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2026-09-23-ItaLuxColab-EpiNetEKF.csv"
-            ]
-        }
-    ],
-    "ECDC": [
-        {
-            "model": "SARIMA",
-            "changes": [
-                "model-output/ECDC-SARIMA/2026-09-23-ECDC-SARIMA.csv"
-            ]
-        },
-        {
-            "model": "soca_simplex",
-            "changes": [
-                "model-output/ECDC-soca_simplex/2026-09-23-ECDC-soca_simplex.csv"
+                "model-output/IceLab-EDM/2026-10-07-IceLab-EDM.csv"
             ]
         }
     ],
@@ -53,7 +11,35 @@
         {
             "model": "FluChronos",
             "changes": [
-                "model-output/DHauser-FluChronos/2026-09-23-DHauser-FluChronos.csv"
+                "model-output/DHauser-FluChronos/2026-10-07-DHauser-FluChronos.csv"
+            ]
+        }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2026-10-07-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2026-10-07-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
+    ],
+    "ECDC": [
+        {
+            "model": "SARIMA",
+            "changes": [
+                "model-output/ECDC-SARIMA/2026-10-07-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2026-10-07-ECDC-soca_simplex.csv"
             ]
         }
     ],
@@ -61,19 +47,19 @@
         {
             "model": "ARIMA",
             "changes": [
-                "model-output/QMUL-ARIMA/2026-09-23-QMUL-ARIMA.csv"
+                "model-output/QMUL-ARIMA/2026-10-07-QMUL-ARIMA.csv"
             ]
         },
         {
             "model": "SEIR",
             "changes": [
-                "model-output/QMUL-SEIR/2026-09-23-QMUL-SEIR.csv"
+                "model-output/QMUL-SEIR/2026-10-07-QMUL-SEIR.csv"
             ]
         },
         {
             "model": "SEIR_agumented",
             "changes": [
-                "model-output/QMUL-SEIR_agumented/2026-09-23-QMUL-SEIR_agumented.csv"
+                "model-output/QMUL-SEIR_agumented/2026-10-07-QMUL-SEIR_agumented.csv"
             ]
         }
     ],
@@ -81,7 +67,7 @@
         {
             "model": "PRFM",
             "changes": [
-                "model-output/safinea-PRFM/2026-09-23-safinea-PRFM.csv"
+                "model-output/safinea-PRFM/2026-10-07-safinea-PRFM.csv"
             ]
         }
     ]
