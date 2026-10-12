@@ -26,5 +26,13 @@
                 "model-output/QMUL-SEIR_agumented/2026-10-14-QMUL-SEIR_agumented.csv"
             ]
         }
+    ],
+    "DHauser": [
+        {
+            "model": "FluChronos",
+            "changes": [
+                "model-output/DHauser-FluChronos/2026-10-14-DHauser-FluChronos.csv"
+            ]
+        }
     ]
 }
