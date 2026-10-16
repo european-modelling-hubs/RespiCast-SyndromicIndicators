@@ -1,1 +1,16 @@
-{}
+{
+    "fluxengine": [
+        {
+            "model": "chronos2",
+            "changes": [
+                "model-output/fluxengine-chronos2/2026-10-21-fluxengine-chronos2.csv"
+            ]
+        },
+        {
+            "model": "triad",
+            "changes": [
+                "model-output/fluxengine-triad/2026-10-21-fluxengine-triad.csv"
+            ]
+        }
+    ]
+}
