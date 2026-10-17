@@ -12,5 +12,13 @@
                 "model-output/fluxengine-triad/2026-10-21-fluxengine-triad.csv"
             ]
         }
+    ],
+    "DHauser": [
+        {
+            "model": "FluChronos",
+            "changes": [
+                "model-output/DHauser-FluChronos/2026-10-21-DHauser-FluChronos.csv"
+            ]
+        }
     ]
 }
