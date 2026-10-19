@@ -1,9 +1,37 @@
 {
-    "IceLab": [
+    "fluxengine": [
         {
-            "model": "EDM",
+            "model": "chronos2",
             "changes": [
-                "model-output/IceLab-EDM/2026-10-14-IceLab-EDM.csv"
+                "model-output/fluxengine-chronos2/2026-10-21-fluxengine-chronos2.csv"
+            ]
+        },
+        {
+            "model": "triad",
+            "changes": [
+                "model-output/fluxengine-triad/2026-10-21-fluxengine-triad.csv"
+            ]
+        }
+    ],
+    "DHauser": [
+        {
+            "model": "FluChronos",
+            "changes": [
+                "model-output/DHauser-FluChronos/2026-10-21-DHauser-FluChronos.csv"
+            ]
+        }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2026-10-21-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2026-10-21-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
     ]
