@@ -34,5 +34,13 @@
                 "model-output/IceLab-EDM/2026-10-28-IceLab-EDM.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "Respiro",
+            "changes": [
+                "model-output/ISI-Respiro/2026-10-28-ISI-Respiro.csv"
+            ]
+        }
     ]
 }
