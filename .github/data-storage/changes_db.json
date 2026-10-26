@@ -42,5 +42,19 @@
                 "model-output/ISI-Respiro/2026-10-28-ISI-Respiro.csv"
             ]
         }
+    ],
+    "ECDC": [
+        {
+            "model": "SARIMA",
+            "changes": [
+                "model-output/ECDC-SARIMA/2026-10-28-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2026-10-28-ECDC-soca_simplex.csv"
+            ]
+        }
     ]
 }
