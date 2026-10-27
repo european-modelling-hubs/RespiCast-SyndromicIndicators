@@ -84,5 +84,13 @@
                 "model-output/QMUL-SEIR_agumented/2026-10-28-QMUL-SEIR_agumented.csv"
             ]
         }
+    ],
+    "pedro": [
+        {
+            "model": "Chronos2",
+            "changes": [
+                "model-output/pedro-Chronos2/2026-10-28-pedro-Chronos2.csv"
+            ]
+        }
     ]
 }
