@@ -92,5 +92,13 @@
                 "model-output/pedro-Chronos2/2026-10-28-pedro-Chronos2.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2026-10-28-safinea-PRFM.csv"
+            ]
+        }
     ]
 }
