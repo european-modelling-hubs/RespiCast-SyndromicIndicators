@@ -41,6 +41,18 @@
             "changes": [
                 "model-output/ISI-Respiro/2026-10-28-ISI-Respiro.csv"
             ]
+        },
+        {
+            "model": "LightGBM",
+            "changes": [
+                "model-output/ISI-LightGBM/2026-10-28-ISI-LightGBM.csv"
+            ]
+        },
+        {
+            "model": "RespiVAR",
+            "changes": [
+                "model-output/ISI-RespiVAR/2026-10-28-ISI-RespiVAR.csv"
+            ]
         }
     ],
     "ECDC": [
