@@ -3,27 +3,21 @@
         {
             "model": "chronos2",
             "changes": [
-                "model-output/fluxengine-chronos2/2026-10-28-fluxengine-chronos2.csv"
+                "model-output/fluxengine-chronos2/2026-11-04-fluxengine-chronos2.csv"
             ]
         },
         {
             "model": "triad",
             "changes": [
-                "model-output/fluxengine-triad/2026-10-28-fluxengine-triad.csv"
+                "model-output/fluxengine-triad/2026-11-04-fluxengine-triad.csv"
             ]
         }
     ],
-    "ItaLuxColab": [
+    "pedro": [
         {
-            "model": "EpiEKF",
+            "model": "Chronos2",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2026-10-28-ItaLuxColab-EpiEKF.csv"
-            ]
-        },
-        {
-            "model": "EpiNetEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2026-10-28-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/pedro-Chronos2/2026-11-04-pedro-Chronos2.csv"
             ]
         }
     ]

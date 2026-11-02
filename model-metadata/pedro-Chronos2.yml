@@ -1,0 +1,13 @@
+team_name: Pedro Pinto
+team_abbr: pedro
+model_name: Chronos-2 zero-shot
+model_abbr: Chronos2
+model_contributors:
+  - name: Pedro Pinto
+    affiliation: Independent
+team_model_designation: primary
+methods: Chronos-2 zero-shot with cross-learning across countries, on the ERVISS/FluID snapshots published before each round. Same setup every week.
+methods_long: "Chronos-2 (amazon/chronos-2, chronos-forecasting 2.3.2) zero-shot on raw weekly incidence, full history with gaps left as missing, cross-learning across all series. Inputs are the target-data snapshots in this repo published before the round. Countries whose latest week is more than 7 days old are skipped. Horizons 1-4. Backtest on the 2025-26 rounds, using only data published before each origin: WIS 0.82 (95% CI 0.78-0.87) of the hub ensemble on shared cells."
+data_inputs: ECDC ERVISS and WHO FluID, from this repo's target-data snapshots
+license: CC-BY-4.0
+team_funding: Personal capacity, no funding
