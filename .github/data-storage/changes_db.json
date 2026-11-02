@@ -20,5 +20,13 @@
                 "model-output/pedro-Chronos2/2026-11-04-pedro-Chronos2.csv"
             ]
         }
+    ],
+    "IceLab": [
+        {
+            "model": "EDM",
+            "changes": [
+                "model-output/IceLab-EDM/2026-11-04-IceLab-EDM.csv"
+            ]
+        }
     ]
 }
