@@ -64,5 +64,13 @@
                 "model-output/ItaLuxColab-EpiNetEKF/2026-11-04-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "Respiro",
+            "changes": [
+                "model-output/ISI-Respiro/2026-11-04-ISI-Respiro.csv"
+            ]
+        }
     ]
 }
