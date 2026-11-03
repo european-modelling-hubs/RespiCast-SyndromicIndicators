@@ -3,27 +3,21 @@
         {
             "model": "chronos2",
             "changes": [
-                "model-output/fluxengine-chronos2/2026-10-28-fluxengine-chronos2.csv"
+                "model-output/fluxengine-chronos2/2026-11-04-fluxengine-chronos2.csv"
             ]
         },
         {
             "model": "triad",
             "changes": [
-                "model-output/fluxengine-triad/2026-10-28-fluxengine-triad.csv"
+                "model-output/fluxengine-triad/2026-11-04-fluxengine-triad.csv"
             ]
         }
     ],
-    "ItaLuxColab": [
+    "pedro": [
         {
-            "model": "EpiEKF",
+            "model": "Chronos2",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2026-10-28-ItaLuxColab-EpiEKF.csv"
-            ]
-        },
-        {
-            "model": "EpiNetEKF",
-            "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2026-10-28-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/pedro-Chronos2/2026-11-04-pedro-Chronos2.csv"
             ]
         }
     ],
@@ -31,7 +25,51 @@
         {
             "model": "EDM",
             "changes": [
-                "model-output/IceLab-EDM/2026-10-28-IceLab-EDM.csv"
+                "model-output/IceLab-EDM/2026-11-04-IceLab-EDM.csv"
+            ]
+        }
+    ],
+    "ECDC": [
+        {
+            "model": "SARIMA",
+            "changes": [
+                "model-output/ECDC-SARIMA/2026-11-04-ECDC-SARIMA.csv"
+            ]
+        },
+        {
+            "model": "soca_simplex",
+            "changes": [
+                "model-output/ECDC-soca_simplex/2026-11-04-ECDC-soca_simplex.csv"
+            ]
+        }
+    ],
+    "DHauser": [
+        {
+            "model": "FluChronos",
+            "changes": [
+                "model-output/DHauser-FluChronos/2026-11-04-DHauser-FluChronos.csv"
+            ]
+        }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2026-11-04-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2026-11-04-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
+    ],
+    "ISI": [
+        {
+            "model": "Respiro",
+            "changes": [
+                "model-output/ISI-Respiro/2026-11-04-ISI-Respiro.csv"
             ]
         }
     ]
