@@ -108,5 +108,13 @@
                 "model-output/RIVM-KFdlm/2026-11-04-RIVM-KFdlm.csv"
             ]
         }
+    ],
+    "NDP": [
+        {
+            "model": "v1",
+            "changes": [
+                "model-output/NDP-v1/2026-11-04-NDP-v1.csv"
+            ]
+        }
     ]
 }
