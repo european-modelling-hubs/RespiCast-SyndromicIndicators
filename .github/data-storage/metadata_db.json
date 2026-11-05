@@ -1,5 +1,7 @@
 {
     "changes": [
-        "model-metadata/pedro-Chronos2.yml"
+        "model-metadata/fluxengine-chronos2.yml",
+        "model-metadata/pedro-Chronos2.yml",
+        "model-metadata/fluxengine-atlas.yml"
     ]
 }
