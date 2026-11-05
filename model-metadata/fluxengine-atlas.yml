@@ -1,0 +1,13 @@
+team_name: FluxEngine
+team_abbr: fluxengine
+model_name: FluxEngine Atlas
+model_abbr: atlas
+model_contributors:
+  - name: David Wegener
+    affiliation: FluxEngine (labpulse.ai)
+    email: mail@davidwegener.de
+team_model_designation: "primary"
+methods: "Probabilistic time-series model fine-tuned on respiratory surveillance data to forecast German ARI consultation incidence."
+data_inputs: "German RKI ARE consultation incidence for inference. Respiratory surveillance series from RKI, GrippeWeb and ECDC for training."
+license: "CC-BY-4.0"
+website_url: "https://fluxengine.labpulse.ai"
