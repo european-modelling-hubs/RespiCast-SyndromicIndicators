@@ -73,6 +73,18 @@
             "changes": [
                 "model-output/ISI-Respiro/2026-11-11-ISI-Respiro.csv"
             ]
+        },
+        {
+            "model": "LightGBM",
+            "changes": [
+                "model-output/ISI-LightGBM/2026-11-11-ISI-LightGBM.csv"
+            ]
+        },
+        {
+            "model": "RespiVAR",
+            "changes": [
+                "model-output/ISI-RespiVAR/2026-11-11-ISI-RespiVAR.csv"
+            ]
         }
     ],
     "DHauser": [
