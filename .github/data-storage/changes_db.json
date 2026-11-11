@@ -74,5 +74,13 @@
                 "model-output/ISI-Respiro/2026-11-11-ISI-Respiro.csv"
             ]
         }
+    ],
+    "DHauser": [
+        {
+            "model": "FluChronos",
+            "changes": [
+                "model-output/DHauser-FluChronos/2026-11-11-DHauser-FluChronos.csv"
+            ]
+        }
     ]
 }
