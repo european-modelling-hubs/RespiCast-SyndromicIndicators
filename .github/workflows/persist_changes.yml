@@ -32,7 +32,7 @@ jobs:
     # used to authenticate and validate the PR
     # -------------------------------------------      
     - name: checkout python tools repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.envPAT }}
         repository: 'european-modelling-hubs/hub-tools'
@@ -41,7 +41,7 @@ jobs:
 
 
     - name: checkout data repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.envPAT }}
         repository: 'european-modelling-hubs/RespiCast-SyndromicIndicators'
