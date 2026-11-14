@@ -1,14 +1,15 @@
 name: "ImportTruthErviss"
 on:
+  # Automated and manual runs are owned by surveillance.yml.
+  workflow_call:
+    inputs:
+      snapshot_date:
+        required: true
+        type: string
 
-  workflow_dispatch:
+permissions:
+  contents: write
 
-  # scheduled run every Friday at 19.00 (18.00 UTC)
-  schedule:
-    - cron: '00 18 * * 5'
-    # - cron: '00 18 * * 1'
-
-    
 jobs:
 
   import_truth_job:
@@ -19,33 +20,10 @@ jobs:
 
     steps:
 
-    # # Check if run is needed
-    # # -----------------------------
-    # - name: Get previous workflow run
-    #   id: get_previous_run
-    #   if: github.event.schedule != '00 18 * * 5'
-    #   uses: actions/github-script@v6
-    #   with:
-    #     script: |
-    #       const response = await github.rest.actions.listWorkflowRuns({
-    #         owner: context.repo.owner,
-    #         repo: context.repo.repo,
-    #         workflow_id: 'import_truth.yml',
-    #         per_page: 1,
-    #       });
-    #       const lastRun = response.data.workflow_runs[0];
-    #       core.setOutput('conclusion', lastRun.conclusion || 'no_run'); 
-
-    # - name: Cancel workflow if last run was successful (Only if not running on friday)
-    #   if: ${{ github.event.schedule != '00 18 * * 5' && steps.get_previous_run.outputs.conclusion == 'success' }}
-    #   run: |
-    #     echo "Previous run was successful. No need to run the workflow today."
-    #     exit 0 # Stop workflow run
-
     # Checkout the python tools repo
     # -------------------------------------------      
     - name: checkout python tools repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         repository: 'european-modelling-hubs/hub-tools'
@@ -55,7 +33,7 @@ jobs:
     # Checkout the data repository
     # -------------------------------------------      
     - name: checkout data repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         repository: 'european-modelling-hubs/RespiCast-SyndromicIndicators'
@@ -64,7 +42,7 @@ jobs:
     
     # Run Pyton code
     # -------------------------
-    - uses: actions/setup-python@v4
+    - uses: actions/setup-python@v5
       with:
         python-version: '3.10' 
     
@@ -72,11 +50,13 @@ jobs:
     
     - name: Import Truth
       id: import_truth
+      env:
+        SNAPSHOT_DATE: ${{ inputs.snapshot_date }}
       run: |
-        python ./tools/code/import_truth_ILI_ARI.py --hub_path ./repo
+        python ./tools/code/import_truth_ILI_ARI.py --hub_path ./repo --snapshot_date "$SNAPSHOT_DATE"
 
     - name: Commit data repo changes
-      uses: EndBug/add-and-commit@v7
+      uses: EndBug/add-and-commit@v9
       with: 
           cwd: './repo'
           message: "Updating Truth Data repo ..."
@@ -85,7 +65,7 @@ jobs:
 
   call-persisting-wf:
     needs: import_truth_job
-    uses: european-modelling-hubs/RespiCast-SyndromicIndicators/.github/workflows/persist_changes.yml@main
+    uses: ./.github/workflows/persist_changes.yml
     with:
       changes-list: ${{ needs.import_truth_job.outputs.changed_files }}
 

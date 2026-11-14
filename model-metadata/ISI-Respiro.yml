@@ -1,0 +1,20 @@
+team_name: ISI Foundation
+team_abbr: ISI
+model_name: Respiro ensemble
+model_abbr: Respiro
+model_contributors:
+  - name: Nicolò Gozzi
+    affiliation: ISI Foundation
+    email: nicolo.gozzi@isi.it
+team_model_designation: secondary
+methods: Ensemble of statistical, machine-learning and pretrained time-series models, trained jointly across countries on country-specific epidemic intensity scales.
+data_inputs: ECDC ERVISS; WHO FluID and FluNet
+license: CC-BY-4.0
+methods_long: >-
+  Respiro is an ensemble of statistical, machine-learning and pretrained time-series
+  forecasting models. Each country's weekly rate is expressed on its own epidemic
+  intensity scale, based on Moving Epidemic Method thresholds, so that countries with
+  very different rates can be modelled jointly. The models are retrained every week on
+  the data as published, using past seasons and the current season so far, and their
+  forecasts are combined into a single predictive distribution. The ensemble members and
+  their settings may be updated during the season.

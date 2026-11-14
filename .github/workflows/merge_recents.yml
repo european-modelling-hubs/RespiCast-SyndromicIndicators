@@ -1,13 +1,12 @@
 name: MergeRecents 
 
 on:
+  # Automated and manual runs are owned by surveillance.yml.
+  workflow_call:
 
-  workflow_dispatch:
-  
-  # scheduled run every Friday at 20.00 (19.00 UTC)
-  schedule:
-    - cron: '00 19 * * 5'
-    
+permissions:
+  contents: write
+
 jobs:
 
   merge_recents_job:
@@ -18,7 +17,7 @@ jobs:
     # Checkout the python tools repo
     # -------------------------------------------      
     - name: checkout python tools repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         repository: 'european-modelling-hubs/hub-tools'
@@ -28,7 +27,7 @@ jobs:
     # Checkout the data repository
     # -------------------------------------------      
     - name: checkout data repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         repository: 'european-modelling-hubs/RespiCast-SyndromicIndicators'
@@ -39,7 +38,7 @@ jobs:
     
     # Run Pyton code
     # -------------------------
-    - uses: actions/setup-python@v4
+    - uses: actions/setup-python@v5
       with:
         python-version: '3.10' 
     
@@ -51,10 +50,14 @@ jobs:
         disease_name: ${{ vars.DISEASE_NAME }}
         
       run: |
+        # ERVISS is mandatory; FluID files are optional and may be unchanged.
+        for target in ILI ARI; do
+          test -s "./repo/target-data/ERVISS/latest-${target}_incidence.csv"
+        done
         python ./tools/code/merge_recent_data_ILI_ARI.py --repository "./repo" --source_list "ERVISS FluID"
 
     - name: Commit data repo changes
-      uses: EndBug/add-and-commit@v7
+      uses: EndBug/add-and-commit@v9
       with: 
           cwd: './repo'
           message: "Update data storage"
