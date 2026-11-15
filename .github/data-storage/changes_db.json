@@ -14,5 +14,13 @@
                 "model-output/fluxengine-triad/2026-11-18-fluxengine-triad.csv"
             ]
         }
+    ],
+    "pedro": [
+        {
+            "model": "Chronos2",
+            "changes": [
+                "model-output/pedro-Chronos2/2026-11-18-pedro-Chronos2.csv"
+            ]
+        }
     ]
 }
