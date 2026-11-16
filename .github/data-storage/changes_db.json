@@ -30,5 +30,19 @@
                 "model-output/AbelAI-Simons297M/2026-11-18-AbelAI-Simons297M.csv"
             ]
         }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2026-11-18-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2026-11-18-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
     ]
 }
