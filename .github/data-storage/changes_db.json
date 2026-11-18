@@ -3,15 +3,7 @@
         {
             "model": "EDM",
             "changes": [
-                "model-output/IceLab-EDM/2026-11-11-IceLab-EDM.csv"
-            ]
-        }
-    ],
-    "pedro": [
-        {
-            "model": "Chronos2",
-            "changes": [
-                "model-output/pedro-Chronos2/2026-11-11-pedro-Chronos2.csv"
+                "model-output/IceLab-EDM/2026-11-18-IceLab-EDM.csv"
             ]
         }
     ],
@@ -19,7 +11,23 @@
         {
             "model": "triad",
             "changes": [
-                "model-output/fluxengine-triad/2026-11-11-fluxengine-triad.csv"
+                "model-output/fluxengine-triad/2026-11-18-fluxengine-triad.csv"
+            ]
+        }
+    ],
+    "pedro": [
+        {
+            "model": "Chronos2",
+            "changes": [
+                "model-output/pedro-Chronos2/2026-11-18-pedro-Chronos2.csv"
+            ]
+        }
+    ],
+    "AbelAI": [
+        {
+            "model": "Simons297M",
+            "changes": [
+                "model-output/AbelAI-Simons297M/2026-11-18-AbelAI-Simons297M.csv"
             ]
         }
     ],
@@ -27,13 +35,13 @@
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2026-11-11-ItaLuxColab-EpiEKF.csv"
+                "model-output/ItaLuxColab-EpiEKF/2026-11-18-ItaLuxColab-EpiEKF.csv"
             ]
         },
         {
             "model": "EpiNetEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2026-11-11-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/ItaLuxColab-EpiNetEKF/2026-11-18-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
     ],
@@ -41,37 +49,13 @@
         {
             "model": "SARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2026-11-11-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA/2026-11-18-ECDC-SARIMA.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2026-11-11-ECDC-soca_simplex.csv"
-            ]
-        }
-    ],
-    "safinea": [
-        {
-            "model": "PRFM",
-            "changes": [
-                "model-output/safinea-PRFM/2026-11-11-safinea-PRFM.csv"
-            ]
-        }
-    ],
-    "RIVM": [
-        {
-            "model": "KFdlm",
-            "changes": [
-                "model-output/RIVM-KFdlm/2026-11-11-RIVM-KFdlm.csv"
-            ]
-        }
-    ],
-    "ISI": [
-        {
-            "model": "Respiro",
-            "changes": [
-                "model-output/ISI-Respiro/2026-11-11-ISI-Respiro.csv"
+                "model-output/ECDC-soca_simplex/2026-11-18-ECDC-soca_simplex.csv"
             ]
         }
     ],
@@ -79,7 +63,51 @@
         {
             "model": "FluChronos",
             "changes": [
-                "model-output/DHauser-FluChronos/2026-11-11-DHauser-FluChronos.csv"
+                "model-output/DHauser-FluChronos/2026-11-18-DHauser-FluChronos.csv"
+            ]
+        }
+    ],
+    "UMass": [
+        {
+            "model": "axial_r2",
+            "changes": [
+                "model-output/UMass-axial_r2/2026-11-18-UMass-axial_r2.csv"
+            ]
+        }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2026-11-18-safinea-PRFM.csv"
+            ]
+        }
+    ],
+    "RIVM": [
+        {
+            "model": "KFdlm",
+            "changes": [
+                "model-output/RIVM-KFdlm/2026-11-18-RIVM-KFdlm.csv"
+            ]
+        }
+    ],
+    "ISI": [
+        {
+            "model": "Respiro",
+            "changes": [
+                "model-output/ISI-Respiro/2026-11-18-ISI-Respiro.csv"
+            ]
+        },
+        {
+            "model": "LightGBM",
+            "changes": [
+                "model-output/ISI-LightGBM/2026-11-18-ISI-LightGBM.csv"
+            ]
+        },
+        {
+            "model": "RespiVAR",
+            "changes": [
+                "model-output/ISI-RespiVAR/2026-11-18-ISI-RespiVAR.csv"
             ]
         }
     ]
