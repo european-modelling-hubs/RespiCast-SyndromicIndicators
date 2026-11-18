@@ -74,5 +74,13 @@
                 "model-output/UMass-axial_r2/2026-11-18-UMass-axial_r2.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2026-11-18-safinea-PRFM.csv"
+            ]
+        }
     ]
 }
