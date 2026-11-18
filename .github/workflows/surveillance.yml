@@ -1,0 +1,118 @@
+name: RespiCast Surveillance Orchestrator
+
+on:
+  schedule:
+    # UTC: Friday polling, then Monday recovery for delayed releases.
+    - cron: '0,30 12-20 * * 5'
+    - cron: '0 8-18 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Fixed across refs: every data job writes to main. Never interrupt a live import.
+concurrency:
+  group: syndromic-surveillance
+  cancel-in-progress: false
+
+jobs:
+  check_erviss_release:
+    if: github.repository_owner == 'european-modelling-hubs' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    outputs:
+      status: ${{ steps.check.outputs.status }}
+      snapshot_date: ${{ steps.check.outputs.snapshot_date }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: repo
+      - uses: actions/checkout@v4
+        with:
+          repository: european-modelling-hubs/hub-tools
+          ref: main
+          path: tools
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Check release and completion marker
+        id: check
+        run: python ./tools/code/check_erviss_release.py --hub_path ./repo
+
+  ImportTruthErviss:
+    needs: check_erviss_release
+    if: needs.check_erviss_release.outputs.status == 'AVAILABLE'
+    uses: ./.github/workflows/import_truth.yml
+    with:
+      snapshot_date: ${{ needs.check_erviss_release.outputs.snapshot_date }}
+    secrets: inherit
+
+  DownloadFluID:
+    needs: ImportTruthErviss
+    uses: ./.github/workflows/fluID.yml
+    secrets: inherit
+
+  MergeRecents:
+    needs: DownloadFluID
+    uses: ./.github/workflows/merge_recents.yml
+    secrets: inherit
+
+  persist_completion:
+    needs: [check_erviss_release, MergeRecents]
+    runs-on: ubuntu-latest
+    steps:
+      # Fetch current main, including commits made by all preceding data jobs.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: repo
+      - name: Create completion marker
+        env:
+          SNAPSHOT_DATE: ${{ needs.check_erviss_release.outputs.snapshot_date }}
+        run: |
+          mkdir -p repo/.github/data-storage/erviss-completed
+          touch "repo/.github/data-storage/erviss-completed/$SNAPSHOT_DATE"
+      - name: Persist completion marker
+        uses: EndBug/add-and-commit@v9
+        with:
+          cwd: ./repo
+          add: '.github/data-storage/erviss-completed'
+          message: 'Complete ERVISS surveillance release'
+          default_author: github_actions
+          push: true
+
+  SendDataUpdatedEmail:
+    needs: persist_completion
+    uses: ./.github/workflows/send_data_updated_email.yml
+    secrets: inherit
+
+  notify_technical_error:
+    needs: [check_erviss_release, ImportTruthErviss, DownloadFluID, MergeRecents, persist_completion, SendDataUpdatedEmail]
+    if: >-
+      ${{ always() && github.repository_owner == 'european-modelling-hubs'
+          && contains(needs.*.result, 'failure') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify administrators
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: 'RespiCast-SyndromicIndicators - Surveillance pipeline error'
+          body: |
+            A surveillance job failed. Review the job results and logs:
+            ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            Check: ${{ needs.check_erviss_release.result }}
+            ERVISS: ${{ needs.ImportTruthErviss.result }}
+            FluID: ${{ needs.DownloadFluID.result }}
+            Merge: ${{ needs.MergeRecents.result }}
+            Marker: ${{ needs.persist_completion.result }}
+            Email: ${{ needs.SendDataUpdatedEmail.result }}
+
+            If only the email failed, rerun failed jobs or dispatch SendDataUpdatedEmail.
+            The marker records data completion; a new polling run will not resend the email.
+          to: paolo.milano@isi.it,corrado.gioannini@isi.it,nicolo.gozzi@isi.it
+          from: 'Respicast Team <respicast@isi.it>'
