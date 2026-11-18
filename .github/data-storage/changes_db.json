@@ -66,5 +66,13 @@
                 "model-output/DHauser-FluChronos/2026-11-18-DHauser-FluChronos.csv"
             ]
         }
+    ],
+    "UMass": [
+        {
+            "model": "axial_r2",
+            "changes": [
+                "model-output/UMass-axial_r2/2026-11-18-UMass-axial_r2.csv"
+            ]
+        }
     ]
 }
