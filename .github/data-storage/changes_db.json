@@ -90,5 +90,13 @@
                 "model-output/RIVM-KFdlm/2026-11-18-RIVM-KFdlm.csv"
             ]
         }
+    ],
+    "ISI": [
+        {
+            "model": "Respiro",
+            "changes": [
+                "model-output/ISI-Respiro/2026-11-18-ISI-Respiro.csv"
+            ]
+        }
     ]
 }
