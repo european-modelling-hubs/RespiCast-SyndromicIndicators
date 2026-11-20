@@ -1,1 +1,10 @@
-{}
+{
+    "fluxengine": [
+        {
+            "model": "triad",
+            "changes": [
+                "model-output/fluxengine-triad/2026-11-25-fluxengine-triad.csv"
+            ]
+        }
+    ]
+}
