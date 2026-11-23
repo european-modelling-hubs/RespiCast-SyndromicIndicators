@@ -28,5 +28,13 @@
                 "model-output/ItaLuxColab-EpiNetEKF/2026-11-25-ItaLuxColab-EpiNetEKF.csv"
             ]
         }
+    ],
+    "IceLab": [
+        {
+            "model": "EDM",
+            "changes": [
+                "model-output/IceLab-EDM/2026-11-25-IceLab-EDM.csv"
+            ]
+        }
     ]
 }
