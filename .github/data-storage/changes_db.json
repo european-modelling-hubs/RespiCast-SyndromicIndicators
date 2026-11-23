@@ -14,5 +14,19 @@
                 "model-output/pedro-Chronos2/2026-11-25-pedro-Chronos2.csv"
             ]
         }
+    ],
+    "ItaLuxColab": [
+        {
+            "model": "EpiEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiEKF/2026-11-25-ItaLuxColab-EpiEKF.csv"
+            ]
+        },
+        {
+            "model": "EpiNetEKF",
+            "changes": [
+                "model-output/ItaLuxColab-EpiNetEKF/2026-11-25-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
     ]
 }
