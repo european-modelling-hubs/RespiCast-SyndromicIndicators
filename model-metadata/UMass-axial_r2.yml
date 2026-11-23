@@ -1,0 +1,26 @@
+team_name: "UMass Amherst"
+team_abbr: "UMass"
+model_name: "Axial transformer r2"
+model_abbr: "axial_r2"
+model_contributors: [
+  {
+    "name": "Nikhil Lebaka",
+    "affiliation": "UMass Amherst",
+    "email": "nrlebaka@umass.edu"
+  },
+  {
+    "name": "Evan Ray",
+    "affiliation": "UMass Amherst",
+    "email": "elray@umass.edu"
+  },
+  {
+    "name": "Nick Reich",
+    "affiliation": "UMass Amherst",
+    "email": "nick@umass.edu"
+  }
+]
+team_model_designation: "primary"
+license: "CC-BY-4.0"
+website_url: "https://github.com/nikhillebaka/axial"
+methods: "Small transformer pretrained on simulated flu seasons and fine-tuned on past real seasons; forecasts all countries of a signal together. Ensemble of seeds."
+data_inputs: "ERVISS ILI and ARI incidence (the hub's target data, as available at each forecast date); WHO FluID history for training."
