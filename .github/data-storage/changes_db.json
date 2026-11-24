@@ -58,5 +58,13 @@
                 "model-output/DHauser-FluChronos/2026-11-25-DHauser-FluChronos.csv"
             ]
         }
+    ],
+    "CI": [
+        {
+            "model": "ci_proto",
+            "changes": [
+                "model-output/CI-ci_proto/2026-11-25-CI-ci_proto.csv"
+            ]
+        }
     ]
 }
