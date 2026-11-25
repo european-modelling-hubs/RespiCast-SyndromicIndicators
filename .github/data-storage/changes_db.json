@@ -1,17 +1,9 @@
 {
-    "IceLab": [
-        {
-            "model": "EDM",
-            "changes": [
-                "model-output/IceLab-EDM/2026-11-18-IceLab-EDM.csv"
-            ]
-        }
-    ],
     "fluxengine": [
         {
             "model": "triad",
             "changes": [
-                "model-output/fluxengine-triad/2026-11-18-fluxengine-triad.csv"
+                "model-output/fluxengine-triad/2026-11-25-fluxengine-triad.csv"
             ]
         }
     ],
@@ -19,15 +11,7 @@
         {
             "model": "Chronos2",
             "changes": [
-                "model-output/pedro-Chronos2/2026-11-18-pedro-Chronos2.csv"
-            ]
-        }
-    ],
-    "AbelAI": [
-        {
-            "model": "Simons297M",
-            "changes": [
-                "model-output/AbelAI-Simons297M/2026-11-18-AbelAI-Simons297M.csv"
+                "model-output/pedro-Chronos2/2026-11-25-pedro-Chronos2.csv"
             ]
         }
     ],
@@ -35,13 +19,21 @@
         {
             "model": "EpiEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiEKF/2026-11-18-ItaLuxColab-EpiEKF.csv"
+                "model-output/ItaLuxColab-EpiEKF/2026-11-25-ItaLuxColab-EpiEKF.csv"
             ]
         },
         {
             "model": "EpiNetEKF",
             "changes": [
-                "model-output/ItaLuxColab-EpiNetEKF/2026-11-18-ItaLuxColab-EpiNetEKF.csv"
+                "model-output/ItaLuxColab-EpiNetEKF/2026-11-25-ItaLuxColab-EpiNetEKF.csv"
+            ]
+        }
+    ],
+    "IceLab": [
+        {
+            "model": "EDM",
+            "changes": [
+                "model-output/IceLab-EDM/2026-11-25-IceLab-EDM.csv"
             ]
         }
     ],
@@ -49,13 +41,13 @@
         {
             "model": "SARIMA",
             "changes": [
-                "model-output/ECDC-SARIMA/2026-11-18-ECDC-SARIMA.csv"
+                "model-output/ECDC-SARIMA/2026-11-25-ECDC-SARIMA.csv"
             ]
         },
         {
             "model": "soca_simplex",
             "changes": [
-                "model-output/ECDC-soca_simplex/2026-11-18-ECDC-soca_simplex.csv"
+                "model-output/ECDC-soca_simplex/2026-11-25-ECDC-soca_simplex.csv"
             ]
         }
     ],
@@ -63,31 +55,15 @@
         {
             "model": "FluChronos",
             "changes": [
-                "model-output/DHauser-FluChronos/2026-11-18-DHauser-FluChronos.csv"
+                "model-output/DHauser-FluChronos/2026-11-25-DHauser-FluChronos.csv"
             ]
         }
     ],
-    "UMass": [
+    "CI": [
         {
-            "model": "axial_r2",
+            "model": "ci_proto",
             "changes": [
-                "model-output/UMass-axial_r2/2026-11-18-UMass-axial_r2.csv"
-            ]
-        }
-    ],
-    "safinea": [
-        {
-            "model": "PRFM",
-            "changes": [
-                "model-output/safinea-PRFM/2026-11-18-safinea-PRFM.csv"
-            ]
-        }
-    ],
-    "RIVM": [
-        {
-            "model": "KFdlm",
-            "changes": [
-                "model-output/RIVM-KFdlm/2026-11-18-RIVM-KFdlm.csv"
+                "model-output/CI-ci_proto/2026-11-25-CI-ci_proto.csv"
             ]
         }
     ],
@@ -95,7 +71,51 @@
         {
             "model": "Respiro",
             "changes": [
-                "model-output/ISI-Respiro/2026-11-18-ISI-Respiro.csv"
+                "model-output/ISI-Respiro/2026-11-25-ISI-Respiro.csv"
+            ]
+        }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2026-11-25-safinea-PRFM.csv"
+            ]
+        }
+    ],
+    "RIVM": [
+        {
+            "model": "KFdlm",
+            "changes": [
+                "model-output/RIVM-KFdlm/2026-11-25-RIVM-KFdlm.csv"
+            ]
+        }
+    ],
+    "QMUL": [
+        {
+            "model": "ARIMA",
+            "changes": [
+                "model-output/QMUL-ARIMA/2026-11-25-QMUL-ARIMA.csv"
+            ]
+        },
+        {
+            "model": "SEIR",
+            "changes": [
+                "model-output/QMUL-SEIR/2026-11-25-QMUL-SEIR.csv"
+            ]
+        },
+        {
+            "model": "SEIR_agumented",
+            "changes": [
+                "model-output/QMUL-SEIR_agumented/2026-11-25-QMUL-SEIR_agumented.csv"
+            ]
+        }
+    ],
+    "UMass": [
+        {
+            "model": "axial_r2",
+            "changes": [
+                "model-output/UMass-axial_r2/2026-11-25-UMass-axial_r2.csv"
             ]
         }
     ]
