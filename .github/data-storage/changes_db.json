@@ -74,5 +74,13 @@
                 "model-output/ISI-Respiro/2026-11-25-ISI-Respiro.csv"
             ]
         }
+    ],
+    "safinea": [
+        {
+            "model": "PRFM",
+            "changes": [
+                "model-output/safinea-PRFM/2026-11-25-safinea-PRFM.csv"
+            ]
+        }
     ]
 }
