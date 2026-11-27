@@ -6,5 +6,13 @@
                 "model-output/fluxengine-triad/2026-12-02-fluxengine-triad.csv"
             ]
         }
+    ],
+    "AbelAI": [
+        {
+            "model": "Simons297M",
+            "changes": [
+                "model-output/AbelAI-Simons297M/2026-12-02-AbelAI-Simons297M.csv"
+            ]
+        }
     ]
 }
