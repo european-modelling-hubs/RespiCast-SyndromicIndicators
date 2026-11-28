@@ -3,7 +3,15 @@
         {
             "model": "triad",
             "changes": [
-                "model-output/fluxengine-triad/2026-11-25-fluxengine-triad.csv"
+                "model-output/fluxengine-triad/2026-12-02-fluxengine-triad.csv"
+            ]
+        }
+    ],
+    "AbelAI": [
+        {
+            "model": "Simons297M",
+            "changes": [
+                "model-output/AbelAI-Simons297M/2026-12-02-AbelAI-Simons297M.csv"
             ]
         }
     ],
@@ -11,7 +19,7 @@
         {
             "model": "Chronos2",
             "changes": [
-                "model-output/pedro-Chronos2/2026-11-25-pedro-Chronos2.csv"
+                "model-output/pedro-Chronos2/2026-12-02-pedro-Chronos2.csv"
             ]
         }
     ]
